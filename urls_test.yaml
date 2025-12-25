@@ -1,0 +1,19 @@
+# Test configuration with reduced pages for quick testing
+
+sources:
+  - name: "cancer_research"
+    label: "Cancer Research"
+    url: "https://scholarshipdb.net/scholarships/Program-PhD?q=cancer"
+    max_pages: 1
+    enabled: true
+
+  - name: "uk_scholarships"
+    label: "United Kingdom"
+    url: "https://scholarshipdb.net/scholarships-in-United-Kingdom"
+    max_pages: 1
+    enabled: true
+
+config:
+  delay_between_sources: 3
+  output_dir: "data"
+  combined_output: "data/all_scholarships.json"

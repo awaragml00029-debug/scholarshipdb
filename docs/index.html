@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhD Scholarships Database</title>
+
+    <!-- DataTables CSS -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.5.0/css/responsive.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.4.2/css/buttons.dataTables.min.css">
+
+    <!-- Custom CSS -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            padding: 30px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #667eea;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #666;
+            font-size: 1.1em;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 2em;
+            font-weight: bold;
+            color: #667eea;
+        }
+
+        .stat-label {
+            color: #666;
+            margin-top: 5px;
+        }
+
+        .filters {
+            margin: 20px 0;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+        }
+
+        .filter-group {
+            margin-bottom: 15px;
+        }
+
+        .filter-group label {
+            display: inline-block;
+            width: 120px;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .filter-group select,
+        .filter-group input {
+            padding: 8px 12px;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            font-size: 14px;
+            min-width: 200px;
+        }
+
+        .filter-group select:focus,
+        .filter-group input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        table.dataTable {
+            width: 100% !important;
+            margin-top: 20px !important;
+        }
+
+        table.dataTable thead th {
+            background: #667eea;
+            color: white;
+            font-weight: 600;
+            padding: 12px !important;
+        }
+
+        table.dataTable tbody td {
+            padding: 10px !important;
+        }
+
+        table.dataTable tbody tr:hover {
+            background-color: #f0f0f0;
+        }
+
+        .scholarship-title {
+            font-weight: 600;
+            color: #333;
+        }
+
+        .scholarship-title a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        .scholarship-title a:hover {
+            text-decoration: underline;
+        }
+
+        .university {
+            color: #555;
+            font-size: 0.9em;
+        }
+
+        .location {
+            color: #666;
+            font-size: 0.85em;
+        }
+
+        .source-badge {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 12px;
+            font-size: 0.75em;
+            font-weight: 600;
+            background: #667eea;
+            color: white;
+        }
+
+        .time-badge {
+            color: #888;
+            font-size: 0.85em;
+        }
+
+        .description {
+            color: #666;
+            font-size: 0.9em;
+            max-width: 400px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 2px solid #eee;
+            color: #666;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 50px;
+            font-size: 1.2em;
+            color: #667eea;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+            }
+
+            h1 {
+                font-size: 1.8em;
+            }
+
+            .stats {
+                flex-direction: column;
+            }
+
+            .stat-item {
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎓 PhD Scholarships Database</h1>
+            <p class="subtitle">Automatically updated PhD scholarship opportunities from around the world</p>
+        </header>
+
+        <div class="stats">
+            <div class="stat-item">
+                <div class="stat-number" id="total-scholarships">-</div>
+                <div class="stat-label">Total Scholarships</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" id="total-sources">-</div>
+                <div class="stat-label">Sources</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" id="last-update">-</div>
+                <div class="stat-label">Last Updated</div>
+            </div>
+        </div>
+
+        <div class="filters">
+            <h3 style="margin-bottom: 15px;">🔍 Filters</h3>
+            <div class="filter-group">
+                <label for="source-filter">Source:</label>
+                <select id="source-filter">
+                    <option value="">All Sources</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="country-filter">Country:</label>
+                <select id="country-filter">
+                    <option value="">All Countries</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="date-filter">Date:</label>
+                <select id="date-filter">
+                    <option value="">All Dates</option>
+                    <option value="1">Last 24 hours</option>
+                    <option value="3">Last 3 days</option>
+                    <option value="7">Last week</option>
+                    <option value="30">Last month</option>
+                </select>
+            </div>
+        </div>
+
+        <div id="loading" class="loading">
+            Loading scholarships...
+        </div>
+
+        <table id="scholarships-table" class="display responsive nowrap" style="width:100%; display:none;">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>University</th>
+                    <th>Location</th>
+                    <th>Source</th>
+                    <th>Posted</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+        <footer>
+            <p>Data sourced from <a href="https://scholarshipdb.net" target="_blank">ScholarshipDB.net</a></p>
+            <p>Updated automatically every 6 hours via GitHub Actions</p>
+        </footer>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!-- DataTables -->
+    <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.5.0/js/dataTables.responsive.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.4.2/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.4.2/js/buttons.html5.min.js"></script>
+
+    <script>
+        let table;
+        let allData = [];
+
+        // Load data
+        fetch('./data/all_scholarships.json')
+            .then(response => response.json())
+            .then(data => {
+                allData = data;
+                initializePage(data);
+            })
+            .catch(error => {
+                console.error('Error loading data:', error);
+                document.getElementById('loading').innerHTML = '❌ Error loading data. Please try again later.';
+            });
+
+        function initializePage(data) {
+            // Update stats
+            document.getElementById('total-scholarships').textContent = data.total_scholarships || 0;
+            document.getElementById('total-sources').textContent = Object.keys(data.sources || {}).length;
+
+            const lastUpdate = new Date(data.generated_at);
+            document.getElementById('last-update').textContent = lastUpdate.toLocaleDateString();
+
+            // Populate filters
+            populateFilters(data.scholarships);
+
+            // Initialize table
+            initializeTable(data.scholarships);
+
+            // Hide loading, show table
+            document.getElementById('loading').style.display = 'none';
+            document.getElementById('scholarships-table').style.display = 'table';
+        }
+
+        function populateFilters(scholarships) {
+            // Get unique sources
+            const sources = [...new Set(scholarships.map(s => s.source_label))].sort();
+            const sourceSelect = document.getElementById('source-filter');
+            sources.forEach(source => {
+                const option = document.createElement('option');
+                option.value = source;
+                option.textContent = source;
+                sourceSelect.appendChild(option);
+            });
+
+            // Get unique countries
+            const countries = [...new Set(scholarships.map(s => s.country).filter(c => c))].sort();
+            const countrySelect = document.getElementById('country-filter');
+            countries.forEach(country => {
+                const option = document.createElement('option');
+                option.value = country;
+                option.textContent = country;
+                countrySelect.appendChild(option);
+            });
+        }
+
+        function initializeTable(scholarships) {
+            const tableData = scholarships.map(s => {
+                return [
+                    `<div class="scholarship-title"><a href="${s.url}" target="_blank">${s.title}</a></div>`,
+                    `<div class="university">${s.university || 'N/A'}</div>`,
+                    `<div class="location">${s.location || 'N/A'}${s.country ? ', ' + s.country : ''}</div>`,
+                    `<span class="source-badge">${s.source_label || 'Unknown'}</span>`,
+                    `<div class="time-badge">${s.posted_time_text || 'N/A'}</div>`,
+                    `<div class="description">${truncate(s.description || '', 150)}</div>`,
+                    s.posted_time || '',  // Hidden column for sorting
+                    s.source_label || '',  // Hidden for filtering
+                    s.country || ''  // Hidden for filtering
+                ];
+            });
+
+            table = $('#scholarships-table').DataTable({
+                data: tableData,
+                columns: [
+                    { title: 'Title' },
+                    { title: 'University' },
+                    { title: 'Location' },
+                    { title: 'Source' },
+                    { title: 'Posted', orderData: 6 },
+                    { title: 'Description' },
+                    { title: 'PostedTime', visible: false },
+                    { title: 'SourceLabel', visible: false },
+                    { title: 'Country', visible: false }
+                ],
+                order: [[6, 'desc']],  // Sort by posted_time descending
+                pageLength: 25,
+                responsive: true,
+                dom: 'Bfrtip',
+                buttons: ['copy', 'csv'],
+                language: {
+                    search: 'Search scholarships:',
+                    lengthMenu: 'Show _MENU_ scholarships per page',
+                    info: 'Showing _START_ to _END_ of _TOTAL_ scholarships',
+                    infoFiltered: '(filtered from _MAX_ total)'
+                }
+            });
+
+            // Setup filter listeners
+            $('#source-filter').on('change', function() {
+                const value = this.value;
+                table.column(7).search(value ? '^' + value + '$' : '', true, false).draw();
+            });
+
+            $('#country-filter').on('change', function() {
+                const value = this.value;
+                table.column(8).search(value ? '^' + value + '$' : '', true, false).draw();
+            });
+
+            $('#date-filter').on('change', function() {
+                const days = parseInt(this.value);
+                if (!days) {
+                    table.draw();
+                    return;
+                }
+
+                $.fn.dataTable.ext.search.push(
+                    function(settings, data, dataIndex) {
+                        const postedTime = data[6];
+                        if (!postedTime) return true;
+
+                        const postedDate = new Date(postedTime);
+                        const cutoffDate = new Date();
+                        cutoffDate.setDate(cutoffDate.getDate() - days);
+
+                        return postedDate >= cutoffDate;
+                    }
+                );
+                table.draw();
+                $.fn.dataTable.ext.search.pop();
+            });
+        }
+
+        function truncate(str, maxLength) {
+            if (str.length <= maxLength) return str;
+            return str.substr(0, maxLength - 3) + '...';
+        }
+    </script>
+</body>
+</html>

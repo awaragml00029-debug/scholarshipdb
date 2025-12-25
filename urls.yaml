@@ -1,0 +1,51 @@
+# PhD Scholarship URLs Configuration
+# Add or modify URLs here - GitHub will automatically scrape them
+
+sources:
+  - name: "cancer_research"
+    label: "Cancer Research"
+    url: "https://scholarshipdb.net/scholarships/Program-PhD?q=cancer"
+    max_pages: 10
+    enabled: true
+
+  - name: "uk_scholarships"
+    label: "United Kingdom"
+    url: "https://scholarshipdb.net/scholarships-in-United-Kingdom"
+    max_pages: 10
+    enabled: true
+
+  - name: "ai_machine_learning"
+    label: "AI & Machine Learning"
+    url: "https://scholarshipdb.net/scholarships/Program-PhD?q=artificial+intelligence"
+    max_pages: 10
+    enabled: true
+
+  - name: "biology"
+    label: "Biology"
+    url: "https://scholarshipdb.net/scholarships/Program-PhD?q=biology"
+    max_pages: 5
+    enabled: true
+
+  - name: "physics"
+    label: "Physics"
+    url: "https://scholarshipdb.net/scholarships/Program-PhD?q=physics"
+    max_pages: 5
+    enabled: true
+
+  - name: "chemistry"
+    label: "Chemistry"
+    url: "https://scholarshipdb.net/scholarships/Program-PhD?q=chemistry"
+    max_pages: 5
+    enabled: false  # Set to true to enable
+
+  - name: "usa_scholarships"
+    label: "United States"
+    url: "https://scholarshipdb.net/scholarships-in-United-States"
+    max_pages: 10
+    enabled: false  # Set to true to enable
+
+# Configuration
+config:
+  delay_between_sources: 5  # Seconds to wait between scraping different sources
+  output_dir: "data"  # Directory for JSON outputs
+  combined_output: "data/all_scholarships.json"  # Combined output file

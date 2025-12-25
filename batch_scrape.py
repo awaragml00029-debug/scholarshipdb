@@ -60,20 +60,22 @@ async def scrape_all_sources(config: dict) -> Dict[str, List[Dict]]:
     all_results = {}
     total_scholarships = 0
 
-    async with ScholarshipScraperV2() as scraper:
-        for idx, source in enumerate(enabled_sources, 1):
-            name = source['name']
-            label = source['label']
-            url = source['url']
-            max_pages = source.get('max_pages', 10)
+    # Process each source with its own browser instance to avoid IP/Cloudflare issues
+    for idx, source in enumerate(enabled_sources, 1):
+        name = source['name']
+        label = source['label']
+        url = source['url']
+        max_pages = source.get('max_pages', 10)
 
-            logger.info(f"\n{'='*70}")
-            logger.info(f"[{idx}/{len(enabled_sources)}] Processing: {label} ({name})")
-            logger.info(f"URL: {url}")
-            logger.info(f"Max pages: {max_pages}")
-            logger.info(f"{'='*70}\n")
+        logger.info(f"\n{'='*70}")
+        logger.info(f"[{idx}/{len(enabled_sources)}] Processing: {label} ({name})")
+        logger.info(f"URL: {url}")
+        logger.info(f"Max pages: {max_pages}")
+        logger.info(f"{'='*70}\n")
 
-            try:
+        try:
+            # Create new browser instance for each source to avoid browser closure issues
+            async with ScholarshipScraperV2() as scraper:
                 scholarships = await scraper.scrape_url(url, max_pages=max_pages)
 
                 # Add source metadata to each scholarship
@@ -93,14 +95,15 @@ async def scrape_all_sources(config: dict) -> Dict[str, List[Dict]]:
                 logger.info(f"✓ Scraped {len(scholarships)} scholarships")
                 logger.info(f"✓ Saved to {source_file}")
 
-            except Exception as e:
-                logger.error(f"✗ Error scraping {name}: {e}")
-                all_results[name] = []
+        except Exception as e:
+            logger.error(f"✗ Error scraping {name}: {e}")
+            logger.exception(e)  # Print full traceback for debugging
+            all_results[name] = []
 
-            # Delay between sources (except after last one)
-            if idx < len(enabled_sources):
-                logger.info(f"\nWaiting {delay_between_sources} seconds before next source...")
-                await asyncio.sleep(delay_between_sources)
+        # Longer delay between sources to avoid IP blocking
+        if idx < len(enabled_sources):
+            logger.info(f"\nWaiting {delay_between_sources} seconds before next source...")
+            await asyncio.sleep(delay_between_sources)
 
     logger.info(f"\n{'='*70}")
     logger.info(f"SUMMARY")

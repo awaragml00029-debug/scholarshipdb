@@ -5,32 +5,32 @@ sources:
   - name: "cancer_research"
     label: "Cancer Research"
     url: "https://scholarshipdb.net/scholarships/Program-PhD?q=cancer"
-    max_pages: 10
+    max_pages: 5  # Reduced for CI/CD reliability
     enabled: true
 
   - name: "uk_scholarships"
     label: "United Kingdom"
     url: "https://scholarshipdb.net/scholarships-in-United-Kingdom"
-    max_pages: 10
+    max_pages: 5  # Reduced for CI/CD reliability
     enabled: true
 
   - name: "ai_machine_learning"
     label: "AI & Machine Learning"
     url: "https://scholarshipdb.net/scholarships/Program-PhD?q=artificial+intelligence"
-    max_pages: 10
+    max_pages: 5  # Reduced for CI/CD reliability
     enabled: true
 
   - name: "biology"
     label: "Biology"
     url: "https://scholarshipdb.net/scholarships/Program-PhD?q=biology"
-    max_pages: 5
+    max_pages: 3
     enabled: true
 
   - name: "physics"
     label: "Physics"
     url: "https://scholarshipdb.net/scholarships/Program-PhD?q=physics"
-    max_pages: 5
-    enabled: true
+    max_pages: 3
+    enabled: false  # Disabled to reduce workflow time
 
   - name: "chemistry"
     label: "Chemistry"

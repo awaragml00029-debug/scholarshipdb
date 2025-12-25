@@ -78,14 +78,32 @@ class ScholarshipScraperV2:
 
     async def close(self):
         """Close the browser."""
-        if self.page:
-            await self.page.close()
-        if self.context:
-            await self.context.close()
-        if self.browser:
-            await self.browser.close()
-        if hasattr(self, 'playwright'):
-            await self.playwright.stop()
+        try:
+            if self.page:
+                try:
+                    await self.page.close()
+                except Exception as e:
+                    logger.debug(f"Error closing page (may already be closed): {e}")
+
+            if self.context:
+                try:
+                    await self.context.close()
+                except Exception as e:
+                    logger.debug(f"Error closing context (may already be closed): {e}")
+
+            if self.browser:
+                try:
+                    await self.browser.close()
+                except Exception as e:
+                    logger.debug(f"Error closing browser (may already be closed): {e}")
+
+            if hasattr(self, 'playwright'):
+                try:
+                    await self.playwright.stop()
+                except Exception as e:
+                    logger.debug(f"Error stopping playwright (may already be stopped): {e}")
+        except Exception as e:
+            logger.warning(f"Error in close(): {e}")
 
     async def wait_for_cloudflare(self):
         """Wait for Cloudflare challenge."""
@@ -97,21 +115,43 @@ class ScholarshipScraperV2:
             )
         except Exception:
             pass
-        await asyncio.sleep(2)
+        # Longer wait for CI/CD environments
+        await asyncio.sleep(5)
 
-    async def navigate_with_retry(self, url: str) -> bool:
-        """Navigate to URL with retry."""
-        for attempt in range(settings.scraper_max_retries):
+    async def navigate_with_retry(self, url: str, max_retries: int = 5) -> bool:
+        """Navigate to URL with retry and extended timeouts for CI/CD."""
+        for attempt in range(max_retries):
             try:
-                logger.info(f"Navigating to {url}")
-                await self.page.goto(url, timeout=settings.scraper_timeout)
+                logger.info(f"Navigating to {url} (attempt {attempt + 1}/{max_retries})")
+
+                # Use longer timeout for initial page load (60s)
+                await self.page.goto(url, timeout=60000, wait_until='domcontentloaded')
+
+                # Wait for Cloudflare
                 await self.wait_for_cloudflare()
-                await self.page.wait_for_load_state('networkidle', timeout=10000)
-                return True
+
+                # Wait for network to be idle with longer timeout
+                try:
+                    await self.page.wait_for_load_state('networkidle', timeout=30000)
+                except Exception as e:
+                    logger.debug(f"Network idle timeout, continuing anyway: {e}")
+
+                # Verify page loaded by checking for content
+                content = await self.page.content()
+                if len(content) > 1000:  # Page has substantial content
+                    logger.info(f"✓ Successfully loaded {url} ({len(content)} bytes)")
+                    return True
+                else:
+                    logger.warning(f"Page content too short ({len(content)} bytes), retrying...")
+
             except Exception as e:
-                logger.warning(f"Navigation failed (attempt {attempt + 1}): {e}")
-                if attempt < settings.scraper_max_retries - 1:
-                    await asyncio.sleep(2 ** attempt)
+                logger.warning(f"Navigation failed (attempt {attempt + 1}/{max_retries}): {e}")
+                if attempt < max_retries - 1:
+                    wait_time = min(2 ** attempt, 10)  # Cap at 10 seconds
+                    logger.info(f"Waiting {wait_time}s before retry...")
+                    await asyncio.sleep(wait_time)
+
+        logger.error(f"Failed to load {url} after {max_retries} attempts")
         return False
 
     async def scrape_url(self, url: str, max_pages: int = 10) -> List[Dict]:
@@ -282,7 +322,12 @@ class ScholarshipScraperV2:
                     if next_button:
                         logger.debug(f"Found next button: {selector}")
                         await next_button.click()
-                        await self.page.wait_for_load_state('networkidle', timeout=10000)
+                        # Longer timeout for pagination in CI/CD
+                        try:
+                            await self.page.wait_for_load_state('networkidle', timeout=30000)
+                        except Exception as e:
+                            logger.debug(f"Network idle timeout on pagination: {e}")
+                            await asyncio.sleep(3)  # Give page time to settle
                         return True
                 except Exception:
                     continue

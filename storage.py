@@ -1,8 +1,8 @@
 """Data storage and management."""
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import List, Dict, Optional
 from sqlalchemy.orm import Session
-from sqlalchemy import func
+from sqlalchemy import func, or_
 from loguru import logger
 
 from models import Scholarship, ScrapingLog
@@ -38,49 +38,70 @@ class ScholarshipStorage:
     @staticmethod
     def save_scholarships_batch(scholarships_data: List[Dict]) -> Dict[str, int]:
         """Save multiple scholarships in a batch."""
-        stats = {'new': 0, 'updated': 0, 'errors': 0}
+        stats = {'new': 0, 'updated': 0, 'errors': 0, 'skipped': 0}
 
         with get_db() as db:
             for data in scholarships_data:
                 try:
                     # Prepare data
-                    data['scraped_at'] = datetime.utcnow()
+                    data['scraped_at'] = datetime.now(timezone.utc)
 
-                    # Check if exists
+                    # Check if exists by source_id OR url (both have unique constraints)
                     source_id = data.get('source_id')
-                    if not source_id:
-                        logger.warning(f"Scholarship missing source_id: {data.get('title')}")
+                    url = data.get('url')
+
+                    if not source_id or not url:
+                        logger.warning(f"Scholarship missing source_id or url: {data.get('title')}")
                         stats['errors'] += 1
                         continue
 
+                    # Check for existing record by source_id OR url
                     existing = db.query(Scholarship).filter(
-                        Scholarship.source_id == source_id
+                        or_(
+                            Scholarship.source_id == source_id,
+                            Scholarship.url == url
+                        )
                     ).first()
 
                     if existing:
-                        # Update
+                        # Update existing record
                         for key, value in data.items():
                             if hasattr(existing, key) and value is not None:
                                 setattr(existing, key, value)
-                        existing.updated_at = datetime.utcnow()
+                        existing.updated_at = datetime.now(timezone.utc)
                         stats['updated'] += 1
+                        logger.debug(f"Updated: {existing.title}")
                     else:
-                        # Create
+                        # Create new record
                         scholarship = Scholarship(**data)
                         db.add(scholarship)
                         stats['new'] += 1
+                        logger.debug(f"Created: {data.get('title')}")
 
-                    # Commit every 50 records
-                    if (stats['new'] + stats['updated']) % 50 == 0:
-                        db.commit()
+                    # Commit every 10 records to avoid holding locks
+                    if (stats['new'] + stats['updated']) % 10 == 0:
+                        try:
+                            db.commit()
+                        except Exception as commit_error:
+                            logger.error(f"Commit error: {commit_error}")
+                            db.rollback()
+                            stats['errors'] += 1
 
                 except Exception as e:
-                    logger.error(f"Error saving scholarship: {e}")
+                    logger.error(f"Error saving scholarship '{data.get('title', 'unknown')}': {e}")
                     stats['errors'] += 1
-                    db.rollback()
+                    try:
+                        db.rollback()
+                    except:
+                        pass
+                    continue
 
             # Final commit
-            db.commit()
+            try:
+                db.commit()
+            except Exception as e:
+                logger.error(f"Final commit error: {e}")
+                db.rollback()
 
         logger.info(f"Saved scholarships - New: {stats['new']}, Updated: {stats['updated']}, Errors: {stats['errors']}")
         return stats

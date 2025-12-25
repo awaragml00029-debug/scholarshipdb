@@ -358,6 +358,30 @@ class ScholarshipScraper:
             if not title or len(title) < 5:
                 return None
 
+            # Filter out navigation/filter links
+            exclude_keywords = [
+                'last-24-hours', 'last-3-days', 'last-7-days', 'last-30-days',
+                'last-year', 'this-week', 'this-month',
+                'filter', 'category', 'tag', 'archive',
+                'login', 'register', 'signup', 'signin',
+                'privacy', 'terms', 'contact', 'about',
+                'search', 'home', 'menu', 'uni_job', 'research_job',
+            ]
+
+            # Check title and URL for excluded keywords
+            title_lower = title.lower()
+            url_lower = url.lower()
+
+            if any(keyword in title_lower or keyword in url_lower for keyword in exclude_keywords):
+                logger.debug(f"Filtered out navigation link: {title}")
+                return None
+
+            # Must have scholarship-related keywords in URL
+            required_keywords = ['scholarship', 'phd', 'fellowship', 'grant', 'postdoc', 'doctoral']
+            if not any(keyword in url_lower for keyword in required_keywords):
+                logger.debug(f"Filtered out non-scholarship link: {title}")
+                return None
+
             # Create basic scholarship data
             data = {
                 'title': title,

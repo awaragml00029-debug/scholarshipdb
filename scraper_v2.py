@@ -214,20 +214,22 @@ class ScholarshipScraperV2:
                     university = a.get_text(strip=True)
                     break
 
-            # Extract all text spans
-            spans = li.find_all('span')
-
-            # Location (class="text-success")
+            # Extract location and country
+            # Location is in <span class="text-success">
+            # Country is in <a class="text-success"> with href="/scholarships-in-Country"
             location = None
             country = None
-            for span in spans:
-                if 'text-success' in span.get('class', []):
-                    text = span.get_text(strip=True)
-                    if text and text != ';':
-                        if not location:
-                            location = text
-                        else:
-                            country = text
+
+            # Get location from span
+            spans = li.find_all('span', class_='text-success')
+            if spans:
+                location = spans[0].get_text(strip=True)
+
+            # Get country from link
+            for a in all_links:
+                if '/scholarships-in-' in a.get('href', '') and 'text-success' in a.get('class', []):
+                    country = a.get_text(strip=True)
+                    break
 
             # Time (class="text-muted")
             posted_time = None

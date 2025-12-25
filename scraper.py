@@ -11,6 +11,7 @@ from bs4 import BeautifulSoup
 from loguru import logger
 
 from config import settings
+from time_parser import parse_relative_time
 
 
 class ScholarshipScraper:

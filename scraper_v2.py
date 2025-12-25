@@ -205,6 +205,15 @@ class ScholarshipScraperV2:
             title = link.get_text(strip=True)
             url = urljoin(self.base_url, link['href'])
 
+            # Extract university/school name
+            # Look for <a> with href containing "/scholarships-at-"
+            university = None
+            all_links = li.find_all('a', href=True)
+            for a in all_links:
+                if '/scholarships-at-' in a.get('href', ''):
+                    university = a.get_text(strip=True)
+                    break
+
             # Extract all text spans
             spans = li.find_all('span')
 
@@ -239,16 +248,17 @@ class ScholarshipScraperV2:
             # Build result
             result = {
                 'title': title,
-                'url': url,
+                'university': university,
                 'location': location,
                 'country': country,
                 'description': description,
+                'url': url,
                 'posted_time': posted_time.isoformat() if posted_time else None,
                 'posted_time_text': posted_time_text,
                 'scraped_at': datetime.now(timezone.utc).isoformat(),
             }
 
-            logger.debug(f"Extracted: {title}")
+            logger.debug(f"Extracted: {title} - {university}")
             return result
 
         except Exception as e:
@@ -319,6 +329,7 @@ class ScholarshipScraperV2:
 
             for idx, sch in enumerate(page_scholarships, 1):
                 title = sch.get('title', 'N/A')
+                university = sch.get('university', '')
                 location = sch.get('location', 'N/A')
                 country = sch.get('country', '')
                 location_str = f"{location}, {country}" if country else location
@@ -331,13 +342,16 @@ class ScholarshipScraperV2:
                 if len(desc) > 100:
                     desc = desc[:97] + '...'
 
-                message_parts.append(
-                    f"\n{idx}. {title}\n"
-                    f"   📍 {location_str}\n"
-                    f"   ⏰ {time_str}\n"
-                    f"   📝 {desc}\n"
-                    f"   🔗 {url}\n"
-                )
+                # Build message
+                msg = f"\n{idx}. {title}\n"
+                if university:
+                    msg += f"   🏛️ {university}\n"
+                msg += f"   📍 {location_str}\n"
+                msg += f"   ⏰ {time_str}\n"
+                msg += f"   📝 {desc}\n"
+                msg += f"   🔗 {url}\n"
+
+                message_parts.append(msg)
 
             messages.append('\n'.join(message_parts))
 

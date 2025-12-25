@@ -36,7 +36,7 @@ class ScholarshipScraper:
         logger.info("Starting Playwright browser...")
         self.playwright = await async_playwright().start()
 
-        # Launch browser with options to bypass Cloudflare
+        # Launch browser with options to bypass Cloudflare and work in server environment
         self.browser = await self.playwright.chromium.launch(
             headless=settings.scraper_headless,
             args=[
@@ -44,7 +44,16 @@ class ScholarshipScraper:
                 '--disable-dev-shm-usage',
                 '--no-sandbox',
                 '--disable-setuid-sandbox',
-            ]
+                '--disable-gpu',
+                '--disable-software-rasterizer',
+                '--disable-extensions',
+                '--no-first-run',
+                '--no-zygote',
+                '--single-process',  # Important for Docker/server environments
+                '--disable-web-security',
+                '--disable-features=IsolateOrigins,site-per-process',
+            ],
+            chromium_sandbox=False,  # Disable sandbox for server environments
         )
 
         # Create context with realistic user agent and viewport

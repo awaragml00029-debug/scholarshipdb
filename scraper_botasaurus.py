@@ -15,9 +15,7 @@ from time_parser import parse_relative_time
 
 
 @browser(
-    # Bypass Cloudflare protection
-    bypass_cloudflare=True,
-    # Use stealth mode
+    # Use stealth mode for better detection avoidance
     block_images=True,  # Faster loading
     wait_for_complete_page_load=True,
     # Headless mode

@@ -221,9 +221,9 @@ class ScholarshipScraperV2:
             country = None
 
             # Get location from span
-            spans = li.find_all('span', class_='text-success')
-            if spans:
-                location = spans[0].get_text(strip=True)
+            location_spans = li.find_all('span', class_='text-success')
+            if location_spans:
+                location = location_spans[0].get_text(strip=True)
 
             # Get country from link
             for a in all_links:
@@ -234,12 +234,11 @@ class ScholarshipScraperV2:
             # Time (class="text-muted")
             posted_time = None
             posted_time_text = None
-            for span in spans:
-                if 'text-muted' in span.get('class', []):
-                    posted_time_text = span.get_text(strip=True)
-                    if posted_time_text:
-                        posted_time = parse_relative_time(posted_time_text)
-                    break
+            time_spans = li.find_all('span', class_='text-muted')
+            if time_spans:
+                posted_time_text = time_spans[0].get_text(strip=True)
+                if posted_time_text:
+                    posted_time = parse_relative_time(posted_time_text)
 
             # Description from <p>
             description = None

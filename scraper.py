@@ -190,24 +190,85 @@ class ScholarshipScraper:
         """Parse scholarship listings from the page."""
         scholarships = []
 
-        # This is a template - actual selectors need to be adjusted based on real HTML structure
-        # Common patterns for scholarship listing pages:
+        # Expanded list of common selectors for scholarship listing pages
         article_selectors = [
+            # Specific scholarship selectors
             'article.scholarship',
             'div.scholarship-item',
-            'div.post',
+            'div.scholarship-card',
+            'div.scholarship',
+            'li.scholarship',
+            # Post/article selectors
             'article.post',
+            'div.post',
+            'article',
+            # Generic listing selectors
             'div.listing-item',
+            'div.item',
+            'div.card',
+            'li.item',
+            # Container-based selectors
             '.scholarship-list > div',
+            '.scholarships > div',
+            '.results > div',
+            '.list > div',
+            '.items > div',
+            # Attribute-based selectors
             'article[class*="scholarship"]',
+            'div[class*="scholarship"]',
+            'div[class*="result"]',
+            'div[class*="item"]',
+            'div[class*="post"]',
+            # Table-based layouts
+            'table.scholarships tr',
+            'tbody tr',
+            # List-based layouts
+            'ul.scholarships li',
+            'ul.list li',
         ]
 
         articles = []
+        selector_used = None
+
         for selector in article_selectors:
-            articles = soup.select(selector)
-            if articles:
-                logger.debug(f"Found {len(articles)} articles with selector: {selector}")
-                break
+            try:
+                articles = soup.select(selector)
+                if articles and len(articles) > 0:
+                    selector_used = selector
+                    logger.info(f"Found {len(articles)} elements with selector: {selector}")
+                    break
+            except Exception as e:
+                logger.debug(f"Selector '{selector}' failed: {e}")
+                continue
+
+        if not articles:
+            logger.warning("No articles found with any known selector")
+            logger.debug("Page structure analysis:")
+
+            # Try to find any links that might be scholarships
+            all_links = soup.find_all('a', href=True)
+            logger.debug(f"Found {len(all_links)} total links on page")
+
+            # Look for scholarship-related links
+            scholarship_links = [
+                link for link in all_links
+                if any(keyword in link.get('href', '').lower()
+                      for keyword in ['scholarship', 'phd', 'fellowship', 'grant'])
+            ]
+
+            if scholarship_links:
+                logger.info(f"Found {len(scholarship_links)} scholarship-related links")
+                # Try to extract from links directly
+                for link in scholarship_links[:20]:  # Limit to first 20
+                    try:
+                        scholarship_data = self.extract_from_link(link)
+                        if scholarship_data:
+                            scholarships.append(scholarship_data)
+                    except Exception as e:
+                        logger.debug(f"Error extracting from link: {e}")
+                        continue
+
+                return scholarships
 
         for article in articles:
             try:
@@ -218,6 +279,7 @@ class ScholarshipScraper:
                 logger.error(f"Error parsing scholarship: {e}")
                 continue
 
+        logger.info(f"Successfully parsed {len(scholarships)} scholarships")
         return scholarships
 
     def extract_scholarship_data(self, article) -> Optional[Dict]:
@@ -279,6 +341,52 @@ class ScholarshipScraper:
 
         except Exception as e:
             logger.error(f"Error extracting scholarship data: {e}")
+            return None
+
+    def extract_from_link(self, link) -> Optional[Dict]:
+        """Extract scholarship data from a link element (fallback method)."""
+        try:
+            href = link.get('href', '')
+            if not href:
+                return None
+
+            # Get the full URL
+            url = urljoin(self.base_url, href)
+
+            # Get link text as title
+            title = link.get_text(strip=True)
+            if not title or len(title) < 5:
+                return None
+
+            # Create basic scholarship data
+            data = {
+                'title': title,
+                'url': url,
+                'source_id': self.extract_id_from_url(url),
+            }
+
+            # Try to find parent container with more info
+            parent = link.find_parent(['div', 'article', 'li', 'tr'])
+            if parent:
+                text = parent.get_text()
+
+                # Look for country
+                countries = ['USA', 'UK', 'Canada', 'Australia', 'Germany', 'France', 'Netherlands']
+                for country in countries:
+                    if country in text:
+                        data['country'] = country
+                        break
+
+                # Look for deadline
+                if 'deadline' in text.lower():
+                    deadline_text = text[text.lower().find('deadline'):text.lower().find('deadline')+50]
+                    data['application_deadline_text'] = deadline_text.strip()
+
+            logger.debug(f"Extracted from link: {title[:50]}")
+            return data
+
+        except Exception as e:
+            logger.debug(f"Error extracting from link: {e}")
             return None
 
     def extract_id_from_url(self, url: str) -> str:

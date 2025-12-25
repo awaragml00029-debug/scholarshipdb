@@ -10,6 +10,9 @@ cd /root/scholar/scholarshipdb
 # Generate RSS feed
 /usr/bin/python generate_rss.py
 
+# Sync to Google Sheets
+/usr/bin/python sync_to_sheets.py
+
 # Copy data to docs for GitHub Pages
 mkdir -p docs/data
 cp data/*.json docs/data/

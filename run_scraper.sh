@@ -4,6 +4,9 @@
 
 cd /root/scholar/scholarshipdb
 
+# Pull latest configuration from GitHub
+git pull origin main
+
 # Run scraper
 /usr/bin/python batch_scrape.py
 

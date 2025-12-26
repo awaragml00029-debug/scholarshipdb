@@ -8,35 +8,23 @@ sources:
     max_pages: 5  # Reduced for CI/CD reliability
     enabled: true
 
-  - name: "uk_scholarships"
-    label: "United Kingdom"
-    url: "https://scholarshipdb.net/scholarships-in-United-Kingdom"
-    max_pages: 5  # Reduced for CI/CD reliability
-    enabled: true
-
-  - name: "ai_machine_learning"
-    label: "AI & Machine Learning"
-    url: "https://scholarshipdb.net/scholarships/Program-PhD?q=artificial+intelligence"
-    max_pages: 5  # Reduced for CI/CD reliability
-    enabled: true
-
   - name: "biology"
     label: "Biology"
-    url: "https://scholarshipdb.net/scholarships/Program-PhD?q=biology"
-    max_pages: 3
+    url: "https://scholarshipdb.net/scholarships?q=Biology"
+    max_pages: 5  # Reduced for CI/CD reliability
+    enabled: true
+    
+  - name: "nether_scholarships"
+    label: "Netherlands"
+    url: "https://scholarshipdb.net/scholarships-in-Netherlands"
+    max_pages: 5  # Reduced for CI/CD reliability
     enabled: true
 
-  - name: "physics"
-    label: "Physics"
-    url: "https://scholarshipdb.net/scholarships/Program-PhD?q=physics"
+  - name: "sweden_scholarships"
+    label: "Sweden"
+    url: "https://scholarshipdb.net/scholarships-in-Sweden"
     max_pages: 3
-    enabled: false  # Disabled to reduce workflow time
-
-  - name: "chemistry"
-    label: "Chemistry"
-    url: "https://scholarshipdb.net/scholarships/Program-PhD?q=chemistry"
-    max_pages: 5
-    enabled: false  # Set to true to enable
+    enabled: true
 
   - name: "usa_scholarships"
     label: "United States"
@@ -44,8 +32,44 @@ sources:
     max_pages: 10
     enabled: false  # Set to true to enable
 
+  - name: "belgium_scholarships"
+    label: "Belgium"
+    url: "https://scholarshipdb.net/scholarships-in-Belgium"
+    max_pages: 5
+    enabled: true
+    
+  - name: "luxembourg_scholarships"
+    label: "Luxembourg"
+    url: "https://scholarshipdb.net/scholarships-in-Luxembourg"
+    max_pages: 5
+    enabled: true
+
+  - name: "norway_scholarships"
+    label: "Norway"
+    url: "https://scholarshipdb.net/scholarships-in-Norway"
+    max_pages: 5
+    enabled: true
+
+  - name: "austria_scholarships"
+    label: "Austria"
+    url: "https://scholarshipdb.net/scholarships-in-Austria"
+    max_pages: 5
+    enabled: true
+
+  - name: "denmark_scholarships"
+    label: "Denmark"
+    url: "https://scholarshipdb.net/scholarships-in-Denmark"
+    max_pages: 5
+    enabled: true
+
+  - name: "switzerland_scholarships"
+    label: "Switzerland"
+    url: "https://scholarshipdb.net/scholarships-in-Switzerland"
+    max_pages: 5
+    enabled: true
+
 # Configuration
 config:
-  delay_between_sources: 5  # Seconds to wait between scraping different sources
+  delay_between_sources: 15  # Seconds to wait between scraping different sources
   output_dir: "data"  # Directory for JSON outputs
   combined_output: "data/all_scholarships.json"  # Combined output file

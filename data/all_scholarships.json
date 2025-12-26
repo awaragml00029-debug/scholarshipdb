@@ -1,11 +1,48 @@
 {
-  "generated_at": "2025-12-25T18:27:17.407490+00:00",
-  "total_scholarships": 0,
+  "generated_at": "2025-12-26T02:30:00.000000+00:00",
+  "total_scholarships": 3,
   "sources": {
-    "cancer_research": 0,
-    "uk_scholarships": 0,
-    "ai_machine_learning": 0,
-    "biology": 0
+    "test": 3
   },
-  "scholarships": []
+  "scholarships": [
+    {
+      "title": "PhD Position in Cancer Research",
+      "university": "University of Amsterdam",
+      "location": "Amsterdam",
+      "country": "Netherlands",
+      "posted_time": "2025-12-25T10:00:00+00:00",
+      "posted_time_text": "about 1 day ago",
+      "source_label": "Test Data",
+      "source_name": "test",
+      "source_url": "https://scholarshipdb.net/test",
+      "url": "https://scholarshipdb.net/scholarships/phd-cancer-research-1",
+      "description": "We are looking for a motivated PhD candidate to join our cancer research team..."
+    },
+    {
+      "title": "Fully Funded PhD in AI and Machine Learning",
+      "university": "ETH Zurich",
+      "location": "Zurich",
+      "country": "Switzerland",
+      "posted_time": "2025-12-24T14:30:00+00:00",
+      "posted_time_text": "about 2 days ago",
+      "source_label": "Test Data",
+      "source_name": "test",
+      "source_url": "https://scholarshipdb.net/test",
+      "url": "https://scholarshipdb.net/scholarships/phd-ai-ml-2",
+      "description": "Join our cutting-edge AI research lab with full funding for 4 years..."
+    },
+    {
+      "title": "PhD Scholarship in Environmental Biology",
+      "university": "Stockholm University",
+      "location": "Stockholm",
+      "country": "Sweden",
+      "posted_time": "2025-12-23T09:15:00+00:00",
+      "posted_time_text": "about 3 days ago",
+      "source_label": "Test Data",
+      "source_name": "test",
+      "source_url": "https://scholarshipdb.net/test",
+      "url": "https://scholarshipdb.net/scholarships/phd-env-bio-3",
+      "description": "Research position in environmental biology focusing on climate change impacts..."
+    }
+  ]
 }

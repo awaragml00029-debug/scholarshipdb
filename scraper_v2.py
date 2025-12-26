@@ -196,7 +196,7 @@ class ScholarshipScraperV2:
                 break
 
             page_number += 1
-            await asyncio.sleep(2)  # Delay between pages
+            await asyncio.sleep(5)  # Delay between pages - increased to avoid rate limiting
 
         return scholarships
 

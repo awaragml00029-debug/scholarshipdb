@@ -1,0 +1,65 @@
+version: '3.8'
+
+services:
+  scraper:
+    build: .
+    container_name: scholarship-scraper
+    restart: unless-stopped
+
+    # Environment variables
+    environment:
+      - SCRAPER_HEADLESS=true
+      - TZ=UTC
+      # Optional: Set scraping interval (in seconds)
+      - SCRAPE_INTERVAL=43200  # 12 hours
+
+    # Mount volumes for data persistence and configuration
+    volumes:
+      # Data outputs
+      - ./data:/app/data
+      - ./docs:/app/docs
+
+      # Configuration files
+      - ./urls.yaml:/app/urls.yaml:ro
+      - ./credentials.json:/app/credentials.json:ro
+
+      # Git configuration (for auto-commit)
+      - ./.git:/app/.git
+
+    # Optional: Limit resources
+    deploy:
+      resources:
+        limits:
+          cpus: '2'
+          memory: 2G
+        reservations:
+          cpus: '0.5'
+          memory: 512M
+
+    # Network settings
+    network_mode: bridge
+
+    # Logging configuration
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  # Optional: Run once and exit (for testing)
+  scraper-once:
+    build: .
+    container_name: scholarship-scraper-once
+    profiles: ["manual"]
+
+    volumes:
+      - ./data:/app/data
+      - ./docs:/app/docs
+      - ./urls.yaml:/app/urls.yaml:ro
+      - ./credentials.json:/app/credentials.json:ro
+
+    command: python batch_scrape.py
+
+networks:
+  default:
+    name: scholarship-network

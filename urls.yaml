@@ -73,3 +73,18 @@ config:
   delay_between_sources: 15  # Seconds to wait between scraping different sources
   output_dir: "data"  # Directory for JSON outputs
   combined_output: "data/all_scholarships.json"  # Combined output file
+
+  # Proxy Pool Configuration
+  # Set use_proxy to true to enable proxy rotation
+  use_proxy: false  # Set to true to enable proxy pool
+
+  # Proxy pool - add your SOCKS5 proxies here
+  # Format: socks5://username:password@host:port or socks5://host:port
+  proxy_pool:
+    - "socks5://127.0.0.1:1080"
+    # - "socks5://user:pass@proxy1.example.com:1080"
+    # - "socks5://user:pass@proxy2.example.com:1080"
+    # - "socks5://user:pass@proxy3.example.com:1080"
+
+  # Proxy rotation strategy: "sequential" or "random"
+  proxy_rotation: "sequential"  # Use proxies in order or randomly

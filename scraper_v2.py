@@ -18,8 +18,15 @@ from time_parser import parse_relative_time
 class ScholarshipScraperV2:
     """Enhanced scraper for scholarshipdb.net with custom URL and JSON export."""
 
-    def __init__(self):
+    def __init__(self, proxy: Optional[str] = None):
+        """
+        Initialize scraper.
+
+        Args:
+            proxy: Optional proxy URL (e.g., "socks5://user:pass@host:port" or "socks5://host:port")
+        """
         self.base_url = settings.base_url
+        self.proxy = proxy
         self.browser: Optional[Browser] = None
         self.context: Optional[BrowserContext] = None
         self.page: Optional[Page] = None
@@ -33,7 +40,11 @@ class ScholarshipScraperV2:
 
     async def start(self):
         """Initialize the browser."""
-        logger.info("Starting Playwright browser...")
+        if self.proxy:
+            logger.info(f"Starting Playwright browser with proxy: {self._mask_proxy(self.proxy)}...")
+        else:
+            logger.info("Starting Playwright browser...")
+
         self.playwright = await async_playwright().start()
 
         self.browser = await self.playwright.chromium.launch(
@@ -55,11 +66,19 @@ class ScholarshipScraperV2:
             chromium_sandbox=False,
         )
 
-        self.context = await self.browser.new_context(
-            viewport={'width': 1920, 'height': 1080},
-            user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
-            locale='en-US',
-        )
+        # Prepare context options
+        context_options = {
+            'viewport': {'width': 1920, 'height': 1080},
+            'user_agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+            'locale': 'en-US',
+        }
+
+        # Add proxy if configured
+        if self.proxy:
+            proxy_config = self._parse_proxy(self.proxy)
+            context_options['proxy'] = proxy_config
+
+        self.context = await self.browser.new_context(**context_options)
 
         await self.context.set_extra_http_headers({
             'Accept-Language': 'en-US,en;q=0.9',
@@ -104,6 +123,39 @@ class ScholarshipScraperV2:
                     logger.debug(f"Error stopping playwright (may already be stopped): {e}")
         except Exception as e:
             logger.warning(f"Error in close(): {e}")
+
+    def _parse_proxy(self, proxy_url: str) -> dict:
+        """
+        Parse proxy URL into Playwright proxy config.
+
+        Args:
+            proxy_url: Proxy URL (e.g., "socks5://user:pass@host:port" or "socks5://host:port")
+
+        Returns:
+            Dict with proxy configuration for Playwright
+        """
+        from urllib.parse import urlparse
+
+        parsed = urlparse(proxy_url)
+        proxy_config = {
+            'server': f"{parsed.scheme}://{parsed.hostname}:{parsed.port}"
+        }
+
+        if parsed.username:
+            proxy_config['username'] = parsed.username
+        if parsed.password:
+            proxy_config['password'] = parsed.password
+
+        return proxy_config
+
+    def _mask_proxy(self, proxy_url: str) -> str:
+        """Mask proxy credentials for logging."""
+        from urllib.parse import urlparse
+
+        parsed = urlparse(proxy_url)
+        if parsed.username:
+            return f"{parsed.scheme}://***:***@{parsed.hostname}:{parsed.port}"
+        return proxy_url
 
     async def wait_for_cloudflare(self):
         """Wait for Cloudflare challenge."""

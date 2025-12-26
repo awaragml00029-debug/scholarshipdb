@@ -2,10 +2,11 @@
 """Batch scraper that processes multiple URLs from configuration file."""
 import asyncio
 import json
+import random
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import List, Dict
+from typing import List, Dict, Optional
 import yaml
 from loguru import logger
 
@@ -36,6 +37,27 @@ def load_config(config_file: str = "urls.yaml") -> dict:
     return config
 
 
+def get_proxy(proxy_pool: List[str], index: int, rotation: str = "sequential") -> Optional[str]:
+    """
+    Select a proxy from the pool based on rotation strategy.
+
+    Args:
+        proxy_pool: List of proxy URLs
+        index: Current source index (for sequential rotation)
+        rotation: Rotation strategy ("sequential" or "random")
+
+    Returns:
+        Proxy URL or None if pool is empty
+    """
+    if not proxy_pool:
+        return None
+
+    if rotation == "random":
+        return random.choice(proxy_pool)
+    else:  # sequential
+        return proxy_pool[index % len(proxy_pool)]
+
+
 async def scrape_all_sources(config: dict) -> Dict[str, List[Dict]]:
     """
     Scrape all enabled sources from configuration.
@@ -49,6 +71,11 @@ async def scrape_all_sources(config: dict) -> Dict[str, List[Dict]]:
     delay_between_sources = config_settings.get('delay_between_sources', 5)
     output_dir = Path(config_settings.get('output_dir', 'data'))
 
+    # Proxy configuration
+    use_proxy = config_settings.get('use_proxy', False)
+    proxy_pool = config_settings.get('proxy_pool', [])
+    proxy_rotation = config_settings.get('proxy_rotation', 'sequential')
+
     # Create output directory
     output_dir.mkdir(exist_ok=True)
 
@@ -56,6 +83,12 @@ async def scrape_all_sources(config: dict) -> Dict[str, List[Dict]]:
     enabled_sources = [s for s in sources if s.get('enabled', True)]
 
     logger.info(f"Found {len(enabled_sources)} enabled sources out of {len(sources)} total")
+
+    # Log proxy configuration
+    if use_proxy and proxy_pool:
+        logger.info(f"Proxy enabled: {len(proxy_pool)} proxies in pool, rotation: {proxy_rotation}")
+    else:
+        logger.info("Proxy disabled: using direct connection")
 
     all_results = {}
     total_scholarships = 0
@@ -71,11 +104,18 @@ async def scrape_all_sources(config: dict) -> Dict[str, List[Dict]]:
         logger.info(f"[{idx}/{len(enabled_sources)}] Processing: {label} ({name})")
         logger.info(f"URL: {url}")
         logger.info(f"Max pages: {max_pages}")
+
+        # Select proxy if enabled
+        proxy = None
+        if use_proxy and proxy_pool:
+            proxy = get_proxy(proxy_pool, idx - 1, proxy_rotation)
+            logger.info(f"Using proxy: {proxy.split('@')[-1] if '@' in proxy else proxy}")
+
         logger.info(f"{'='*70}\n")
 
         try:
             # Create new browser instance for each source to avoid browser closure issues
-            async with ScholarshipScraperV2() as scraper:
+            async with ScholarshipScraperV2(proxy=proxy) as scraper:
                 scholarships = await scraper.scrape_url(url, max_pages=max_pages)
 
                 # Add source metadata to each scholarship

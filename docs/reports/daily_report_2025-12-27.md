@@ -2,96 +2,111 @@
 
 **新增奖学金**: 10 条
 
-**总数**: 119 条
+**总数**: 109 条
 
 ---
 
-## 📚 Biology
+## 📚 Cancer Research
 
-**数量**: 10 条
+**数量**: 9 条
 
 <details>
 
 <summary>点击展开查看所有条目</summary>
 
 
-1. **[BiologyLab Assistant (Hourly)](https://scholarshipdb.net/jobs-in-United-States/Biology-Lab-Assistant-Hourly-Austin-Community-College-District=gLF0VwLa8BG_5wzEeuBOuw.html)**
+1. **[PhD studentship: Next-generationcancerdiagnosis and treatment using integrated snake-like robot with optical imaging.](https://scholarshipdb.net/scholarships-in-United-Kingdom/Ph-D-Studentship-Next-Generation-Cancer-Diagnosis-And-Treatment-Using-Integrated-Snake-Like-Robot-With-Optical-Imaging-University-Of-Nottingham=Ad7nPLfJ8BG_5gzEeuBOuw.html)**
 
-   - 中文：生物实验室助理（每小时）
-
-   - Austin Community College District, United States
-
-
-
-2. **[Instructor Aide - Leader - BIOL 2050 -Biological Science](https://scholarshipdb.net/jobs-in-United-States/Instructor-Aide-Leader-Biol-2050-Biological-Science-Bowling-Green-State-University=AInTQN3f8BG_5wzEeuBOuw.html)**
-
-   - 中文：讲师助理 - 领导 - BIOL 2050 - 生物科学
-
-   - Bowling Green State University, United States
-
-
-
-3. **[Research Assistant in FreshwaterBiology](https://scholarshipdb.net/jobs-in-United-Kingdom/Research-Assistant-In-Freshwater-Biology-University-Of-Oxford=ajuD-aXf8BG_5wzEeuBOuw.html)**
-
-   - 中文：淡水生物学研究助理
-
-   - University of Oxford, United Kingdom
-
-
-
-4. **[Developer - Bioinformatician (KSASBiology)](https://scholarshipdb.net/jobs-in-United-States/Developer-Bioinformatician-Ksas-Biology-Johns-Hopkins-University=a4TJPUXh8BG_5wzEeuBOuw.html)**
-
-   - 中文：开发人员 - 生物信息学家 (KSASBiology)
-
-   - Johns Hopkins University, United States
-
-
-
-5. **[16900000 - LS-BIOLOGY](https://scholarshipdb.net/jobs-in-United-States/16900000-Ls-Biology-University-Of-Florida=CZ35-ovQ8BG_5gzEeuBOuw.html)**
-
-   - 中文：16900000 - LS-生物学
-
-   - University of Florida, United States
-
-
-
-6. **[Senior Research Technician -Biology](https://scholarshipdb.net/jobs-in-United-States/Senior-Research-Technician-Biology-Tufts-University=M6PHN-Hd8BG_5wzEeuBOuw.html)**
-
-   - 中文：高级研究技术员-生物学
-
-   - Tufts University, United States
-
-
-
-7. **[Postdoctoral Scholar, ComparativeBiology](https://scholarshipdb.net/jobs-in-United-States/Postdoctoral-Scholar-Comparative-Biology-American-Museum-Of-Natural-History=7KZWnEHc8BG_5wzEeuBOuw.html)**
-
-   - 中文：博士后学者，比较生物学
-
-   - American Museum Of Natural History, United States
-
-
-
-8. **[Instructor ofBiology](https://scholarshipdb.net/jobs-in-United-States/Instructor-Of-Biology-Saint-Leo-University=TJ1P9MTT8BG_5gzEeuBOuw.html)**
-
-   - 中文：生物学讲师
-
-   - Saint Leo University, United States
-
-
-
-9. **[Temporary CancerBiologyTechnician](https://scholarshipdb.net/jobs-in-United-Kingdom/Temporary-Cancer-Biology-Technician-Uwe-Bristol=A-opNtLa8BG_5wzEeuBOuw.html)**
-
-   - 中文：临时癌症生物学技术员
+   - 中文：博士生：使用集成光学成像蛇形机器人进行下一代癌症诊断和治疗。
 
    - United Kingdom
 
 
 
-10. **[Postdoctoral Scholar -Biology](https://scholarshipdb.net/jobs-in-United-States/Postdoctoral-Scholar-Biology-Tufts-University=w2G4skvW8BG_5wzEeuBOuw.html)**
+2. **[International selection procedure for the recruitment of a Junior Researcher – “One Health Integrative System for AnimalCancerStudy (one position) | Veterinary Sciences, Digital Technologies](https://scholarshipdb.net/jobs-in-Portugal/International-Selection-Procedure-For-The-Recruitment-Of-A-Junior-Researcher-One-Health-Integrative-System-For-Animal-Cancer-Study-One-Position-Veterinary-Sciences-Digital-Technologies-Or-Related-Scientific-Area-Universidade-De-Tr-s-Os-Montes-E-Alto-Douro=cMNRl7Pc8BG_5wzEeuBOuw.html)**
 
-   - 中文：博士后学者-生物学
+   - 中文：招聘初级研究员的国际选拔程序 - “动物癌症研究的一个健康综合系统（一个职位）| 兽医科学、数字技术
 
-   - Tufts University, United States
+   - Portugal
+
+
+
+3. **[PhD Studentship - Investigating the Links between Appetite Control, the Gut Microbiome and Anorexia/cachexia in GastrointestinalCancerPatients](https://scholarshipdb.net/scholarships-in-United-Kingdom/Ph-D-Studentship-Investigating-The-Links-Between-Appetite-Control-The-Gut-Microbiome-And-Anorexia-Cachexia-In-Gastrointestinal-Cancer-Patients-Manchester-Metropolitan-University=jlsyYlPR8BG_5gzEeuBOuw.html)**
+
+   - 中文：博士生 - 研究胃肠道癌症患者的食欲控制、肠道微生物组和厌食症/恶病质之间的联系
+
+   - United Kingdom
+
+
+
+4. **[PhD Studentship: The Tim Bacon Foundation PhD - Understanding Prehabilitation Acceptability and Engagement Among People Living withCancerin the North West](https://scholarshipdb.net/scholarships-in-United-Kingdom/Ph-D-Studentship-The-Tim-Bacon-Foundation-Ph-D-Understanding-Prehabilitation-Acceptability-And-Engagement-Among-People-Living-With-Cancer-In-The-North-West-Manchester-Metropolitan-University=2Tl3zVPR8BG_5gzEeuBOuw.html)**
+
+   - 中文：博士生：蒂姆·培根基金会博士 - 了解西北地区癌症患者康复前的接受度和参与度
+
+   - United Kingdom
+
+
+
+5. **[PhD Studentship: Identifying and understanding inequalities in breastcancertreatment: a multi-methods studentship](https://scholarshipdb.net/scholarships-in-United-Kingdom/Ph-D-Studentship-Identifying-And-Understanding-Inequalities-In-Breast-Cancer-Treatment-A-Multi-Methods-Studentship-University-Of-Surrey=ysDV7BDN8BG_5gzEeuBOuw.html)**
+
+   - 中文：博士生奖学金：识别和理解乳腺癌治疗中的不平等：多方法奖学金
+
+   - United Kingdom
+
+
+
+6. **[PhD Studentship: Targeting Telomerase Protein-Protein Interactions inCancer](https://scholarshipdb.net/scholarships-in-United-Kingdom/Ph-D-Studentship-Targeting-Telomerase-Protein-Protein-Interactions-In-Cancer-University-Of-East-Anglia=Rws8QiLA8BG_5gzEeuBOuw.html)**
+
+   - 中文：博士生：针对癌症中的端粒酶蛋白-蛋白质相互作用
+
+   - United Kingdom
+
+
+
+7. **[PhD studentship: BreastCancerCentre PhD Studentship](https://scholarshipdb.net/scholarships-in-United-Kingdom/Ph-D-Studentship-Breast-Cancer-Centre-Ph-D-Studentship-University-Of-Nottingham=_85VQIe98BG_5QzEeuBOuw.html)**
+
+   - 中文：博士生奖学金：乳腺癌中心博士生奖学金
+
+   - United Kingdom
+
+
+
+8. **[PhD position in ComputationalCancerBiology](https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Position-In-Computational-Cancer-Biology-Nature-Careers=h_1W25258BG_5QzEeuBOuw.html)**
+
+   - 中文：计算癌症生物学博士职位
+
+   - Sweden
+
+
+
+9. **[PhD Student inCancerBreaksome](https://scholarshipdb.net/scholarships-in-Germany/Ph-D-Student-In-Cancer-Breaksome-Nature-Careers=yTtgYUay8BG_5QzEeuBOuw.html)**
+
+   - 中文：癌症博士生
+
+   - Germany
+
+
+
+</details>
+
+
+---
+
+
+## 📚 Netherlands
+
+**数量**: 1 条
+
+<details>
+
+<summary>点击展开查看所有条目</summary>
+
+
+1. **[Postdoc on food marketing, framing an misinformation](https://scholarshipdb.net/jobs-in-Netherlands/Postdoc-On-Food-Marketing-Framing-An-Misinformation-Wageningen-University-Research=AcXcNUXj8BG_5wzEeuBOuw.html)**
+
+   - 中文：食品营销博士后，构建错误信息
+
+   - Netherlands
 
 
 

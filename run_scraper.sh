@@ -4,17 +4,17 @@
 
 cd /root/scholar/scholarshipdb
 
-# Pull latest configuration from GitHub
-git pull origin main
+# Pull latest configuration from GitHub (current branch)
+git pull
 
 # Run scraper
-/usr/bin/python batch_scrape.py
+python batch_scrape.py
 
 # Generate RSS feed
-/usr/bin/python generate_rss.py
+python generate_rss.py
 
 # Sync to Google Sheets
-/usr/bin/python sync_to_sheets.py
+python sync_to_sheets.py
 
 # Copy data to docs for GitHub Pages
 mkdir -p docs/data

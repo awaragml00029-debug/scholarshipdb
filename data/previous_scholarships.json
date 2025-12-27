@@ -35,7 +35,8 @@
       "scraped_at": "2025-12-27T15:16:05.552026+00:00",
       "source_name": "norway_scholarships",
       "source_label": "Norway",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Norway"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Norway",
+      "title_zh": "人机交互博士后研究员"
     },
     {
       "title": "ComputationalBiology/Neuroscientist",
@@ -49,7 +50,8 @@
       "scraped_at": "2025-12-27T15:06:36.605467+00:00",
       "source_name": "biology",
       "source_label": "Biology",
-      "source_url": "https://scholarshipdb.net/scholarships?q=Biology"
+      "source_url": "https://scholarshipdb.net/scholarships?q=Biology",
+      "title_zh": "计算生物学/神经科学"
     },
     {
       "title": "Postdoctoral Research Fellow in the Study of Religion",
@@ -63,7 +65,8 @@
       "scraped_at": "2025-12-27T15:16:05.552186+00:00",
       "source_name": "norway_scholarships",
       "source_label": "Norway",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Norway"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Norway",
+      "title_zh": "宗教研究博士后研究员"
     },
     {
       "title": "Postdoctoral Research Fellowship in Data Science and Precision Medicine",
@@ -77,7 +80,8 @@
       "scraped_at": "2025-12-27T15:16:05.552468+00:00",
       "source_name": "norway_scholarships",
       "source_label": "Norway",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Norway"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Norway",
+      "title_zh": "数据科学和精准医学博士后研究奖学金"
     },
     {
       "title": "Postdoctoral Research Fellow in Education for Sustainability & Innovation",
@@ -91,7 +95,8 @@
       "scraped_at": "2025-12-27T15:16:05.552331+00:00",
       "source_name": "norway_scholarships",
       "source_label": "Norway",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Norway"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Norway",
+      "title_zh": "可持续发展与创新教育博士后研究员"
     },
     {
       "title": "Postdoctoral Fellow in molecular biology",
@@ -105,7 +110,8 @@
       "scraped_at": "2025-12-27T15:16:05.552930+00:00",
       "source_name": "norway_scholarships",
       "source_label": "Norway",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Norway"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Norway",
+      "title_zh": "分子生物学博士后"
     },
     {
       "title": "Declaration of interest regarding PhD project within the field of biomarker and therapeutic target investigations in biliary atresia",
@@ -119,7 +125,8 @@
       "scraped_at": "2025-12-27T15:18:58.524596+00:00",
       "source_name": "denmark_scholarships",
       "source_label": "Denmark",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Denmark"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Denmark",
+      "title_zh": "关于胆道闭锁生物标志物和治疗靶点研究领域博士项目的兴趣声明"
     },
     {
       "title": "PhD studentship in Bio-electronics – Localising invisible breastcancersduring surgery",
@@ -133,7 +140,8 @@
       "scraped_at": "2025-12-27T15:04:40.118003+00:00",
       "source_name": "cancer_research",
       "source_label": "Cancer Research",
-      "source_url": "https://scholarshipdb.net/scholarships/Program-PhD?q=cancer"
+      "source_url": "https://scholarshipdb.net/scholarships/Program-PhD?q=cancer",
+      "title_zh": "生物电子学博士生——手术期间定位隐形乳腺癌"
     },
     {
       "title": "Researcher inCancerImmunology andCancerCell Death",
@@ -147,7 +155,8 @@
       "scraped_at": "2025-12-27T15:04:40.117352+00:00",
       "source_name": "cancer_research",
       "source_label": "Cancer Research",
-      "source_url": "https://scholarshipdb.net/scholarships/Program-PhD?q=cancer"
+      "source_url": "https://scholarshipdb.net/scholarships/Program-PhD?q=cancer",
+      "title_zh": "癌症免疫学和癌症细胞死亡研究员"
     },
     {
       "title": "Postdoctoral researcher in Joint Communications and Radar for 6G Non-Terrestrial Networks",
@@ -161,7 +170,8 @@
       "scraped_at": "2025-12-27T15:14:06.067185+00:00",
       "source_name": "luxembourg_scholarships",
       "source_label": "Luxembourg",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Luxembourg"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Luxembourg",
+      "title_zh": "6G非地面网络联合通信与雷达博士后研究员"
     },
     {
       "title": "Postdoctoral researcher in RF situational awareness and advanced anti‑jamming countermeasures for Satellite Communications",
@@ -175,7 +185,8 @@
       "scraped_at": "2025-12-27T15:14:06.067057+00:00",
       "source_name": "luxembourg_scholarships",
       "source_label": "Luxembourg",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Luxembourg"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Luxembourg",
+      "title_zh": "卫星通信射频态势感知与先进抗干扰对策博士后研究员"
     },
     {
       "title": "Postdoctoral researcher in the field of Urban Regeneration",
@@ -189,7 +200,8 @@
       "scraped_at": "2025-12-27T15:14:06.066480+00:00",
       "source_name": "luxembourg_scholarships",
       "source_label": "Luxembourg",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Luxembourg"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Luxembourg",
+      "title_zh": "城市更新领域博士后研究员"
     },
     {
       "title": "PhD inBiology",
@@ -203,7 +215,8 @@
       "scraped_at": "2025-12-27T15:06:36.606726+00:00",
       "source_name": "biology",
       "source_label": "Biology",
-      "source_url": "https://scholarshipdb.net/scholarships?q=Biology"
+      "source_url": "https://scholarshipdb.net/scholarships?q=Biology",
+      "title_zh": "生物学博士"
     },
     {
       "title": "Instructor/Assistant Professor ofBiology",
@@ -217,7 +230,8 @@
       "scraped_at": "2025-12-27T15:06:36.606883+00:00",
       "source_name": "biology",
       "source_label": "Biology",
-      "source_url": "https://scholarshipdb.net/scholarships?q=Biology"
+      "source_url": "https://scholarshipdb.net/scholarships?q=Biology",
+      "title_zh": "生物学讲师/助理教授"
     },
     {
       "title": "Doctoral Studentship (Degree of Licentiate) in Resource Recovery with a Specialisation in Sustainable Energy and Thermal Processes",
@@ -231,7 +245,8 @@
       "scraped_at": "2025-12-27T15:10:01.440712+00:00",
       "source_name": "sweden_scholarships",
       "source_label": "Sweden",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Sweden"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Sweden",
+      "title_zh": "资源回收博士生（执照学位），可持续能源和热过程专业"
     },
     {
       "title": "Professor or Assistant Professor (Tenure Track) of Statistics",
@@ -245,7 +260,8 @@
       "scraped_at": "2025-12-27T15:20:25.093558+00:00",
       "source_name": "switzerland_scholarships",
       "source_label": "Switzerland",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Switzerland"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Switzerland",
+      "title_zh": "统计学教授或助理教授（终身教职）"
     },
     {
       "title": "2 Tenure-Track Group Leader Positions in the Climate Solutions Hub (80–100%)",
@@ -259,7 +275,8 @@
       "scraped_at": "2025-12-27T15:20:25.092895+00:00",
       "source_name": "switzerland_scholarships",
       "source_label": "Switzerland",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Switzerland"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Switzerland",
+      "title_zh": "2 气候解决方案中心终身教职小组领导职位 (80–100%)"
     },
     {
       "title": "Postdoc in migration studies for research project on integration at the local level",
@@ -273,7 +290,8 @@
       "scraped_at": "2025-12-27T15:18:58.524912+00:00",
       "source_name": "denmark_scholarships",
       "source_label": "Denmark",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Denmark"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Denmark",
+      "title_zh": "地方一级融合研究项目移民研究博士后"
     },
     {
       "title": "Assistant Professors in Electronic Systems (with the possibility of tenure-track)",
@@ -287,7 +305,8 @@
       "scraped_at": "2025-12-27T15:18:58.524762+00:00",
       "source_name": "denmark_scholarships",
       "source_label": "Denmark",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Denmark"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Denmark",
+      "title_zh": "电子系统助理教授（有可能获得终身教职）"
     },
     {
       "title": "Positions as Full Professor and Associate Professor in Time Series Analysis and Econometrics at the Department of Mathematical Sciences, Aalborg University",
@@ -301,7 +320,8 @@
       "scraped_at": "2025-12-27T15:18:58.523491+00:00",
       "source_name": "denmark_scholarships",
       "source_label": "Denmark",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Denmark"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Denmark",
+      "title_zh": "奥尔堡大学数学科学系时间序列分析和计量经济学正教授和副教授"
     },
     {
       "title": "Doctoral (PhD) student position in Data-driven precision medicine and diagnostics",
@@ -315,7 +335,8 @@
       "scraped_at": "2025-12-27T15:10:01.441456+00:00",
       "source_name": "sweden_scholarships",
       "source_label": "Sweden",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Sweden"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Sweden",
+      "title_zh": "数据驱动精准医学和诊断博士生职位"
     },
     {
       "title": "University Assistant (postdoc)",
@@ -329,7 +350,8 @@
       "scraped_at": "2025-12-27T15:17:32.181368+00:00",
       "source_name": "austria_scholarships",
       "source_label": "Austria",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Austria"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Austria",
+      "title_zh": "大学助理（博士后）"
     },
     {
       "title": "PhD | Microstructure engineering of actinide refractory materials for ISOL@MYRRHA day-1 target operation",
@@ -343,7 +365,8 @@
       "scraped_at": "2025-12-27T15:12:08.895970+00:00",
       "source_name": "belgium_scholarships",
       "source_label": "Belgium",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Belgium"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Belgium",
+      "title_zh": "博士 |ISOL@MYRRHA day-1 目标运行的锕系耐火材料微观结构工程"
     },
     {
       "title": "PhD | Integration of advanced fuel reprocessing for lead-cooled fast reactors: towards a closed fuel cycle",
@@ -357,7 +380,8 @@
       "scraped_at": "2025-12-27T15:12:08.895839+00:00",
       "source_name": "belgium_scholarships",
       "source_label": "Belgium",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Belgium"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Belgium",
+      "title_zh": "博士 |铅冷快堆先进燃料后处理集成：迈向闭式燃料循环"
     },
     {
       "title": "PhD | Innovative circular concrete for nuclear applications",
@@ -371,7 +395,8 @@
       "scraped_at": "2025-12-27T15:12:08.895533+00:00",
       "source_name": "belgium_scholarships",
       "source_label": "Belgium",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Belgium"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Belgium",
+      "title_zh": "博士 |用于核应用的创新圆形混凝土"
     },
     {
       "title": "PhD | Effect of Pb chemistry on hydraulics in lead-cooled reactors",
@@ -385,7 +410,8 @@
       "scraped_at": "2025-12-27T15:12:08.895405+00:00",
       "source_name": "belgium_scholarships",
       "source_label": "Belgium",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Belgium"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Belgium",
+      "title_zh": "博士 |铅化学对铅冷反应堆水力学的影响"
     },
     {
       "title": "PhD | Dynamic system identification and digital twins for underground infrastructure monitoring",
@@ -399,7 +425,8 @@
       "scraped_at": "2025-12-27T15:12:08.895256+00:00",
       "source_name": "belgium_scholarships",
       "source_label": "Belgium",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Belgium"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Belgium",
+      "title_zh": "博士 |用于地下基础设施监控的动态系统识别和数字孪生"
     },
     {
       "title": "PhD | Development of CAIX-targeting radioligands to improve tumor retention",
@@ -413,7 +440,8 @@
       "scraped_at": "2025-12-27T15:12:08.895122+00:00",
       "source_name": "belgium_scholarships",
       "source_label": "Belgium",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Belgium"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Belgium",
+      "title_zh": "博士 |开发 CAIX 靶向放射性配体以改善肿瘤保留"
     },
     {
       "title": "PhD | Development of a clinical microscale dosimetry framework for radiopharmaceutical therapy",
@@ -427,7 +455,8 @@
       "scraped_at": "2025-12-27T15:12:08.894976+00:00",
       "source_name": "belgium_scholarships",
       "source_label": "Belgium",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Belgium"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Belgium",
+      "title_zh": "博士 |放射性药物治疗临床微量剂量测定框架的开发"
     },
     {
       "title": "PhD | Circular and nature-based innovations for stabilizing radiological contamination in soil",
@@ -441,7 +470,8 @@
       "scraped_at": "2025-12-27T15:12:08.894837+00:00",
       "source_name": "belgium_scholarships",
       "source_label": "Belgium",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Belgium"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Belgium",
+      "title_zh": "博士 |用于稳定土壤放射性污染的循环和基于自然的创新"
     },
     {
       "title": "PhD | Building societal resilience against false information on emerging nuclear technologies",
@@ -455,7 +485,8 @@
       "scraped_at": "2025-12-27T15:12:08.894672+00:00",
       "source_name": "belgium_scholarships",
       "source_label": "Belgium",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Belgium"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Belgium",
+      "title_zh": "博士 |增强社会抵御新兴核技术虚假信息的能力"
     },
     {
       "title": "PhD | Building a quantitative AOP framework for smart remediation of NORM and legacy sites",
@@ -469,7 +500,8 @@
       "scraped_at": "2025-12-27T15:12:00.898743+00:00",
       "source_name": "belgium_scholarships",
       "source_label": "Belgium",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Belgium"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Belgium",
+      "title_zh": "博士 |构建用于 NORM 和遗留站点智能修复的定量 AOP 框架"
     },
     {
       "title": "Ph.D. Student in Informatics with a focus on Simulation and AI for Production Optimization",
@@ -483,7 +515,8 @@
       "scraped_at": "2025-12-27T15:10:01.441748+00:00",
       "source_name": "sweden_scholarships",
       "source_label": "Sweden",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Sweden"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Sweden",
+      "title_zh": "博士信息学学生，重点研究用于生产优化的模拟和人工智能"
     },
     {
       "title": "Doctoral student in Computer Science with focus on interaction with multi-agent systems",
@@ -497,7 +530,8 @@
       "scraped_at": "2025-12-27T15:10:01.441589+00:00",
       "source_name": "sweden_scholarships",
       "source_label": "Sweden",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Sweden"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Sweden",
+      "title_zh": "计算机科学博士生，重点研究与多智能体系统的交互"
     },
     {
       "title": "PhD on mathematical modeling of scattering",
@@ -511,7 +545,8 @@
       "scraped_at": "2025-12-27T15:08:04.752729+00:00",
       "source_name": "nether_scholarships",
       "source_label": "Netherlands",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Netherlands"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Netherlands",
+      "title_zh": "散射数学建模博士"
     },
     {
       "title": "University Teacher Applied Physics (0,8 - 1,0 FTE)",
@@ -525,7 +560,8 @@
       "scraped_at": "2025-12-27T15:08:04.752572+00:00",
       "source_name": "nether_scholarships",
       "source_label": "Netherlands",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Netherlands"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Netherlands",
+      "title_zh": "大学教师应用物理（0.8 - 1.0 FTE）"
     },
     {
       "title": "PhD student – Immune landscape and immunotherapy for ependymoma",
@@ -539,7 +575,8 @@
       "scraped_at": "2025-12-27T15:08:04.752437+00:00",
       "source_name": "nether_scholarships",
       "source_label": "Netherlands",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Netherlands"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Netherlands",
+      "title_zh": "博士生 – 室管膜瘤的免疫景观和免疫治疗"
     },
     {
       "title": "PhD Position High Resolution Ocean Modelling of Greenland Fjords",
@@ -553,7 +590,8 @@
       "scraped_at": "2025-12-27T15:08:04.752286+00:00",
       "source_name": "nether_scholarships",
       "source_label": "Netherlands",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Netherlands"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Netherlands",
+      "title_zh": "博士职位格陵兰峡湾高分辨率海洋建模"
     },
     {
       "title": "Postdoc in 'Cybersecurity' (m/f/x, 1.0 FTE)",
@@ -567,7 +605,8 @@
       "scraped_at": "2025-12-27T15:08:04.752156+00:00",
       "source_name": "nether_scholarships",
       "source_label": "Netherlands",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Netherlands"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Netherlands",
+      "title_zh": "“网络安全”博士后（男/女，1.0 FTE）"
     },
     {
       "title": "PhD Researcher in Secure and Privacy-Preserving Data Exchange for Cyber-Physical Systems",
@@ -581,7 +620,8 @@
       "scraped_at": "2025-12-27T15:08:04.752009+00:00",
       "source_name": "nether_scholarships",
       "source_label": "Netherlands",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Netherlands"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Netherlands",
+      "title_zh": "网络物理系统安全和隐私保护数据交换博士研究员"
     },
     {
       "title": "PhD position in Interdisciplinary Social Science",
@@ -595,7 +635,8 @@
       "scraped_at": "2025-12-27T15:08:04.751876+00:00",
       "source_name": "nether_scholarships",
       "source_label": "Netherlands",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Netherlands"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Netherlands",
+      "title_zh": "跨学科社会科学博士职位"
     },
     {
       "title": "Assistant Professor in Computer Science and Business (0,8-1.0 fte)",
@@ -609,7 +650,8 @@
       "scraped_at": "2025-12-27T15:08:04.751726+00:00",
       "source_name": "nether_scholarships",
       "source_label": "Netherlands",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Netherlands"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Netherlands",
+      "title_zh": "计算机科学与商业助理教授（0.8-1.0 英尺）"
     },
     {
       "title": "Assistant Professor Astronomical Data Science",
@@ -623,7 +665,8 @@
       "scraped_at": "2025-12-27T15:08:04.751564+00:00",
       "source_name": "nether_scholarships",
       "source_label": "Netherlands",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Netherlands"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Netherlands",
+      "title_zh": "天文数据科学助理教授"
     },
     {
       "title": "Lecturer in Computer Science and Business Studies (0.8-1.0 fte)",
@@ -637,7 +680,8 @@
       "scraped_at": "2025-12-27T15:08:04.751404+00:00",
       "source_name": "nether_scholarships",
       "source_label": "Netherlands",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Netherlands"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Netherlands",
+      "title_zh": "计算机科学和商业研究讲师（0.8-1.0 英尺）"
     },
     {
       "title": "PhD | FAP-based targeted radionuclides as immune modulators in ovarian and breastcancer",
@@ -651,7 +695,8 @@
       "scraped_at": "2025-12-27T15:04:40.117206+00:00",
       "source_name": "cancer_research",
       "source_label": "Cancer Research",
-      "source_url": "https://scholarshipdb.net/scholarships/Program-PhD?q=cancer"
+      "source_url": "https://scholarshipdb.net/scholarships/Program-PhD?q=cancer",
+      "title_zh": "博士 |基于 FAP 的靶向放射性核素作为卵巢癌和乳腺癌的免疫调节剂"
     },
     {
       "title": "90%, Basel, permanent",
@@ -665,7 +710,8 @@
       "scraped_at": "2025-12-27T15:20:25.092263+00:00",
       "source_name": "switzerland_scholarships",
       "source_label": "Switzerland",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Switzerland"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Switzerland",
+      "title_zh": "90%，巴塞尔，永久"
     },
     {
       "title": "Head of Grant Office (Unit Head)",
@@ -679,7 +725,8 @@
       "scraped_at": "2025-12-27T15:17:32.181539+00:00",
       "source_name": "austria_scholarships",
       "source_label": "Austria",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Austria"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Austria",
+      "title_zh": "资助办公室主任（单位负责人）"
     },
     {
       "title": "PhD in Quality news-chatbots for Public Service Media",
@@ -693,7 +740,8 @@
       "scraped_at": "2025-12-27T15:18:58.524317+00:00",
       "source_name": "denmark_scholarships",
       "source_label": "Denmark",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Denmark"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Denmark",
+      "title_zh": "公共服务媒体优质新闻聊天机器人博士"
     },
     {
       "title": "Four PhD Positions in Natural Language Processing, AI and LLM Security (CPH)",
@@ -707,7 +755,8 @@
       "scraped_at": "2025-12-27T15:18:58.524166+00:00",
       "source_name": "denmark_scholarships",
       "source_label": "Denmark",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Denmark"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Denmark",
+      "title_zh": "自然语言处理、人工智能和法学硕士安全 (CPH) 领域的四个博士职位"
     },
     {
       "title": "PhD Fellowship in Risk Management and Societal Safety",
@@ -721,7 +770,8 @@
       "scraped_at": "2025-12-27T15:16:05.552776+00:00",
       "source_name": "norway_scholarships",
       "source_label": "Norway",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Norway"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Norway",
+      "title_zh": "风险管理和社会安全博士奖学金"
     },
     {
       "title": "PhD Research Fellowship in contracts and clear language",
@@ -735,7 +785,8 @@
       "scraped_at": "2025-12-27T15:16:05.552599+00:00",
       "source_name": "norway_scholarships",
       "source_label": "Norway",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Norway"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Norway",
+      "title_zh": "合同和清晰语言博士研究奖学金"
     },
     {
       "title": "Postdoctoral Researcher in Theoretical EvolutionaryBiology",
@@ -749,7 +800,8 @@
       "scraped_at": "2025-12-27T15:06:36.607030+00:00",
       "source_name": "biology",
       "source_label": "Biology",
-      "source_url": "https://scholarshipdb.net/scholarships?q=Biology"
+      "source_url": "https://scholarshipdb.net/scholarships?q=Biology",
+      "title_zh": "理论进化生物学博士后研究员"
     },
     {
       "title": "PhD Fellowship in CO2 enhanced oil recovery and storage",
@@ -763,7 +815,8 @@
       "scraped_at": "2025-12-27T15:16:05.553332+00:00",
       "source_name": "norway_scholarships",
       "source_label": "Norway",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Norway"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Norway",
+      "title_zh": "二氧化碳强化石油采收率和封存博士奖学金"
     },
     {
       "title": "Postdoc in aqueous rechargeable zinc-ion battery",
@@ -777,7 +830,8 @@
       "scraped_at": "2025-12-27T15:10:01.441296+00:00",
       "source_name": "sweden_scholarships",
       "source_label": "Sweden",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Sweden"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Sweden",
+      "title_zh": "水系可充电锌离子电池博士后"
     },
     {
       "title": "Professor or Assistant Professor (Tenure Track) of Statistics",
@@ -791,7 +845,8 @@
       "scraped_at": "2025-12-27T15:20:25.092433+00:00",
       "source_name": "switzerland_scholarships",
       "source_label": "Switzerland",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Switzerland"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Switzerland",
+      "title_zh": "统计学教授或助理教授（终身教职）"
     },
     {
       "title": "Tenure-track Assistant Professor or Associate Professor in Geoscience",
@@ -805,7 +860,8 @@
       "scraped_at": "2025-12-27T15:18:58.523699+00:00",
       "source_name": "denmark_scholarships",
       "source_label": "Denmark",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Denmark"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Denmark",
+      "title_zh": "地球科学终身教授助理教授或副教授"
     },
     {
       "title": "Procurement Manager (all genders) at AITHYRA, Vienna",
@@ -819,7 +875,8 @@
       "scraped_at": "2025-12-27T15:17:32.181934+00:00",
       "source_name": "austria_scholarships",
       "source_label": "Austria",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Austria"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Austria",
+      "title_zh": "维也纳 AITHYRA 采购经理（所有性别）"
     },
     {
       "title": "Scientific Illustrator (all genders) at AITHYRA, Vienna",
@@ -833,7 +890,8 @@
       "scraped_at": "2025-12-27T15:17:32.181744+00:00",
       "source_name": "austria_scholarships",
       "source_label": "Austria",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Austria"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Austria",
+      "title_zh": "维也纳 AITHYRA 科学插画家（所有性别）"
     },
     {
       "title": "DC-26120-PHD ON FOREST-WATER RELATIONS DURING DROUGHT",
@@ -847,7 +905,8 @@
       "scraped_at": "2025-12-27T15:14:06.065893+00:00",
       "source_name": "luxembourg_scholarships",
       "source_label": "Luxembourg",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Luxembourg"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Luxembourg",
+      "title_zh": "DC-26120-PHD 干旱期间森林与水的关系"
     },
     {
       "title": "Adjunct Faculty-Biology",
@@ -861,7 +920,8 @@
       "scraped_at": "2025-12-27T15:06:36.606105+00:00",
       "source_name": "biology",
       "source_label": "Biology",
-      "source_url": "https://scholarshipdb.net/scholarships?q=Biology"
+      "source_url": "https://scholarshipdb.net/scholarships?q=Biology",
+      "title_zh": "兼职教师-生物学"
     },
     {
       "title": "Postdoctoral Visiting Lectureships in the History of Architecture, Urbanism and Landscape",
@@ -875,7 +935,8 @@
       "scraped_at": "2025-12-27T15:20:25.092755+00:00",
       "source_name": "switzerland_scholarships",
       "source_label": "Switzerland",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Switzerland"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Switzerland",
+      "title_zh": "建筑、城市规划和景观史博士后访问讲座"
     },
     {
       "title": "PhD position in systems biology (Zampieri Lab)",
@@ -889,7 +950,8 @@
       "scraped_at": "2025-12-27T15:20:25.092586+00:00",
       "source_name": "switzerland_scholarships",
       "source_label": "Switzerland",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Switzerland"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Switzerland",
+      "title_zh": "系统生物学博士职位（Zampieri 实验室）"
     },
     {
       "title": "PhD fellowship or postdoc in brain tumor bioinformatics at BRIC",
@@ -903,7 +965,8 @@
       "scraped_at": "2025-12-27T15:18:58.524451+00:00",
       "source_name": "denmark_scholarships",
       "source_label": "Denmark",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Denmark"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Denmark",
+      "title_zh": "金砖四国脑肿瘤生物信息学博士奖学金或博士后"
     },
     {
       "title": "Doctoral researcher in Electric Mobility and Energy Optimization",
@@ -917,7 +980,8 @@
       "scraped_at": "2025-12-27T15:14:06.066626+00:00",
       "source_name": "luxembourg_scholarships",
       "source_label": "Luxembourg",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Luxembourg"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Luxembourg",
+      "title_zh": "电动交通与能源优化博士研究员"
     },
     {
       "title": "Assistant Professor (tenure track) in Midwifery",
@@ -931,7 +995,8 @@
       "scraped_at": "2025-12-27T15:14:06.066334+00:00",
       "source_name": "luxembourg_scholarships",
       "source_label": "Luxembourg",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Luxembourg"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Luxembourg",
+      "title_zh": "助产学助理教授（终身教职）"
     },
     {
       "title": "Full-time academic position - Faculty of Sciences - Field: Mathematical analysis",
@@ -945,7 +1010,8 @@
       "scraped_at": "2025-12-27T15:12:00.898520+00:00",
       "source_name": "belgium_scholarships",
       "source_label": "Belgium",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Belgium"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Belgium",
+      "title_zh": "全职学术职位 - 理学院 - 领域：数学分析"
     },
     {
       "title": "Full-time academic position - Faculty of Sciences - Field: Planning systems and socio-Environmental transitions",
@@ -959,7 +1025,8 @@
       "scraped_at": "2025-12-27T15:12:00.898236+00:00",
       "source_name": "belgium_scholarships",
       "source_label": "Belgium",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Belgium"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Belgium",
+      "title_zh": "全职学术职位 - 科学学院 - 领域：规划系统和社会环境转型"
     },
     {
       "title": "Full-time academic position - Faculty of Sciences - Field: Didactics of Mathematics",
@@ -973,7 +1040,8 @@
       "scraped_at": "2025-12-27T15:12:00.898004+00:00",
       "source_name": "belgium_scholarships",
       "source_label": "Belgium",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Belgium"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Belgium",
+      "title_zh": "全职学术职位 - 理学院 - 领域：数学教学法"
     },
     {
       "title": "Full-time academic position - Faculty of Sciences - Field: Didactics of the Geographical Sciences",
@@ -987,7 +1055,8 @@
       "scraped_at": "2025-12-27T15:12:00.897838+00:00",
       "source_name": "belgium_scholarships",
       "source_label": "Belgium",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Belgium"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Belgium",
+      "title_zh": "全职学术职位 - 科学学院 - 领域：地理科学教学法"
     },
     {
       "title": "Full-time academic position - School of Engineering and Computer Science - Field: Separation and purification process engineering",
@@ -1001,7 +1070,8 @@
       "scraped_at": "2025-12-27T15:12:00.897686+00:00",
       "source_name": "belgium_scholarships",
       "source_label": "Belgium",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Belgium"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Belgium",
+      "title_zh": "全职学术职位 - 工程与计算机科学学院 - 领域：分离纯化过程工程"
     },
     {
       "title": "Full-time academic position - School of Engineering and Computer Science - Field: Resilience in civil engineering",
@@ -1015,7 +1085,8 @@
       "scraped_at": "2025-12-27T15:12:00.897531+00:00",
       "source_name": "belgium_scholarships",
       "source_label": "Belgium",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Belgium"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Belgium",
+      "title_zh": "全职学术职位 - 工程与计算机科学学院 - 领域：土木工程弹性"
     },
     {
       "title": "PhD researcher ERC project 'CAGED: Ageing in the Carceral Environment: The Existential Dimensions",
@@ -1029,7 +1100,8 @@
       "scraped_at": "2025-12-27T15:12:00.897391+00:00",
       "source_name": "belgium_scholarships",
       "source_label": "Belgium",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Belgium"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Belgium",
+      "title_zh": "博士研究员 ERC 项目“CAGED：监狱环境中的老龄化：存在维度”"
     },
     {
       "title": "Full-time academic position - School of Engineering and Computer Science - Field: Biomechanical Engineering",
@@ -1043,7 +1115,8 @@
       "scraped_at": "2025-12-27T15:12:00.897247+00:00",
       "source_name": "belgium_scholarships",
       "source_label": "Belgium",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Belgium"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Belgium",
+      "title_zh": "全职学术职位 - 工程与计算机科学学院 - 领域：生物机械工程"
     },
     {
       "title": "Full-time academic position - School of Engineering and Computer Science - Field: Security and Dependability of Digital Infrastructures",
@@ -1057,7 +1130,8 @@
       "scraped_at": "2025-12-27T15:12:00.897082+00:00",
       "source_name": "belgium_scholarships",
       "source_label": "Belgium",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Belgium"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Belgium",
+      "title_zh": "全职学术职位 - 工程与计算机科学学院 - 领域：数字基础设施的安全性和可靠性"
     },
     {
       "title": "Doctoral student in Mathematical General Relativity",
@@ -1071,7 +1145,8 @@
       "scraped_at": "2025-12-27T15:10:01.441163+00:00",
       "source_name": "sweden_scholarships",
       "source_label": "Sweden",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Sweden"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Sweden",
+      "title_zh": "数学广义相对论博士生"
     },
     {
       "title": "Postdoc in AI-Based Program Construction",
@@ -1085,7 +1160,8 @@
       "scraped_at": "2025-12-27T15:10:01.441028+00:00",
       "source_name": "sweden_scholarships",
       "source_label": "Sweden",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Sweden"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Sweden",
+      "title_zh": "基于人工智能的程序构建博士后"
     },
     {
       "title": "Doctoral student in number theory or harmonic analysis",
@@ -1099,7 +1175,8 @@
       "scraped_at": "2025-12-27T15:10:01.440874+00:00",
       "source_name": "sweden_scholarships",
       "source_label": "Sweden",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Sweden"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Sweden",
+      "title_zh": "数论或调和分析博士生"
     },
     {
       "title": "PhD PhD Scholarship in ThyroidCancerTherapeutics",
@@ -1113,7 +1190,8 @@
       "scraped_at": "2025-12-27T15:04:40.116862+00:00",
       "source_name": "cancer_research",
       "source_label": "Cancer Research",
-      "source_url": "https://scholarshipdb.net/scholarships/Program-PhD?q=cancer"
+      "source_url": "https://scholarshipdb.net/scholarships/Program-PhD?q=cancer",
+      "title_zh": "甲状腺癌症治疗博士博士奖学金"
     },
     {
       "title": "Postdoctoral fellowship on integrative research in the art and design of daylight",
@@ -1127,7 +1205,8 @@
       "scraped_at": "2025-12-27T15:20:25.093300+00:00",
       "source_name": "switzerland_scholarships",
       "source_label": "Switzerland",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Switzerland"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Switzerland",
+      "title_zh": "日光艺术与设计综合研究博士后奖学金"
     },
     {
       "title": "Postdoctoral fellowship on integrative research in occupant-centric daylighting",
@@ -1141,7 +1220,8 @@
       "scraped_at": "2025-12-27T15:20:25.093171+00:00",
       "source_name": "switzerland_scholarships",
       "source_label": "Switzerland",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Switzerland"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Switzerland",
+      "title_zh": "以居住者为中心的采光综合研究博士后奖学金"
     },
     {
       "title": "Doctoral Position in Earth Observation and Remote Sensing",
@@ -1155,7 +1235,8 @@
       "scraped_at": "2025-12-27T15:20:25.093043+00:00",
       "source_name": "switzerland_scholarships",
       "source_label": "Switzerland",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Switzerland"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Switzerland",
+      "title_zh": "地球观测与遥感博士职位"
     },
     {
       "title": "Postdoctoral Fellow in X-ray photoelectron spectroscopy of nitride heterostructures",
@@ -1169,7 +1250,8 @@
       "scraped_at": "2025-12-27T15:20:25.093428+00:00",
       "source_name": "switzerland_scholarships",
       "source_label": "Switzerland",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Switzerland"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Switzerland",
+      "title_zh": "氮化物异质结构X射线光电子能谱博士后"
     },
     {
       "title": "Professor in Geoscience",
@@ -1183,7 +1265,8 @@
       "scraped_at": "2025-12-27T15:18:58.524028+00:00",
       "source_name": "denmark_scholarships",
       "source_label": "Denmark",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Denmark"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Denmark",
+      "title_zh": "地球科学教授"
     },
     {
       "title": "Junior Group Leader in Stem Cell Medicine",
@@ -1197,7 +1280,8 @@
       "scraped_at": "2025-12-27T15:18:58.523878+00:00",
       "source_name": "denmark_scholarships",
       "source_label": "Denmark",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Denmark"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Denmark",
+      "title_zh": "干细胞医学初级组组长"
     },
     {
       "title": "Scientific project assistant postdoc",
@@ -1211,7 +1295,8 @@
       "scraped_at": "2025-12-27T15:17:32.182909+00:00",
       "source_name": "austria_scholarships",
       "source_label": "Austria",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Austria"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Austria",
+      "title_zh": "科学项目助理博士后"
     },
     {
       "title": "University assistant predoctoral",
@@ -1225,7 +1310,8 @@
       "scraped_at": "2025-12-27T15:17:32.182719+00:00",
       "source_name": "austria_scholarships",
       "source_label": "Austria",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Austria"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Austria",
+      "title_zh": "大学助理博士前"
     },
     {
       "title": "Scientific project assistant postdoc",
@@ -1239,7 +1325,8 @@
       "scraped_at": "2025-12-27T15:17:32.182533+00:00",
       "source_name": "austria_scholarships",
       "source_label": "Austria",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Austria"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Austria",
+      "title_zh": "科学项目助理博士后"
     },
     {
       "title": "University Assistant postdoctoral",
@@ -1253,7 +1340,8 @@
       "scraped_at": "2025-12-27T15:17:32.182390+00:00",
       "source_name": "austria_scholarships",
       "source_label": "Austria",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Austria"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Austria",
+      "title_zh": "大学助理博士后"
     },
     {
       "title": "University Assistant postdoctoral",
@@ -1267,7 +1355,8 @@
       "scraped_at": "2025-12-27T15:17:32.182249+00:00",
       "source_name": "austria_scholarships",
       "source_label": "Austria",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Austria"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Austria",
+      "title_zh": "大学助理博士后"
     },
     {
       "title": "University assistant predoctoral",
@@ -1281,7 +1370,8 @@
       "scraped_at": "2025-12-27T15:17:32.182083+00:00",
       "source_name": "austria_scholarships",
       "source_label": "Austria",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Austria"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Austria",
+      "title_zh": "大学助理博士前"
     },
     {
       "title": "PhD Research Fellow in Human-Robot Interaction (ref 292367)",
@@ -1295,7 +1385,8 @@
       "scraped_at": "2025-12-27T15:16:05.553200+00:00",
       "source_name": "norway_scholarships",
       "source_label": "Norway",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Norway"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Norway",
+      "title_zh": "人机交互博士研究员（参考号 292367）"
     },
     {
       "title": "PhD Research fellows in Anthropology of health and environment in Africa and Europe (ref 292002)",
@@ -1309,7 +1400,8 @@
       "scraped_at": "2025-12-27T15:16:05.553069+00:00",
       "source_name": "norway_scholarships",
       "source_label": "Norway",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Norway"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Norway",
+      "title_zh": "非洲和欧洲健康与环境人类学博士研究员（编号 292002）"
     },
     {
       "title": "SD- 26053 PHD IN ULTRA-FAST MACHINE-LEARNING INTERATOMIC POTENTIALS FOR NANOINDENTATION OF TIC MA...",
@@ -1323,7 +1415,8 @@
       "scraped_at": "2025-12-27T15:14:06.066051+00:00",
       "source_name": "luxembourg_scholarships",
       "source_label": "Luxembourg",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Luxembourg"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Luxembourg",
+      "title_zh": "SD-26053 TIC 纳米压痕超快速机器学习原子间势博士学位..."
     },
     {
       "title": "Postdoc in free-space optical communications",
@@ -1337,7 +1430,8 @@
       "scraped_at": "2025-12-27T15:10:01.442037+00:00",
       "source_name": "sweden_scholarships",
       "source_label": "Sweden",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Sweden"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Sweden",
+      "title_zh": "自由空间光通信博士后"
     },
     {
       "title": "Postdoctoral researcher, 2 years, in single cell transcriptomics of microorganisms",
@@ -1351,7 +1445,8 @@
       "scraped_at": "2025-12-27T15:10:01.441901+00:00",
       "source_name": "sweden_scholarships",
       "source_label": "Sweden",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Sweden"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Sweden",
+      "title_zh": "博士后研究员，2年，微生物单细胞转录组学"
     },
     {
       "title": "PhD fellowship incancerresearch",
@@ -1365,7 +1460,8 @@
       "scraped_at": "2025-12-27T15:04:40.117048+00:00",
       "source_name": "cancer_research",
       "source_label": "Cancer Research",
-      "source_url": "https://scholarshipdb.net/scholarships/Program-PhD?q=cancer"
+      "source_url": "https://scholarshipdb.net/scholarships/Program-PhD?q=cancer",
+      "title_zh": "癌症研究博士奖学金"
     },
     {
       "title": "Adjunct Lecturer - Biochemisty & MolecularBiology",
@@ -1379,7 +1475,8 @@
       "scraped_at": "2025-12-27T15:06:36.606422+00:00",
       "source_name": "biology",
       "source_label": "Biology",
-      "source_url": "https://scholarshipdb.net/scholarships?q=Biology"
+      "source_url": "https://scholarshipdb.net/scholarships?q=Biology",
+      "title_zh": "兼职讲师 - 生物化学与分子生物学"
     },
     {
       "title": "Lecturer -Biology",
@@ -1393,7 +1490,8 @@
       "scraped_at": "2025-12-27T15:06:36.605917+00:00",
       "source_name": "biology",
       "source_label": "Biology",
-      "source_url": "https://scholarshipdb.net/scholarships?q=Biology"
+      "source_url": "https://scholarshipdb.net/scholarships?q=Biology",
+      "title_zh": "讲师-生物学"
     },
     {
       "title": "SD 26053 PHD IN ULTRA-FAST MACHINE-LEARNING INTERATOMIC POTENTIALS FOR NANOINDENTATION OF TIC MATERIALS",
@@ -1407,7 +1505,8 @@
       "scraped_at": "2025-12-27T15:14:06.066196+00:00",
       "source_name": "luxembourg_scholarships",
       "source_label": "Luxembourg",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Luxembourg"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Luxembourg",
+      "title_zh": "SD 26053 TIC 材料纳米压痕超快机器学习原子间势博士学位"
     },
     {
       "title": "Assistant Professor ofBiology",
@@ -1421,7 +1520,8 @@
       "scraped_at": "2025-12-27T15:06:36.606259+00:00",
       "source_name": "biology",
       "source_label": "Biology",
-      "source_url": "https://scholarshipdb.net/scholarships?q=Biology"
+      "source_url": "https://scholarshipdb.net/scholarships?q=Biology",
+      "title_zh": "生物学助理教授"
     },
     {
       "title": "Professor at the Faculty ofBiology",
@@ -1435,7 +1535,8 @@
       "scraped_at": "2025-12-27T15:06:36.605698+00:00",
       "source_name": "biology",
       "source_label": "Biology",
-      "source_url": "https://scholarshipdb.net/scholarships?q=Biology"
+      "source_url": "https://scholarshipdb.net/scholarships?q=Biology",
+      "title_zh": "生物学院教授"
     },
     {
       "title": "PhD inBiology",
@@ -1449,7 +1550,8 @@
       "scraped_at": "2025-12-27T15:06:36.606562+00:00",
       "source_name": "biology",
       "source_label": "Biology",
-      "source_url": "https://scholarshipdb.net/scholarships?q=Biology"
+      "source_url": "https://scholarshipdb.net/scholarships?q=Biology",
+      "title_zh": "生物学博士"
     },
     {
       "title": "SD-25087 RESEARCHER IN INTELLIGENT AND SUSTAINABLE WIRELESS NETWORKS FOR 6G",
@@ -1463,7 +1565,8 @@
       "scraped_at": "2025-12-27T15:14:06.066914+00:00",
       "source_name": "luxembourg_scholarships",
       "source_label": "Luxembourg",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Luxembourg"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Luxembourg",
+      "title_zh": "SD-25087 6G 智能和可持续无线网络研究员"
     },
     {
       "title": "PhD position in the field of Confidential High Performance Computing for AI inCancerCare 100%",
@@ -1477,7 +1580,8 @@
       "scraped_at": "2025-12-27T15:04:40.118293+00:00",
       "source_name": "cancer_research",
       "source_label": "Cancer Research",
-      "source_url": "https://scholarshipdb.net/scholarships/Program-PhD?q=cancer"
+      "source_url": "https://scholarshipdb.net/scholarships/Program-PhD?q=cancer",
+      "title_zh": "CancerCare 人工智能机密高性能计算领域博士职位 100%"
     },
     {
       "title": "Researcher in AI-Driven Protein Therapeutics forCancerPathways",
@@ -1491,7 +1595,8 @@
       "scraped_at": "2025-12-27T15:04:40.117850+00:00",
       "source_name": "cancer_research",
       "source_label": "Cancer Research",
-      "source_url": "https://scholarshipdb.net/scholarships/Program-PhD?q=cancer"
+      "source_url": "https://scholarshipdb.net/scholarships/Program-PhD?q=cancer",
+      "title_zh": "人工智能驱动的癌症通路蛋白质治疗研究员"
     },
     {
       "title": "Associate Professor (Promotion track) in Banking Law",
@@ -1505,7 +1610,8 @@
       "scraped_at": "2025-12-27T15:14:06.066775+00:00",
       "source_name": "luxembourg_scholarships",
       "source_label": "Luxembourg",
-      "source_url": "https://scholarshipdb.net/scholarships-in-Luxembourg"
+      "source_url": "https://scholarshipdb.net/scholarships-in-Luxembourg",
+      "title_zh": "银行法副教授（晋升途径）"
     },
     {
       "title": "PhD Studentship in Bio-Electronics – Localising Invisible BreastCancersDuring Surgery",
@@ -1519,7 +1625,8 @@
       "scraped_at": "2025-12-27T15:04:40.118156+00:00",
       "source_name": "cancer_research",
       "source_label": "Cancer Research",
-      "source_url": "https://scholarshipdb.net/scholarships/Program-PhD?q=cancer"
+      "source_url": "https://scholarshipdb.net/scholarships/Program-PhD?q=cancer",
+      "title_zh": "生物电子学博士生——手术期间定位隐形乳腺癌"
     },
     {
       "title": "Junior Researcher - field of Biomedicine, subarea ofCancernanomedicine",
@@ -1533,7 +1640,8 @@
       "scraped_at": "2025-12-27T15:04:40.117509+00:00",
       "source_name": "cancer_research",
       "source_label": "Cancer Research",
-      "source_url": "https://scholarshipdb.net/scholarships/Program-PhD?q=cancer"
+      "source_url": "https://scholarshipdb.net/scholarships/Program-PhD?q=cancer",
+      "title_zh": "初级研究员 - 生物医学领域，癌症纳米医学子领域"
     },
     {
       "title": "PhD Student inCancerBreaksome",
@@ -1547,7 +1655,8 @@
       "scraped_at": "2025-12-27T15:04:40.117708+00:00",
       "source_name": "cancer_research",
       "source_label": "Cancer Research",
-      "source_url": "https://scholarshipdb.net/scholarships/Program-PhD?q=cancer"
+      "source_url": "https://scholarshipdb.net/scholarships/Program-PhD?q=cancer",
+      "title_zh": "癌症博士生"
     }
   ]
 }

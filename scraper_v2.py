@@ -361,6 +361,11 @@ class ScholarshipScraperV2:
     async def go_to_next_page(self) -> bool:
         """Navigate to next page."""
         try:
+            # Get current URL and first item to detect if page actually changed
+            current_url = self.page.url
+            first_items = await self.page.query_selector_all('li h5 a, li h4 a')
+            old_first_url = await first_items[0].get_attribute('href') if first_items else None
+
             next_selectors = [
                 'a[rel="next"]',
                 'a.next',
@@ -372,18 +377,41 @@ class ScholarshipScraperV2:
                 try:
                     next_button = await self.page.query_selector(selector)
                     if next_button:
+                        # Check if button is disabled
+                        is_disabled = await next_button.get_attribute('disabled')
+                        class_name = await next_button.get_attribute('class') or ''
+                        if is_disabled or 'disabled' in class_name:
+                            logger.debug(f"Next button is disabled")
+                            return False
+
                         logger.debug(f"Found next button: {selector}")
                         await next_button.click()
-                        # Longer timeout for pagination in CI/CD
+
+                        # Wait for URL to change or content to update
                         try:
                             await self.page.wait_for_load_state('networkidle', timeout=30000)
                         except Exception as e:
-                            logger.debug(f"Network idle timeout on pagination: {e}")
-                            await asyncio.sleep(3)  # Give page time to settle
-                        return True
-                except Exception:
+                            logger.debug(f"Network idle timeout: {e}")
+
+                        await asyncio.sleep(3)  # Give page time to settle
+
+                        # Verify page actually changed
+                        new_url = self.page.url
+                        new_first_items = await self.page.query_selector_all('li h5 a, li h4 a')
+                        new_first_url = await new_first_items[0].get_attribute('href') if new_first_items else None
+
+                        if new_url != current_url or new_first_url != old_first_url:
+                            logger.debug(f"Page changed: URL or content updated")
+                            return True
+                        else:
+                            logger.warning(f"Page did not change after clicking next button")
+                            return False
+
+                except Exception as e:
+                    logger.debug(f"Error with selector {selector}: {e}")
                     continue
 
+            logger.debug("No next button found")
             return False
         except Exception as e:
             logger.error(f"Error in pagination: {e}")

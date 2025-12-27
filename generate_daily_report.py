@@ -67,44 +67,49 @@ def generate_daily_report(
         if not new_scholarships:
             f.write("🎉 今日无新增奖学金\n")
         else:
-            # Group by country
-            by_country = {}
+            # Group by topic/source (first category)
+            by_topic = {}
             for scholarship in new_scholarships:
-                country = scholarship.get('country', '未知')
-                if country not in by_country:
-                    by_country[country] = []
-                by_country[country].append(scholarship)
+                topic = scholarship.get('source_label', 'General')
+                if topic not in by_topic:
+                    by_topic[topic] = []
+                by_topic[topic].append(scholarship)
 
-            # Write by country
-            for country, scholarships in sorted(by_country.items()):
-                f.write(f"## 🌍 {country}\n\n")
+            # Write by topic with collapsible sections
+            for topic, scholarships in sorted(by_topic.items()):
+                f.write(f"## 📚 {topic}\n\n")
                 f.write(f"**数量**: {len(scholarships)} 条\n\n")
 
-                for scholarship in scholarships:
+                # Collapsible details
+                f.write(f"<details>\n")
+                f.write(f"<summary>点击展开查看所有条目</summary>\n\n")
+
+                for idx, scholarship in enumerate(scholarships, 1):
                     title = scholarship.get('title', '无标题')
                     title_zh = scholarship.get('title_zh', '')
-                    university = scholarship.get('university', '未知大学')
                     url = scholarship.get('url', '#')
-                    posted = scholarship.get('posted_time_text', '未知时间')
-                    source = scholarship.get('source_label', '未知来源')
+                    country = scholarship.get('country', '')
+                    university = scholarship.get('university', '')
 
-                    f.write(f"### {title}\n\n")
-
+                    # Show number and title
                     if title_zh and title_zh != title:
-                        f.write(f"**中文**: {title_zh}\n\n")
+                        f.write(f"{idx}. **[{title}]({url})**\n")
+                        f.write(f"   - 中文：{title_zh}\n")
+                    else:
+                        f.write(f"{idx}. **[{title}]({url})**\n")
 
-                    f.write(f"- **学校**: {university}\n")
-                    f.write(f"- **发布时间**: {posted}\n")
-                    f.write(f"- **来源**: {source}\n")
-                    f.write(f"- **链接**: [{url}]({url})\n\n")
+                    # Show university and country on same line if both exist
+                    if university and country:
+                        f.write(f"   - {university}, {country}\n")
+                    elif university:
+                        f.write(f"   - {university}\n")
+                    elif country:
+                        f.write(f"   - {country}\n")
 
-                    description = scholarship.get('description', '')
-                    if description:
-                        # Truncate description
-                        desc_short = description[:200] + '...' if len(description) > 200 else description
-                        f.write(f"> {desc_short}\n\n")
+                    f.write("\n")
 
-                    f.write("---\n\n")
+                f.write("</details>\n\n")
+                f.write("---\n\n")
 
     logger.info(f"✓ Report saved to {report_file}")
 

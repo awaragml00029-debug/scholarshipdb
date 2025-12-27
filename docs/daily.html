@@ -257,8 +257,16 @@
         // Load historical reports list from index.json
         async function loadHistoricalReports() {
             try {
+                console.log('Fetching index.json...');
                 const response = await fetch('./reports/index.json');
+                console.log('Response status:', response.status);
+
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+
                 const historyItems = await response.json();
+                console.log('Loaded history items:', historyItems);
 
                 const select = document.getElementById('report-date');
                 historyItems.forEach(item => {
@@ -266,9 +274,18 @@
                     option.value = item.filename;
                     option.textContent = item.display;
                     select.appendChild(option);
+                    console.log('Added option:', item.display);
                 });
+
+                console.log('✓ Successfully loaded', historyItems.length, 'historical reports');
             } catch (error) {
-                console.log('Could not load historical reports list:', error);
+                console.error('❌ Failed to load historical reports:', error);
+                // 在页面上显示错误
+                const select = document.getElementById('report-date');
+                const option = document.createElement('option');
+                option.textContent = '⚠️ 无法加载历史记录';
+                option.disabled = true;
+                select.appendChild(option);
             }
         }
 

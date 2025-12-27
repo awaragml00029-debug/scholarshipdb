@@ -54,7 +54,7 @@ sources:
     label: "Austria"
     url: "https://scholarshipdb.net/scholarships-in-Austria"
     max_pages: 5
-    enabled: false  # Disabled
+    enabled: true  # Enabled
 
   - name: "denmark_scholarships"
     label: "Denmark"

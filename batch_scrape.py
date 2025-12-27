@@ -125,15 +125,31 @@ async def scrape_all_sources(config: dict) -> Dict[str, List[Dict]]:
                     sch['source_label'] = label
                     sch['source_url'] = url
 
-                all_results[name] = scholarships
-                total_scholarships += len(scholarships)
+                # Deduplicate within this source (by URL)
+                seen_urls = set()
+                unique_scholarships = []
+                duplicates_in_source = 0
 
-                # Save individual source file
+                for sch in scholarships:
+                    url_key = sch.get('url', '')
+                    if url_key and url_key not in seen_urls:
+                        seen_urls.add(url_key)
+                        unique_scholarships.append(sch)
+                    else:
+                        duplicates_in_source += 1
+
+                all_results[name] = unique_scholarships
+                total_scholarships += len(unique_scholarships)
+
+                # Save individual source file (deduplicated)
                 source_file = output_dir / f"{name}.json"
                 with open(source_file, 'w', encoding='utf-8') as f:
-                    json.dump(scholarships, f, ensure_ascii=False, indent=2)
+                    json.dump(unique_scholarships, f, ensure_ascii=False, indent=2)
 
                 logger.info(f"✓ Scraped {len(scholarships)} scholarships")
+                if duplicates_in_source > 0:
+                    logger.info(f"  ⚠ Removed {duplicates_in_source} duplicates within source")
+                    logger.info(f"  ✓ Unique: {len(unique_scholarships)} scholarships")
                 logger.info(f"✓ Saved to {source_file}")
 
         except Exception as e:

@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <title>PhD 奖学金日报</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+            padding-bottom: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px 16px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 8px;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 12px;
+            font-size: 14px;
+        }
+
+        .stat-item {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .category {
+            margin: 16px;
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+        }
+
+        .category-header {
+            background: #f8f9fa;
+            padding: 16px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #e9ecef;
+            transition: background 0.2s;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        .category-header:active {
+            background: #e9ecef;
+        }
+
+        .category-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #495057;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .category-count {
+            background: #667eea;
+            color: white;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 13px;
+            font-weight: 600;
+        }
+
+        .category-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+        }
+
+        .category-content.active {
+            max-height: 10000px;
+            transition: max-height 0.5s ease-in;
+        }
+
+        .scholarship-list {
+            padding: 12px;
+        }
+
+        .scholarship-item {
+            padding: 12px;
+            margin-bottom: 12px;
+            border-left: 3px solid #667eea;
+            background: #f8f9fa;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .scholarship-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .scholarship-title {
+            font-size: 15px;
+            font-weight: 600;
+            color: #212529;
+            margin-bottom: 6px;
+            line-height: 1.4;
+        }
+
+        .scholarship-title a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        .scholarship-title a:active {
+            opacity: 0.7;
+        }
+
+        .scholarship-meta {
+            font-size: 13px;
+            color: #6c757d;
+            line-height: 1.5;
+        }
+
+        .meta-label {
+            font-weight: 600;
+        }
+
+        .arrow {
+            transition: transform 0.3s;
+            color: #667eea;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .arrow.rotated {
+            transform: rotate(90deg);
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #6c757d;
+        }
+
+        .empty {
+            text-align: center;
+            padding: 60px 20px;
+            color: #6c757d;
+        }
+
+        .empty-icon {
+            font-size: 48px;
+            margin-bottom: 12px;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 20px;
+            }
+
+            .stats {
+                font-size: 13px;
+                gap: 12px;
+            }
+
+            .category-title {
+                font-size: 16px;
+            }
+
+            .scholarship-title {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📚 PhD 奖学金日报</h1>
+            <div class="stats">
+                <div class="stat-item">
+                    <span>📅</span>
+                    <span id="date">加载中...</span>
+                </div>
+                <div class="stat-item">
+                    <span>🆕</span>
+                    <span id="new-count">-</span>
+                </div>
+                <div class="stat-item">
+                    <span>📊</span>
+                    <span id="total-count">-</span>
+                </div>
+            </div>
+        </header>
+
+        <div id="content" class="loading">
+            正在加载最新日报...
+        </div>
+    </div>
+
+    <script>
+        // Fetch and parse latest report
+        fetch('./reports/latest.md')
+            .then(response => response.text())
+            .then(markdown => {
+                parseAndRender(markdown);
+            })
+            .catch(error => {
+                document.getElementById('content').innerHTML = `
+                    <div class="empty">
+                        <div class="empty-icon">😔</div>
+                        <div>暂无日报数据</div>
+                    </div>
+                `;
+            });
+
+        function parseAndRender(markdown) {
+            const lines = markdown.split('\n');
+
+            // Parse header
+            let date = '';
+            let newCount = 0;
+            let totalCount = 0;
+
+            for (const line of lines) {
+                if (line.includes('PhD 奖学金日报 -')) {
+                    date = line.match(/(\d{4}-\d{2}-\d{2})/)[0];
+                }
+                if (line.includes('新增奖学金')) {
+                    newCount = parseInt(line.match(/(\d+)/)[1]);
+                }
+                if (line.includes('总数')) {
+                    totalCount = parseInt(line.match(/(\d+)/)[1]);
+                }
+            }
+
+            document.getElementById('date').textContent = date;
+            document.getElementById('new-count').textContent = `${newCount} 条新增`;
+            document.getElementById('total-count').textContent = `${totalCount} 条总计`;
+
+            // Parse categories
+            const categories = [];
+            let currentCategory = null;
+            let inDetails = false;
+
+            for (let i = 0; i < lines.length; i++) {
+                const line = lines[i];
+
+                if (line.startsWith('## 📚')) {
+                    if (currentCategory) {
+                        categories.push(currentCategory);
+                    }
+                    currentCategory = {
+                        title: line.replace('## 📚 ', ''),
+                        count: 0,
+                        items: []
+                    };
+                } else if (line.includes('**数量**:') && currentCategory) {
+                    currentCategory.count = parseInt(line.match(/(\d+)/)[1]);
+                } else if (line.match(/^\d+\.\s\*\*\[/) && currentCategory) {
+                    // Parse scholarship item
+                    const titleMatch = line.match(/\*\*\[(.*?)\]\((.*?)\)\*\*/);
+                    if (titleMatch) {
+                        const item = {
+                            title: titleMatch[1],
+                            url: titleMatch[2],
+                            titleZh: '',
+                            info: ''
+                        };
+
+                        // Look for Chinese title
+                        if (i + 1 < lines.length && lines[i + 1].includes('中文：')) {
+                            item.titleZh = lines[i + 1].replace(/.*中文：/, '').trim();
+                            i++;
+                        }
+
+                        // Look for info (university, country)
+                        if (i + 1 < lines.length && lines[i + 1].includes('- ')) {
+                            item.info = lines[i + 1].replace(/.*- /, '').trim();
+                            i++;
+                        }
+
+                        currentCategory.items.push(item);
+                    }
+                }
+            }
+
+            if (currentCategory) {
+                categories.push(currentCategory);
+            }
+
+            // Render
+            const content = document.getElementById('content');
+
+            if (categories.length === 0) {
+                content.innerHTML = `
+                    <div class="empty">
+                        <div class="empty-icon">🎉</div>
+                        <div>今日无新增奖学金</div>
+                    </div>
+                `;
+                return;
+            }
+
+            content.innerHTML = '';
+
+            categories.forEach((category, index) => {
+                const categoryDiv = document.createElement('div');
+                categoryDiv.className = 'category';
+
+                const header = document.createElement('div');
+                header.className = 'category-header';
+                header.innerHTML = `
+                    <div class="category-title">
+                        <span>${category.title}</span>
+                        <span class="category-count">${category.count}</span>
+                    </div>
+                    <span class="arrow">›</span>
+                `;
+
+                const contentDiv = document.createElement('div');
+                contentDiv.className = 'category-content';
+
+                const list = document.createElement('div');
+                list.className = 'scholarship-list';
+
+                category.items.forEach((item, idx) => {
+                    const itemDiv = document.createElement('div');
+                    itemDiv.className = 'scholarship-item';
+
+                    let html = `
+                        <div class="scholarship-title">
+                            ${idx + 1}. <a href="${item.url}" target="_blank">${item.title}</a>
+                        </div>
+                    `;
+
+                    if (item.titleZh) {
+                        html += `<div class="scholarship-meta"><span class="meta-label">中文：</span>${item.titleZh}</div>`;
+                    }
+
+                    if (item.info) {
+                        html += `<div class="scholarship-meta">📍 ${item.info}</div>`;
+                    }
+
+                    itemDiv.innerHTML = html;
+                    list.appendChild(itemDiv);
+                });
+
+                contentDiv.appendChild(list);
+                categoryDiv.appendChild(header);
+                categoryDiv.appendChild(contentDiv);
+                content.appendChild(categoryDiv);
+
+                // Toggle functionality
+                header.addEventListener('click', () => {
+                    const arrow = header.querySelector('.arrow');
+                    const isActive = contentDiv.classList.contains('active');
+
+                    if (isActive) {
+                        contentDiv.classList.remove('active');
+                        arrow.classList.remove('rotated');
+                    } else {
+                        contentDiv.classList.add('active');
+                        arrow.classList.add('rotated');
+                    }
+                });
+            });
+        }
+    </script>
+</body>
+</html>

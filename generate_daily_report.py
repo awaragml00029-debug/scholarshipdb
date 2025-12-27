@@ -55,63 +55,21 @@ def generate_daily_report(
     output_path = Path(output_dir)
     output_path.mkdir(exist_ok=True, parents=True)
 
-    report_file = output_path / f"daily_report_{today}.md"
+    # Generate report content
+    report_content = generate_report_content(today, new_scholarships, current_scholarships)
 
-    with open(report_file, 'w', encoding='utf-8') as f:
-        # Header
-        f.write(f"# 📚 PhD 奖学金日报 - {today}\n\n")
-        f.write(f"**新增奖学金**: {len(new_scholarships)} 条\n\n")
-        f.write(f"**总数**: {len(current_scholarships)} 条\n\n")
-        f.write("---\n\n")
+    # Save dated report (archive)
+    dated_report_file = output_path / f"daily_report_{today}.md"
+    with open(dated_report_file, 'w', encoding='utf-8') as f:
+        f.write(report_content)
 
-        if not new_scholarships:
-            f.write("🎉 今日无新增奖学金\n")
-        else:
-            # Group by topic/source (first category)
-            by_topic = {}
-            for scholarship in new_scholarships:
-                topic = scholarship.get('source_label', 'General')
-                if topic not in by_topic:
-                    by_topic[topic] = []
-                by_topic[topic].append(scholarship)
+    # Save as latest.md (always current)
+    latest_report_file = output_path / "latest.md"
+    with open(latest_report_file, 'w', encoding='utf-8') as f:
+        f.write(report_content)
 
-            # Write by topic with collapsible sections
-            for topic, scholarships in sorted(by_topic.items()):
-                f.write(f"## 📚 {topic}\n\n")
-                f.write(f"**数量**: {len(scholarships)} 条\n\n")
-
-                # Collapsible details
-                f.write(f"<details>\n")
-                f.write(f"<summary>点击展开查看所有条目</summary>\n\n")
-
-                for idx, scholarship in enumerate(scholarships, 1):
-                    title = scholarship.get('title', '无标题')
-                    title_zh = scholarship.get('title_zh', '')
-                    url = scholarship.get('url', '#')
-                    country = scholarship.get('country', '')
-                    university = scholarship.get('university', '')
-
-                    # Show number and title
-                    if title_zh and title_zh != title:
-                        f.write(f"{idx}. **[{title}]({url})**\n")
-                        f.write(f"   - 中文：{title_zh}\n")
-                    else:
-                        f.write(f"{idx}. **[{title}]({url})**\n")
-
-                    # Show university and country on same line if both exist
-                    if university and country:
-                        f.write(f"   - {university}, {country}\n")
-                    elif university:
-                        f.write(f"   - {university}\n")
-                    elif country:
-                        f.write(f"   - {country}\n")
-
-                    f.write("\n")
-
-                f.write("</details>\n\n")
-                f.write("---\n\n")
-
-    logger.info(f"✓ Report saved to {report_file}")
+    logger.info(f"✓ Dated report saved to {dated_report_file}")
+    logger.info(f"✓ Latest report saved to {latest_report_file}")
 
     # Save current as previous for next run
     with open(previous_file, 'w', encoding='utf-8') as f:
@@ -119,7 +77,67 @@ def generate_daily_report(
 
     logger.info(f"✓ Saved current data as previous for next run")
 
-    return len(new_scholarships), report_file
+    return len(new_scholarships), dated_report_file
+
+
+def generate_report_content(today, new_scholarships, current_scholarships):
+    """Generate markdown report content."""
+    lines = []
+
+    # Header
+    lines.append(f"# 📚 PhD 奖学金日报 - {today}\n")
+    lines.append(f"**新增奖学金**: {len(new_scholarships)} 条\n")
+    lines.append(f"**总数**: {len(current_scholarships)} 条\n")
+    lines.append("---\n")
+
+    if not new_scholarships:
+        lines.append("🎉 今日无新增奖学金\n")
+    else:
+        # Group by topic/source (first category)
+        by_topic = {}
+        for scholarship in new_scholarships:
+            topic = scholarship.get('source_label', 'General')
+            if topic not in by_topic:
+                by_topic[topic] = []
+            by_topic[topic].append(scholarship)
+
+        # Write by topic with collapsible sections
+        for topic, scholarships in sorted(by_topic.items()):
+            lines.append(f"## 📚 {topic}\n")
+            lines.append(f"**数量**: {len(scholarships)} 条\n")
+
+            # Collapsible details
+            lines.append("<details>\n")
+            lines.append("<summary>点击展开查看所有条目</summary>\n\n")
+
+            for idx, scholarship in enumerate(scholarships, 1):
+                title = scholarship.get('title', '无标题')
+                title_zh = scholarship.get('title_zh', '')
+                url = scholarship.get('url', '#')
+                country = scholarship.get('country', '')
+                university = scholarship.get('university', '')
+
+                # Show number and title
+                if title_zh and title_zh != title:
+                    lines.append(f"{idx}. **[{title}]({url})**\n")
+                    lines.append(f"   - 中文：{title_zh}\n")
+                else:
+                    lines.append(f"{idx}. **[{title}]({url})**\n")
+
+                # Show university and country on same line if both exist
+                if university and country:
+                    lines.append(f"   - {university}, {country}\n")
+                elif university:
+                    lines.append(f"   - {university}\n")
+                elif country:
+                    lines.append(f"   - {country}\n")
+
+                lines.append("\n")
+
+            lines.append("</details>\n\n")
+            lines.append("---\n\n")
+
+    return '\n'.join(lines)
 
 
 if __name__ == '__main__':

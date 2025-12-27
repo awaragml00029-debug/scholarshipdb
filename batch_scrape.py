@@ -4,13 +4,14 @@ import asyncio
 import json
 import random
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from typing import List, Dict, Optional
 import yaml
 from loguru import logger
 
 from scraper_v2 import ScholarshipScraperV2
+from time_parser import parse_relative_time
 
 
 def setup_logging():
@@ -157,18 +158,87 @@ async def scrape_all_sources(config: dict) -> Dict[str, List[Dict]]:
     return all_results
 
 
-def save_combined_output(all_results: Dict[str, List[Dict]], output_file: str):
+def save_combined_output(all_results: Dict[str, List[Dict]], output_file: str, config: dict = None):
     """Save combined output file with all scholarships."""
     output_path = Path(output_file)
     output_path.parent.mkdir(exist_ok=True)
+
+    # Get filter settings from config
+    config_settings = config.get('config', {}) if config else {}
+    filter_duplicates = config_settings.get('filter_duplicates', True)
+    max_days_old = config_settings.get('max_days_old', 0)
+    max_total_results = config_settings.get('max_total_results', 0)
 
     # Flatten all scholarships into single list
     all_scholarships = []
     for scholarships in all_results.values():
         all_scholarships.extend(scholarships)
 
+    logger.info(f"\n{'='*70}")
+    logger.info(f"DEDUPLICATION & FILTERING")
+    logger.info(f"{'='*70}")
+    logger.info(f"Total scraped: {len(all_scholarships)} scholarships")
+
+    # Step 1: Deduplicate by URL (if enabled)
+    filtered_scholarships = all_scholarships
+    duplicates = 0
+
+    if filter_duplicates:
+        seen_urls = set()
+        unique_scholarships = []
+
+        for scholarship in all_scholarships:
+            url = scholarship.get('url', '')
+            if url and url not in seen_urls:
+                seen_urls.add(url)
+                unique_scholarships.append(scholarship)
+            else:
+                duplicates += 1
+
+        filtered_scholarships = unique_scholarships
+        logger.info(f"✓ Removed {duplicates} duplicates (by URL)")
+        logger.info(f"  After deduplication: {len(filtered_scholarships)} scholarships")
+
+    # Step 2: Filter by age (if enabled)
+    old_scholarships = 0
+    if max_days_old > 0:
+        cutoff_date = datetime.now(timezone.utc) - timedelta(days=max_days_old)
+        age_filtered = []
+
+        for scholarship in filtered_scholarships:
+            posted_time = scholarship.get('posted_time')
+            if posted_time:
+                try:
+                    # Parse ISO format datetime
+                    posted_dt = datetime.fromisoformat(posted_time.replace('Z', '+00:00'))
+                    if posted_dt >= cutoff_date:
+                        age_filtered.append(scholarship)
+                    else:
+                        old_scholarships += 1
+                except (ValueError, AttributeError):
+                    # If parsing fails, keep the scholarship
+                    age_filtered.append(scholarship)
+            else:
+                # If no posted_time, keep it
+                age_filtered.append(scholarship)
+
+        filtered_scholarships = age_filtered
+        logger.info(f"✓ Removed {old_scholarships} scholarships older than {max_days_old} days")
+        logger.info(f"  After age filter: {len(filtered_scholarships)} scholarships")
+
+    # Step 3: Limit total results (if enabled)
+    truncated = 0
+    if max_total_results > 0 and len(filtered_scholarships) > max_total_results:
+        truncated = len(filtered_scholarships) - max_total_results
+        filtered_scholarships = filtered_scholarships[:max_total_results]
+        logger.info(f"✓ Limited to {max_total_results} scholarships (removed {truncated})")
+
+    logger.info(f"\n{'='*70}")
+    logger.info(f"FINAL COUNT: {len(filtered_scholarships)} scholarships")
+    logger.info(f"{'='*70}")
+
     # Sort by posted_time (newest first)
-    all_scholarships.sort(
+    filtered_scholarships.sort(
         key=lambda x: x.get('posted_time') or '',
         reverse=True
     )
@@ -176,19 +246,28 @@ def save_combined_output(all_results: Dict[str, List[Dict]], output_file: str):
     # Add metadata
     output_data = {
         'generated_at': datetime.now(timezone.utc).isoformat(),
-        'total_scholarships': len(all_scholarships),
+        'total_scholarships': len(filtered_scholarships),
+        'total_scraped': len(all_scholarships),
+        'duplicates_removed': duplicates,
+        'old_filtered': old_scholarships,
+        'truncated': truncated,
+        'filters_applied': {
+            'deduplication': filter_duplicates,
+            'max_days_old': max_days_old if max_days_old > 0 else None,
+            'max_total_results': max_total_results if max_total_results > 0 else None
+        },
         'sources': {
             name: len(scholarships)
             for name, scholarships in all_results.items()
         },
-        'scholarships': all_scholarships
+        'scholarships': filtered_scholarships
     }
 
     with open(output_path, 'w', encoding='utf-8') as f:
         json.dump(output_data, f, ensure_ascii=False, indent=2)
 
     logger.info(f"\n✓ Combined output saved to {output_path}")
-    logger.info(f"  Total: {len(all_scholarships)} scholarships")
+    logger.info(f"  Final count: {len(filtered_scholarships)} scholarships")
 
 
 async def main():
@@ -208,7 +287,7 @@ async def main():
 
     # Save combined output
     combined_output = config.get('config', {}).get('combined_output', 'data/all_scholarships.json')
-    save_combined_output(all_results, combined_output)
+    save_combined_output(all_results, combined_output, config)
 
     logger.info(f"\n{'='*70}")
     logger.info("✓ Batch scraping completed successfully!")

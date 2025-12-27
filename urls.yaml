@@ -88,3 +88,8 @@ config:
 
   # Proxy rotation strategy: "sequential" or "random"
   proxy_rotation: "sequential"  # Use proxies in order or randomly
+
+  # Data filtering options
+  filter_duplicates: true  # Remove duplicate scholarships (by URL)
+  max_days_old: 90  # Only keep scholarships posted within last N days (0 = no limit)
+  max_total_results: 500  # Maximum total scholarships to keep (0 = no limit)

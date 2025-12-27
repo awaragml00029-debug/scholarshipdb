@@ -79,14 +79,14 @@ def generate_rss_feed(input_file='data/all_scholarships.json', output_file='docs
         if posted_time:
             SubElement(item, 'pubDate').text = format_rfc822(posted_time)
 
-        # Category (source as topic)
+        # Category with domain attribute for better organization
         source_label = scholarship.get('source_label', 'General')
-        SubElement(item, 'category').text = f"Topic: {source_label}"
+        SubElement(item, 'category', domain='topic').text = source_label
 
-        # Category (country as location)
+        # Location category
         country = scholarship.get('country')
         if country:
-            SubElement(item, 'category').text = f"Location: {country}"
+            SubElement(item, 'category', domain='location').text = country
 
     # Pretty print XML
     xml_str = minidom.parseString(tostring(rss, encoding='utf-8')).toprettyxml(indent='  ', encoding='utf-8')

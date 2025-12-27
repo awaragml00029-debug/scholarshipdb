@@ -78,6 +78,9 @@ def generate_daily_report(
     logger.info(f"✓ Dated report saved to {dated_report_file}")
     logger.info(f"✓ Latest report saved to {latest_report_file}")
 
+    # Update history index for HTML page
+    update_history_index(output_path)
+
     # Save current as previous for next run
     with open(previous_file, 'w', encoding='utf-8') as f:
         json.dump(current_data, f, ensure_ascii=False, indent=2)
@@ -85,6 +88,49 @@ def generate_daily_report(
     logger.info(f"✓ Saved current data as previous for next run")
 
     return len(new_scholarships), dated_report_file
+
+
+def update_history_index(output_dir: Path):
+    """Update the history index JSON file for the HTML page."""
+    import glob
+    import re
+
+    # Find all report files
+    report_files = glob.glob(str(output_dir / "daily_report_*.md"))
+
+    history_items = []
+    for file_path in report_files:
+        filename = Path(file_path).name
+        # Match both daily_report_YYYY-MM-DD.md and daily_report_YYYY-MM-DD_HH-MM.md
+        match = re.match(r'daily_report_(\d{4}-\d{2}-\d{2})(?:_(\d{2})-(\d{2}))?\.md', filename)
+        if match:
+            date_part = match.group(1)  # YYYY-MM-DD
+            hour_part = match.group(2)  # HH or None
+            min_part = match.group(3)   # MM or None
+
+            # Format display: YYYY-MM-DD HH:MM or just YYYY-MM-DD
+            if hour_part and min_part:
+                display_date = f"{date_part} {hour_part}:{min_part}"
+                sort_key = f"{date_part}_{hour_part}-{min_part}"
+            else:
+                display_date = date_part
+                sort_key = date_part
+
+            history_items.append({
+                'filename': filename.replace('.md', ''),
+                'display': display_date,
+                'sort': sort_key
+            })
+
+    # Sort by date (newest first)
+    history_items.sort(key=lambda x: x['sort'], reverse=True)
+
+    # Save index file
+    index_file = output_dir / 'index.json'
+    with open(index_file, 'w', encoding='utf-8') as f:
+        json.dump(history_items, f, ensure_ascii=False, indent=2)
+
+    logger.info(f"✓ Updated history index with {len(history_items)} reports")
 
 
 def generate_report_content(today, new_scholarships, current_scholarships):

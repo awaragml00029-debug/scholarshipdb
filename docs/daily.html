@@ -254,39 +254,21 @@
     </div>
 
     <script>
-        // Load historical reports list
+        // Load historical reports list from index.json
         async function loadHistoricalReports() {
             try {
-                const response = await fetch('./reports/');
-                const text = await response.text();
-                const parser = new DOMParser();
-                const doc = parser.parseFromString(text, 'text/html');
-                const links = Array.from(doc.querySelectorAll('a'))
-                    .map(a => a.getAttribute('href'))
-                    .filter(href => href && href.startsWith('daily_report_') && href.endsWith('.md'))
-                    .map(href => {
-                        // Match both daily_report_YYYY-MM-DD.md and daily_report_YYYY-MM-DD_HH-MM.md
-                        const match = href.match(/daily_report_(\d{4}-\d{2}-\d{2}(?:_\d{2}-\d{2})?)\.md/);
-                        if (match) {
-                            const fullDate = match[1];
-                            // Format display: YYYY-MM-DD HH:MM or just YYYY-MM-DD
-                            const displayDate = fullDate.replace('_', ' ').replace('-', ':');
-                            return { value: href.replace('.md', ''), display: displayDate, sort: fullDate };
-                        }
-                        return null;
-                    })
-                    .filter(item => item)
-                    .sort((a, b) => b.sort.localeCompare(a.sort));
+                const response = await fetch('./reports/index.json');
+                const historyItems = await response.json();
 
                 const select = document.getElementById('report-date');
-                links.forEach(item => {
+                historyItems.forEach(item => {
                     const option = document.createElement('option');
-                    option.value = item.value;
+                    option.value = item.filename;
                     option.textContent = item.display;
                     select.appendChild(option);
                 });
             } catch (error) {
-                console.log('Could not load historical reports list');
+                console.log('Could not load historical reports list:', error);
             }
         }
 

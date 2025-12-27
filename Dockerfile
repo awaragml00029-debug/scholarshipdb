@@ -30,9 +30,7 @@ RUN pip install --no-cache-dir \
     pydantic-settings \
     sqlalchemy \
     python-dotenv \
-    pyyaml \
-    gspread \
-    oauth2client
+    pyyaml
 
 # Install Playwright and browsers
 RUN playwright install chromium && \

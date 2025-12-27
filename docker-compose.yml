@@ -21,7 +21,6 @@ services:
 
       # Configuration files
       - ./urls.yaml:/app/urls.yaml:ro
-      - ./credentials.json:/app/credentials.json:ro
 
       # Git configuration (for auto-commit)
       - ./.git:/app/.git
@@ -56,7 +55,6 @@ services:
       - ./data:/app/data
       - ./docs:/app/docs
       - ./urls.yaml:/app/urls.yaml:ro
-      - ./credentials.json:/app/credentials.json:ro
 
     command: python batch_scrape.py
 

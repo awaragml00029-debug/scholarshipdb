@@ -16,9 +16,6 @@ python batch_scrape.py
 # Generate RSS feed
 python generate_rss.py
 
-# Sync to Google Sheets
-python sync_to_sheets.py
-
 # Translate titles to Chinese
 python translate_titles.py
 

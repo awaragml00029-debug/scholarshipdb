@@ -84,7 +84,6 @@ services:
 - `./data` → 抓取结果
 - `./docs` → GitHub Pages 静态文件
 - `./urls.yaml` → 配置文件（只读）
-- `./credentials.json` → Google Sheets 凭证（只读）
 
 ## 常用命令
 

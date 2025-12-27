@@ -52,13 +52,19 @@ def generate_daily_report(
 
     # Generate markdown report
     today = datetime.now(timezone.utc).strftime('%Y-%m-%d')
+    today_time = datetime.now(timezone.utc).strftime('%Y-%m-%d_%H-%M')
     output_path = Path(output_dir)
     output_path.mkdir(exist_ok=True, parents=True)
 
     # Generate report content
     report_content = generate_report_content(today, new_scholarships, current_scholarships)
 
-    # Save dated report (archive)
+    # Save timestamped history file (never overwritten)
+    history_report_file = output_path / f"daily_report_{today_time}.md"
+    with open(history_report_file, 'w', encoding='utf-8') as f:
+        f.write(report_content)
+
+    # Save dated report (overwritten daily, keeps latest for the day)
     dated_report_file = output_path / f"daily_report_{today}.md"
     with open(dated_report_file, 'w', encoding='utf-8') as f:
         f.write(report_content)
@@ -68,6 +74,7 @@ def generate_daily_report(
     with open(latest_report_file, 'w', encoding='utf-8') as f:
         f.write(report_content)
 
+    logger.info(f"✓ History report saved to {history_report_file}")
     logger.info(f"✓ Dated report saved to {dated_report_file}")
     logger.info(f"✓ Latest report saved to {latest_report_file}")
 

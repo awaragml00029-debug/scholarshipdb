@@ -56,7 +56,7 @@ def generate_daily_report(
     output_path = Path(output_dir)
     output_path.mkdir(exist_ok=True, parents=True)
 
-    # Generate report content
+    # Generate report content (new items only)
     report_content = generate_report_content(today, new_scholarships, current_scholarships)
 
     # Save timestamped history file (never overwritten)
@@ -73,6 +73,16 @@ def generate_daily_report(
     latest_report_file = output_path / "latest.md"
     with open(latest_report_file, 'w', encoding='utf-8') as f:
         f.write(report_content)
+
+    # Also generate full report (all scholarships for the day)
+    full_report_content = generate_report_content(today, current_scholarships, current_scholarships, is_full=True)
+
+    # Save full report
+    full_report_file = output_path / f"full_report_{today}.md"
+    with open(full_report_file, 'w', encoding='utf-8') as f:
+        f.write(full_report_content)
+
+    logger.info(f"✓ Full report saved to {full_report_file}")
 
     logger.info(f"✓ History report saved to {history_report_file}")
     logger.info(f"✓ Dated report saved to {dated_report_file}")
@@ -95,8 +105,9 @@ def update_history_index(output_dir: Path):
     import glob
     import re
 
-    # Find all report files
+    # Find all report files (daily reports and full reports)
     report_files = glob.glob(str(output_dir / "daily_report_*.md"))
+    full_report_files = glob.glob(str(output_dir / "full_report_*.md"))
 
     history_items = []
     for file_path in report_files:
@@ -119,7 +130,25 @@ def update_history_index(output_dir: Path):
             history_items.append({
                 'filename': filename.replace('.md', ''),
                 'display': display_date,
-                'sort': sort_key
+                'sort': sort_key,
+                'type': 'daily'
+            })
+
+    # Add full reports
+    for file_path in full_report_files:
+        filename = Path(file_path).name
+        # Match full_report_YYYY-MM-DD.md
+        match = re.match(r'full_report_(\d{4}-\d{2}-\d{2})\.md', filename)
+        if match:
+            date_part = match.group(1)
+            display_date = f"{date_part} (全部)"
+            sort_key = f"{date_part}_full"
+
+            history_items.append({
+                'filename': filename.replace('.md', ''),
+                'display': display_date,
+                'sort': sort_key,
+                'type': 'full'
             })
 
     # Sort by date (newest first)
@@ -133,17 +162,22 @@ def update_history_index(output_dir: Path):
     logger.info(f"✓ Updated history index with {len(history_items)} reports")
 
 
-def generate_report_content(today, new_scholarships, current_scholarships):
+def generate_report_content(today, new_scholarships, current_scholarships, is_full=False):
     """Generate markdown report content."""
     lines = []
 
     # Header
-    lines.append(f"# 📚 PhD 奖学金日报 - {today}\n")
-    lines.append(f"**新增奖学金**: {len(new_scholarships)} 条\n")
-    lines.append(f"**总数**: {len(current_scholarships)} 条\n")
+    if is_full:
+        lines.append(f"# 📚 PhD 奖学金完整列表 - {today}\n")
+        lines.append(f"**总数**: {len(current_scholarships)} 条\n")
+    else:
+        lines.append(f"# 📚 PhD 奖学金日报 - {today}\n")
+        lines.append(f"**新增奖学金**: {len(new_scholarships)} 条\n")
+        lines.append(f"**总数**: {len(current_scholarships)} 条\n")
+
     lines.append("---\n")
 
-    if not new_scholarships:
+    if not new_scholarships and not is_full:
         lines.append("🎉 今日无新增奖学金\n")
     else:
         # Group by topic/source (first category)

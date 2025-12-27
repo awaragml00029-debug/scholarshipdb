@@ -38,6 +38,33 @@
             margin-bottom: 8px;
         }
 
+        .date-selector {
+            margin-top: 12px;
+            margin-bottom: 8px;
+        }
+
+        .date-selector select {
+            padding: 8px 16px;
+            border: 2px solid white;
+            border-radius: 20px;
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            font-size: 14px;
+            cursor: pointer;
+            outline: none;
+            -webkit-appearance: none;
+            appearance: none;
+            background-image: url('data:image/svg+xml;utf8,<svg fill="white" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
+            background-repeat: no-repeat;
+            background-position: right 8px center;
+            padding-right: 32px;
+        }
+
+        .date-selector select option {
+            background: #667eea;
+            color: white;
+        }
+
         .stats {
             display: flex;
             justify-content: center;
@@ -200,6 +227,11 @@
     <div class="container">
         <header>
             <h1>📚 PhD 奖学金日报</h1>
+            <div class="date-selector">
+                <select id="report-date" onchange="loadReport(this.value)">
+                    <option value="latest">最新日报</option>
+                </select>
+            </div>
             <div class="stats">
                 <div class="stat-item">
                     <span>📅</span>
@@ -222,20 +254,59 @@
     </div>
 
     <script>
-        // Fetch and parse latest report
-        fetch('./reports/latest.md')
-            .then(response => response.text())
-            .then(markdown => {
-                parseAndRender(markdown);
-            })
-            .catch(error => {
-                document.getElementById('content').innerHTML = `
-                    <div class="empty">
-                        <div class="empty-icon">😔</div>
-                        <div>暂无日报数据</div>
-                    </div>
-                `;
-            });
+        // Load historical reports list
+        async function loadHistoricalReports() {
+            try {
+                const response = await fetch('./reports/');
+                const text = await response.text();
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(text, 'text/html');
+                const links = Array.from(doc.querySelectorAll('a'))
+                    .map(a => a.getAttribute('href'))
+                    .filter(href => href && href.startsWith('daily_report_') && href.endsWith('.md'))
+                    .map(href => {
+                        const match = href.match(/daily_report_(\d{4}-\d{2}-\d{2})\.md/);
+                        return match ? match[1] : null;
+                    })
+                    .filter(date => date)
+                    .sort()
+                    .reverse();
+
+                const select = document.getElementById('report-date');
+                links.forEach(date => {
+                    const option = document.createElement('option');
+                    option.value = `daily_report_${date}`;
+                    option.textContent = date;
+                    select.appendChild(option);
+                });
+            } catch (error) {
+                console.log('Could not load historical reports list');
+            }
+        }
+
+        // Load a specific report
+        function loadReport(filename) {
+            const content = document.getElementById('content');
+            content.innerHTML = '<div class="loading">正在加载日报...</div>';
+
+            fetch(`./reports/${filename}.md`)
+                .then(response => response.text())
+                .then(markdown => {
+                    parseAndRender(markdown);
+                })
+                .catch(error => {
+                    content.innerHTML = `
+                        <div class="empty">
+                            <div class="empty-icon">😔</div>
+                            <div>无法加载该日报</div>
+                        </div>
+                    `;
+                });
+        }
+
+        // Initial load
+        loadHistoricalReports();
+        loadReport('latest');
 
         function parseAndRender(markdown) {
             const lines = markdown.split('\n');
@@ -351,14 +422,18 @@
                     const itemDiv = document.createElement('div');
                     itemDiv.className = 'scholarship-item';
 
+                    // 优先显示中文标题，如果有的话
+                    const displayTitle = item.titleZh || item.title;
+                    const needsEnglish = item.titleZh && item.titleZh !== item.title;
+
                     let html = `
                         <div class="scholarship-title">
-                            ${idx + 1}. <a href="${item.url}" target="_blank">${item.title}</a>
+                            ${idx + 1}. <a href="${item.url}" target="_blank">${displayTitle}</a>
                         </div>
                     `;
 
-                    if (item.titleZh) {
-                        html += `<div class="scholarship-meta"><span class="meta-label">中文：</span>${item.titleZh}</div>`;
+                    if (needsEnglish) {
+                        html += `<div class="scholarship-meta"><span class="meta-label">英文：</span>${item.title}</div>`;
                     }
 
                     if (item.info) {

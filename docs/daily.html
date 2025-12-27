@@ -367,16 +367,37 @@
                             info: ''
                         };
 
-                        // Look for Chinese title
-                        if (i + 1 < lines.length && lines[i + 1].includes('中文：')) {
-                            item.titleZh = lines[i + 1].replace(/.*中文：/, '').trim();
-                            i++;
-                        }
+                        // Look ahead for Chinese title and info (skip blank lines)
+                        let j = i + 1;
+                        while (j < lines.length && j < i + 10) {
+                            const nextLine = lines[j].trim();
 
-                        // Look for info (university, country)
-                        if (i + 1 < lines.length && lines[i + 1].includes('- ')) {
-                            item.info = lines[i + 1].replace(/.*- /, '').trim();
-                            i++;
+                            // Skip blank lines
+                            if (!nextLine) {
+                                j++;
+                                continue;
+                            }
+
+                            // Found Chinese title
+                            if (nextLine.includes('中文：')) {
+                                item.titleZh = nextLine.replace(/.*中文：/, '').trim();
+                                j++;
+                                continue;
+                            }
+
+                            // Found info line (university, country)
+                            if (nextLine.startsWith('-') && !nextLine.includes('中文：')) {
+                                item.info = nextLine.replace(/^-\s*/, '').trim();
+                                j++;
+                                continue;
+                            }
+
+                            // Stop if we hit another scholarship or section
+                            if (nextLine.match(/^\d+\.\s\*\*\[/) || nextLine.startsWith('#')) {
+                                break;
+                            }
+
+                            j++;
                         }
 
                         currentCategory.items.push(item);

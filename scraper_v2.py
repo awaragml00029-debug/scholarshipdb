@@ -218,38 +218,62 @@ class ScholarshipScraperV2:
             List of scholarship dictionaries
         """
         scholarships = []
+        seen_urls = set()  # Track URLs to detect duplicate pages
 
-        success = await self.navigate_with_retry(url)
-        if not success:
-            logger.error(f"Failed to load {url}")
-            return scholarships
+        for page_number in range(1, max_pages + 1):
+            # Construct page URL
+            if page_number == 1:
+                page_url = url
+            else:
+                # Add page parameter to URL
+                separator = '&' if '?' in url else '?'
+                page_url = f"{url}{separator}page={page_number}"
 
-        page_number = 1
+            logger.info(f"Scraping page {page_number}: {page_url}")
 
-        while page_number <= max_pages:
-            logger.info(f"Scraping page {page_number}...")
+            # Navigate to page
+            success = await self.navigate_with_retry(page_url)
+            if not success:
+                logger.error(f"Failed to load {page_url}")
+                break
 
+            # Get page content
             content = await self.page.content()
             soup = BeautifulSoup(content, 'lxml')
 
+            # Parse scholarships from page
             page_scholarships = self.parse_scholarships(soup)
 
             if not page_scholarships:
-                logger.info("No scholarships found, stopping")
+                logger.info("No scholarships found on this page, stopping")
                 break
 
-            scholarships.extend(page_scholarships)
-            logger.info(f"Found {len(page_scholarships)} scholarships on page {page_number}")
-
-            # Try to go to next page
-            has_next = await self.go_to_next_page()
-            if not has_next:
-                logger.info("No next page, stopping")
+            # Check if we've seen these scholarships before (duplicate page detection)
+            page_urls = {s.get('url') for s in page_scholarships}
+            if page_urls.issubset(seen_urls):
+                logger.info(f"Page {page_number} contains only duplicate scholarships, stopping")
                 break
 
-            page_number += 1
-            await asyncio.sleep(5)  # Delay between pages - increased to avoid rate limiting
+            # Add new scholarships
+            new_count = 0
+            for sch in page_scholarships:
+                if sch.get('url') not in seen_urls:
+                    scholarships.append(sch)
+                    seen_urls.add(sch.get('url'))
+                    new_count += 1
 
+            logger.info(f"Found {len(page_scholarships)} scholarships on page {page_number} ({new_count} new)")
+
+            # If no new scholarships, stop
+            if new_count == 0:
+                logger.info("No new scholarships on this page, stopping")
+                break
+
+            # Delay between pages
+            if page_number < max_pages:
+                await asyncio.sleep(5)
+
+        logger.info(f"Total unique scholarships scraped: {len(scholarships)}")
         return scholarships
 
     def parse_scholarships(self, soup: BeautifulSoup) -> List[Dict]:

@@ -596,6 +596,10 @@
                     const arrow = header.querySelector('.arrow');
                     const isActive = contentDiv.classList.contains('active');
 
+                    // Save header position before changes
+                    const headerRect = header.getBoundingClientRect();
+                    const headerTop = headerRect.top;
+
                     // Close others
                     document.querySelectorAll('.category-content.active').forEach(other => {
                         if (other !== contentDiv) {
@@ -611,6 +615,18 @@
                     } else {
                         contentDiv.classList.add('active');
                         arrow.classList.add('rotated');
+
+                        // Adjust scroll to keep header in same position
+                        requestAnimationFrame(() => {
+                            const newHeaderRect = header.getBoundingClientRect();
+                            const scrollAdjustment = newHeaderRect.top - headerTop;
+                            if (Math.abs(scrollAdjustment) > 1) {
+                                window.scrollBy({
+                                    top: scrollAdjustment,
+                                    behavior: 'auto'
+                                });
+                            }
+                        });
                     }
                 });
             });

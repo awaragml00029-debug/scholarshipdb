@@ -41,25 +41,44 @@
             transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
-        /* Compact header when scrolled */
+        /* Compact header when scrolled - horizontal layout */
         header.scrolled {
-            padding: 12px 20px;
+            padding: 10px 20px;
             box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-            overflow: hidden;
+        }
+
+        header.scrolled .header-main {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
         }
 
         header.scrolled h1 {
-            font-size: 18px;
+            font-size: 16px;
             margin-bottom: 0;
+            flex-shrink: 0;
         }
 
-        header.scrolled .date-selector,
+        header.scrolled .date-selector {
+            margin: 0;
+            flex-shrink: 1;
+        }
+
+        header.scrolled .date-selector select {
+            padding: 6px 32px 6px 12px;
+            font-size: 13px;
+            border-radius: 8px;
+            background-position: right 8px center;
+        }
+
         header.scrolled .stats {
-            opacity: 0;
-            margin-top: 0;
-            margin-bottom: 0;
-            transform: translateY(-10px);
-            pointer-events: none;
+            display: none;
+        }
+
+        .header-main {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
         h1 {
@@ -320,11 +339,16 @@
             }
 
             header.scrolled {
-                padding: 10px 16px;
+                padding: 8px 16px;
             }
 
             header.scrolled h1 {
-                font-size: 16px;
+                font-size: 14px;
+            }
+
+            header.scrolled .date-selector select {
+                padding: 5px 28px 5px 10px;
+                font-size: 12px;
             }
 
             .stats {
@@ -385,11 +409,13 @@
 <body>
     <div class="container">
         <header>
-            <h1>📚 PhD 奖学金日报</h1>
-            <div class="date-selector">
-                <select id="report-date" onchange="loadReport(this.value)">
-                    <option value="latest">最新日报</option>
-                </select>
+            <div class="header-main">
+                <h1>📚 PhD 奖学金日报</h1>
+                <div class="date-selector">
+                    <select id="report-date" onchange="loadReport(this.value)">
+                        <option value="latest">最新日报</option>
+                    </select>
+                </div>
             </div>
             <div class="stats">
                 <div class="stat-item">

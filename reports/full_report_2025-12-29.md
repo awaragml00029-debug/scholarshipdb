@@ -383,11 +383,15 @@
 
 47. **[University Professor of Bioinformatics (m/f/d)](https://scholarshipdb.net/jobs-in-Austria/University-Professor-Of-Bioinformatics-M-F-D-Nature-Careers=Rs187-vb8BG_5wzEeuBOuw.html)**
 
+   - 中文：生物信息学大学教授（男/女/女）
+
    - Nature Careers, Austria
 
 
 
 48. **[University Professor of Science, Technology and Society in Computer Science (m/f/d)](https://scholarshipdb.net/jobs-in-Austria/University-Professor-Of-Science-Technology-And-Society-In-Computer-Science-M-F-D-Nature-Careers=Uc187-vb8BG_5wzEeuBOuw.html)**
+
+   - 中文：计算机科学科学、技术与社会大学教授（男/女/女）
 
    - Nature Careers, Austria
 
@@ -414,63 +418,7 @@
 <summary>点击展开查看所有条目</summary>
 
 
-1. **[Full-time academic position - Faculty of Sciences - Field: Mathematical analysis](https://scholarshipdb.net/jobs-in-Belgium/Full-Time-Academic-Position-Faculty-Of-Sciences-Field-Mathematical-Analysis-University-Of-Li-ge-U-Li-ge=bZobRgHi8BG_5wzEeuBOuw.html)**
-
-   - 中文：全职学术职位 - 理学院 - 领域：数学分析
-
-   - Belgium
-
-
-
-2. **[Full-time academic position - Faculty of Sciences - Field: Planning systems and socio-Environmental transitions](https://scholarshipdb.net/jobs-in-Belgium/Full-Time-Academic-Position-Faculty-Of-Sciences-Field-Planning-Systems-And-Socio-Environmental-Transitions-University-Of-Li-ge-U-Li-ge=hz-OWgHi8BG_5wzEeuBOuw.html)**
-
-   - 中文：全职学术职位 - 科学学院 - 领域：规划系统和社会环境转型
-
-   - Belgium
-
-
-
-3. **[Full-time academic position - Faculty of Sciences - Field: Didactics of Mathematics](https://scholarshipdb.net/jobs-in-Belgium/Full-Time-Academic-Position-Faculty-Of-Sciences-Field-Didactics-Of-Mathematics-University-Of-Li-ge-U-Li-ge=kj-OWgHi8BG_5wzEeuBOuw.html)**
-
-   - 中文：全职学术职位 - 理学院 - 领域：数学教学法
-
-   - Belgium
-
-
-
-4. **[Full-time academic position - Faculty of Sciences - Field: Didactics of the Geographical Sciences](https://scholarshipdb.net/jobs-in-Belgium/Full-Time-Academic-Position-Faculty-Of-Sciences-Field-Didactics-Of-The-Geographical-Sciences-University-Of-Li-ge-U-Li-ge=mcJQbQHi8BG_5wzEeuBOuw.html)**
-
-   - 中文：全职学术职位 - 科学学院 - 领域：地理科学教学法
-
-   - Belgium
-
-
-
-5. **[Full-time academic position - School of Engineering and Computer Science - Field: Separation and purification process engineering](https://scholarshipdb.net/jobs-in-Belgium/Full-Time-Academic-Position-School-Of-Engineering-And-Computer-Science-Field-Separation-And-Purification-Process-Engineering-University-Of-Li-ge-U-Li-ge=oMJQbQHi8BG_5wzEeuBOuw.html)**
-
-   - 中文：全职学术职位 - 工程与计算机科学学院 - 领域：分离纯化过程工程
-
-   - Belgium
-
-
-
-6. **[Full-time academic position - School of Engineering and Computer Science - Field: Resilience in civil engineering](https://scholarshipdb.net/jobs-in-Belgium/Full-Time-Academic-Position-School-Of-Engineering-And-Computer-Science-Field-Resilience-In-Civil-Engineering-University-Of-Li-ge-U-Li-ge=qJeZfQHi8BG_5wzEeuBOuw.html)**
-
-   - 中文：全职学术职位 - 工程与计算机科学学院 - 领域：土木工程弹性
-
-   - Belgium
-
-
-
-7. **[Full-time academic position - Faculty of Sciences - Field: Theoretical chemistry](https://scholarshipdb.net/jobs-in-Belgium/Full-Time-Academic-Position-Faculty-Of-Sciences-Field-Theoretical-Chemistry-University-Of-Li-ge-U-Li-ge=-c213ivk8BG_5wzEeuBOuw.html)**
-
-   - 中文：全职学术职位 - 理学院 - 领域：理论化学
-
-   - Belgium
-
-
-
-8. **[Device and Technology Optimization Researcher](https://scholarshipdb.net/jobs-in-Belgium/Device-And-Technology-Optimization-Researcher-Imec=HbF6DKHg8BG_5wzEeuBOuw.html)**
+1. **[Device and Technology Optimization Researcher](https://scholarshipdb.net/jobs-in-Belgium/Device-And-Technology-Optimization-Researcher-Imec=HbF6DKHg8BG_5wzEeuBOuw.html)**
 
    - 中文：器件与技术优化研究员
 
@@ -478,7 +426,7 @@
 
 
 
-9. **[Tenure-track professor in Applied Linguistics with a focus on Intercultural Communication (Faculty of Arts, KU Leuven Brussels)](https://scholarshipdb.net/jobs-in-Belgium/Tenure-Track-Professor-In-Applied-Linguistics-With-A-Focus-On-Intercultural-Communication-Faculty-Of-Arts-Ku-Leuven-Brussels-Ku-Leuven=LJZThKLg8BG_5wzEeuBOuw.html)**
+2. **[Tenure-track professor in Applied Linguistics with a focus on Intercultural Communication (Faculty of Arts, KU Leuven Brussels)](https://scholarshipdb.net/jobs-in-Belgium/Tenure-Track-Professor-In-Applied-Linguistics-With-A-Focus-On-Intercultural-Communication-Faculty-Of-Arts-Ku-Leuven-Brussels-Ku-Leuven=LJZThKLg8BG_5wzEeuBOuw.html)**
 
    - 中文：应用语言学终身教授，专注于跨文化交流（布鲁塞尔鲁汶大学文学院）
 
@@ -486,7 +434,7 @@
 
 
 
-10. **[Tenure-track assistant professor in French linguistics (Faculty of Arts, KU Leuven)](https://scholarshipdb.net/jobs-in-Belgium/Tenure-Track-Assistant-Professor-In-French-Linguistics-Faculty-Of-Arts-Ku-Leuven-Ku-Leuven=N5ZThKLg8BG_5wzEeuBOuw.html)**
+3. **[Tenure-track assistant professor in French linguistics (Faculty of Arts, KU Leuven)](https://scholarshipdb.net/jobs-in-Belgium/Tenure-Track-Assistant-Professor-In-French-Linguistics-Faculty-Of-Arts-Ku-Leuven-Ku-Leuven=N5ZThKLg8BG_5wzEeuBOuw.html)**
 
    - 中文：法语语言学终身教授助理教授（鲁汶大学文学院）
 
@@ -494,7 +442,7 @@
 
 
 
-11. **[Postdoctoral position to provide scientific and educational support within the domain of human movement biomechanics.](https://scholarshipdb.net/jobs-in-Belgium/Postdoctoral-Position-To-Provide-Scientific-And-Educational-Support-Within-The-Domain-Of-Human-Movement-Biomechanics-Ku-Leuven=yDiglaLg8BG_5wzEeuBOuw.html)**
+4. **[Postdoctoral position to provide scientific and educational support within the domain of human movement biomechanics.](https://scholarshipdb.net/jobs-in-Belgium/Postdoctoral-Position-To-Provide-Scientific-And-Educational-Support-Within-The-Domain-Of-Human-Movement-Biomechanics-Ku-Leuven=yDiglaLg8BG_5wzEeuBOuw.html)**
 
    - 中文：博士后职位在人体运动生物力学领域提供科学和教育支持。
 
@@ -502,7 +450,7 @@
 
 
 
-12. **[Two AI postdoc or machine learning engineer positions for oncology research](https://scholarshipdb.net/jobs-in-Belgium/Two-Ai-Postdoc-Or-Machine-Learning-Engineer-Positions-For-Oncology-Research-Ku-Leuven=_G2OqqLg8BG_5wzEeuBOuw.html)**
+5. **[Two AI postdoc or machine learning engineer positions for oncology research](https://scholarshipdb.net/jobs-in-Belgium/Two-Ai-Postdoc-Or-Machine-Learning-Engineer-Positions-For-Oncology-Research-Ku-Leuven=_G2OqqLg8BG_5wzEeuBOuw.html)**
 
    - 中文：两个用于肿瘤学研究的人工智能博士后或机器学习工程师职位
 
@@ -510,7 +458,7 @@
 
 
 
-13. **[PhD on induction of unreduced gametes in banana (Musa spp.) to facilitate triploid breeding](https://scholarshipdb.net/scholarships-in-Belgium/Ph-D-On-Induction-Of-Unreduced-Gametes-In-Banana-Musa-Spp-To-Facilitate-Triploid-Breeding-Ku-Leuven=BW6OqqLg8BG_5wzEeuBOuw.html)**
+6. **[PhD on induction of unreduced gametes in banana (Musa spp.) to facilitate triploid breeding](https://scholarshipdb.net/scholarships-in-Belgium/Ph-D-On-Induction-Of-Unreduced-Gametes-In-Banana-Musa-Spp-To-Facilitate-Triploid-Breeding-Ku-Leuven=BW6OqqLg8BG_5wzEeuBOuw.html)**
 
    - 中文：诱导香蕉（Musa spp.）未减数配子以促进三倍体育种的博士学位
 
@@ -518,11 +466,67 @@
 
 
 
-14. **[Uncertainty-Aware Machine Learning for Risk Mitigation in Safety-Critical Systems](https://scholarshipdb.net/jobs-in-Belgium/Uncertainty-Aware-Machine-Learning-For-Risk-Mitigation-In-Safety-Critical-Systems-Ku-Leuven=LFr_uaLg8BG_5wzEeuBOuw.html)**
+7. **[Uncertainty-Aware Machine Learning for Risk Mitigation in Safety-Critical Systems](https://scholarshipdb.net/jobs-in-Belgium/Uncertainty-Aware-Machine-Learning-For-Risk-Mitigation-In-Safety-Critical-Systems-Ku-Leuven=LFr_uaLg8BG_5wzEeuBOuw.html)**
 
    - 中文：用于降低安全关键系统风险的不确定性感知机器学习
 
    - KU LEUVEN, Belgium
+
+
+
+8. **[Full-time academic position - Faculty of Sciences - Field: Mathematical analysis](https://scholarshipdb.net/jobs-in-Belgium/Full-Time-Academic-Position-Faculty-Of-Sciences-Field-Mathematical-Analysis-University-Of-Li-ge-U-Li-ge=bZobRgHi8BG_5wzEeuBOuw.html)**
+
+   - 中文：全职学术职位 - 理学院 - 领域：数学分析
+
+   - Belgium
+
+
+
+9. **[Full-time academic position - Faculty of Sciences - Field: Planning systems and socio-Environmental transitions](https://scholarshipdb.net/jobs-in-Belgium/Full-Time-Academic-Position-Faculty-Of-Sciences-Field-Planning-Systems-And-Socio-Environmental-Transitions-University-Of-Li-ge-U-Li-ge=hz-OWgHi8BG_5wzEeuBOuw.html)**
+
+   - 中文：全职学术职位 - 科学学院 - 领域：规划系统和社会环境转型
+
+   - Belgium
+
+
+
+10. **[Full-time academic position - Faculty of Sciences - Field: Didactics of Mathematics](https://scholarshipdb.net/jobs-in-Belgium/Full-Time-Academic-Position-Faculty-Of-Sciences-Field-Didactics-Of-Mathematics-University-Of-Li-ge-U-Li-ge=kj-OWgHi8BG_5wzEeuBOuw.html)**
+
+   - 中文：全职学术职位 - 理学院 - 领域：数学教学法
+
+   - Belgium
+
+
+
+11. **[Full-time academic position - Faculty of Sciences - Field: Didactics of the Geographical Sciences](https://scholarshipdb.net/jobs-in-Belgium/Full-Time-Academic-Position-Faculty-Of-Sciences-Field-Didactics-Of-The-Geographical-Sciences-University-Of-Li-ge-U-Li-ge=mcJQbQHi8BG_5wzEeuBOuw.html)**
+
+   - 中文：全职学术职位 - 科学学院 - 领域：地理科学教学法
+
+   - Belgium
+
+
+
+12. **[Full-time academic position - School of Engineering and Computer Science - Field: Separation and purification process engineering](https://scholarshipdb.net/jobs-in-Belgium/Full-Time-Academic-Position-School-Of-Engineering-And-Computer-Science-Field-Separation-And-Purification-Process-Engineering-University-Of-Li-ge-U-Li-ge=oMJQbQHi8BG_5wzEeuBOuw.html)**
+
+   - 中文：全职学术职位 - 工程与计算机科学学院 - 领域：分离纯化过程工程
+
+   - Belgium
+
+
+
+13. **[Full-time academic position - School of Engineering and Computer Science - Field: Resilience in civil engineering](https://scholarshipdb.net/jobs-in-Belgium/Full-Time-Academic-Position-School-Of-Engineering-And-Computer-Science-Field-Resilience-In-Civil-Engineering-University-Of-Li-ge-U-Li-ge=qJeZfQHi8BG_5wzEeuBOuw.html)**
+
+   - 中文：全职学术职位 - 工程与计算机科学学院 - 领域：土木工程弹性
+
+   - Belgium
+
+
+
+14. **[Full-time academic position - Faculty of Sciences - Field: Theoretical chemistry](https://scholarshipdb.net/jobs-in-Belgium/Full-Time-Academic-Position-Faculty-Of-Sciences-Field-Theoretical-Chemistry-University-Of-Li-ge-U-Li-ge=-c213ivk8BG_5wzEeuBOuw.html)**
+
+   - 中文：全职学术职位 - 理学院 - 领域：理论化学
+
+   - Belgium
 
 
 
@@ -813,87 +817,15 @@
 <summary>点击展开查看所有条目</summary>
 
 
-1. **[Undergraduate Student Assistant-Biology](https://scholarshipdb.net/jobs-in-United-States/Undergraduate-Student-Assistant-Biology-Columbus-State-University=OReEt0nc8BG_5wzEeuBOuw.html)**
+1. **[BiologyTeaching Lab Coordinator](https://scholarshipdb.net/jobs-in-United-States/Biology-Teaching-Lab-Coordinator-University-Of-Oregon=r1L55tLi8BG_5wzEeuBOuw.html)**
 
-   - 中文：本科生助理-生物学
+   - 中文：生物学教学实验室协调员
 
-   - Columbus State University, United States
-
-
-
-2. **[Associate Lecturer inBiology](https://scholarshipdb.net/jobs-in-United-Kingdom/Associate-Lecturer-In-Biology-University-Of-Worcester=0_PdK1bV8BG_5gzEeuBOuw.html)**
-
-   - 中文：生物学副讲师
-
-   - University of Worcester, United Kingdom
+   - University of Oregon, United States
 
 
 
-3. **[PDRA ChemicalBiology/ Biocatalysis](https://scholarshipdb.net/jobs-in-United-Kingdom/Pdra-Chemical-Biology-Biocatalysis-Durham-University=dlNMuGvj8BG_5wzEeuBOuw.html)**
-
-   - 中文：PDRA 化学生物学/生物催化
-
-   - United Kingdom
-
-
-
-4. **[Research Associate (SyntheticBiology)](https://scholarshipdb.net/jobs-in-Singapore/Research-Associate-Synthetic-Biology-Nanyang-Technological-University=y--pyeLb8BG_5wzEeuBOuw.html)**
-
-   - 中文：助理研究员（合成生物学）
-
-   - Nanyang Technological University, Singapore
-
-
-
-5. **[Lecturer -Biology](https://scholarshipdb.net/jobs-in-United-States/Lecturer-Biology-University-Of-North-Carolina-Wilmington=GzXnwtrK8BG_5gzEeuBOuw.html)**
-
-   - 中文：讲师-生物学
-
-   - University of North Carolina Wilmington, United States
-
-
-
-6. **[Faculty Instructor (Biology) NLC - req13358](https://scholarshipdb.net/jobs-in-United-States/Faculty-Instructor-Biology-Nlc-Req13358-Alamo-Colleges=PedXwJLc8BG_5wzEeuBOuw.html)**
-
-   - 中文：教师讲师（生物学）NLC - req13358
-
-   - Alamo Colleges, United States
-
-
-
-7. **[Instructor/Assistant Professor ofBiology](https://scholarshipdb.net/jobs-in-United-States/Instructor-Assistant-Professor-Of-Biology-University-Of-Alaska=qVfmEdTc8BG_5wzEeuBOuw.html)**
-
-   - 中文：生物学讲师/助理教授
-
-   - University of Alaska, United States
-
-
-
-8. **[Research Technician II - MolecularBiology](https://scholarshipdb.net/jobs-in-United-States/Research-Technician-Ii-Molecular-Biology-Baylor-College-Of-Medicine=GQ0EecXh8BG_5wzEeuBOuw.html)**
-
-   - 中文：二级研究技术员 - 分子生物学
-
-   - Baylor College of Medicine, United States
-
-
-
-9. **[Postdoctoral Scholar - Computational-Biology](https://scholarshipdb.net/jobs-in-United-States/Postdoctoral-Scholar-Computational-Biology-Pennsylvania-State-University=btZxoRLX8BG_5wzEeuBOuw.html)**
-
-   - 中文：博士后学者 - 计算生物学
-
-   - Pennsylvania State University, United States
-
-
-
-10. **[Adjunct Faculty-Biology](https://scholarshipdb.net/jobs-in-United-States/Adjunct-Faculty-Biology-University-Of-Arkansas-Fort-Smith=rYcV7-nc8BG_5wzEeuBOuw.html)**
-
-   - 中文：兼职教师-生物学
-
-   - University of Arkansas - Fort Smith, United States
-
-
-
-11. **[Postdoctoral Fellowship in AI forBiology](https://scholarshipdb.net/jobs-in-Canada/Postdoctoral-Fellowship-In-Ai-For-Biology-University-Of-British-Columbia=KYW1EL-i8BG_5wzEeuBOuw.html)**
+2. **[Postdoctoral Fellowship in AI forBiology](https://scholarshipdb.net/jobs-in-Canada/Postdoctoral-Fellowship-In-Ai-For-Biology-University-Of-British-Columbia=KYW1EL-i8BG_5wzEeuBOuw.html)**
 
    - 中文：生物学人工智能博士后奖学金
 
@@ -901,23 +833,7 @@
 
 
 
-12. **[ComputationalBiology/Neuroscientist](https://scholarshipdb.net/jobs-in-United-States/Computational-Biology-Neuroscientist-University-Of-Colorado=V2cr7Z-g8BG_5wzEeuBOuw.html)**
-
-   - 中文：计算生物学/神经科学
-
-   - University of Colorado, United States
-
-
-
-13. **[Research Assistant in FreshwaterBiology](https://scholarshipdb.net/jobs-in-United-Kingdom/Research-Assistant-In-Freshwater-Biology-University-Of-Oxford=ajuD-aXf8BG_5wzEeuBOuw.html)**
-
-   - 中文：淡水生物学研究助理
-
-   - University of Oxford, United Kingdom
-
-
-
-14. **[Temporary Full-time Faculty,Biology](https://scholarshipdb.net/jobs-in-United-States/Temporary-Full-Time-Faculty-Biology-Dallas-County-Community-College-District=lwR69-Pb8BG_5wzEeuBOuw.html)**
+3. **[Temporary Full-time Faculty,Biology](https://scholarshipdb.net/jobs-in-United-States/Temporary-Full-Time-Faculty-Biology-Dallas-County-Community-College-District=lwR69-Pb8BG_5wzEeuBOuw.html)**
 
    - 中文：临时全职教师，生物学
 
@@ -925,7 +841,103 @@
 
 
 
-15. **[BiologyLab Assistant (Hourly)](https://scholarshipdb.net/jobs-in-United-States/Biology-Lab-Assistant-Hourly-Austin-Community-College-District=gLF0VwLa8BG_5wzEeuBOuw.html)**
+4. **[Undergraduate Student Assistant-Biology](https://scholarshipdb.net/jobs-in-United-States/Undergraduate-Student-Assistant-Biology-Columbus-State-University=OReEt0nc8BG_5wzEeuBOuw.html)**
+
+   - 中文：本科生助理-生物学
+
+   - Columbus State University, United States
+
+
+
+5. **[Associate Lecturer inBiology](https://scholarshipdb.net/jobs-in-United-Kingdom/Associate-Lecturer-In-Biology-University-Of-Worcester=0_PdK1bV8BG_5gzEeuBOuw.html)**
+
+   - 中文：生物学副讲师
+
+   - University of Worcester, United Kingdom
+
+
+
+6. **[PDRA ChemicalBiology/ Biocatalysis](https://scholarshipdb.net/jobs-in-United-Kingdom/Pdra-Chemical-Biology-Biocatalysis-Durham-University=dlNMuGvj8BG_5wzEeuBOuw.html)**
+
+   - 中文：PDRA 化学生物学/生物催化
+
+   - United Kingdom
+
+
+
+7. **[Research Associate (SyntheticBiology)](https://scholarshipdb.net/jobs-in-Singapore/Research-Associate-Synthetic-Biology-Nanyang-Technological-University=y--pyeLb8BG_5wzEeuBOuw.html)**
+
+   - 中文：助理研究员（合成生物学）
+
+   - Nanyang Technological University, Singapore
+
+
+
+8. **[Lecturer -Biology](https://scholarshipdb.net/jobs-in-United-States/Lecturer-Biology-University-Of-North-Carolina-Wilmington=GzXnwtrK8BG_5gzEeuBOuw.html)**
+
+   - 中文：讲师-生物学
+
+   - University of North Carolina Wilmington, United States
+
+
+
+9. **[Faculty Instructor (Biology) NLC - req13358](https://scholarshipdb.net/jobs-in-United-States/Faculty-Instructor-Biology-Nlc-Req13358-Alamo-Colleges=PedXwJLc8BG_5wzEeuBOuw.html)**
+
+   - 中文：教师讲师（生物学）NLC - req13358
+
+   - Alamo Colleges, United States
+
+
+
+10. **[Research Technician II - MolecularBiology](https://scholarshipdb.net/jobs-in-United-States/Research-Technician-Ii-Molecular-Biology-Baylor-College-Of-Medicine=GQ0EecXh8BG_5wzEeuBOuw.html)**
+
+   - 中文：二级研究技术员 - 分子生物学
+
+   - Baylor College of Medicine, United States
+
+
+
+11. **[Postdoctoral Scholar - Computational-Biology](https://scholarshipdb.net/jobs-in-United-States/Postdoctoral-Scholar-Computational-Biology-Pennsylvania-State-University=btZxoRLX8BG_5wzEeuBOuw.html)**
+
+   - 中文：博士后学者 - 计算生物学
+
+   - Pennsylvania State University, United States
+
+
+
+12. **[Instructor/Assistant Professor ofBiology](https://scholarshipdb.net/jobs-in-United-States/Instructor-Assistant-Professor-Of-Biology-University-Of-Alaska=qVfmEdTc8BG_5wzEeuBOuw.html)**
+
+   - 中文：生物学讲师/助理教授
+
+   - University of Alaska, United States
+
+
+
+13. **[Adjunct Faculty-Biology](https://scholarshipdb.net/jobs-in-United-States/Adjunct-Faculty-Biology-University-Of-Arkansas-Fort-Smith=rYcV7-nc8BG_5wzEeuBOuw.html)**
+
+   - 中文：兼职教师-生物学
+
+   - University of Arkansas - Fort Smith, United States
+
+
+
+14. **[Research Assistant in FreshwaterBiology](https://scholarshipdb.net/jobs-in-United-Kingdom/Research-Assistant-In-Freshwater-Biology-University-Of-Oxford=ajuD-aXf8BG_5wzEeuBOuw.html)**
+
+   - 中文：淡水生物学研究助理
+
+   - University of Oxford, United Kingdom
+
+
+
+15. **[ComputationalBiology/Neuroscientist](https://scholarshipdb.net/jobs-in-United-States/Computational-Biology-Neuroscientist-University-Of-Colorado=V2cr7Z-g8BG_5wzEeuBOuw.html)**
+
+   - 中文：计算生物学/神经科学
+
+   - University of Colorado, United States
+
+
+
+16. **[BiologyLab Assistant (Hourly)](https://scholarshipdb.net/jobs-in-United-States/Biology-Lab-Assistant-Hourly-Austin-Community-College-District=gLF0VwLa8BG_5wzEeuBOuw.html)**
 
    - 中文：生物实验室助理（每小时）
 
@@ -933,7 +945,7 @@
 
 
 
-16. **[Research Associate II - Molecular and CellularBiology](https://scholarshipdb.net/jobs-in-United-States/Research-Associate-Ii-Molecular-And-Cellular-Biology-City-Of-Hope=G9bBzhTj8BG_5wzEeuBOuw.html)**
+17. **[Research Associate II - Molecular and CellularBiology](https://scholarshipdb.net/jobs-in-United-States/Research-Associate-Ii-Molecular-And-Cellular-Biology-City-Of-Hope=G9bBzhTj8BG_5wzEeuBOuw.html)**
 
    - 中文：二级研究员 - 分子和细胞生物学
 
@@ -941,7 +953,7 @@
 
 
 
-17. **[Laboratory Assistant (Receiving) -Biology](https://scholarshipdb.net/jobs-in-United-States/Laboratory-Assistant-Receiving-Biology-New-York-University=jk01N9Xj8BG_5wzEeuBOuw.html)**
+18. **[Laboratory Assistant (Receiving) -Biology](https://scholarshipdb.net/jobs-in-United-States/Laboratory-Assistant-Receiving-Biology-New-York-University=jk01N9Xj8BG_5wzEeuBOuw.html)**
 
    - 中文：实验室助理（接收）-生物学
 
@@ -949,7 +961,7 @@
 
 
 
-18. **[PhD inBiology](https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-In-Biology-Swedish-University-Of-Agricultural-Sciences=fUOYCFzd8BG_5wzEeuBOuw.html)**
+19. **[PhD inBiology](https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-In-Biology-Swedish-University-Of-Agricultural-Sciences=fUOYCFzd8BG_5wzEeuBOuw.html)**
 
    - 中文：生物学博士
 
@@ -957,19 +969,11 @@
 
 
 
-19. **[Lab Technician -Biology/Environmental Studies](https://scholarshipdb.net/jobs-in-United-States/Lab-Technician-Biology-Environmental-Studies-Bowdoin-College=RXDMZG-V8BG_5gzEeuBOuw.html)**
+20. **[Lab Technician -Biology/Environmental Studies](https://scholarshipdb.net/jobs-in-United-States/Lab-Technician-Biology-Environmental-Studies-Bowdoin-College=RXDMZG-V8BG_5gzEeuBOuw.html)**
 
    - 中文：实验室技术员 - 生物学/环境研究
 
    - Bowdoin College, United States
-
-
-
-20. **[Adjunct Instructor -Biology](https://scholarshipdb.net/jobs-in-United-States/Adjunct-Instructor-Biology-Jackson-State-Community-College=xTh1YbHj8BG_5wzEeuBOuw.html)**
-
-   - 中文：兼职讲师 - 生物学
-
-   - Jackson State Community College, United States
 
 
 
@@ -981,15 +985,7 @@
 
 
 
-22. **[BiologyTeaching Lab Coordinator](https://scholarshipdb.net/jobs-in-United-States/Biology-Teaching-Lab-Coordinator-University-Of-Oregon=r1L55tLi8BG_5wzEeuBOuw.html)**
-
-   - 中文：生物学教学实验室协调员
-
-   - University of Oregon, United States
-
-
-
-23. **[16900000 - LS-BIOLOGY](https://scholarshipdb.net/jobs-in-United-States/16900000-Ls-Biology-University-Of-Florida=CZ35-ovQ8BG_5gzEeuBOuw.html)**
+22. **[16900000 - LS-BIOLOGY](https://scholarshipdb.net/jobs-in-United-States/16900000-Ls-Biology-University-Of-Florida=CZ35-ovQ8BG_5gzEeuBOuw.html)**
 
    - 中文：16900000 - LS-生物学
 
@@ -997,11 +993,19 @@
 
 
 
-24. **[Instructor Aide - Leader - BIOL 2050 -Biological Science](https://scholarshipdb.net/jobs-in-United-States/Instructor-Aide-Leader-Biol-2050-Biological-Science-Bowling-Green-State-University=AInTQN3f8BG_5wzEeuBOuw.html)**
+23. **[Instructor Aide - Leader - BIOL 2050 -Biological Science](https://scholarshipdb.net/jobs-in-United-States/Instructor-Aide-Leader-Biol-2050-Biological-Science-Bowling-Green-State-University=AInTQN3f8BG_5wzEeuBOuw.html)**
 
    - 中文：讲师助理 - 领导 - BIOL 2050 - 生物科学
 
    - Bowling Green State University, United States
+
+
+
+24. **[Adjunct Instructor -Biology](https://scholarshipdb.net/jobs-in-United-States/Adjunct-Instructor-Biology-Jackson-State-Community-College=xTh1YbHj8BG_5wzEeuBOuw.html)**
+
+   - 中文：兼职讲师 - 生物学
+
+   - Jackson State Community College, United States
 
 
 
@@ -1077,15 +1081,7 @@
 
 
 
-34. **[Professor at the Faculty ofBiology](https://scholarshipdb.net/jobs-in-Poland/Professor-At-The-Faculty-Of-Biology-Jagiellonian-University=cZKAtEzf8BG_5wzEeuBOuw.html)**
-
-   - 中文：生物学院教授
-
-   - Jagiellonian University, Poland
-
-
-
-35. **[Lecturer -Biology](https://scholarshipdb.net/jobs-in-United-States/Lecturer-Biology-The-Ohio-State-University=e1NK6f-a8BG_5wzEeuBOuw.html)**
+34. **[Lecturer -Biology](https://scholarshipdb.net/jobs-in-United-States/Lecturer-Biology-The-Ohio-State-University=e1NK6f-a8BG_5wzEeuBOuw.html)**
 
    - 中文：讲师-生物学
 
@@ -1093,7 +1089,7 @@
 
 
 
-36. **[PhD inBiology](https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-In-Biology-Sveriges-Lantbruksuniversitet=tcDDa9je8BG_5wzEeuBOuw.html)**
+35. **[PhD inBiology](https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-In-Biology-Sveriges-Lantbruksuniversitet=tcDDa9je8BG_5wzEeuBOuw.html)**
 
    - 中文：生物学博士
 
@@ -1101,7 +1097,7 @@
 
 
 
-37. **[Assistant Professor ofBiology](https://scholarshipdb.net/jobs-in-United-States/Assistant-Professor-Of-Biology-University-Of-Minnesota=PV4_lcTa8BG_5wzEeuBOuw.html)**
+36. **[Assistant Professor ofBiology](https://scholarshipdb.net/jobs-in-United-States/Assistant-Professor-Of-Biology-University-Of-Minnesota=PV4_lcTa8BG_5wzEeuBOuw.html)**
 
    - 中文：生物学助理教授
 
@@ -1109,13 +1105,25 @@
 
 
 
+37. **[Professor at the Faculty ofBiology](https://scholarshipdb.net/jobs-in-Poland/Professor-At-The-Faculty-Of-Biology-Jagiellonian-University=cZKAtEzf8BG_5wzEeuBOuw.html)**
+
+   - 中文：生物学院教授
+
+   - Jagiellonian University, Poland
+
+
+
 38. **[Senior Research Technician -Biology](https://scholarshipdb.net/jobs-in-United-States/Senior-Research-Technician-Biology-Tufts-University=M6PHN-Hd8BG_5wzEeuBOuw.html)**
+
+   - 中文：高级研究技术员-生物学
 
    - Tufts University, United States
 
 
 
 39. **[Postdoctoral Scholar, ComparativeBiology](https://scholarshipdb.net/jobs-in-United-States/Postdoctoral-Scholar-Comparative-Biology-American-Museum-Of-Natural-History=7KZWnEHc8BG_5wzEeuBOuw.html)**
+
+   - 中文：博士后学者，比较生物学
 
    - American Museum Of Natural History, United States
 
@@ -1128,8 +1136,6 @@
 
 
 41. **[Temporary CancerBiologyTechnician](https://scholarshipdb.net/jobs-in-United-Kingdom/Temporary-Cancer-Biology-Technician-Uwe-Bristol=A-opNtLa8BG_5wzEeuBOuw.html)**
-
-   - 中文：临时癌症生物学技术员
 
    - United Kingdom
 
@@ -1216,19 +1222,19 @@
 
 
 
-3. **[PhD Studentship: Contemporary Approaches to Biotherapeutics: Flow Chemistry and Biocatalysis](https://scholarshipdb.net/scholarships-in-United-Kingdom/Ph-D-Studentship-Contemporary-Approaches-To-Biotherapeutics-Flow-Chemistry-And-Biocatalysis-University-Of-East-Anglia=mj9YHKrf8BG_5wzEeuBOuw.html)**
-
-   - 中文：博士生：当代生物治疗方法：流动化学和生物催化
-
-   - United Kingdom
-
-
-
-4. **[PhD position in systems biology (Zampieri Lab)](https://scholarshipdb.net/scholarships-in-Switzerland/Ph-D-Position-In-Systems-Biology-Zampieri-Lab-University-Of-Basel=E2aBoSTd8BG_5wzEeuBOuw.html)**
+3. **[PhD position in systems biology (Zampieri Lab)](https://scholarshipdb.net/scholarships-in-Switzerland/Ph-D-Position-In-Systems-Biology-Zampieri-Lab-University-Of-Basel=E2aBoSTd8BG_5wzEeuBOuw.html)**
 
    - 中文：系统生物学博士职位（Zampieri 实验室）
 
    - University of Basel, Switzerland
+
+
+
+4. **[PhD Studentship: Contemporary Approaches to Biotherapeutics: Flow Chemistry and Biocatalysis](https://scholarshipdb.net/scholarships-in-United-Kingdom/Ph-D-Studentship-Contemporary-Approaches-To-Biotherapeutics-Flow-Chemistry-And-Biocatalysis-University-Of-East-Anglia=mj9YHKrf8BG_5wzEeuBOuw.html)**
+
+   - 中文：博士生：当代生物治疗方法：流动化学和生物催化
+
+   - United Kingdom
 
 
 
@@ -1248,23 +1254,7 @@
 
 
 
-7. **[PhD | Modular phage-based nanocarriers for radioligand therapy](https://scholarshipdb.net/scholarships-in-Belgium/Ph-D-Modular-Phage-Based-Nanocarriers-For-Radioligand-Therapy-The-Belgian-Nuclear-Research-Centre=8hjkhhLh8BG_5wzEeuBOuw.html)**
-
-   - 中文：博士 |用于放射性配体治疗的模块化噬菌体纳米载体
-
-   - The Belgian Nuclear Research Centre, Belgium
-
-
-
-8. **[Predoctoral Researcher in Bioengineering for Personalized Pediatric Oncology (Project Magneto)](https://scholarshipdb.net/jobs-in-Spain/Predoctoral-Researcher-In-Bioengineering-For-Personalized-Pediatric-Oncology-Project-Magneto-Institute-For-Bioengineering-Of-Catalonia-Ibec=SvsrNBTh8BG_5wzEeuBOuw.html)**
-
-   - 中文：个性化儿科肿瘤学生物工程博士前研究员（万磁王计划）
-
-   - Spain
-
-
-
-9. **[PhD | FAP-based targeted radionuclides as immune modulators in ovarian and breastcancer](https://scholarshipdb.net/scholarships-in-Belgium/Ph-D-Fap-Based-Targeted-Radionuclides-As-Immune-Modulators-In-Ovarian-And-Breast-Cancer-The-Belgian-Nuclear-Research-Centre=D0KlAxPh8BG_5wzEeuBOuw.html)**
+7. **[PhD | FAP-based targeted radionuclides as immune modulators in ovarian and breastcancer](https://scholarshipdb.net/scholarships-in-Belgium/Ph-D-Fap-Based-Targeted-Radionuclides-As-Immune-Modulators-In-Ovarian-And-Breast-Cancer-The-Belgian-Nuclear-Research-Centre=D0KlAxPh8BG_5wzEeuBOuw.html)**
 
    - 中文：博士 |基于 FAP 的靶向放射性核素作为卵巢癌和乳腺癌的免疫调节剂
 
@@ -1272,15 +1262,23 @@
 
 
 
-10. **[PhD Studentship in Chemical Engineering - Electrochemical biosensors for point-of-care monitoring of life-threatening cell breakdown in bloodcancers](https://scholarshipdb.net/scholarships-in-United-Kingdom/Ph-D-Studentship-In-Chemical-Engineering-Electrochemical-Biosensors-For-Point-Of-Care-Monitoring-Of-Life-Threatening-Cell-Breakdown-In-Blood-Cancers-Newcastle-University=DyY6UIfO8BG_5gzEeuBOuw.html)**
+8. **[PhD | Modular phage-based nanocarriers for radioligand therapy](https://scholarshipdb.net/scholarships-in-Belgium/Ph-D-Modular-Phage-Based-Nanocarriers-For-Radioligand-Therapy-The-Belgian-Nuclear-Research-Centre=8hjkhhLh8BG_5wzEeuBOuw.html)**
 
-   - 中文：化学工程博士生 - 用于即时监测血癌中危及生命的细胞分解的电化学生物传感器
+   - 中文：博士 |用于放射性配体治疗的模块化噬菌体纳米载体
 
-   - Newcastle University, United Kingdom
+   - The Belgian Nuclear Research Centre, Belgium
 
 
 
-11. **[PhD studentship in Bio-electronics – Localising invisible breastcancersduring surgery](https://scholarshipdb.net/scholarships-in-United-Kingdom/Ph-D-Studentship-In-Bio-Electronics-Localising-Invisible-Breast-Cancers-During-Surgery-Newcastle-University=KR_0iYbO8BG_5gzEeuBOuw.html)**
+9. **[Predoctoral Researcher in Bioengineering for Personalized Pediatric Oncology (Project Magneto)](https://scholarshipdb.net/jobs-in-Spain/Predoctoral-Researcher-In-Bioengineering-For-Personalized-Pediatric-Oncology-Project-Magneto-Institute-For-Bioengineering-Of-Catalonia-Ibec=SvsrNBTh8BG_5wzEeuBOuw.html)**
+
+   - 中文：个性化儿科肿瘤学生物工程博士前研究员（万磁王计划）
+
+   - Spain
+
+
+
+10. **[PhD studentship in Bio-electronics – Localising invisible breastcancersduring surgery](https://scholarshipdb.net/scholarships-in-United-Kingdom/Ph-D-Studentship-In-Bio-Electronics-Localising-Invisible-Breast-Cancers-During-Surgery-Newcastle-University=KR_0iYbO8BG_5gzEeuBOuw.html)**
 
    - 中文：生物电子学博士生——手术期间定位隐形乳腺癌
 
@@ -1288,11 +1286,19 @@
 
 
 
-12. **[Researcher inCancerImmunology andCancerCell Death](https://scholarshipdb.net/jobs-in-Norway/Researcher-In-Cancer-Immunology-And-Cancer-Cell-Death-University-Of-Oslo=uGOItmLR8BG_5gzEeuBOuw.html)**
+11. **[Researcher inCancerImmunology andCancerCell Death](https://scholarshipdb.net/jobs-in-Norway/Researcher-In-Cancer-Immunology-And-Cancer-Cell-Death-University-Of-Oslo=uGOItmLR8BG_5gzEeuBOuw.html)**
 
    - 中文：癌症免疫学和癌症细胞死亡研究员
 
    - University of Oslo, Norway
+
+
+
+12. **[PhD Studentship in Chemical Engineering - Electrochemical biosensors for point-of-care monitoring of life-threatening cell breakdown in bloodcancers](https://scholarshipdb.net/scholarships-in-United-Kingdom/Ph-D-Studentship-In-Chemical-Engineering-Electrochemical-Biosensors-For-Point-Of-Care-Monitoring-Of-Life-Threatening-Cell-Breakdown-In-Blood-Cancers-Newcastle-University=DyY6UIfO8BG_5gzEeuBOuw.html)**
+
+   - 中文：化学工程博士生 - 用于即时监测血癌中危及生命的细胞分解的电化学生物传感器
+
+   - Newcastle University, United Kingdom
 
 
 
@@ -1362,23 +1368,17 @@
 
 21. **[International selection procedure for the recruitment of a Junior Researcher – “One Health Integrative System for AnimalCancerStudy (one position) | Veterinary Sciences, Digital Technologies](https://scholarshipdb.net/jobs-in-Portugal/International-Selection-Procedure-For-The-Recruitment-Of-A-Junior-Researcher-One-Health-Integrative-System-For-Animal-Cancer-Study-One-Position-Veterinary-Sciences-Digital-Technologies-Or-Related-Scientific-Area-Universidade-De-Tr-s-Os-Montes-E-Alto-Douro=cMNRl7Pc8BG_5wzEeuBOuw.html)**
 
-   - 中文：招聘初级研究员的国际选拔程序 - “动物癌症研究的一个健康综合系统（一个职位）| 兽医科学、数字技术
-
    - Portugal
 
 
 
 22. **[PhD in “Vasculature-on-chip models for improving nanobubble-enhanced ultrasound imaging”](https://scholarshipdb.net/scholarships-in-Netherlands/Ph-D-In-Vasculature-On-Chip-Models-For-Improving-Nanobubble-Enhanced-Ultrasound-Imaging-Eindhoven-University-Of-Technology-Tu-E=p6g6ItPb8BG_5wzEeuBOuw.html)**
 
-   - 中文：“改善纳米气泡增强超声成像的芯片血管模型”博士
-
    - Netherlands
 
 
 
 23. **[POSTDOCTORAL ASSOCIATE](https://scholarshipdb.net/jobs-in-United-States/Postdoctoral-Associate-Duke-University=6pFg5G-W8BG_5wzEeuBOuw.html)**
-
-   - 中文：博士后助理
 
    - Duke University, United States
 
@@ -1394,13 +1394,13 @@
 
 25. **[Researcher in AI-Driven Protein Therapeutics forCancerPathways](https://scholarshipdb.net/jobs-in-Germany/Researcher-In-Ai-Driven-Protein-Therapeutics-For-Cancer-Pathways-Forschungszentrum-J-lich=-ftZD1bK8BG_5gzEeuBOuw.html)**
 
-   - 中文：人工智能驱动的癌症通路蛋白质治疗研究员
-
    - Germany
 
 
 
 26. **[Precision Oncology Ireland Scholarship Programme](https://scholarshipdb.net/scholarships-in-Ireland/Precision-Oncology-Ireland-Scholarship-Programme-Royal-College-Of-Surgeons-In-Ireland=UUTNUW-X8BG_5wzEeuBOuw.html)**
+
+   - 中文：精准肿瘤学爱尔兰奖学金计划
 
    - Royal College of Surgeons in Ireland, Ireland
 
@@ -1414,19 +1414,21 @@
 
 28. **[PhD Studentship: The Tim Bacon Foundation PhD - Understanding Prehabilitation Acceptability and Engagement Among People Living withCancerin the North West](https://scholarshipdb.net/scholarships-in-United-Kingdom/Ph-D-Studentship-The-Tim-Bacon-Foundation-Ph-D-Understanding-Prehabilitation-Acceptability-And-Engagement-Among-People-Living-With-Cancer-In-The-North-West-Manchester-Metropolitan-University=2Tl3zVPR8BG_5gzEeuBOuw.html)**
 
-   - 中文：博士生：蒂姆·培根基金会博士 - 了解西北地区癌症患者康复前的接受度和参与度
-
    - Manchester Metropolitan University, United Kingdom
 
 
 
 29. **[PhD Studentship in Bio-Electronics – Localising Invisible BreastCancersDuring Surgery](https://scholarshipdb.net/scholarships-in-United-Kingdom/Ph-D-Studentship-In-Bio-Electronics-Localising-Invisible-Breast-Cancers-During-Surgery-Newcastle-University=VKjlgNzO8BG_5gzEeuBOuw.html)**
 
+   - 中文：生物电子学博士生——手术期间定位隐形乳腺癌
+
    - Newcastle University, United Kingdom
 
 
 
 30. **[PhD Studentship in Chemical Engineering - Electrochemical Biosensors for point-of-care Monitoring of Life-threatening Cell Breakdown in BloodCancers](https://scholarshipdb.net/scholarships-in-United-Kingdom/Ph-D-Studentship-In-Chemical-Engineering-Electrochemical-Biosensors-For-Point-Of-Care-Monitoring-Of-Life-Threatening-Cell-Breakdown-In-Blood-Cancers-Newcastle-University=HV_KseDO8BG_5gzEeuBOuw.html)**
+
+   - 中文：化学工程博士生 - 用于即时监测血癌中危及生命的细胞分解的电化学生物传感器
 
    - Newcastle University, United Kingdom
 
@@ -1549,215 +1551,7 @@
 <summary>点击展开查看所有条目</summary>
 
 
-1. **[Postdoc in Experimental Measurement of Mass Transfer in Systems Relevant to Carbon Capture - DTU Chemical Engineering](https://scholarshipdb.net/jobs-in-Denmark/Ko-If-Is-Job-Title-Visible-Postdoc-In-Experimental-Measurement-Of-Mass-Transfer-In-Systems-Relevant-To-Carbon-Capture-Dtu-Chemical-Engineering-Ko-Ko-If-Is-Already-Applied-Visible-Ko-Technical-University-Of-Denmark=plhhQAXd8BG_5wzEeuBOuw.html)**
-
-   - 中文：碳捕集相关系统传质实验测量博士后 - DTU 化学工程
-
-   - Technical University of Denmark, Denmark
-
-
-
-2. **[Postdoc in Integrating in-line Vision Technology and AI for Improved Concrete Production - DTU Construct](https://scholarshipdb.net/jobs-in-Denmark/Ko-If-Is-Job-Title-Visible-Postdoc-In-Integrating-In-Line-Vision-Technology-And-Ai-For-Improved-Concrete-Production-Dtu-Construct-Ko-Ko-If-Is-Already-Applied-Visible-Ko-Technical-University-Of-Denmark=LWFeCgXd8BG_5wzEeuBOuw.html)**
-
-   - 中文：集成在线视觉技术和人工智能以改进混凝土生产的博士后 - DTU Construct
-
-   - Technical University of Denmark, Denmark
-
-
-
-3. **[Postdoc in Integrating Hyperspectral Imaging and in-line Vision Technology for Improved Concrete Production - DTU Construct](https://scholarshipdb.net/jobs-in-Denmark/Ko-If-Is-Job-Title-Visible-Postdoc-In-Integrating-Hyperspectral-Imaging-And-In-Line-Vision-Technology-For-Improved-Concrete-Production-Dtu-Construct-Ko-Ko-If-Is-Already-Applied-Visible-Ko-Technical-University-Of-Denmark=WXDL1ATd8BG_5wzEeuBOuw.html)**
-
-   - 中文：集成高光谱成像和在线视觉技术以改进混凝土生产的博士后 - DTU Construct
-
-   - Technical University of Denmark, Denmark
-
-
-
-4. **[PhD scholarship in First-principles Theory of Exciton Interactions and Dynamics in 2D Moiré Systems - DTU Physics](https://scholarshipdb.net/scholarships-in-Denmark/Ko-If-Is-Job-Title-Visible-Ph-D-Scholarship-In-First-Principles-Theory-Of-Exciton-Interactions-And-Dynamics-In-2-D-Moir-Systems-Dtu-Physics-Ko-Ko-If-Is-Already-Applied-Visible-Ko-Technical-University-Of-Denmark=mRJbewTd8BG_5wzEeuBOuw.html)**
-
-   - 中文：二维莫尔系统激子相互作用和动力学第一原理理论博士奖学金 - DTU 物理
-
-   - Technical University of Denmark, Denmark
-
-
-
-5. **[Postdoc in manufacturing and testing a novel prototype component for PEM electrolysis stacks - DTU Energy](https://scholarshipdb.net/jobs-in-Denmark/Ko-If-Is-Job-Title-Visible-Postdoc-In-Manufacturing-And-Testing-A-Novel-Prototype-Component-For-Pem-Electrolysis-Stacks-Dtu-Energy-Ko-Ko-If-Is-Already-Applied-Visible-Ko-Technical-University-Of-Denmark=oLKTRQTd8BG_5wzEeuBOuw.html)**
-
-   - 中文：博士后负责制造和测试 PEM 电解堆的新型原型组件 - DTU Energy
-
-   - Technical University of Denmark, Denmark
-
-
-
-6. **[Postdoc in Topological Photonics - DTU Electro](https://scholarshipdb.net/jobs-in-Denmark/Ko-If-Is-Job-Title-Visible-Postdoc-In-Topological-Photonics-Dtu-Electro-Ko-Ko-If-Is-Already-Applied-Visible-Ko-Technical-University-Of-Denmark=KuCqSwPd8BG_5wzEeuBOuw.html)**
-
-   - 中文：拓扑光子学博士后 - DTU Electro
-
-   - Technical University of Denmark, Denmark
-
-
-
-7. **[PhD Student in Topological Photonics - DTU Electro](https://scholarshipdb.net/scholarships-in-Denmark/Ko-If-Is-Job-Title-Visible-Ph-D-Student-In-Topological-Photonics-Dtu-Electro-Ko-Ko-If-Is-Already-Applied-Visible-Ko-Technical-University-Of-Denmark=3vtkdgPd8BG_5wzEeuBOuw.html)**
-
-   - 中文：拓扑光子学博士生 - DTU Electro
-
-   - Technical University of Denmark, Denmark
-
-
-
-8. **[Postdoc in Advanced Electrochemical Impedance Spectroscopy Characterization for Materials Degradation in Solid Oxide Electrolysis Cells - DTU Energy](https://scholarshipdb.net/jobs-in-Denmark/Ko-If-Is-Job-Title-Visible-Postdoc-In-Advanced-Electrochemical-Impedance-Spectroscopy-Characterization-For-Materials-Degradation-In-Solid-Oxide-Electrolysis-Cells-Dtu-Energy-Ko-Ko-If-Is-Already-Applied-Visible-Ko-Technical-University-Of-Denmark=dMl1qgPd8BG_5wzEeuBOuw.html)**
-
-   - 中文：固体氧化物电解池中材料降解的高级电化学阻抗谱表征博士后 - DTU Energy
-
-   - Technical University of Denmark, Denmark
-
-
-
-9. **[Postdoc in Magnesium-based Binders - DTU Construct](https://scholarshipdb.net/jobs-in-Denmark/Ko-If-Is-Job-Title-Visible-Postdoc-In-Magnesium-Based-Binders-Dtu-Construct-Ko-Ko-If-Is-Already-Applied-Visible-Ko-Technical-University-Of-Denmark=RVsl2wPd8BG_5wzEeuBOuw.html)**
-
-   - 中文：镁基粘合剂博士后 - DTU Construct
-
-   - Technical University of Denmark, Denmark
-
-
-
-10. **[Postdoc in Bayesian Deep Learning - DTU Compute](https://scholarshipdb.net/jobs-in-Denmark/Ko-If-Is-Job-Title-Visible-Postdoc-In-Bayesian-Deep-Learning-Dtu-Compute-Ko-Ko-If-Is-Already-Applied-Visible-Ko-Technical-University-Of-Denmark=gw_9EATd8BG_5wzEeuBOuw.html)**
-
-   - 中文：贝叶斯深度学习博士后 - DTU Compute
-
-   - Technical University of Denmark, Denmark
-
-
-
-11. **[PhD scholarship in Microbial Chemotaxis and Root-Microbe Interactions (RhizoTrack) - DTU Bioengineering](https://scholarshipdb.net/scholarships-in-Denmark/Ko-If-Is-Job-Title-Visible-Ph-D-Scholarship-In-Microbial-Chemotaxis-And-Root-Microbe-Interactions-Rhizo-Track-Dtu-Bioengineering-Ko-Ko-If-Is-Already-Applied-Visible-Ko-Technical-University-Of-Denmark=iIjEa23f8BG_5wzEeuBOuw.html)**
-
-   - 中文：微生物趋化性和根-微生物相互作用（RhizoTrack）博士奖学金 - DTU 生物工程
-
-   - Technical University of Denmark, Denmark
-
-
-
-12. **[One or more PhDs in Collaborative Localization and Sensor Integration for Unmanned Maritime Systems](https://scholarshipdb.net/scholarships-in-Denmark/One-Or-More-Ph-Ds-In-Collaborative-Localization-And-Sensor-Integration-For-Unmanned-Maritime-Systems-Aalborg-University=B8mN5iTd8BG_5wzEeuBOuw.html)**
-
-   - 中文：无人海事系统协作定位和传感器集成一名或多名博士
-
-   - Aalborg University, Denmark
-
-
-
-13. **[PhD in Safe Learning Based Control for Autonomous Robots in Dynamic Environments](https://scholarshipdb.net/scholarships-in-Denmark/Ph-D-In-Safe-Learning-Based-Control-For-Autonomous-Robots-In-Dynamic-Environments-Aalborg-University=ZddvHiXd8BG_5wzEeuBOuw.html)**
-
-   - 中文：动态环境中自主机器人基于安全学习的控制博士
-
-   - Aalborg University, Denmark
-
-
-
-14. **[Postdoc in Integrating in-line Vision Technology and AI for Improved Concrete Production](https://scholarshipdb.net/jobs-in-Denmark/Postdoc-In-Integrating-In-Line-Vision-Technology-And-Ai-For-Improved-Concrete-Production-Technical-University-Of-Denmark=_EOk0Kff8BG_5wzEeuBOuw.html)**
-
-   - 中文：集成在线视觉技术和人工智能以改进混凝土生产的博士后
-
-   - Denmark
-
-
-
-15. **[PhD in Object oriented edge-casting using semantic encoding](https://scholarshipdb.net/scholarships-in-Denmark/Ph-D-In-Object-Oriented-Edge-Casting-Using-Semantic-Encoding-Aalborg-University=qHE8jYbf8BG_5wzEeuBOuw.html)**
-
-   - 中文：使用语义编码的面向对象边缘铸造博士学位
-
-   - Aalborg University, Denmark
-
-
-
-16. **[PhD in Quality news-chatbots for Public Service Media](https://scholarshipdb.net/scholarships-in-Denmark/Ph-D-In-Quality-News-Chatbots-For-Public-Service-Media-Aalborg-University=uhNzslPg8BG_5wzEeuBOuw.html)**
-
-   - 中文：公共服务媒体优质新闻聊天机器人博士
-
-   - Aalborg University, Denmark
-
-
-
-17. **[Four PhD Positions in Natural Language Processing, AI and LLM Security (CPH)](https://scholarshipdb.net/scholarships-in-Denmark/Four-Ph-D-Positions-In-Natural-Language-Processing-Ai-And-Llm-Security-Cph-Aalborg-University=JnDAHlTg8BG_5wzEeuBOuw.html)**
-
-   - 中文：自然语言处理、人工智能和法学硕士安全 (CPH) 领域的四个博士职位
-
-   - Aalborg University, Denmark
-
-
-
-18. **[PhD position within Mathematics](https://scholarshipdb.net/scholarships-in-Denmark/Ph-D-Position-Within-Mathematics-Aarhus-University=trDvTLrc8BG_5wzEeuBOuw.html)**
-
-   - 中文：数学博士职位
-
-   - Aarhus University, Denmark
-
-
-
-19. **[Student research assistants in Health Economics and Aging Lab](https://scholarshipdb.net/jobs-in-Denmark/Student-Research-Assistants-In-Health-Economics-And-Aging-Lab-University-Of-Copenhagen=Ka3cmjrf8BG_5wzEeuBOuw.html)**
-
-   - 中文：健康经济学和老龄化实验室学生研究助理
-
-   - University of Copenhagen, Denmark
-
-
-
-20. **[PhD fellowship or postdoc in brain tumor bioinformatics at BRIC](https://scholarshipdb.net/scholarships-in-Denmark/Ph-D-Fellowship-Or-Postdoc-In-Brain-Tumor-Bioinformatics-At-Bric-University-Of-Copenhagen=s1yP6wfg8BG_5wzEeuBOuw.html)**
-
-   - 中文：金砖四国脑肿瘤生物信息学博士奖学金或博士后
-
-   - University of Copenhagen, Denmark
-
-
-
-21. **[Postdoc in Experimental cold atomic physics](https://scholarshipdb.net/jobs-in-Denmark/Postdoc-In-Experimental-Cold-Atomic-Physics-University-Of-Copenhagen=rwV0ytDc8BG_5wzEeuBOuw.html)**
-
-   - 中文：实验冷原子物理博士后
-
-   - University of Copenhagen, Denmark
-
-
-
-22. **[Postdoctoral fellowships in bioinformatics, single-cell omics, AI, and/or systems biology](https://scholarshipdb.net/jobs-in-Denmark/Postdoctoral-Fellowships-In-Bioinformatics-Single-Cell-Omics-Ai-And-Or-Systems-Biology-University-Of-Copenhagen=HN8g9mze8BG_5wzEeuBOuw.html)**
-
-   - 中文：生物信息学、单细胞组学、人工智能和/或系统生物学博士后奖学金
-
-   - University of Copenhagen, Denmark
-
-
-
-23. **[NQCP Photonics Postdoc](https://scholarshipdb.net/jobs-in-Denmark/Nqcp-Photonics-Postdoc-University-Of-Copenhagen=ipJhZTrf8BG_5wzEeuBOuw.html)**
-
-   - 中文：NQCP光子学博士后
-
-   - University of Copenhagen, Denmark
-
-
-
-24. **[Drone Pilot Student job at the Department of Mechanical and Electrical Engineering](https://scholarshipdb.net/jobs-in-Denmark/Ko-If-Is-Job-Title-Visible-Drone-Pilot-Student-Job-At-The-Department-Of-Mechanical-And-Electrical-Engineering-Ko-Ko-If-Is-Already-Applied-Visible-Ko-University-Of-Southern-Denmark=f_wE9cTc8BG_5wzEeuBOuw.html)**
-
-   - 中文：机电工程系无人机飞行员学生工作
-
-   - University of Southern Denmark, Denmark
-
-
-
-25. **[Declaration of interest regarding PhD project within the field of biomarker and therapeutic target investigations in biliary atresia](https://scholarshipdb.net/scholarships-in-Denmark/Ko-If-Is-Job-Title-Visible-Declaration-Of-Interest-Regarding-Ph-D-Project-Within-The-Field-Of-Biomarker-And-Therapeutic-Target-Investigations-In-Biliary-Atresia-Ko-Ko-If-Is-Already-Applied-Visible-Ko-University-Of-Southern-Denmark=9cQqnCTg8BG_5wzEeuBOuw.html)**
-
-   - 中文：关于胆道闭锁生物标志物和治疗靶点研究领域博士项目的兴趣声明
-
-   - University of Southern Denmark, Denmark
-
-
-
-26. **[Postdoctoral position in Organic Chemistry at SDU in Odense](https://scholarshipdb.net/jobs-in-Denmark/Ko-If-Is-Job-Title-Visible-Postdoctoral-Position-In-Organic-Chemistry-At-Sdu-In-Odense-Ko-Ko-If-Is-Already-Applied-Visible-Ko-University-Of-Southern-Denmark=QGE6ocDc8BG_5wzEeuBOuw.html)**
-
-   - 中文：欧登塞 SDU 有机化学博士后职位
-
-   - University of Southern Denmark, Denmark
-
-
-
-27. **[One or more postdoc positions in advanced antenna architectures for small satellites with mechanical beam steering techniques](https://scholarshipdb.net/jobs-in-Denmark/One-Or-More-Postdoc-Positions-In-Advanced-Antenna-Architectures-For-Small-Satellites-With-Mechanical-Beam-Steering-Techniques-Aalborg-University=hdAOXTbd8BG_5wzEeuBOuw.html)**
+1. **[One or more postdoc positions in advanced antenna architectures for small satellites with mechanical beam steering techniques](https://scholarshipdb.net/jobs-in-Denmark/One-Or-More-Postdoc-Positions-In-Advanced-Antenna-Architectures-For-Small-Satellites-With-Mechanical-Beam-Steering-Techniques-Aalborg-University=hdAOXTbd8BG_5wzEeuBOuw.html)**
 
    - 中文：具有机械波束控制技术的小型卫星先进天线架构中的一个或多个博士后职位
 
@@ -1765,7 +1559,221 @@
 
 
 
-28. **[Research Assistant](https://scholarshipdb.net/jobs-in-Denmark/Research-Assistant-Aalborg-University=c8jqqzjd8BG_5wzEeuBOuw.html)**
+2. **[Postdoc in Health-Aware Optimization of Lithium-ion Battery Charging](https://scholarshipdb.net/jobs-in-Denmark/Postdoc-In-Health-Aware-Optimization-Of-Lithium-Ion-Battery-Charging-Aalborg-University=C-dLDQXe8BG_5wzEeuBOuw.html)**
+
+   - 中文：锂离子电池充电健康感知优化博士后
+
+   - Aalborg University, Denmark
+
+
+
+3. **[Postdoc in Topological Photonics - DTU Electro](https://scholarshipdb.net/jobs-in-Denmark/Ko-If-Is-Job-Title-Visible-Postdoc-In-Topological-Photonics-Dtu-Electro-Ko-Ko-If-Is-Already-Applied-Visible-Ko-Technical-University-Of-Denmark=KuCqSwPd8BG_5wzEeuBOuw.html)**
+
+   - 中文：拓扑光子学博士后 - DTU Electro
+
+   - Technical University of Denmark, Denmark
+
+
+
+4. **[PhD Student in Topological Photonics - DTU Electro](https://scholarshipdb.net/scholarships-in-Denmark/Ko-If-Is-Job-Title-Visible-Ph-D-Student-In-Topological-Photonics-Dtu-Electro-Ko-Ko-If-Is-Already-Applied-Visible-Ko-Technical-University-Of-Denmark=3vtkdgPd8BG_5wzEeuBOuw.html)**
+
+   - 中文：拓扑光子学博士生 - DTU Electro
+
+   - Technical University of Denmark, Denmark
+
+
+
+5. **[Postdoc in Advanced Electrochemical Impedance Spectroscopy Characterization for Materials Degradation in Solid Oxide Electrolysis Cells - DTU Energy](https://scholarshipdb.net/jobs-in-Denmark/Ko-If-Is-Job-Title-Visible-Postdoc-In-Advanced-Electrochemical-Impedance-Spectroscopy-Characterization-For-Materials-Degradation-In-Solid-Oxide-Electrolysis-Cells-Dtu-Energy-Ko-Ko-If-Is-Already-Applied-Visible-Ko-Technical-University-Of-Denmark=dMl1qgPd8BG_5wzEeuBOuw.html)**
+
+   - 中文：固体氧化物电解池中材料降解的高级电化学阻抗谱表征博士后 - DTU Energy
+
+   - Technical University of Denmark, Denmark
+
+
+
+6. **[Postdoc in Magnesium-based Binders - DTU Construct](https://scholarshipdb.net/jobs-in-Denmark/Ko-If-Is-Job-Title-Visible-Postdoc-In-Magnesium-Based-Binders-Dtu-Construct-Ko-Ko-If-Is-Already-Applied-Visible-Ko-Technical-University-Of-Denmark=RVsl2wPd8BG_5wzEeuBOuw.html)**
+
+   - 中文：镁基粘合剂博士后 - DTU Construct
+
+   - Technical University of Denmark, Denmark
+
+
+
+7. **[Postdoc in Bayesian Deep Learning - DTU Compute](https://scholarshipdb.net/jobs-in-Denmark/Ko-If-Is-Job-Title-Visible-Postdoc-In-Bayesian-Deep-Learning-Dtu-Compute-Ko-Ko-If-Is-Already-Applied-Visible-Ko-Technical-University-Of-Denmark=gw_9EATd8BG_5wzEeuBOuw.html)**
+
+   - 中文：贝叶斯深度学习博士后 - DTU Compute
+
+   - Technical University of Denmark, Denmark
+
+
+
+8. **[Postdoc in manufacturing and testing a novel prototype component for PEM electrolysis stacks - DTU Energy](https://scholarshipdb.net/jobs-in-Denmark/Ko-If-Is-Job-Title-Visible-Postdoc-In-Manufacturing-And-Testing-A-Novel-Prototype-Component-For-Pem-Electrolysis-Stacks-Dtu-Energy-Ko-Ko-If-Is-Already-Applied-Visible-Ko-Technical-University-Of-Denmark=oLKTRQTd8BG_5wzEeuBOuw.html)**
+
+   - 中文：博士后负责制造和测试 PEM 电解堆的新型原型组件 - DTU Energy
+
+   - Technical University of Denmark, Denmark
+
+
+
+9. **[PhD scholarship in First-principles Theory of Exciton Interactions and Dynamics in 2D Moiré Systems - DTU Physics](https://scholarshipdb.net/scholarships-in-Denmark/Ko-If-Is-Job-Title-Visible-Ph-D-Scholarship-In-First-Principles-Theory-Of-Exciton-Interactions-And-Dynamics-In-2-D-Moir-Systems-Dtu-Physics-Ko-Ko-If-Is-Already-Applied-Visible-Ko-Technical-University-Of-Denmark=mRJbewTd8BG_5wzEeuBOuw.html)**
+
+   - 中文：二维莫尔系统激子相互作用和动力学第一原理理论博士奖学金 - DTU 物理
+
+   - Technical University of Denmark, Denmark
+
+
+
+10. **[Postdoc in Integrating Hyperspectral Imaging and in-line Vision Technology for Improved Concrete Production - DTU Construct](https://scholarshipdb.net/jobs-in-Denmark/Ko-If-Is-Job-Title-Visible-Postdoc-In-Integrating-Hyperspectral-Imaging-And-In-Line-Vision-Technology-For-Improved-Concrete-Production-Dtu-Construct-Ko-Ko-If-Is-Already-Applied-Visible-Ko-Technical-University-Of-Denmark=WXDL1ATd8BG_5wzEeuBOuw.html)**
+
+   - 中文：集成高光谱成像和在线视觉技术以改进混凝土生产的博士后 - DTU Construct
+
+   - Technical University of Denmark, Denmark
+
+
+
+11. **[Postdoc in Integrating in-line Vision Technology and AI for Improved Concrete Production - DTU Construct](https://scholarshipdb.net/jobs-in-Denmark/Ko-If-Is-Job-Title-Visible-Postdoc-In-Integrating-In-Line-Vision-Technology-And-Ai-For-Improved-Concrete-Production-Dtu-Construct-Ko-Ko-If-Is-Already-Applied-Visible-Ko-Technical-University-Of-Denmark=LWFeCgXd8BG_5wzEeuBOuw.html)**
+
+   - 中文：集成在线视觉技术和人工智能以改进混凝土生产的博士后 - DTU Construct
+
+   - Technical University of Denmark, Denmark
+
+
+
+12. **[Postdoc in Experimental Measurement of Mass Transfer in Systems Relevant to Carbon Capture - DTU Chemical Engineering](https://scholarshipdb.net/jobs-in-Denmark/Ko-If-Is-Job-Title-Visible-Postdoc-In-Experimental-Measurement-Of-Mass-Transfer-In-Systems-Relevant-To-Carbon-Capture-Dtu-Chemical-Engineering-Ko-Ko-If-Is-Already-Applied-Visible-Ko-Technical-University-Of-Denmark=plhhQAXd8BG_5wzEeuBOuw.html)**
+
+   - 中文：碳捕集相关系统传质实验测量博士后 - DTU 化学工程
+
+   - Technical University of Denmark, Denmark
+
+
+
+13. **[PhD scholarship in Microbial Chemotaxis and Root-Microbe Interactions (RhizoTrack) - DTU Bioengineering](https://scholarshipdb.net/scholarships-in-Denmark/Ko-If-Is-Job-Title-Visible-Ph-D-Scholarship-In-Microbial-Chemotaxis-And-Root-Microbe-Interactions-Rhizo-Track-Dtu-Bioengineering-Ko-Ko-If-Is-Already-Applied-Visible-Ko-Technical-University-Of-Denmark=iIjEa23f8BG_5wzEeuBOuw.html)**
+
+   - 中文：微生物趋化性和根-微生物相互作用（RhizoTrack）博士奖学金 - DTU 生物工程
+
+   - Technical University of Denmark, Denmark
+
+
+
+14. **[PhD in Quality news-chatbots for Public Service Media](https://scholarshipdb.net/scholarships-in-Denmark/Ph-D-In-Quality-News-Chatbots-For-Public-Service-Media-Aalborg-University=uhNzslPg8BG_5wzEeuBOuw.html)**
+
+   - 中文：公共服务媒体优质新闻聊天机器人博士
+
+   - Aalborg University, Denmark
+
+
+
+15. **[Four PhD Positions in Natural Language Processing, AI and LLM Security (CPH)](https://scholarshipdb.net/scholarships-in-Denmark/Four-Ph-D-Positions-In-Natural-Language-Processing-Ai-And-Llm-Security-Cph-Aalborg-University=JnDAHlTg8BG_5wzEeuBOuw.html)**
+
+   - Aalborg University, Denmark
+
+
+
+16. **[One or more PhDs in Collaborative Localization and Sensor Integration for Unmanned Maritime Systems](https://scholarshipdb.net/scholarships-in-Denmark/One-Or-More-Ph-Ds-In-Collaborative-Localization-And-Sensor-Integration-For-Unmanned-Maritime-Systems-Aalborg-University=B8mN5iTd8BG_5wzEeuBOuw.html)**
+
+   - 中文：无人海事系统协作定位和传感器集成一名或多名博士
+
+   - Aalborg University, Denmark
+
+
+
+17. **[PhD in Safe Learning Based Control for Autonomous Robots in Dynamic Environments](https://scholarshipdb.net/scholarships-in-Denmark/Ph-D-In-Safe-Learning-Based-Control-For-Autonomous-Robots-In-Dynamic-Environments-Aalborg-University=ZddvHiXd8BG_5wzEeuBOuw.html)**
+
+   - 中文：动态环境中自主机器人基于安全学习的控制博士
+
+   - Aalborg University, Denmark
+
+
+
+18. **[Postdoc in Integrating in-line Vision Technology and AI for Improved Concrete Production](https://scholarshipdb.net/jobs-in-Denmark/Postdoc-In-Integrating-In-Line-Vision-Technology-And-Ai-For-Improved-Concrete-Production-Technical-University-Of-Denmark=_EOk0Kff8BG_5wzEeuBOuw.html)**
+
+   - 中文：集成在线视觉技术和人工智能以改进混凝土生产的博士后
+
+   - Denmark
+
+
+
+19. **[PhD in Object oriented edge-casting using semantic encoding](https://scholarshipdb.net/scholarships-in-Denmark/Ph-D-In-Object-Oriented-Edge-Casting-Using-Semantic-Encoding-Aalborg-University=qHE8jYbf8BG_5wzEeuBOuw.html)**
+
+   - 中文：使用语义编码的面向对象边缘铸造博士学位
+
+   - Aalborg University, Denmark
+
+
+
+20. **[PhD position within Mathematics](https://scholarshipdb.net/scholarships-in-Denmark/Ph-D-Position-Within-Mathematics-Aarhus-University=trDvTLrc8BG_5wzEeuBOuw.html)**
+
+   - 中文：数学博士职位
+
+   - Aarhus University, Denmark
+
+
+
+21. **[Student research assistants in Health Economics and Aging Lab](https://scholarshipdb.net/jobs-in-Denmark/Student-Research-Assistants-In-Health-Economics-And-Aging-Lab-University-Of-Copenhagen=Ka3cmjrf8BG_5wzEeuBOuw.html)**
+
+   - 中文：健康经济学和老龄化实验室学生研究助理
+
+   - University of Copenhagen, Denmark
+
+
+
+22. **[PhD fellowship or postdoc in brain tumor bioinformatics at BRIC](https://scholarshipdb.net/scholarships-in-Denmark/Ph-D-Fellowship-Or-Postdoc-In-Brain-Tumor-Bioinformatics-At-Bric-University-Of-Copenhagen=s1yP6wfg8BG_5wzEeuBOuw.html)**
+
+   - 中文：金砖四国脑肿瘤生物信息学博士奖学金或博士后
+
+   - University of Copenhagen, Denmark
+
+
+
+23. **[Postdoc in Experimental cold atomic physics](https://scholarshipdb.net/jobs-in-Denmark/Postdoc-In-Experimental-Cold-Atomic-Physics-University-Of-Copenhagen=rwV0ytDc8BG_5wzEeuBOuw.html)**
+
+   - 中文：实验冷原子物理博士后
+
+   - University of Copenhagen, Denmark
+
+
+
+24. **[Postdoctoral fellowships in bioinformatics, single-cell omics, AI, and/or systems biology](https://scholarshipdb.net/jobs-in-Denmark/Postdoctoral-Fellowships-In-Bioinformatics-Single-Cell-Omics-Ai-And-Or-Systems-Biology-University-Of-Copenhagen=HN8g9mze8BG_5wzEeuBOuw.html)**
+
+   - 中文：生物信息学、单细胞组学、人工智能和/或系统生物学博士后奖学金
+
+   - University of Copenhagen, Denmark
+
+
+
+25. **[NQCP Photonics Postdoc](https://scholarshipdb.net/jobs-in-Denmark/Nqcp-Photonics-Postdoc-University-Of-Copenhagen=ipJhZTrf8BG_5wzEeuBOuw.html)**
+
+   - 中文：NQCP光子学博士后
+
+   - University of Copenhagen, Denmark
+
+
+
+26. **[Declaration of interest regarding PhD project within the field of biomarker and therapeutic target investigations in biliary atresia](https://scholarshipdb.net/scholarships-in-Denmark/Ko-If-Is-Job-Title-Visible-Declaration-Of-Interest-Regarding-Ph-D-Project-Within-The-Field-Of-Biomarker-And-Therapeutic-Target-Investigations-In-Biliary-Atresia-Ko-Ko-If-Is-Already-Applied-Visible-Ko-University-Of-Southern-Denmark=9cQqnCTg8BG_5wzEeuBOuw.html)**
+
+   - 中文：关于胆道闭锁生物标志物和治疗靶点研究领域博士项目的兴趣声明
+
+   - University of Southern Denmark, Denmark
+
+
+
+27. **[Drone Pilot Student job at the Department of Mechanical and Electrical Engineering](https://scholarshipdb.net/jobs-in-Denmark/Ko-If-Is-Job-Title-Visible-Drone-Pilot-Student-Job-At-The-Department-Of-Mechanical-And-Electrical-Engineering-Ko-Ko-If-Is-Already-Applied-Visible-Ko-University-Of-Southern-Denmark=f_wE9cTc8BG_5wzEeuBOuw.html)**
+
+   - 中文：机电工程系无人机飞行员学生工作
+
+   - University of Southern Denmark, Denmark
+
+
+
+28. **[Postdoctoral position in Organic Chemistry at SDU in Odense](https://scholarshipdb.net/jobs-in-Denmark/Ko-If-Is-Job-Title-Visible-Postdoctoral-Position-In-Organic-Chemistry-At-Sdu-In-Odense-Ko-Ko-If-Is-Already-Applied-Visible-Ko-University-Of-Southern-Denmark=QGE6ocDc8BG_5wzEeuBOuw.html)**
+
+   - 中文：欧登塞 SDU 有机化学博士后职位
+
+   - University of Southern Denmark, Denmark
+
+
+
+29. **[Research Assistant](https://scholarshipdb.net/jobs-in-Denmark/Research-Assistant-Aalborg-University=c8jqqzjd8BG_5wzEeuBOuw.html)**
 
    - 中文：研究助理
 
@@ -1773,7 +1781,7 @@
 
 
 
-29. **[Postdoctoral Position Available: Rheology and Modelling of Gels and Tissues](https://scholarshipdb.net/jobs-in-Denmark/Postdoctoral-Position-Available-Rheology-And-Modelling-Of-Gels-And-Tissues-Aalborg-University=bQmojzrd8BG_5wzEeuBOuw.html)**
+30. **[Postdoctoral Position Available: Rheology and Modelling of Gels and Tissues](https://scholarshipdb.net/jobs-in-Denmark/Postdoctoral-Position-Available-Rheology-And-Modelling-Of-Gels-And-Tissues-Aalborg-University=bQmojzrd8BG_5wzEeuBOuw.html)**
 
    - 中文：博士后职位：凝胶和组织的流变学和建模
 
@@ -1781,17 +1789,9 @@
 
 
 
-30. **[Assistant / Associate Professor with Expertise in Artificial Intelligence and Its Applications](https://scholarshipdb.net/jobs-in-Denmark/Assistant-Associate-Professor-With-Expertise-In-Artificial-Intelligence-And-Its-Applications-Aalborg-University=ndEzxTrd8BG_5wzEeuBOuw.html)**
+31. **[Assistant / Associate Professor with Expertise in Artificial Intelligence and Its Applications](https://scholarshipdb.net/jobs-in-Denmark/Assistant-Associate-Professor-With-Expertise-In-Artificial-Intelligence-And-Its-Applications-Aalborg-University=ndEzxTrd8BG_5wzEeuBOuw.html)**
 
    - 中文：助理/副教授，人工智能及其应用专业知识
-
-   - Aalborg University, Denmark
-
-
-
-31. **[Postdoc in Health-Aware Optimization of Lithium-ion Battery Charging](https://scholarshipdb.net/jobs-in-Denmark/Postdoc-In-Health-Aware-Optimization-Of-Lithium-Ion-Battery-Charging-Aalborg-University=C-dLDQXe8BG_5wzEeuBOuw.html)**
-
-   - 中文：锂离子电池充电健康感知优化博士后
 
    - Aalborg University, Denmark
 
@@ -1934,8 +1934,6 @@
 
 
 49. **[Copenhagen Business School, Department of Organization, invites applications for a vacant PhD scholarship within the fields of social science of the green Transition](https://scholarshipdb.net/scholarships-in-Denmark/Copenhagen-Business-School-Department-Of-Organization-Invites-Applications-For-A-Vacant-Ph-D-Scholarship-Within-The-Fields-Of-Social-Science-Of-The-Green-Transition-Copenhagen-Business-School=CBfFWLPc8BG_5wzEeuBOuw.html)**
-
-   - 中文：哥本哈根商学院组织系邀请申请绿色转型社会科学领域的空缺博士奖学金
 
    - Copenhagen Business School, Denmark
 
@@ -2156,6 +2154,8 @@
 
 25. **[SD-25087 RESEARCHER IN INTELLIGENT AND SUSTAINABLE WIRELESS NETWORKS FOR 6G](https://scholarshipdb.net/jobs-in-Luxembourg/Sd-25087-Researcher-In-Intelligent-And-Sustainable-Wireless-Networks-For-6-G-Nature-Careers=oRdDp9bX8BG_5wzEeuBOuw.html)**
 
+   - 中文：SD-25087 6G 智能和可持续无线网络研究员
+
    - Nature Careers, Luxembourg
 
 
@@ -2185,8 +2185,6 @@
 
 
 30. **[Postdoctoral Researcher in Migration History – Chaire Histoire & Migrations](https://scholarshipdb.net/jobs-in-Luxembourg/Postdoctoral-Researcher-In-Migration-History-Chaire-Histoire-Migrations-University-Of-Luxembourg=XstL9XrI8BG_5gzEeuBOuw.html)**
-
-   - 中文：移民史博士后研究员 – 历史与移民主席
 
    - University of Luxembourg, Luxembourg
 
@@ -2228,15 +2226,15 @@
 
 
 
-37. **[SD-26065 -POST-DOC IN METHOD DEVELOPMENT FOR HIGH RESOLUTION CHARACTERIZATION OF NOVEL SAFE AND S...](https://scholarshipdb.net/jobs-in-Luxembourg/Sd-26065-Post-Doc-In-Method-Development-For-High-Resolution-Characterization-Of-Novel-Safe-And-S-Nature-Careers=Ig1y-4bL8BG_5gzEeuBOuw.html)**
-
-   - Nature Careers, Luxembourg
-
-
-
-38. **[Postdoctoral Research Associate (f/m) - Ref: 25-38](https://scholarshipdb.net/jobs-in-Luxembourg/Postdoctoral-Research-Associate-F-M-Ref-25-38-Liser=E6SffdnO8BG_5gzEeuBOuw.html)**
+37. **[Postdoctoral Research Associate (f/m) - Ref: 25-38](https://scholarshipdb.net/jobs-in-Luxembourg/Postdoctoral-Research-Associate-F-M-Ref-25-38-Liser=E6SffdnO8BG_5gzEeuBOuw.html)**
 
    - LISER, Luxembourg
+
+
+
+38. **[SD-26065 -POST-DOC IN METHOD DEVELOPMENT FOR HIGH RESOLUTION CHARACTERIZATION OF NOVEL SAFE AND S...](https://scholarshipdb.net/jobs-in-Luxembourg/Sd-26065-Post-Doc-In-Method-Development-For-High-Resolution-Characterization-Of-Novel-Safe-And-S-Nature-Careers=Ig1y-4bL8BG_5gzEeuBOuw.html)**
+
+   - Nature Careers, Luxembourg
 
 
 
@@ -2327,17 +2325,17 @@
 <summary>点击展开查看所有条目</summary>
 
 
-1. **[Director of Controlling, Finance and Operational Procurement](https://scholarshipdb.net/jobs-in-Netherlands/Director-Of-Controlling-Finance-And-Operational-Procurement-European-Space-Agency=jk5QVjHf8BG_5wzEeuBOuw.html)**
+1. **[Director of Strategy, Legal and External Affairs](https://scholarshipdb.net/jobs-in-Netherlands/Director-Of-Strategy-Legal-And-External-Affairs-European-Space-Agency=_rcxYjHf8BG_5wzEeuBOuw.html)**
 
-   - 中文：控制、财务和运营采购总监
+   - 中文：战略、法律和对外事务总监
 
    - European Space Agency, Netherlands
 
 
 
-2. **[Director of Strategy, Legal and External Affairs](https://scholarshipdb.net/jobs-in-Netherlands/Director-Of-Strategy-Legal-And-External-Affairs-European-Space-Agency=_rcxYjHf8BG_5wzEeuBOuw.html)**
+2. **[Director of Controlling, Finance and Operational Procurement](https://scholarshipdb.net/jobs-in-Netherlands/Director-Of-Controlling-Finance-And-Operational-Procurement-European-Space-Agency=jk5QVjHf8BG_5wzEeuBOuw.html)**
 
-   - 中文：战略、法律和对外事务总监
+   - 中文：控制、财务和运营采购总监
 
    - European Space Agency, Netherlands
 
@@ -2742,23 +2740,7 @@
 <summary>点击展开查看所有条目</summary>
 
 
-1. **[PhD Fellowship in Risk Management and Societal Safety](https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Fellowship-In-Risk-Management-And-Societal-Safety-University-Of-Stavanger=rnjW_97h8BG_5wzEeuBOuw.html)**
-
-   - 中文：风险管理和社会安全博士奖学金
-
-   - University of Stavanger, Norway
-
-
-
-2. **[PhD Research Fellowship in contracts and clear language](https://scholarshipdb.net/jobs-in-Norway/Ph-D-Research-Fellowship-In-Contracts-And-Clear-Language-University-Of-Inland-Norway=Swr3HuDh8BG_5wzEeuBOuw.html)**
-
-   - 中文：合同和清晰语言博士研究奖学金
-
-   - University of Inland Norway, Norway
-
-
-
-3. **[PhD Fellow in Generative AI Methods for Cultural Fidelity](https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Fellow-In-Generative-Ai-Methods-For-Cultural-Fidelity-Ui-T-The-Arctic-University-Of-Norway=fDvDOqTe8BG_5wzEeuBOuw.html)**
+1. **[PhD Fellow in Generative AI Methods for Cultural Fidelity](https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Fellow-In-Generative-Ai-Methods-For-Cultural-Fidelity-Ui-T-The-Arctic-University-Of-Norway=fDvDOqTe8BG_5wzEeuBOuw.html)**
 
    - 中文：文化保真度生成人工智能方法博士研究员
 
@@ -2766,7 +2748,7 @@
 
 
 
-4. **[PhD Research Scholar position in Behavioural and Experimental Economics](https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Research-Scholar-Position-In-Behavioural-And-Experimental-Economics-Nhh-Norwegian-School-Of-Economics=AXAR3aTe8BG_5wzEeuBOuw.html)**
+2. **[PhD Research Scholar position in Behavioural and Experimental Economics](https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Research-Scholar-Position-In-Behavioural-And-Experimental-Economics-Nhh-Norwegian-School-Of-Economics=AXAR3aTe8BG_5wzEeuBOuw.html)**
 
    - 中文：行为与实验经济学博士研究学者职位
 
@@ -2774,7 +2756,7 @@
 
 
 
-5. **[PhD Fellowship in Optimization of Multi-Energy Systems](https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Fellowship-In-Optimization-Of-Multi-Energy-Systems-University-Of-Stavanger=1PfLM6be8BG_5wzEeuBOuw.html)**
+3. **[PhD Fellowship in Optimization of Multi-Energy Systems](https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Fellowship-In-Optimization-Of-Multi-Energy-Systems-University-Of-Stavanger=1PfLM6be8BG_5wzEeuBOuw.html)**
 
    - 中文：多能源系统优化博士奖学金
 
@@ -2782,7 +2764,7 @@
 
 
 
-6. **[PhD Research Fellow in ML-assisted reservoir characterization/modelling for CO2 storage](https://scholarshipdb.net/jobs-in-Norway/Ph-D-Research-Fellow-In-Ml-Assisted-Reservoir-Characterization-Modelling-For-Co2-Storage-University-Of-Oslo=YwIqZ6be8BG_5wzEeuBOuw.html)**
+4. **[PhD Research Fellow in ML-assisted reservoir characterization/modelling for CO2 storage](https://scholarshipdb.net/jobs-in-Norway/Ph-D-Research-Fellow-In-Ml-Assisted-Reservoir-Characterization-Modelling-For-Co2-Storage-University-Of-Oslo=YwIqZ6be8BG_5wzEeuBOuw.html)**
 
    - 中文：机器学习辅助二氧化碳储存储层表征/建模博士研究员
 
@@ -2790,7 +2772,7 @@
 
 
 
-7. **[Applicants for the class 2026 of the PhD program for humanities, culture, and educational sciences.](https://scholarshipdb.net/scholarships-in-Norway/Applicants-For-The-Class-2026-Of-The-Ph-D-Program-For-Humanities-Culture-And-Educational-Sciences-University-Of-South-Eastern-Norway=bgIqZ6be8BG_5wzEeuBOuw.html)**
+5. **[Applicants for the class 2026 of the PhD program for humanities, culture, and educational sciences.](https://scholarshipdb.net/scholarships-in-Norway/Applicants-For-The-Class-2026-Of-The-Ph-D-Program-For-Humanities-Culture-And-Educational-Sciences-University-Of-South-Eastern-Norway=bgIqZ6be8BG_5wzEeuBOuw.html)**
 
    - 中文：人文、文化和教育科学博士项目2026级申请人。
 
@@ -2798,7 +2780,7 @@
 
 
 
-8. **[PhD Candidate in Impact Evaluation of Welfare Programs](https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Candidate-In-Impact-Evaluation-Of-Welfare-Programs-Ntnu-Norwegian-University-Of-Science-And-Technology=EU9bnHDf8BG_5wzEeuBOuw.html)**
+6. **[PhD Candidate in Impact Evaluation of Welfare Programs](https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Candidate-In-Impact-Evaluation-Of-Welfare-Programs-Ntnu-Norwegian-University-Of-Science-And-Technology=EU9bnHDf8BG_5wzEeuBOuw.html)**
 
    - 中文：福利项目影响评估博士生
 
@@ -2806,7 +2788,7 @@
 
 
 
-9. **[PhD position in Human - AI interaction (creativity, learning and AI) at AI LEARN)](https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Position-In-Human-Ai-Interaction-Creativity-Learning-And-Ai-At-Ai-Learn-University-Of-Bergen=PClwrnDf8BG_5wzEeuBOuw.html)**
+7. **[PhD position in Human - AI interaction (creativity, learning and AI) at AI LEARN)](https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Position-In-Human-Ai-Interaction-Creativity-Learning-And-Ai-At-Ai-Learn-University-Of-Bergen=PClwrnDf8BG_5wzEeuBOuw.html)**
 
    - 中文：AI LEARN 的人类 - 人工智能交互（创造力、学习和人工智能）博士职位
 
@@ -2814,7 +2796,7 @@
 
 
 
-10. **[PhD position in AI Synthetic Data Generation at AI LEARN](https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Position-In-Ai-Synthetic-Data-Generation-At-Ai-Learn-University-Of-Bergen=QylwrnDf8BG_5wzEeuBOuw.html)**
+8. **[PhD position in AI Synthetic Data Generation at AI LEARN](https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Position-In-Ai-Synthetic-Data-Generation-At-Ai-Learn-University-Of-Bergen=QylwrnDf8BG_5wzEeuBOuw.html)**
 
    - 中文：AI LEARN 人工智能合成数据生成博士职位
 
@@ -2822,7 +2804,7 @@
 
 
 
-11. **[PhD Resource Fellowship "Comfort and the Interior"](https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Resource-Fellowship-Comfort-And-The-Interior-The-Oslo-School-Of-Architecture-And-Design-Aho=iZYxwHDf8BG_5wzEeuBOuw.html)**
+9. **[PhD Resource Fellowship "Comfort and the Interior"](https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Resource-Fellowship-Comfort-And-The-Interior-The-Oslo-School-Of-Architecture-And-Design-Aho=iZYxwHDf8BG_5wzEeuBOuw.html)**
 
    - 中文：博士资源奖学金“舒适与内饰”
 
@@ -2830,7 +2812,7 @@
 
 
 
-12. **[PhD Research Fellowship “Planning for Quality in Medium-Sized Norwegian Cities”](https://scholarshipdb.net/jobs-in-Norway/Ph-D-Research-Fellowship-Planning-For-Quality-In-Medium-Sized-Norwegian-Cities-The-Oslo-School-Of-Architecture-And-Design-Aho=i6yAx3Df8BG_5wzEeuBOuw.html)**
+10. **[PhD Research Fellowship “Planning for Quality in Medium-Sized Norwegian Cities”](https://scholarshipdb.net/jobs-in-Norway/Ph-D-Research-Fellowship-Planning-For-Quality-In-Medium-Sized-Norwegian-Cities-The-Oslo-School-Of-Architecture-And-Design-Aho=i6yAx3Df8BG_5wzEeuBOuw.html)**
 
    - 中文：博士研究奖学金“挪威中型城市的质量规划”
 
@@ -2838,7 +2820,7 @@
 
 
 
-13. **[PhD Research Fellowship "Critical Design of Public Service Systems -Youth Marginalization"](https://scholarshipdb.net/jobs-in-Norway/Ph-D-Research-Fellowship-Critical-Design-Of-Public-Service-Systems-Youth-Marginalization-The-Oslo-School-Of-Architecture-And-Design-Aho=FL5U0nDf8BG_5wzEeuBOuw.html)**
+11. **[PhD Research Fellowship "Critical Design of Public Service Systems -Youth Marginalization"](https://scholarshipdb.net/jobs-in-Norway/Ph-D-Research-Fellowship-Critical-Design-Of-Public-Service-Systems-Youth-Marginalization-The-Oslo-School-Of-Architecture-And-Design-Aho=FL5U0nDf8BG_5wzEeuBOuw.html)**
 
    - 中文：博士研究奖学金“公共服务系统的批判性设计——青年边缘化”
 
@@ -2846,7 +2828,7 @@
 
 
 
-14. **[PhD Research Fellow in Human-Robot Interaction](https://scholarshipdb.net/jobs-in-Norway/Ph-D-Research-Fellow-In-Human-Robot-Interaction-University-Of-Oslo=ecKj43Df8BG_5wzEeuBOuw.html)**
+12. **[PhD Research Fellow in Human-Robot Interaction](https://scholarshipdb.net/jobs-in-Norway/Ph-D-Research-Fellow-In-Human-Robot-Interaction-University-Of-Oslo=ecKj43Df8BG_5wzEeuBOuw.html)**
 
    - 中文：人机交互博士研究员
 
@@ -2854,7 +2836,7 @@
 
 
 
-15. **[PhD Fellowship in Sustainable Geothermal Energy Solutions and Heat Storage Technologies](https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Fellowship-In-Sustainable-Geothermal-Energy-Solutions-And-Heat-Storage-Technologies-University-Of-Stavanger=4QAxzz7g8BG_5wzEeuBOuw.html)**
+13. **[PhD Fellowship in Sustainable Geothermal Energy Solutions and Heat Storage Technologies](https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Fellowship-In-Sustainable-Geothermal-Energy-Solutions-And-Heat-Storage-Technologies-University-Of-Stavanger=4QAxzz7g8BG_5wzEeuBOuw.html)**
 
    - 中文：可持续地热能源解决方案和蓄热技术博士奖学金
 
@@ -2862,7 +2844,7 @@
 
 
 
-16. **[PhD Fellowship in CO2 enhanced oil recovery and storage](https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Fellowship-In-Co2-Enhanced-Oil-Recovery-And-Storage-University-Of-Stavanger=nnqf4j7g8BG_5wzEeuBOuw.html)**
+14. **[PhD Fellowship in CO2 enhanced oil recovery and storage](https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Fellowship-In-Co2-Enhanced-Oil-Recovery-And-Storage-University-Of-Stavanger=nnqf4j7g8BG_5wzEeuBOuw.html)**
 
    - 中文：二氧化碳强化石油采收率和封存博士奖学金
 
@@ -2870,31 +2852,23 @@
 
 
 
-17. **[Postdoctoral Research Fellowship in Data Science and Precision Medicine](https://scholarshipdb.net/jobs-in-Norway/Postdoctoral-Research-Fellowship-In-Data-Science-And-Precision-Medicine-University-Of-Oslo=mFlMylfi8BG_5wzEeuBOuw.html)**
+15. **[PhD Fellowship in Risk Management and Societal Safety](https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Fellowship-In-Risk-Management-And-Societal-Safety-University-Of-Stavanger=rnjW_97h8BG_5wzEeuBOuw.html)**
 
-   - 中文：数据科学和精准医学博士后研究奖学金
+   - 中文：风险管理和社会安全博士奖学金
 
-   - University of Oslo, Norway
-
-
-
-18. **[Postdoctoral Research Fellow in Education for Sustainability & Innovation](https://scholarshipdb.net/jobs-in-Norway/Postdoctoral-Research-Fellow-In-Education-For-Sustainability-Innovation-Ui-T-The-Arctic-University-Of-Norway=dDpgKS7j8BG_5wzEeuBOuw.html)**
-
-   - 中文：可持续发展与创新教育博士后研究员
-
-   - UiT The Arctic University of Norway, Norway
+   - University of Stavanger, Norway
 
 
 
-19. **[Postdoctoral Research Fellow in the Study of Religion](https://scholarshipdb.net/jobs-in-Norway/Postdoctoral-Research-Fellow-In-The-Study-Of-Religion-University-Of-Bergen=PyPJNS-j8BG_5wzEeuBOuw.html)**
+16. **[PhD Research Fellowship in contracts and clear language](https://scholarshipdb.net/jobs-in-Norway/Ph-D-Research-Fellowship-In-Contracts-And-Clear-Language-University-Of-Inland-Norway=Swr3HuDh8BG_5wzEeuBOuw.html)**
 
-   - 中文：宗教研究博士后研究员
+   - 中文：合同和清晰语言博士研究奖学金
 
-   - University of Bergen, Norway
+   - University of Inland Norway, Norway
 
 
 
-20. **[Postdoctoral Fellow in Human-AI Interaction](https://scholarshipdb.net/jobs-in-Norway/Postdoctoral-Fellow-In-Human-Ai-Interaction-Ntnu-Norwegian-University-Of-Science-And-Technology=NG3gMDDj8BG_5wzEeuBOuw.html)**
+17. **[Postdoctoral Fellow in Human-AI Interaction](https://scholarshipdb.net/jobs-in-Norway/Postdoctoral-Fellow-In-Human-Ai-Interaction-Ntnu-Norwegian-University-Of-Science-And-Technology=NG3gMDDj8BG_5wzEeuBOuw.html)**
 
    - 中文：人机交互博士后研究员
 
@@ -2902,11 +2876,35 @@
 
 
 
-21. **[Postdoctoral Fellow in molecular biology](https://scholarshipdb.net/jobs-in-Norway/Postdoctoral-Fellow-In-Molecular-Biology-Ntnu-Norwegian-University-Of-Science-And-Technology=TKSzyKzg8BG_5wzEeuBOuw.html)**
+18. **[Postdoctoral Fellow in molecular biology](https://scholarshipdb.net/jobs-in-Norway/Postdoctoral-Fellow-In-Molecular-Biology-Ntnu-Norwegian-University-Of-Science-And-Technology=TKSzyKzg8BG_5wzEeuBOuw.html)**
 
    - 中文：分子生物学博士后
 
    - NTNU - Norwegian University of Science and Technology, Norway
+
+
+
+19. **[Postdoctoral Research Fellowship in Data Science and Precision Medicine](https://scholarshipdb.net/jobs-in-Norway/Postdoctoral-Research-Fellowship-In-Data-Science-And-Precision-Medicine-University-Of-Oslo=mFlMylfi8BG_5wzEeuBOuw.html)**
+
+   - 中文：数据科学和精准医学博士后研究奖学金
+
+   - University of Oslo, Norway
+
+
+
+20. **[Postdoctoral Research Fellow in Education for Sustainability & Innovation](https://scholarshipdb.net/jobs-in-Norway/Postdoctoral-Research-Fellow-In-Education-For-Sustainability-Innovation-Ui-T-The-Arctic-University-Of-Norway=dDpgKS7j8BG_5wzEeuBOuw.html)**
+
+   - 中文：可持续发展与创新教育博士后研究员
+
+   - UiT The Arctic University of Norway, Norway
+
+
+
+21. **[Postdoctoral Research Fellow in the Study of Religion](https://scholarshipdb.net/jobs-in-Norway/Postdoctoral-Research-Fellow-In-The-Study-Of-Religion-University-Of-Bergen=PyPJNS-j8BG_5wzEeuBOuw.html)**
+
+   - 中文：宗教研究博士后研究员
+
+   - University of Bergen, Norway
 
 
 
@@ -3024,19 +3022,23 @@
 
 36. **[PhD Fellowship position in Economics at Oslo Business School, OsloMet](https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Fellowship-Position-In-Economics-At-Oslo-Business-School-Oslo-Met-Oslo-Met-Oslo-Metropolitan-University=zSp69Nze8BG_5wzEeuBOuw.html)**
 
+   - 中文：奥斯陆商学院经济学博士研究员职位
+
    - Norway
 
 
 
-37. **[PhD Fellowship positions in Journalism and Media Studies](https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Fellowship-Positions-In-Journalism-And-Media-Studies-Oslo-Met-Oslo-Metropolitan-University=yJCw3t3e8BG_5wzEeuBOuw.html)**
+37. **[Call for Expressions of Interest: MSCA Postdoctoral Fellow in Professions, Expertise, Education, and Policy](https://scholarshipdb.net/jobs-in-Norway/Call-For-Expressions-Of-Interest-Msca-Postdoctoral-Fellow-In-Professions-Expertise-Education-And-Policy-Oslo-Met-Oslo-Metropolitan-University=Mx8aH93e8BG_5wzEeuBOuw.html)**
+
+   - 中文：征集意向书：MSCA 专业、专业知识、教育和政策博士后研究员
+
+   - Norway
+
+
+
+38. **[PhD Fellowship positions in Journalism and Media Studies](https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Fellowship-Positions-In-Journalism-And-Media-Studies-Oslo-Met-Oslo-Metropolitan-University=yJCw3t3e8BG_5wzEeuBOuw.html)**
 
    - 中文：新闻和媒体研究博士奖学金职位
-
-   - Norway
-
-
-
-38. **[Call for Expressions of Interest: MSCA Postdoctoral Fellow in Professions, Expertise, Education, and Policy](https://scholarshipdb.net/jobs-in-Norway/Call-For-Expressions-Of-Interest-Msca-Postdoctoral-Fellow-In-Professions-Expertise-Education-And-Policy-Oslo-Met-Oslo-Metropolitan-University=Mx8aH93e8BG_5wzEeuBOuw.html)**
 
    - Norway
 
@@ -3108,6 +3110,8 @@
 
 47. **[Tenure-track Asst. Professor/-Assoc. Professor/Tenured Assoc. Professor in Development economics (ref 290244)](https://scholarshipdb.net/jobs-in-Norway/Tenure-Track-Asst-Professor-Assoc-Professor-Tenured-Assoc-Professor-In-Development-Economics-Ref-290244-University-Of-Oslo=d17VQlDf8BG_5wzEeuBOuw.html)**
 
+   - 中文：终身教职助理。教授/副教授。教授/终身副教授。发展经济学教授（编号 290244）
+
    - University of Oslo, Norway
 
 
@@ -3151,15 +3155,7 @@
 <summary>点击展开查看所有条目</summary>
 
 
-1. **[PhD Student in Energy and Environmental Engineering](https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Student-In-Energy-And-Environmental-Engineering-M-lardalen-University=MfxhKl-g8BG_5wzEeuBOuw.html)**
-
-   - 中文：能源与环境工程博士生
-
-   - Sweden
-
-
-
-2. **[Postdoc in aqueous rechargeable zinc-ion battery](https://scholarshipdb.net/jobs-in-Sweden/Postdoc-In-Aqueous-Rechargeable-Zinc-Ion-Battery-Chalmers-University-Of-Technology=OE7andjh8BG_5wzEeuBOuw.html)**
+1. **[Postdoc in aqueous rechargeable zinc-ion battery](https://scholarshipdb.net/jobs-in-Sweden/Postdoc-In-Aqueous-Rechargeable-Zinc-Ion-Battery-Chalmers-University-Of-Technology=OE7andjh8BG_5wzEeuBOuw.html)**
 
    - 中文：水系可充电锌离子电池博士后
 
@@ -3167,7 +3163,23 @@
 
 
 
-3. **[Assistant Professor in Cybersecurity](https://scholarshipdb.net/jobs-in-Sweden/Assistant-Professor-In-Cybersecurity-J-nk-ping-University=KV0RWJPg8BG_5wzEeuBOuw.html)**
+2. **[PhD Student in Energy and Environmental Engineering](https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Student-In-Energy-And-Environmental-Engineering-M-lardalen-University=MfxhKl-g8BG_5wzEeuBOuw.html)**
+
+   - 中文：能源与环境工程博士生
+
+   - Sweden
+
+
+
+3. **[Ph.D. Student in Informatics with a focus on Simulation and AI for Production Optimization](https://scholarshipdb.net/jobs-in-Sweden/Ph-D-Student-In-Informatics-With-A-Focus-On-Simulation-And-Ai-For-Production-Optimization-University-Of-Sk-vde=63um3g3h8BG_5wzEeuBOuw.html)**
+
+   - 中文：博士信息学学生，重点研究用于生产优化的模拟和人工智能
+
+   - Sweden
+
+
+
+4. **[Assistant Professor in Cybersecurity](https://scholarshipdb.net/jobs-in-Sweden/Assistant-Professor-In-Cybersecurity-J-nk-ping-University=KV0RWJPg8BG_5wzEeuBOuw.html)**
 
    - 中文：网络安全助理教授
 
@@ -3175,7 +3187,7 @@
 
 
 
-4. **[Assistant Professor in Web and App Development](https://scholarshipdb.net/jobs-in-Sweden/Assistant-Professor-In-Web-And-App-Development-J-nk-ping-University=NF0RWJPg8BG_5wzEeuBOuw.html)**
+5. **[Assistant Professor in Web and App Development](https://scholarshipdb.net/jobs-in-Sweden/Assistant-Professor-In-Web-And-App-Development-J-nk-ping-University=NF0RWJPg8BG_5wzEeuBOuw.html)**
 
    - 中文：网络和应用程序开发助理教授
 
@@ -3183,7 +3195,7 @@
 
 
 
-5. **[Assistant Professor in Human-Computer Interaction](https://scholarshipdb.net/jobs-in-Sweden/Assistant-Professor-In-Human-Computer-Interaction-J-nk-ping-University=HEXxbJPg8BG_5wzEeuBOuw.html)**
+6. **[Assistant Professor in Human-Computer Interaction](https://scholarshipdb.net/jobs-in-Sweden/Assistant-Professor-In-Human-Computer-Interaction-J-nk-ping-University=HEXxbJPg8BG_5wzEeuBOuw.html)**
 
    - 中文：人机交互助理教授
 
@@ -3191,7 +3203,7 @@
 
 
 
-6. **[Researcher in Focus on Theoretical Modelling of Interfaces](https://scholarshipdb.net/jobs-in-Sweden/Researcher-In-Focus-On-Theoretical-Modelling-Of-Interfaces-Uppsala-Universitet=IAh2jpPg8BG_5wzEeuBOuw.html)**
+7. **[Researcher in Focus on Theoretical Modelling of Interfaces](https://scholarshipdb.net/jobs-in-Sweden/Researcher-In-Focus-On-Theoretical-Modelling-Of-Interfaces-Uppsala-Universitet=IAh2jpPg8BG_5wzEeuBOuw.html)**
 
    - 中文：专注于接口理论建模的研究员
 
@@ -3199,7 +3211,7 @@
 
 
 
-7. **[Postdoctoral Researcher in RNA Splicing in Normal and Aberrant Hematopoiesis](https://scholarshipdb.net/jobs-in-Sweden/Postdoctoral-Researcher-In-Rna-Splicing-In-Normal-And-Aberrant-Hematopoiesis-Karolinska-Institutet-Ki=ahZIeJTg8BG_5wzEeuBOuw.html)**
+8. **[Postdoctoral Researcher in RNA Splicing in Normal and Aberrant Hematopoiesis](https://scholarshipdb.net/jobs-in-Sweden/Postdoctoral-Researcher-In-Rna-Splicing-In-Normal-And-Aberrant-Hematopoiesis-Karolinska-Institutet-Ki=ahZIeJTg8BG_5wzEeuBOuw.html)**
 
    - 中文：正常和异常造血中RNA剪接的博士后研究员
 
@@ -3207,7 +3219,7 @@
 
 
 
-8. **[Associate professor in neuroscience and developmental biology](https://scholarshipdb.net/jobs-in-Sweden/Associate-Professor-In-Neuroscience-And-Developmental-Biology-Ume-Universitet=dhZIeJTg8BG_5wzEeuBOuw.html)**
+9. **[Associate professor in neuroscience and developmental biology](https://scholarshipdb.net/jobs-in-Sweden/Associate-Professor-In-Neuroscience-And-Developmental-Biology-Ume-Universitet=dhZIeJTg8BG_5wzEeuBOuw.html)**
 
    - 中文：神经科学和发育生物学副教授
 
@@ -3215,7 +3227,7 @@
 
 
 
-9. **[Doctoral studentship in Social Work](https://scholarshipdb.net/scholarships-in-Sweden/Doctoral-Studentship-In-Social-Work-Karlstads-Universitet=PrBRhJXg8BG_5wzEeuBOuw.html)**
+10. **[Doctoral studentship in Social Work](https://scholarshipdb.net/scholarships-in-Sweden/Doctoral-Studentship-In-Social-Work-Karlstads-Universitet=PrBRhJXg8BG_5wzEeuBOuw.html)**
 
    - 中文：社会工作博士生奖学金
 
@@ -3223,19 +3235,11 @@
 
 
 
-10. **[Doctoral student in Industrial Engineering and Management with focus on logistics for carbon capture and storage (CCS)](https://scholarshipdb.net/jobs-in-Sweden/Doctoral-Student-In-Industrial-Engineering-And-Management-With-Focus-On-Logistics-For-Carbon-Capture-And-Storage-Ccs-Karlstads-Universitet=SLBRhJXg8BG_5wzEeuBOuw.html)**
+11. **[Doctoral student in Industrial Engineering and Management with focus on logistics for carbon capture and storage (CCS)](https://scholarshipdb.net/jobs-in-Sweden/Doctoral-Student-In-Industrial-Engineering-And-Management-With-Focus-On-Logistics-For-Carbon-Capture-And-Storage-Ccs-Karlstads-Universitet=SLBRhJXg8BG_5wzEeuBOuw.html)**
 
    - 中文：工业工程与管理博士生，重点研究碳捕获和封存（CCS）物流
 
    - Karlstads universitet, Sweden
-
-
-
-11. **[Ph.D. Student in Informatics with a focus on Simulation and AI for Production Optimization](https://scholarshipdb.net/jobs-in-Sweden/Ph-D-Student-In-Informatics-With-A-Focus-On-Simulation-And-Ai-For-Production-Optimization-University-Of-Sk-vde=63um3g3h8BG_5wzEeuBOuw.html)**
-
-   - 中文：博士信息学学生，重点研究用于生产优化的模拟和人工智能
-
-   - Sweden
 
 
 
@@ -3406,87 +3410,7 @@
 <summary>点击展开查看所有条目</summary>
 
 
-1. **[Internship Opportunity (100%) Zampieri Lab](https://scholarshipdb.net/jobs-in-Switzerland/Internship-Opportunity-100-Zampieri-Lab-University-Of-Basel=aKi-fvDf8BG_5wzEeuBOuw.html)**
-
-   - 中文：实习机会 (100%) Zampieri Lab
-
-   - University of Basel, Switzerland
-
-
-
-2. **[Post-Doc position in quantitative biology (Zampieri Lab)](https://scholarshipdb.net/jobs-in-Switzerland/Post-Doc-Position-In-Quantitative-Biology-Zampieri-Lab-University-Of-Basel=c7nDLr7c8BG_5wzEeuBOuw.html)**
-
-   - 中文：定量生物学博士后职位（Zampieri 实验室）
-
-   - University of Basel, Switzerland
-
-
-
-3. **[PhD Position in the Experimental Rheumatology Laboratory 100%](https://scholarshipdb.net/scholarships-in-Switzerland/Ph-D-Position-In-The-Experimental-Rheumatology-Laboratory-100-University-Of-Basel=b8aY8SPf8BG_5wzEeuBOuw.html)**
-
-   - 中文：实验风湿病实验室博士职位 100%
-
-   - University of Basel, Switzerland
-
-
-
-4. **[Project and Operations Coordinator – early career (100%)](https://scholarshipdb.net/jobs-in-Switzerland/Project-And-Operations-Coordinator-Early-Career-100-University-Of-Basel=ElHQOonf8BG_5wzEeuBOuw.html)**
-
-   - 中文：项目和运营协调员 – 早期职业生涯 (100%)
-
-   - University of Basel, Switzerland
-
-
-
-5. **[Professor or Assistant Professor (Tenure Track) of Statistics](https://scholarshipdb.net/jobs-in-Switzerland/Professor-Or-Assistant-Professor-Tenure-Track-Of-Statistics-Eth-Zurich=26Byn5Xi8BG_5wzEeuBOuw.html)**
-
-   - 中文：统计学教授或助理教授（终身教职）
-
-   - ETH Zurich, Switzerland
-
-
-
-6. **[Postdoctoral fellowship on integrative research in the art and design of daylight](https://scholarshipdb.net/jobs-in-Switzerland/Postdoctoral-Fellowship-On-Integrative-Research-In-The-Art-And-Design-Of-Daylight-Eth-Z-rich=8OYUZozh8BG_5wzEeuBOuw.html)**
-
-   - 中文：日光艺术与设计综合研究博士后奖学金
-
-   - Switzerland
-
-
-
-7. **[Postdoctoral fellowship on integrative research in occupant-centric daylighting](https://scholarshipdb.net/jobs-in-Switzerland/Postdoctoral-Fellowship-On-Integrative-Research-In-Occupant-Centric-Daylighting-Eth-Z-rich=-OYUZozh8BG_5wzEeuBOuw.html)**
-
-   - 中文：以居住者为中心的采光综合研究博士后奖学金
-
-   - Switzerland
-
-
-
-8. **[Doctoral Position in Earth Observation and Remote Sensing](https://scholarshipdb.net/jobs-in-Switzerland/Doctoral-Position-In-Earth-Observation-And-Remote-Sensing-Eth-Z-rich=nqB-eIzh8BG_5wzEeuBOuw.html)**
-
-   - 中文：地球观测与遥感博士职位
-
-   - Switzerland
-
-
-
-9. **[Postdoctoral Visiting Lectureships in the History of Architecture, Urbanism and Landscape](https://scholarshipdb.net/jobs-in-Switzerland/Postdoctoral-Visiting-Lectureships-In-The-History-Of-Architecture-Urbanism-And-Landscape-Eth-Z-rich=y6FcJQHi8BG_5wzEeuBOuw.html)**
-
-   - 中文：建筑、城市规划和景观史博士后访问讲座
-
-   - Switzerland
-
-
-
-10. **[PhD Position: Computational Design and Digital Fabrication of high-performance timber plate structures](https://scholarshipdb.net/scholarships-in-Switzerland/Ph-D-Position-Computational-Design-And-Digital-Fabrication-Of-High-Performance-Timber-Plate-Structures-Eth-Z-rich=6DhjqSvk8BG_5wzEeuBOuw.html)**
-
-   - 中文：博士职位：高性能木板结构的计算设计和数字化制造
-
-   - Switzerland
-
-
-
-11. **[PhD Position on "Antimicrobial Materials as Antibiotic Alternatives in Dentistry"](https://scholarshipdb.net/scholarships-in-Switzerland/Ph-D-Position-On-Antimicrobial-Materials-As-Antibiotic-Alternatives-In-Dentistry-Empa=dm7RJJbg8BG_5wzEeuBOuw.html)**
+1. **[PhD Position on "Antimicrobial Materials as Antibiotic Alternatives in Dentistry"](https://scholarshipdb.net/scholarships-in-Switzerland/Ph-D-Position-On-Antimicrobial-Materials-As-Antibiotic-Alternatives-In-Dentistry-Empa=E10-WKzf8BG_5wzEeuBOuw.html)**
 
    - 中文：“抗菌材料作为牙科抗生素替代品”的博士职位
 
@@ -3494,23 +3418,7 @@
 
 
 
-12. **[PhD student in the Design of Sustainable Sediment Retention Basins 100% (f/m/d)](https://scholarshipdb.net/scholarships-in-Switzerland/Ph-D-Student-In-The-Design-Of-Sustainable-Sediment-Retention-Basins-100-F-M-D-Swiss-Federal-Institute-For-Forest-Snow-And-Landscape-Research-Wsl=_hFLvJvg8BG_5wzEeuBOuw.html)**
-
-   - 中文：可持续沉积物滞留池设计博士生 100% (f/m/d)
-
-   - Switzerland
-
-
-
-13. **[Laboratory Automation Scientist](https://scholarshipdb.net/jobs-in-Switzerland/Laboratory-Automation-Scientist-Eth-Z-rich=Xm_JFq7j8BG_5wzEeuBOuw.html)**
-
-   - 中文：实验室自动化科学家
-
-   - Switzerland
-
-
-
-14. **[100%, Zurich, fixed-term](https://scholarshipdb.net/jobs-in-Switzerland/100-Zurich-Fixed-Term-Eth-Zurich=ZpVmU07c8BG_5wzEeuBOuw.html)**
+2. **[100%, Zurich, fixed-term](https://scholarshipdb.net/jobs-in-Switzerland/100-Zurich-Fixed-Term-Eth-Zurich=WiMLIlrg8BG_5wzEeuBOuw.html)**
 
    - 中文：100%，苏黎世，定期
 
@@ -3518,23 +3426,7 @@
 
 
 
-15. **[80%-100%, Zurich, fixed-term](https://scholarshipdb.net/jobs-in-Switzerland/80-100-Zurich-Fixed-Term-Eth-Zurich=67ioZU7c8BG_5wzEeuBOuw.html)**
-
-   - 中文：80%-100%，苏黎世，定期
-
-   - ETH Zurich, Switzerland
-
-
-
-16. **[100%, Basel, fixed-term](https://scholarshipdb.net/jobs-in-Switzerland/100-Basel-Fixed-Term-Eth-Zurich=8rioZU7c8BG_5wzEeuBOuw.html)**
-
-   - 中文：100%，巴塞尔，定期
-
-   - ETH Zurich, Switzerland
-
-
-
-17. **[100%, Zurich, fixed-term](https://scholarshipdb.net/jobs-in-Switzerland/100-Zurich-Fixed-Term-Eth-Zurich=YqsmOR3d8BG_5wzEeuBOuw.html)**
+3. **[100%, Zurich, fixed-term](https://scholarshipdb.net/jobs-in-Switzerland/100-Zurich-Fixed-Term-Eth-Zurich=cqCWvVvg8BG_5wzEeuBOuw.html)**
 
    - 中文：100%，苏黎世，定期
 
@@ -3542,7 +3434,7 @@
 
 
 
-18. **[100%, Zurich, fixed-term](https://scholarshipdb.net/jobs-in-Switzerland/100-Zurich-Fixed-Term-Eth-Zurich=TgWDSx3d8BG_5wzEeuBOuw.html)**
+4. **[100%, Zurich, fixed-term](https://scholarshipdb.net/jobs-in-Switzerland/100-Zurich-Fixed-Term-Eth-Zurich=nlWt7Vzg8BG_5wzEeuBOuw.html)**
 
    - 中文：100%，苏黎世，定期
 
@@ -3550,87 +3442,7 @@
 
 
 
-19. **[100%, Zurich, fixed-term](https://scholarshipdb.net/jobs-in-Switzerland/100-Zurich-Fixed-Term-Eth-Zurich=WwWDSx3d8BG_5wzEeuBOuw.html)**
-
-   - 中文：100%，苏黎世，定期
-
-   - ETH Zurich, Switzerland
-
-
-
-20. **[100%, Zurich, fixed-term](https://scholarshipdb.net/jobs-in-Switzerland/100-Zurich-Fixed-Term-Eth-Zurich=GjCHXR3d8BG_5wzEeuBOuw.html)**
-
-   - 中文：100%，苏黎世，定期
-
-   - ETH Zurich, Switzerland
-
-
-
-21. **[100%, Zurich, fixed-term](https://scholarshipdb.net/jobs-in-Switzerland/100-Zurich-Fixed-Term-Eth-Zurich=OjclgB3d8BG_5wzEeuBOuw.html)**
-
-   - 中文：100%，苏黎世，定期
-
-   - ETH Zurich, Switzerland
-
-
-
-22. **[100%, Zurich, fixed-term](https://scholarshipdb.net/jobs-in-Switzerland/100-Zurich-Fixed-Term-Eth-Zurich=RjclgB3d8BG_5wzEeuBOuw.html)**
-
-   - 中文：100%，苏黎世，定期
-
-   - ETH Zurich, Switzerland
-
-
-
-23. **[100%, Zurich, fixed-term](https://scholarshipdb.net/jobs-in-Switzerland/100-Zurich-Fixed-Term-Eth-Zurich=KbFA0Ozd8BG_5wzEeuBOuw.html)**
-
-   - 中文：100%，苏黎世，定期
-
-   - ETH Zurich, Switzerland
-
-
-
-24. **[Two postdoc positions in the context of the ERC project "COSMOMAG"](https://scholarshipdb.net/jobs-in-Switzerland/Two-Postdoc-Positions-In-The-Context-Of-The-Erc-Project-Cosmomag-Cern=9ODK5Abe8BG_5wzEeuBOuw.html)**
-
-   - 中文：ERC 项目“COSMOMAG”的两个博士后职位
-
-   - CERN, Switzerland
-
-
-
-25. **[100%, Zurich, fixed-term](https://scholarshipdb.net/jobs-in-Switzerland/100-Zurich-Fixed-Term-Eth-Zurich=iTT2MIrf8BG_5wzEeuBOuw.html)**
-
-   - 中文：100%，苏黎世，定期
-
-   - ETH Zurich, Switzerland
-
-
-
-26. **[PhD Position on "Antimicrobial Materials as Antibiotic Alternatives in Dentistry"](https://scholarshipdb.net/scholarships-in-Switzerland/Ph-D-Position-On-Antimicrobial-Materials-As-Antibiotic-Alternatives-In-Dentistry-Empa=E10-WKzf8BG_5wzEeuBOuw.html)**
-
-   - 中文：“抗菌材料作为牙科抗生素替代品”的博士职位
-
-   - Empa, Switzerland
-
-
-
-27. **[100%, Zurich, fixed-term](https://scholarshipdb.net/jobs-in-Switzerland/100-Zurich-Fixed-Term-Eth-Zurich=WiMLIlrg8BG_5wzEeuBOuw.html)**
-
-   - 中文：100%，苏黎世，定期
-
-   - ETH Zurich, Switzerland
-
-
-
-28. **[Postdoc in "Development and (X-ray based) analysis of materials systems for space applications"](https://scholarshipdb.net/jobs-in-Switzerland/Postdoc-In-Development-And-X-Ray-Based-Analysis-Of-Materials-Systems-For-Space-Applications-Empa=We83Knbg8BG_5wzEeuBOuw.html)**
-
-   - 中文：博士后“空间应用材料系统的开发和（基于 X 射线的）分析”
-
-   - Empa, Switzerland
-
-
-
-29. **[PhD Position in Computational Biology on the Biomarkers for Early Detection of Asthma](https://scholarshipdb.net/scholarships-in-Switzerland/Ph-D-Position-In-Computational-Biology-On-The-Biomarkers-For-Early-Detection-Of-Asthma-Empa=a2T3j3bg8BG_5wzEeuBOuw.html)**
+5. **[PhD Position in Computational Biology on the Biomarkers for Early Detection of Asthma](https://scholarshipdb.net/scholarships-in-Switzerland/Ph-D-Position-In-Computational-Biology-On-The-Biomarkers-For-Early-Detection-Of-Asthma-Empa=a2T3j3bg8BG_5wzEeuBOuw.html)**
 
    - 中文：计算生物学博士职位，研究哮喘早期检测的生物标志物
 
@@ -3638,7 +3450,7 @@
 
 
 
-30. **[90%, Basel, permanent](https://scholarshipdb.net/jobs-in-Switzerland/90-Basel-Permanent-Eth-Zurich=u85lPMTi8BG_5wzEeuBOuw.html)**
+6. **[90%, Basel, permanent](https://scholarshipdb.net/jobs-in-Switzerland/90-Basel-Permanent-Eth-Zurich=u85lPMTi8BG_5wzEeuBOuw.html)**
 
    - 中文：90%，巴塞尔，永久
 
@@ -3646,7 +3458,7 @@
 
 
 
-31. **[100%, Zurich, fixed-term](https://scholarshipdb.net/jobs-in-Switzerland/100-Zurich-Fixed-Term-Eth-Zurich=cqCWvVvg8BG_5wzEeuBOuw.html)**
+7. **[100%, Zurich, fixed-term](https://scholarshipdb.net/jobs-in-Switzerland/100-Zurich-Fixed-Term-Eth-Zurich=ZpVmU07c8BG_5wzEeuBOuw.html)**
 
    - 中文：100%，苏黎世，定期
 
@@ -3654,7 +3466,207 @@
 
 
 
-32. **[Professor or Assistant Professor (Tenure Track) of Statistics](https://scholarshipdb.net/jobs-in-Switzerland/Professor-Or-Assistant-Professor-Tenure-Track-Of-Statistics-Eth-Z-rich=ltfJBpzg8BG_5wzEeuBOuw.html)**
+8. **[80%-100%, Zurich, fixed-term](https://scholarshipdb.net/jobs-in-Switzerland/80-100-Zurich-Fixed-Term-Eth-Zurich=67ioZU7c8BG_5wzEeuBOuw.html)**
+
+   - 中文：80%-100%，苏黎世，定期
+
+   - ETH Zurich, Switzerland
+
+
+
+9. **[100%, Basel, fixed-term](https://scholarshipdb.net/jobs-in-Switzerland/100-Basel-Fixed-Term-Eth-Zurich=8rioZU7c8BG_5wzEeuBOuw.html)**
+
+   - 中文：100%，巴塞尔，定期
+
+   - ETH Zurich, Switzerland
+
+
+
+10. **[100%, Zurich, fixed-term](https://scholarshipdb.net/jobs-in-Switzerland/100-Zurich-Fixed-Term-Eth-Zurich=YqsmOR3d8BG_5wzEeuBOuw.html)**
+
+   - 中文：100%，苏黎世，定期
+
+   - ETH Zurich, Switzerland
+
+
+
+11. **[100%, Zurich, fixed-term](https://scholarshipdb.net/jobs-in-Switzerland/100-Zurich-Fixed-Term-Eth-Zurich=TgWDSx3d8BG_5wzEeuBOuw.html)**
+
+   - 中文：100%，苏黎世，定期
+
+   - ETH Zurich, Switzerland
+
+
+
+12. **[100%, Zurich, fixed-term](https://scholarshipdb.net/jobs-in-Switzerland/100-Zurich-Fixed-Term-Eth-Zurich=WwWDSx3d8BG_5wzEeuBOuw.html)**
+
+   - 中文：100%，苏黎世，定期
+
+   - ETH Zurich, Switzerland
+
+
+
+13. **[100%, Zurich, fixed-term](https://scholarshipdb.net/jobs-in-Switzerland/100-Zurich-Fixed-Term-Eth-Zurich=GjCHXR3d8BG_5wzEeuBOuw.html)**
+
+   - 中文：100%，苏黎世，定期
+
+   - ETH Zurich, Switzerland
+
+
+
+14. **[100%, Zurich, fixed-term](https://scholarshipdb.net/jobs-in-Switzerland/100-Zurich-Fixed-Term-Eth-Zurich=OjclgB3d8BG_5wzEeuBOuw.html)**
+
+   - 中文：100%，苏黎世，定期
+
+   - ETH Zurich, Switzerland
+
+
+
+15. **[100%, Zurich, fixed-term](https://scholarshipdb.net/jobs-in-Switzerland/100-Zurich-Fixed-Term-Eth-Zurich=RjclgB3d8BG_5wzEeuBOuw.html)**
+
+   - 中文：100%，苏黎世，定期
+
+   - ETH Zurich, Switzerland
+
+
+
+16. **[100%, Zurich, fixed-term](https://scholarshipdb.net/jobs-in-Switzerland/100-Zurich-Fixed-Term-Eth-Zurich=KbFA0Ozd8BG_5wzEeuBOuw.html)**
+
+   - 中文：100%，苏黎世，定期
+
+   - ETH Zurich, Switzerland
+
+
+
+17. **[100%, Zurich, fixed-term](https://scholarshipdb.net/jobs-in-Switzerland/100-Zurich-Fixed-Term-Eth-Zurich=iTT2MIrf8BG_5wzEeuBOuw.html)**
+
+   - 中文：100%，苏黎世，定期
+
+   - ETH Zurich, Switzerland
+
+
+
+18. **[Postdoc in "Development and (X-ray based) analysis of materials systems for space applications"](https://scholarshipdb.net/jobs-in-Switzerland/Postdoc-In-Development-And-X-Ray-Based-Analysis-Of-Materials-Systems-For-Space-Applications-Empa=We83Knbg8BG_5wzEeuBOuw.html)**
+
+   - 中文：博士后“空间应用材料系统的开发和（基于 X 射线的）分析”
+
+   - Empa, Switzerland
+
+
+
+19. **[Internship Opportunity (100%) Zampieri Lab](https://scholarshipdb.net/jobs-in-Switzerland/Internship-Opportunity-100-Zampieri-Lab-University-Of-Basel=aKi-fvDf8BG_5wzEeuBOuw.html)**
+
+   - 中文：实习机会 (100%) Zampieri Lab
+
+   - University of Basel, Switzerland
+
+
+
+20. **[Post-Doc position in quantitative biology (Zampieri Lab)](https://scholarshipdb.net/jobs-in-Switzerland/Post-Doc-Position-In-Quantitative-Biology-Zampieri-Lab-University-Of-Basel=c7nDLr7c8BG_5wzEeuBOuw.html)**
+
+   - 中文：定量生物学博士后职位（Zampieri 实验室）
+
+   - University of Basel, Switzerland
+
+
+
+21. **[PhD Position in the Experimental Rheumatology Laboratory 100%](https://scholarshipdb.net/scholarships-in-Switzerland/Ph-D-Position-In-The-Experimental-Rheumatology-Laboratory-100-University-Of-Basel=b8aY8SPf8BG_5wzEeuBOuw.html)**
+
+   - 中文：实验风湿病实验室博士职位 100%
+
+   - University of Basel, Switzerland
+
+
+
+22. **[Project and Operations Coordinator – early career (100%)](https://scholarshipdb.net/jobs-in-Switzerland/Project-And-Operations-Coordinator-Early-Career-100-University-Of-Basel=ElHQOonf8BG_5wzEeuBOuw.html)**
+
+   - 中文：项目和运营协调员 – 早期职业生涯 (100%)
+
+   - University of Basel, Switzerland
+
+
+
+23. **[Professor or Assistant Professor (Tenure Track) of Statistics](https://scholarshipdb.net/jobs-in-Switzerland/Professor-Or-Assistant-Professor-Tenure-Track-Of-Statistics-Eth-Zurich=26Byn5Xi8BG_5wzEeuBOuw.html)**
+
+   - 中文：统计学教授或助理教授（终身教职）
+
+   - ETH Zurich, Switzerland
+
+
+
+24. **[PhD Position on "Antimicrobial Materials as Antibiotic Alternatives in Dentistry"](https://scholarshipdb.net/scholarships-in-Switzerland/Ph-D-Position-On-Antimicrobial-Materials-As-Antibiotic-Alternatives-In-Dentistry-Empa=dm7RJJbg8BG_5wzEeuBOuw.html)**
+
+   - 中文：“抗菌材料作为牙科抗生素替代品”的博士职位
+
+   - Empa, Switzerland
+
+
+
+25. **[PhD student in the Design of Sustainable Sediment Retention Basins 100% (f/m/d)](https://scholarshipdb.net/scholarships-in-Switzerland/Ph-D-Student-In-The-Design-Of-Sustainable-Sediment-Retention-Basins-100-F-M-D-Swiss-Federal-Institute-For-Forest-Snow-And-Landscape-Research-Wsl=_hFLvJvg8BG_5wzEeuBOuw.html)**
+
+   - 中文：可持续沉积物滞留池设计博士生 100% (f/m/d)
+
+   - Switzerland
+
+
+
+26. **[Postdoctoral fellowship on integrative research in the art and design of daylight](https://scholarshipdb.net/jobs-in-Switzerland/Postdoctoral-Fellowship-On-Integrative-Research-In-The-Art-And-Design-Of-Daylight-Eth-Z-rich=8OYUZozh8BG_5wzEeuBOuw.html)**
+
+   - 中文：日光艺术与设计综合研究博士后奖学金
+
+   - Switzerland
+
+
+
+27. **[Postdoctoral fellowship on integrative research in occupant-centric daylighting](https://scholarshipdb.net/jobs-in-Switzerland/Postdoctoral-Fellowship-On-Integrative-Research-In-Occupant-Centric-Daylighting-Eth-Z-rich=-OYUZozh8BG_5wzEeuBOuw.html)**
+
+   - 中文：以居住者为中心的采光综合研究博士后奖学金
+
+   - Switzerland
+
+
+
+28. **[Doctoral Position in Earth Observation and Remote Sensing](https://scholarshipdb.net/jobs-in-Switzerland/Doctoral-Position-In-Earth-Observation-And-Remote-Sensing-Eth-Z-rich=nqB-eIzh8BG_5wzEeuBOuw.html)**
+
+   - 中文：地球观测与遥感博士职位
+
+   - Switzerland
+
+
+
+29. **[Postdoctoral Visiting Lectureships in the History of Architecture, Urbanism and Landscape](https://scholarshipdb.net/jobs-in-Switzerland/Postdoctoral-Visiting-Lectureships-In-The-History-Of-Architecture-Urbanism-And-Landscape-Eth-Z-rich=y6FcJQHi8BG_5wzEeuBOuw.html)**
+
+   - 中文：建筑、城市规划和景观史博士后访问讲座
+
+   - Switzerland
+
+
+
+30. **[PhD Position: Computational Design and Digital Fabrication of high-performance timber plate structures](https://scholarshipdb.net/scholarships-in-Switzerland/Ph-D-Position-Computational-Design-And-Digital-Fabrication-Of-High-Performance-Timber-Plate-Structures-Eth-Z-rich=6DhjqSvk8BG_5wzEeuBOuw.html)**
+
+   - 中文：博士职位：高性能木板结构的计算设计和数字化制造
+
+   - Switzerland
+
+
+
+31. **[Laboratory Automation Scientist](https://scholarshipdb.net/jobs-in-Switzerland/Laboratory-Automation-Scientist-Eth-Z-rich=Xm_JFq7j8BG_5wzEeuBOuw.html)**
+
+   - 中文：实验室自动化科学家
+
+   - Switzerland
+
+
+
+32. **[Two postdoc positions in the context of the ERC project "COSMOMAG"](https://scholarshipdb.net/jobs-in-Switzerland/Two-Postdoc-Positions-In-The-Context-Of-The-Erc-Project-Cosmomag-Cern=9ODK5Abe8BG_5wzEeuBOuw.html)**
+
+   - 中文：ERC 项目“COSMOMAG”的两个博士后职位
+
+   - CERN, Switzerland
+
+
+
+33. **[Professor or Assistant Professor (Tenure Track) of Statistics](https://scholarshipdb.net/jobs-in-Switzerland/Professor-Or-Assistant-Professor-Tenure-Track-Of-Statistics-Eth-Z-rich=ltfJBpzg8BG_5wzEeuBOuw.html)**
 
    - 中文：统计学教授或助理教授（终身教职）
 
@@ -3662,7 +3674,7 @@
 
 
 
-33. **[2 Tenure-Track Group Leader Positions in the Climate Solutions Hub (80–100%)](https://scholarshipdb.net/jobs-in-Switzerland/2-Tenure-Track-Group-Leader-Positions-In-The-Climate-Solutions-Hub-80-100-Empa=SGJ6xvfh8BG_5wzEeuBOuw.html)**
+34. **[2 Tenure-Track Group Leader Positions in the Climate Solutions Hub (80–100%)](https://scholarshipdb.net/jobs-in-Switzerland/2-Tenure-Track-Group-Leader-Positions-In-The-Climate-Solutions-Hub-80-100-Empa=SGJ6xvfh8BG_5wzEeuBOuw.html)**
 
    - 中文：2 气候解决方案中心终身教职小组领导职位 (80–100%)
 
@@ -3670,7 +3682,7 @@
 
 
 
-34. **[Tenured Associate/Full Professor in Translational Medicine and Precision Engineering 100%](https://scholarshipdb.net/jobs-in-Switzerland/Tenured-Associate-Full-Professor-In-Translational-Medicine-And-Precision-Engineering-100-Nature-Careers=-FV74gjc8BG_5wzEeuBOuw.html)**
+35. **[Tenured Associate/Full Professor in Translational Medicine and Precision Engineering 100%](https://scholarshipdb.net/jobs-in-Switzerland/Tenured-Associate-Full-Professor-In-Translational-Medicine-And-Precision-Engineering-100-Nature-Careers=-FV74gjc8BG_5wzEeuBOuw.html)**
 
    - 中文：转化医学和精密工程终身副教授/正教授 100%
 
@@ -3678,19 +3690,11 @@
 
 
 
-35. **[Postdoctoral Fellow in X-ray photoelectron spectroscopy of nitride heterostructures](https://scholarshipdb.net/jobs-in-Switzerland/Postdoctoral-Fellow-In-X-Ray-Photoelectron-Spectroscopy-Of-Nitride-Heterostructures-Nature-Careers=rplMA-bg8BG_5wzEeuBOuw.html)**
+36. **[Postdoctoral Fellow in X-ray photoelectron spectroscopy of nitride heterostructures](https://scholarshipdb.net/jobs-in-Switzerland/Postdoctoral-Fellow-In-X-Ray-Photoelectron-Spectroscopy-Of-Nitride-Heterostructures-Nature-Careers=rplMA-bg8BG_5wzEeuBOuw.html)**
 
    - 中文：氮化物异质结构X射线光电子能谱博士后
 
    - Nature Careers, Switzerland
-
-
-
-36. **[100%, Zurich, fixed-term](https://scholarshipdb.net/jobs-in-Switzerland/100-Zurich-Fixed-Term-Eth-Zurich=nlWt7Vzg8BG_5wzEeuBOuw.html)**
-
-   - 中文：100%，苏黎世，定期
-
-   - ETH Zurich, Switzerland
 
 
 
@@ -3752,6 +3756,8 @@
 
 44. **[PhD student in “Plant-Insect Interactions, Chemical Ecology, Artificial Night Light Research” (f/m/d)](https://scholarshipdb.net/scholarships-in-Switzerland/Ph-D-Student-In-Plant-Insect-Interactions-Chemical-Ecology-Artificial-Night-Light-Research-F-M-D-Swiss-Federal-Institute-For-Forest-Snow-And-Landscape-Research-Wsl=E9cvlK-c8BG_5wzEeuBOuw.html)**
 
+   - 中文：“植物-昆虫相互作用、化学生态学、人造夜灯研究”博士生（f/m/d）
+
    - Switzerland
 
 
@@ -3764,13 +3770,13 @@
 
 46. **[Laboratory Technician 50%](https://scholarshipdb.net/jobs-in-Switzerland/Laboratory-Technician-50-University-Of-Basel=GMaUp6-c8BG_5wzEeuBOuw.html)**
 
-   - 中文：实验室技术员 50%
-
    - University of Basel, Switzerland
 
 
 
 47. **[Postdoctoral Researcher in Marketing (Two Project Options) - 80% employment grade](https://scholarshipdb.net/jobs-in-Switzerland/Postdoctoral-Researcher-In-Marketing-Two-Project-Options-80-Employment-Grade-University-Of-Basel=Lyipt6-c8BG_5wzEeuBOuw.html)**
+
+   - 中文：市场营销博士后研究员（两个项目选项）- 80% 就业等级
 
    - University of Basel, Switzerland
 

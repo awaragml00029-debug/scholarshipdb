@@ -12,67 +12,44 @@
         }
 
         body {
-            font-family: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
             line-height: 1.6;
-            color: rgba(0, 0, 0, 0.87);
-            background: #fafafa;
-            padding-bottom: 40px;
+            color: #333;
+            background: #f5f5f5;
+            padding-bottom: 20px;
         }
 
         .container {
-            max-width: 1200px;
+            max-width: 800px;
             margin: 0 auto;
-            background: #fafafa;
-            min-height: 100vh;
+            background: white;
         }
 
-        /* Material Design App Bar */
         header {
-            background: #1976d2;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
-            padding: 16px 24px;
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
-        }
-
-        header.elevated {
-            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-        }
-
-        .app-bar-content {
-            max-width: 1200px;
-            margin: 0 auto;
+            padding: 20px 16px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
 
         h1 {
-            font-size: 20px;
-            font-weight: 500;
-            margin-bottom: 12px;
-            letter-spacing: 0.15px;
-        }
-
-        .controls {
-            display: flex;
-            align-items: center;
-            gap: 16px;
-            flex-wrap: wrap;
+            font-size: 24px;
+            margin-bottom: 8px;
         }
 
         .date-selector {
-            flex: 0 0 auto;
+            margin-top: 12px;
+            margin-bottom: 8px;
         }
 
         .date-selector select {
-            padding: 8px 40px 8px 16px;
-            border: none;
-            border-radius: 4px;
-            background: rgba(255, 255, 255, 0.15);
+            padding: 8px 16px;
+            border: 2px solid white;
+            border-radius: 20px;
+            background: rgba(255, 255, 255, 0.2);
             color: white;
             font-size: 14px;
-            font-weight: 400;
             cursor: pointer;
             outline: none;
             -webkit-appearance: none;
@@ -80,153 +57,129 @@
             background-image: url('data:image/svg+xml;utf8,<svg fill="white" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
             background-repeat: no-repeat;
             background-position: right 8px center;
-            transition: background 200ms cubic-bezier(0.4, 0, 0.2, 1);
-        }
-
-        .date-selector select:hover {
-            background: rgba(255, 255, 255, 0.25);
+            padding-right: 32px;
         }
 
         .date-selector select option {
-            background: #1976d2;
+            background: #667eea;
             color: white;
         }
 
         .stats {
             display: flex;
-            gap: 24px;
-            flex: 1;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 12px;
+            font-size: 14px;
         }
 
-        .stat-chip {
-            background: rgba(255, 255, 255, 0.15);
-            padding: 4px 12px;
-            border-radius: 16px;
-            font-size: 13px;
-            font-weight: 400;
+        .stat-item {
             display: flex;
             align-items: center;
-            gap: 6px;
-        }
-
-        /* Material Cards */
-        .content-area {
-            padding: 24px 16px;
+            gap: 4px;
         }
 
         .category {
-            margin-bottom: 16px;
+            margin: 16px;
             background: white;
-            border-radius: 4px;
+            border-radius: 12px;
             overflow: hidden;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            transition: box-shadow 200ms cubic-bezier(0.4, 0, 0.2, 1);
-        }
-
-        .category:hover {
-            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
         }
 
         .category-header {
-            background: white;
-            padding: 16px 20px;
+            background: #f8f9fa;
+            padding: 16px;
             cursor: pointer;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            border-bottom: 1px solid rgba(0,0,0,0.08);
-            user-select: none;
-            transition: background 150ms cubic-bezier(0.4, 0, 0.2, 1);
-        }
-
-        .category-header:hover {
-            background: rgba(0,0,0,0.02);
+            border-bottom: 1px solid #e9ecef;
+            transition: background 0.2s;
+            -webkit-tap-highlight-color: transparent;
         }
 
         .category-header:active {
-            background: rgba(0,0,0,0.05);
+            background: #e9ecef;
         }
 
         .category-title {
-            font-size: 16px;
-            font-weight: 500;
-            color: rgba(0, 0, 0, 0.87);
+            font-size: 18px;
+            font-weight: 600;
+            color: #495057;
             display: flex;
             align-items: center;
-            gap: 12px;
-            letter-spacing: 0.15px;
+            gap: 8px;
         }
 
         .category-count {
-            background: #1976d2;
+            background: #667eea;
             color: white;
-            padding: 2px 8px;
+            padding: 2px 10px;
             border-radius: 12px;
-            font-size: 12px;
-            font-weight: 500;
-            min-width: 24px;
-            text-align: center;
+            font-size: 13px;
+            font-weight: 600;
         }
 
         .category-content {
             max-height: 0;
             overflow: hidden;
-            transition: max-height 300ms cubic-bezier(0.4, 0, 0.2, 1);
+            transition: max-height 0.3s ease-out;
         }
 
         .category-content.active {
             max-height: 10000px;
+            transition: max-height 0.5s ease-in;
         }
 
         .scholarship-list {
-            padding: 16px 20px;
+            padding: 12px;
         }
 
         .scholarship-item {
-            padding: 12px 0;
-            border-bottom: 1px solid rgba(0,0,0,0.06);
+            padding: 12px;
+            margin-bottom: 12px;
+            border-left: 3px solid #667eea;
+            background: #f8f9fa;
+            border-radius: 0 8px 8px 0;
         }
 
         .scholarship-item:last-child {
-            border-bottom: none;
+            margin-bottom: 0;
         }
 
         .scholarship-title {
             font-size: 15px;
-            font-weight: 400;
-            color: rgba(0, 0, 0, 0.87);
+            font-weight: 600;
+            color: #212529;
             margin-bottom: 6px;
-            line-height: 1.5;
-            letter-spacing: 0.15px;
+            line-height: 1.4;
         }
 
         .scholarship-title a {
-            color: #1976d2;
+            color: #667eea;
             text-decoration: none;
-            transition: color 150ms cubic-bezier(0.4, 0, 0.2, 1);
         }
 
-        .scholarship-title a:hover {
-            color: #1565c0;
-            text-decoration: underline;
+        .scholarship-title a:active {
+            opacity: 0.7;
         }
 
         .scholarship-meta {
             font-size: 13px;
-            color: rgba(0, 0, 0, 0.6);
+            color: #6c757d;
             line-height: 1.5;
-            margin-top: 4px;
         }
 
         .meta-label {
-            font-weight: 500;
-            color: rgba(0, 0, 0, 0.7);
+            font-weight: 600;
         }
 
         .arrow {
-            transition: transform 200ms cubic-bezier(0.4, 0, 0.2, 1);
-            color: rgba(0, 0, 0, 0.54);
-            font-size: 24px;
+            transition: transform 0.3s;
+            color: #667eea;
+            font-size: 20px;
+            font-weight: bold;
         }
 
         .arrow.rotated {
@@ -235,114 +188,37 @@
 
         .loading {
             text-align: center;
-            padding: 60px 20px;
-            color: rgba(0, 0, 0, 0.6);
-            font-size: 16px;
+            padding: 40px;
+            color: #6c757d;
         }
 
         .empty {
             text-align: center;
-            padding: 80px 20px;
-            color: rgba(0, 0, 0, 0.6);
+            padding: 60px 20px;
+            color: #6c757d;
         }
 
         .empty-icon {
-            font-size: 56px;
-            margin-bottom: 16px;
-        }
-
-        .empty-text {
-            font-size: 16px;
-            font-weight: 400;
-        }
-
-        /* Material FAB - Floating Action Button */
-        .back-to-top {
-            position: fixed;
-            bottom: 24px;
-            right: 24px;
-            width: 56px;
-            height: 56px;
-            background: #1976d2;
-            color: white;
-            border: none;
-            border-radius: 50%;
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-            opacity: 0;
-            transform: scale(0);
-            transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1);
-            z-index: 999;
-            font-size: 24px;
-        }
-
-        .back-to-top.visible {
-            opacity: 1;
-            transform: scale(1);
-        }
-
-        .back-to-top:hover {
-            background: #1565c0;
-            box-shadow: 0 6px 12px rgba(0,0,0,0.3);
-        }
-
-        .back-to-top:active {
-            box-shadow: 0 8px 16px rgba(0,0,0,0.4);
-        }
-
-        @media (max-width: 768px) {
-            h1 {
-                font-size: 18px;
-            }
-
-            header {
-                padding: 12px 16px;
-            }
-
-            .controls {
-                gap: 12px;
-            }
-
-            .stats {
-                gap: 16px;
-            }
-
-            .stat-chip {
-                font-size: 12px;
-                padding: 3px 10px;
-            }
-
-            .content-area {
-                padding: 16px 8px;
-            }
-
-            .category {
-                margin-bottom: 12px;
-            }
-
-            .category-header {
-                padding: 14px 16px;
-            }
-
-            .scholarship-list {
-                padding: 12px 16px;
-            }
-
-            .back-to-top {
-                width: 48px;
-                height: 48px;
-                bottom: 16px;
-                right: 16px;
-                font-size: 20px;
-            }
+            font-size: 48px;
+            margin-bottom: 12px;
         }
 
         @media (max-width: 600px) {
+            h1 {
+                font-size: 20px;
+            }
+
             .stats {
-                display: none;
+                font-size: 13px;
+                gap: 12px;
+            }
+
+            .category-title {
+                font-size: 16px;
+            }
+
+            .scholarship-title {
+                font-size: 14px;
             }
         }
     </style>
@@ -350,91 +226,66 @@
 <body>
     <div class="container">
         <header>
-            <div class="app-bar-content">
-                <h1>📚 PhD 奖学金日报</h1>
-                <div class="controls">
-                    <div class="date-selector">
-                        <select id="report-date" onchange="loadReport(this.value)">
-                            <option value="latest">最新日报</option>
-                        </select>
-                    </div>
-                    <div class="stats">
-                        <div class="stat-chip">
-                            <span>📅</span>
-                            <span id="date">-</span>
-                        </div>
-                        <div class="stat-chip">
-                            <span>✨</span>
-                            <span id="new-count">-</span>
-                        </div>
-                        <div class="stat-chip">
-                            <span>📊</span>
-                            <span id="total-count">-</span>
-                        </div>
-                    </div>
+            <h1>📚 PhD 奖学金日报</h1>
+            <div class="date-selector">
+                <select id="report-date" onchange="loadReport(this.value)">
+                    <option value="latest">最新日报</option>
+                </select>
+            </div>
+            <div class="stats">
+                <div class="stat-item">
+                    <span>📅</span>
+                    <span id="date">加载中...</span>
+                </div>
+                <div class="stat-item">
+                    <span>🆕</span>
+                    <span id="new-count">-</span>
+                </div>
+                <div class="stat-item">
+                    <span>📊</span>
+                    <span id="total-count">-</span>
                 </div>
             </div>
         </header>
 
-        <div class="content-area">
-            <div id="content" class="loading">
-                正在加载最新日报...
-            </div>
+        <div id="content" class="loading">
+            正在加载最新日报...
         </div>
     </div>
 
-    <!-- Material FAB -->
-    <button class="back-to-top" id="backToTop" onclick="scrollToTop()" aria-label="回到顶部">
-        ↑
-    </button>
-
     <script>
-        // Back to top and header elevation
-        const backToTopBtn = document.getElementById('backToTop');
-        const header = document.querySelector('header');
-
-        window.addEventListener('scroll', () => {
-            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-
-            // Show/hide FAB
-            if (scrollTop > 300) {
-                backToTopBtn.classList.add('visible');
-            } else {
-                backToTopBtn.classList.remove('visible');
-            }
-
-            // Add elevation to app bar
-            if (scrollTop > 10) {
-                header.classList.add('elevated');
-            } else {
-                header.classList.remove('elevated');
-            }
-        });
-
-        function scrollToTop() {
-            window.scrollTo({
-                top: 0,
-                behavior: 'smooth'
-            });
-        }
-
-        // Load historical reports
+        // Load historical reports list from index.json
         async function loadHistoricalReports() {
             try {
+                console.log('Fetching index.json...');
                 const response = await fetch('./reports/index.json');
-                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+                console.log('Response status:', response.status);
+
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
 
                 const historyItems = await response.json();
-                const select = document.getElementById('report-date');
+                console.log('Loaded history items:', historyItems);
 
+                const select = document.getElementById('report-date');
                 historyItems.forEach(item => {
                     const option = document.createElement('option');
                     option.value = item.filename;
                     option.textContent = item.display;
                     select.appendChild(option);
+                    console.log('Added option:', item.display);
                 });
+
+                console.log('✓ Successfully loaded', historyItems.length, 'historical reports');
             } catch (error) {
-                console.error('Failed to load historical reports:', error);
+                console.error('❌ Failed to load historical reports:', error);
+                // 在页面上显示错误
+                const select = document.getElementById('report-date');
+                const option = document.createElement('option');
+                option.textContent = '⚠️ 无法加载历史记录';
+                option.disabled = true;
+                select.appendChild(option);
             }
         }
 
@@ -445,17 +296,20 @@
 
             fetch(`./reports/${filename}.md`)
                 .then(response => response.text())
-                .then(markdown => parseAndRender(markdown))
+                .then(markdown => {
+                    parseAndRender(markdown);
+                })
                 .catch(error => {
                     content.innerHTML = `
                         <div class="empty">
                             <div class="empty-icon">😔</div>
-                            <div class="empty-text">无法加载该日报</div>
+                            <div>无法加载该日报</div>
                         </div>
                     `;
                 });
         }
 
+        // Initial load
         loadHistoricalReports();
         loadReport('latest');
 
@@ -463,36 +317,38 @@
             const lines = markdown.split('\n');
 
             // Parse header
-            let date = '', newCount = 0, totalCount = 0;
+            let date = '';
+            let newCount = 0;
+            let totalCount = 0;
 
             for (const line of lines) {
-                if (line.includes('PhD 奖学金日报 -') || line.includes('PhD 奖学金完整列表 -')) {
-                    const match = line.match(/(\d{4}-\d{2}-\d{2})/);
-                    if (match) date = match[0];
+                if (line.includes('PhD 奖学金日报 -')) {
+                    date = line.match(/(\d{4}-\d{2}-\d{2})/)[0];
                 }
                 if (line.includes('新增奖学金')) {
-                    const match = line.match(/(\d+)/);
-                    if (match) newCount = parseInt(match[1]);
+                    newCount = parseInt(line.match(/(\d+)/)[1]);
                 }
                 if (line.includes('总数')) {
-                    const match = line.match(/(\d+)/);
-                    if (match) totalCount = parseInt(match[1]);
+                    totalCount = parseInt(line.match(/(\d+)/)[1]);
                 }
             }
 
             document.getElementById('date').textContent = date;
-            document.getElementById('new-count').textContent = `${newCount} 新增`;
-            document.getElementById('total-count').textContent = `${totalCount} 总计`;
+            document.getElementById('new-count').textContent = `${newCount} 条新增`;
+            document.getElementById('total-count').textContent = `${totalCount} 条总计`;
 
             // Parse categories
             const categories = [];
             let currentCategory = null;
+            let inDetails = false;
 
             for (let i = 0; i < lines.length; i++) {
                 const line = lines[i];
 
                 if (line.startsWith('## 📚')) {
-                    if (currentCategory) categories.push(currentCategory);
+                    if (currentCategory) {
+                        categories.push(currentCategory);
+                    }
                     currentCategory = {
                         title: line.replace('## 📚 ', ''),
                         count: 0,
@@ -501,31 +357,57 @@
                 } else if (line.includes('**数量**:') && currentCategory) {
                     currentCategory.count = parseInt(line.match(/(\d+)/)[1]);
                 } else if (line.match(/^\d+\.\s\*\*\[/) && currentCategory) {
+                    // Parse scholarship item
                     const titleMatch = line.match(/\*\*\[(.*?)\]\((.*?)\)\*\*/);
                     if (titleMatch) {
-                        const item = { title: titleMatch[1], url: titleMatch[2], titleZh: '', info: '' };
+                        const item = {
+                            title: titleMatch[1],
+                            url: titleMatch[2],
+                            titleZh: '',
+                            info: ''
+                        };
 
+                        // Look ahead for Chinese title and info (skip blank lines)
                         let j = i + 1;
                         while (j < lines.length && j < i + 10) {
                             const nextLine = lines[j].trim();
-                            if (!nextLine) { j++; continue; }
+
+                            // Skip blank lines
+                            if (!nextLine) {
+                                j++;
+                                continue;
+                            }
+
+                            // Found Chinese title
                             if (nextLine.includes('中文：')) {
                                 item.titleZh = nextLine.replace(/.*中文：/, '').trim();
-                                j++; continue;
+                                j++;
+                                continue;
                             }
+
+                            // Found info line (university, country)
                             if (nextLine.startsWith('-') && !nextLine.includes('中文：')) {
                                 item.info = nextLine.replace(/^-\s*/, '').trim();
-                                j++; continue;
+                                j++;
+                                continue;
                             }
-                            if (nextLine.match(/^\d+\.\s\*\*\[/) || nextLine.startsWith('#')) break;
+
+                            // Stop if we hit another scholarship or section
+                            if (nextLine.match(/^\d+\.\s\*\*\[/) || nextLine.startsWith('#')) {
+                                break;
+                            }
+
                             j++;
                         }
+
                         currentCategory.items.push(item);
                     }
                 }
             }
 
-            if (currentCategory) categories.push(currentCategory);
+            if (currentCategory) {
+                categories.push(currentCategory);
+            }
 
             // Render
             const content = document.getElementById('content');
@@ -534,7 +416,7 @@
                 content.innerHTML = `
                     <div class="empty">
                         <div class="empty-icon">🎉</div>
-                        <div class="empty-text">今日无新增奖学金</div>
+                        <div>今日无新增奖学金</div>
                     </div>
                 `;
                 return;
@@ -542,7 +424,7 @@
 
             content.innerHTML = '';
 
-            categories.forEach(category => {
+            categories.forEach((category, index) => {
                 const categoryDiv = document.createElement('div');
                 categoryDiv.className = 'category';
 
@@ -566,18 +448,20 @@
                     const itemDiv = document.createElement('div');
                     itemDiv.className = 'scholarship-item';
 
+                    // 优先显示中文标题，如果有的话
                     const displayTitle = item.titleZh || item.title;
                     const needsEnglish = item.titleZh && item.titleZh !== item.title;
 
                     let html = `
                         <div class="scholarship-title">
-                            ${idx + 1}. <a href="${item.url}" target="_blank" rel="noopener">${displayTitle}</a>
+                            ${idx + 1}. <a href="${item.url}" target="_blank">${displayTitle}</a>
                         </div>
                     `;
 
                     if (needsEnglish) {
                         html += `<div class="scholarship-meta"><span class="meta-label">英文：</span>${item.title}</div>`;
                     }
+
                     if (item.info) {
                         html += `<div class="scholarship-meta">📍 ${item.info}</div>`;
                     }
@@ -591,20 +475,11 @@
                 categoryDiv.appendChild(contentDiv);
                 content.appendChild(categoryDiv);
 
-                // Material accordion - smooth toggle
+                // Toggle functionality
                 header.addEventListener('click', () => {
                     const arrow = header.querySelector('.arrow');
                     const isActive = contentDiv.classList.contains('active');
 
-                    // Close others
-                    document.querySelectorAll('.category-content.active').forEach(other => {
-                        if (other !== contentDiv) {
-                            other.classList.remove('active');
-                            other.previousElementSibling.querySelector('.arrow').classList.remove('rotated');
-                        }
-                    });
-
-                    // Toggle current
                     if (isActive) {
                         contentDiv.classList.remove('active');
                         arrow.classList.remove('rotated');

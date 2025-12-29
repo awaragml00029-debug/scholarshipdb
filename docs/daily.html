@@ -38,6 +38,26 @@
             z-index: 100;
             backdrop-filter: blur(20px);
             box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        /* Compact header when scrolled */
+        header.scrolled {
+            padding: 12px 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+        }
+
+        header.scrolled h1 {
+            font-size: 18px;
+            margin-bottom: 0;
+        }
+
+        header.scrolled .date-selector,
+        header.scrolled .stats {
+            max-height: 0;
+            overflow: hidden;
+            opacity: 0;
+            margin: 0;
         }
 
         h1 {
@@ -45,11 +65,13 @@
             font-weight: 600;
             margin-bottom: 12px;
             letter-spacing: -0.5px;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
         .date-selector {
             margin-top: 16px;
             margin-bottom: 12px;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
         .date-selector select {
@@ -89,6 +111,7 @@
             font-size: 15px;
             font-weight: 500;
             opacity: 0.95;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
         .stat-item {
@@ -292,6 +315,14 @@
                 padding: 24px 16px 20px;
             }
 
+            header.scrolled {
+                padding: 10px 16px;
+            }
+
+            header.scrolled h1 {
+                font-size: 16px;
+            }
+
             .stats {
                 font-size: 14px;
                 gap: 16px;
@@ -383,15 +414,29 @@
     </button>
 
     <script>
-        // Back to top functionality
+        // Back to top functionality and header collapse
         const backToTopBtn = document.getElementById('backToTop');
+        const header = document.querySelector('header');
+        let lastScrollTop = 0;
 
         window.addEventListener('scroll', () => {
-            if (window.pageYOffset > 300) {
+            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+            // Show/hide back to top button
+            if (scrollTop > 300) {
                 backToTopBtn.classList.add('visible');
             } else {
                 backToTopBtn.classList.remove('visible');
             }
+
+            // Collapse/expand header
+            if (scrollTop > 100) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+
+            lastScrollTop = scrollTop;
         });
 
         function scrollToTop() {

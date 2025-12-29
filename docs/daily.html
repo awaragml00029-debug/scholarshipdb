@@ -41,44 +41,33 @@
             transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
-        /* Compact header when scrolled - horizontal layout */
+        /* Compact header when scrolled - minimal vertical layout */
         header.scrolled {
-            padding: 10px 20px;
+            padding: 8px 20px;
             box-shadow: 0 2px 8px rgba(0,0,0,0.15);
         }
 
-        header.scrolled .header-main {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: space-between;
-            gap: 16px;
-        }
-
         header.scrolled h1 {
-            font-size: 16px;
-            margin-bottom: 0;
-            flex-shrink: 0;
+            font-size: 17px;
+            margin-bottom: 6px;
         }
 
         header.scrolled .date-selector {
-            margin: 0;
-            flex-shrink: 1;
-        }
-
-        header.scrolled .date-selector select {
-            padding: 6px 32px 6px 12px;
-            font-size: 13px;
-            border-radius: 8px;
-            background-position: right 8px center;
+            margin-top: 0;
+            margin-bottom: 0;
+            transform: scale(0.85);
         }
 
         header.scrolled .stats {
-            display: none;
+            opacity: 0;
+            transform: scale(0.9);
+            max-height: 0;
+            margin-top: 0;
+            overflow: hidden;
         }
 
         .header-main {
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            transition: padding 0.4s ease, transform 0.4s ease;
         }
 
         h1 {
@@ -86,14 +75,13 @@
             font-weight: 600;
             margin-bottom: 12px;
             letter-spacing: -0.5px;
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            transition: font-size 0.4s ease, margin 0.4s ease;
         }
 
         .date-selector {
             margin-top: 16px;
             margin-bottom: 12px;
-            transition: opacity 0.2s ease-out, transform 0.2s ease-out, margin 0.2s ease-out;
-            will-change: opacity, transform;
+            transition: margin 0.4s ease, transform 0.4s ease;
         }
 
         .date-selector select {
@@ -133,8 +121,7 @@
             font-size: 15px;
             font-weight: 500;
             opacity: 0.95;
-            transition: opacity 0.2s ease-out, transform 0.2s ease-out, margin 0.2s ease-out;
-            will-change: opacity, transform;
+            transition: opacity 0.4s ease, transform 0.4s ease, max-height 0.4s ease, margin 0.4s ease;
         }
 
         .stat-item {
@@ -339,16 +326,16 @@
             }
 
             header.scrolled {
-                padding: 8px 16px;
+                padding: 6px 16px;
             }
 
             header.scrolled h1 {
-                font-size: 14px;
+                font-size: 15px;
+                margin-bottom: 4px;
             }
 
-            header.scrolled .date-selector select {
-                padding: 5px 28px 5px 10px;
-                font-size: 12px;
+            header.scrolled .date-selector {
+                transform: scale(0.8);
             }
 
             .stats {

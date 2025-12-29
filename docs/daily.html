@@ -12,166 +12,183 @@
         }
 
         body {
-            font-family: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
             line-height: 1.6;
-            color: rgba(0, 0, 0, 0.87);
-            background: #fafafa;
+            color: #1d1d1f;
+            background: #f5f5f7;
             padding-bottom: 40px;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
         }
 
         .container {
-            max-width: 1200px;
+            max-width: 980px;
             margin: 0 auto;
-            background: #fafafa;
+            background: #ffffff;
             min-height: 100vh;
         }
 
-        /* Material Design App Bar */
         header {
-            background: #1976d2;
+            background: linear-gradient(135deg, #0071e3 0%, #0077ED 100%);
             color: white;
-            padding: 16px 24px;
+            padding: 32px 20px 28px;
+            text-align: center;
             position: sticky;
             top: 0;
-            z-index: 1000;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
+            z-index: 100;
+            backdrop-filter: blur(20px);
+            box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
-        header.elevated {
-            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        /* Compact header when scrolled - minimal vertical layout */
+        header.scrolled {
+            padding: 8px 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
         }
 
-        .app-bar-content {
-            max-width: 1200px;
-            margin: 0 auto;
+        header.scrolled h1 {
+            font-size: 17px;
+            margin-bottom: 6px;
+        }
+
+        header.scrolled .date-selector {
+            margin-top: 0;
+            margin-bottom: 0;
+            transform: scale(0.85);
+        }
+
+        header.scrolled .stats {
+            opacity: 0;
+            transform: scale(0.9);
+            max-height: 0;
+            margin-top: 0;
+            overflow: hidden;
+        }
+
+        .header-main {
+            transition: padding 0.4s ease, transform 0.4s ease;
         }
 
         h1 {
-            font-size: 20px;
-            font-weight: 500;
+            font-size: 28px;
+            font-weight: 600;
             margin-bottom: 12px;
-            letter-spacing: 0.15px;
-        }
-
-        .controls {
-            display: flex;
-            align-items: center;
-            gap: 16px;
-            flex-wrap: wrap;
+            letter-spacing: -0.5px;
+            transition: font-size 0.4s ease, margin 0.4s ease;
         }
 
         .date-selector {
-            flex: 0 0 auto;
+            margin-top: 16px;
+            margin-bottom: 12px;
+            transition: margin 0.4s ease, transform 0.4s ease;
         }
 
         .date-selector select {
-            padding: 8px 40px 8px 16px;
+            padding: 10px 20px;
             border: none;
-            border-radius: 4px;
-            background: rgba(255, 255, 255, 0.15);
+            border-radius: 12px;
+            background: rgba(255, 255, 255, 0.25);
             color: white;
-            font-size: 14px;
-            font-weight: 400;
+            font-size: 15px;
+            font-weight: 500;
             cursor: pointer;
             outline: none;
             -webkit-appearance: none;
             appearance: none;
             background-image: url('data:image/svg+xml;utf8,<svg fill="white" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
             background-repeat: no-repeat;
-            background-position: right 8px center;
-            transition: background 200ms cubic-bezier(0.4, 0, 0.2, 1);
+            background-position: right 12px center;
+            padding-right: 40px;
+            transition: all 0.2s ease;
+            backdrop-filter: blur(10px);
         }
 
         .date-selector select:hover {
-            background: rgba(255, 255, 255, 0.25);
+            background: rgba(255, 255, 255, 0.35);
         }
 
         .date-selector select option {
-            background: #1976d2;
+            background: #0071e3;
             color: white;
         }
 
         .stats {
             display: flex;
+            justify-content: center;
             gap: 24px;
-            flex: 1;
+            margin-top: 16px;
+            font-size: 15px;
+            font-weight: 500;
+            opacity: 0.95;
+            transition: opacity 0.4s ease, transform 0.4s ease, max-height 0.4s ease, margin 0.4s ease;
         }
 
-        .stat-chip {
-            background: rgba(255, 255, 255, 0.15);
-            padding: 4px 12px;
-            border-radius: 16px;
-            font-size: 13px;
-            font-weight: 400;
+        .stat-item {
             display: flex;
             align-items: center;
             gap: 6px;
         }
 
-        /* Material Cards */
-        .content-area {
-            padding: 24px 16px;
-        }
-
         .category {
-            margin-bottom: 16px;
+            margin: 12px 16px;
             background: white;
-            border-radius: 4px;
+            border-radius: 16px;
             overflow: hidden;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            transition: box-shadow 200ms cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+            border: 1px solid rgba(0,0,0,0.06);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
         .category:hover {
-            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            transform: translateY(-2px);
         }
 
         .category-header {
-            background: white;
-            padding: 16px 20px;
+            background: #fafafa;
+            padding: 18px 20px;
             cursor: pointer;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            border-bottom: 1px solid rgba(0,0,0,0.08);
+            transition: all 0.2s ease;
+            -webkit-tap-highlight-color: transparent;
             user-select: none;
-            transition: background 150ms cubic-bezier(0.4, 0, 0.2, 1);
-        }
-
-        .category-header:hover {
-            background: rgba(0,0,0,0.02);
         }
 
         .category-header:active {
-            background: rgba(0,0,0,0.05);
+            background: #f0f0f0;
         }
 
         .category-title {
-            font-size: 16px;
-            font-weight: 500;
-            color: rgba(0, 0, 0, 0.87);
+            font-size: 17px;
+            font-weight: 600;
+            color: #1d1d1f;
             display: flex;
             align-items: center;
             gap: 12px;
-            letter-spacing: 0.15px;
+            letter-spacing: -0.3px;
         }
 
         .category-count {
-            background: #1976d2;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background: #0071e3;
             color: white;
-            padding: 2px 8px;
+            padding: 4px 10px;
             border-radius: 12px;
-            font-size: 12px;
-            font-weight: 500;
-            min-width: 24px;
-            text-align: center;
+            font-size: 13px;
+            font-weight: 600;
+            min-width: 28px;
         }
 
         .category-content {
             max-height: 0;
             overflow: hidden;
-            transition: max-height 300ms cubic-bezier(0.4, 0, 0.2, 1);
+            transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            background: white;
         }
 
         .category-content.active {
@@ -179,12 +196,12 @@
         }
 
         .scholarship-list {
-            padding: 16px 20px;
+            padding: 8px 20px 20px;
         }
 
         .scholarship-item {
-            padding: 12px 0;
-            border-bottom: 1px solid rgba(0,0,0,0.06);
+            padding: 16px 0;
+            border-bottom: 1px solid #f0f0f0;
         }
 
         .scholarship-item:last-child {
@@ -192,41 +209,45 @@
         }
 
         .scholarship-title {
-            font-size: 15px;
-            font-weight: 400;
-            color: rgba(0, 0, 0, 0.87);
-            margin-bottom: 6px;
+            font-size: 16px;
+            font-weight: 500;
+            color: #1d1d1f;
+            margin-bottom: 8px;
             line-height: 1.5;
-            letter-spacing: 0.15px;
+            letter-spacing: -0.2px;
         }
 
         .scholarship-title a {
-            color: #1976d2;
+            color: #0071e3;
             text-decoration: none;
-            transition: color 150ms cubic-bezier(0.4, 0, 0.2, 1);
+            transition: color 0.2s;
         }
 
         .scholarship-title a:hover {
-            color: #1565c0;
-            text-decoration: underline;
+            color: #0077ED;
+        }
+
+        .scholarship-title a:active {
+            opacity: 0.7;
         }
 
         .scholarship-meta {
-            font-size: 13px;
-            color: rgba(0, 0, 0, 0.6);
-            line-height: 1.5;
-            margin-top: 4px;
+            font-size: 14px;
+            color: #86868b;
+            line-height: 1.6;
+            margin-top: 6px;
         }
 
         .meta-label {
             font-weight: 500;
-            color: rgba(0, 0, 0, 0.7);
+            color: #6e6e73;
         }
 
         .arrow {
-            transition: transform 200ms cubic-bezier(0.4, 0, 0.2, 1);
-            color: rgba(0, 0, 0, 0.54);
-            font-size: 24px;
+            transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            color: #86868b;
+            font-size: 22px;
+            font-weight: 300;
         }
 
         .arrow.rotated {
@@ -236,14 +257,14 @@
         .loading {
             text-align: center;
             padding: 60px 20px;
-            color: rgba(0, 0, 0, 0.6);
+            color: #86868b;
             font-size: 16px;
         }
 
         .empty {
             text-align: center;
             padding: 80px 20px;
-            color: rgba(0, 0, 0, 0.6);
+            color: #86868b;
         }
 
         .empty-icon {
@@ -252,18 +273,18 @@
         }
 
         .empty-text {
-            font-size: 16px;
-            font-weight: 400;
+            font-size: 17px;
+            font-weight: 500;
         }
 
-        /* Material FAB - Floating Action Button */
+        /* Back to Top Button */
         .back-to-top {
             position: fixed;
-            bottom: 24px;
-            right: 24px;
-            width: 56px;
-            height: 56px;
-            background: #1976d2;
+            bottom: 32px;
+            right: 32px;
+            width: 48px;
+            height: 48px;
+            background: #0071e3;
             color: white;
             border: none;
             border-radius: 50%;
@@ -271,78 +292,103 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            box-shadow: 0 4px 16px rgba(0, 113, 227, 0.3);
             opacity: 0;
-            transform: scale(0);
-            transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1);
-            z-index: 999;
+            visibility: hidden;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            z-index: 1000;
             font-size: 24px;
+            -webkit-tap-highlight-color: transparent;
         }
 
         .back-to-top.visible {
             opacity: 1;
-            transform: scale(1);
+            visibility: visible;
         }
 
         .back-to-top:hover {
-            background: #1565c0;
-            box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+            background: #0077ED;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0, 113, 227, 0.4);
         }
 
         .back-to-top:active {
-            box-shadow: 0 8px 16px rgba(0,0,0,0.4);
+            transform: translateY(0);
         }
 
         @media (max-width: 768px) {
             h1 {
-                font-size: 18px;
+                font-size: 24px;
             }
 
             header {
-                padding: 12px 16px;
+                padding: 24px 16px 20px;
             }
 
-            .controls {
-                gap: 12px;
+            header.scrolled {
+                padding: 6px 16px;
+            }
+
+            header.scrolled h1 {
+                font-size: 15px;
+                margin-bottom: 4px;
+            }
+
+            header.scrolled .date-selector {
+                transform: scale(0.8);
             }
 
             .stats {
+                font-size: 14px;
                 gap: 16px;
             }
 
-            .stat-chip {
-                font-size: 12px;
-                padding: 3px 10px;
-            }
-
-            .content-area {
-                padding: 16px 8px;
-            }
-
             .category {
-                margin-bottom: 12px;
+                margin: 10px 12px;
+                border-radius: 14px;
             }
 
             .category-header {
-                padding: 14px 16px;
+                padding: 16px;
+            }
+
+            .category-title {
+                font-size: 16px;
             }
 
             .scholarship-list {
-                padding: 12px 16px;
+                padding: 8px 16px 16px;
+            }
+
+            .scholarship-title {
+                font-size: 15px;
+            }
+
+            .scholarship-meta {
+                font-size: 13px;
             }
 
             .back-to-top {
-                width: 48px;
-                height: 48px;
-                bottom: 16px;
-                right: 16px;
-                font-size: 20px;
+                bottom: 24px;
+                right: 24px;
+                width: 44px;
+                height: 44px;
+                font-size: 22px;
             }
         }
 
-        @media (max-width: 600px) {
+        @media (max-width: 480px) {
             .stats {
-                display: none;
+                flex-direction: column;
+                gap: 8px;
+            }
+
+            .back-to-top {
+                bottom: 20px;
+                right: 20px;
+                width: 40px;
+                height: 40px;
+                font-size: 20px;
             }
         }
     </style>
@@ -350,65 +396,64 @@
 <body>
     <div class="container">
         <header>
-            <div class="app-bar-content">
+            <div class="header-main">
                 <h1>📚 PhD 奖学金日报</h1>
-                <div class="controls">
-                    <div class="date-selector">
-                        <select id="report-date" onchange="loadReport(this.value)">
-                            <option value="latest">最新日报</option>
-                        </select>
-                    </div>
-                    <div class="stats">
-                        <div class="stat-chip">
-                            <span>📅</span>
-                            <span id="date">-</span>
-                        </div>
-                        <div class="stat-chip">
-                            <span>✨</span>
-                            <span id="new-count">-</span>
-                        </div>
-                        <div class="stat-chip">
-                            <span>📊</span>
-                            <span id="total-count">-</span>
-                        </div>
-                    </div>
+                <div class="date-selector">
+                    <select id="report-date" onchange="loadReport(this.value)">
+                        <option value="latest">最新日报</option>
+                    </select>
+                </div>
+            </div>
+            <div class="stats">
+                <div class="stat-item">
+                    <span>📅</span>
+                    <span id="date">-</span>
+                </div>
+                <div class="stat-item">
+                    <span>✨</span>
+                    <span id="new-count">-</span>
+                </div>
+                <div class="stat-item">
+                    <span>📊</span>
+                    <span id="total-count">-</span>
                 </div>
             </div>
         </header>
 
-        <div class="content-area">
-            <div id="content" class="loading">
-                正在加载最新日报...
-            </div>
+        <div id="content" class="loading">
+            正在加载最新日报...
         </div>
     </div>
 
-    <!-- Material FAB -->
-    <button class="back-to-top" id="backToTop" onclick="scrollToTop()" aria-label="回到顶部">
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" onclick="scrollToTop()">
         ↑
     </button>
 
     <script>
-        // Back to top and header elevation
+        // Back to top functionality and header collapse
         const backToTopBtn = document.getElementById('backToTop');
         const header = document.querySelector('header');
+        let lastScrollTop = 0;
 
         window.addEventListener('scroll', () => {
             const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
-            // Show/hide FAB
+            // Show/hide back to top button
             if (scrollTop > 300) {
                 backToTopBtn.classList.add('visible');
             } else {
                 backToTopBtn.classList.remove('visible');
             }
 
-            // Add elevation to app bar
-            if (scrollTop > 10) {
-                header.classList.add('elevated');
+            // Collapse/expand header
+            if (scrollTop > 100) {
+                header.classList.add('scrolled');
             } else {
-                header.classList.remove('elevated');
+                header.classList.remove('scrolled');
             }
+
+            lastScrollTop = scrollTop;
         });
 
         function scrollToTop() {
@@ -418,23 +463,37 @@
             });
         }
 
-        // Load historical reports
+        // Load historical reports list from index.json
         async function loadHistoricalReports() {
             try {
+                console.log('Fetching index.json...');
                 const response = await fetch('./reports/index.json');
-                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+                console.log('Response status:', response.status);
+
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
 
                 const historyItems = await response.json();
-                const select = document.getElementById('report-date');
+                console.log('Loaded history items:', historyItems);
 
+                const select = document.getElementById('report-date');
                 historyItems.forEach(item => {
                     const option = document.createElement('option');
                     option.value = item.filename;
                     option.textContent = item.display;
                     select.appendChild(option);
+                    console.log('Added option:', item.display);
                 });
+
+                console.log('✓ Successfully loaded', historyItems.length, 'historical reports');
             } catch (error) {
-                console.error('Failed to load historical reports:', error);
+                console.error('❌ Failed to load historical reports:', error);
+                const select = document.getElementById('report-date');
+                const option = document.createElement('option');
+                option.textContent = '⚠️ 无法加载历史记录';
+                option.disabled = true;
+                select.appendChild(option);
             }
         }
 
@@ -445,7 +504,9 @@
 
             fetch(`./reports/${filename}.md`)
                 .then(response => response.text())
-                .then(markdown => parseAndRender(markdown))
+                .then(markdown => {
+                    parseAndRender(markdown);
+                })
                 .catch(error => {
                     content.innerHTML = `
                         <div class="empty">
@@ -456,6 +517,7 @@
                 });
         }
 
+        // Initial load
         loadHistoricalReports();
         loadReport('latest');
 
@@ -463,7 +525,9 @@
             const lines = markdown.split('\n');
 
             // Parse header
-            let date = '', newCount = 0, totalCount = 0;
+            let date = '';
+            let newCount = 0;
+            let totalCount = 0;
 
             for (const line of lines) {
                 if (line.includes('PhD 奖学金日报 -') || line.includes('PhD 奖学金完整列表 -')) {
@@ -481,18 +545,21 @@
             }
 
             document.getElementById('date').textContent = date;
-            document.getElementById('new-count').textContent = `${newCount} 新增`;
-            document.getElementById('total-count').textContent = `${totalCount} 总计`;
+            document.getElementById('new-count').textContent = `${newCount} 条新增`;
+            document.getElementById('total-count').textContent = `${totalCount} 条总计`;
 
             // Parse categories
             const categories = [];
             let currentCategory = null;
+            let inDetails = false;
 
             for (let i = 0; i < lines.length; i++) {
                 const line = lines[i];
 
                 if (line.startsWith('## 📚')) {
-                    if (currentCategory) categories.push(currentCategory);
+                    if (currentCategory) {
+                        categories.push(currentCategory);
+                    }
                     currentCategory = {
                         title: line.replace('## 📚 ', ''),
                         count: 0,
@@ -501,31 +568,57 @@
                 } else if (line.includes('**数量**:') && currentCategory) {
                     currentCategory.count = parseInt(line.match(/(\d+)/)[1]);
                 } else if (line.match(/^\d+\.\s\*\*\[/) && currentCategory) {
+                    // Parse scholarship item
                     const titleMatch = line.match(/\*\*\[(.*?)\]\((.*?)\)\*\*/);
                     if (titleMatch) {
-                        const item = { title: titleMatch[1], url: titleMatch[2], titleZh: '', info: '' };
+                        const item = {
+                            title: titleMatch[1],
+                            url: titleMatch[2],
+                            titleZh: '',
+                            info: ''
+                        };
 
+                        // Look ahead for Chinese title and info (skip blank lines)
                         let j = i + 1;
                         while (j < lines.length && j < i + 10) {
                             const nextLine = lines[j].trim();
-                            if (!nextLine) { j++; continue; }
+
+                            // Skip blank lines
+                            if (!nextLine) {
+                                j++;
+                                continue;
+                            }
+
+                            // Found Chinese title
                             if (nextLine.includes('中文：')) {
                                 item.titleZh = nextLine.replace(/.*中文：/, '').trim();
-                                j++; continue;
+                                j++;
+                                continue;
                             }
+
+                            // Found info line (university, country)
                             if (nextLine.startsWith('-') && !nextLine.includes('中文：')) {
                                 item.info = nextLine.replace(/^-\s*/, '').trim();
-                                j++; continue;
+                                j++;
+                                continue;
                             }
-                            if (nextLine.match(/^\d+\.\s\*\*\[/) || nextLine.startsWith('#')) break;
+
+                            // Stop if we hit another scholarship or section
+                            if (nextLine.match(/^\d+\.\s\*\*\[/) || nextLine.startsWith('#')) {
+                                break;
+                            }
+
                             j++;
                         }
+
                         currentCategory.items.push(item);
                     }
                 }
             }
 
-            if (currentCategory) categories.push(currentCategory);
+            if (currentCategory) {
+                categories.push(currentCategory);
+            }
 
             // Render
             const content = document.getElementById('content');
@@ -542,7 +635,7 @@
 
             content.innerHTML = '';
 
-            categories.forEach(category => {
+            categories.forEach((category, index) => {
                 const categoryDiv = document.createElement('div');
                 categoryDiv.className = 'category';
 
@@ -566,18 +659,20 @@
                     const itemDiv = document.createElement('div');
                     itemDiv.className = 'scholarship-item';
 
+                    // 优先显示中文标题，如果有的话
                     const displayTitle = item.titleZh || item.title;
                     const needsEnglish = item.titleZh && item.titleZh !== item.title;
 
                     let html = `
                         <div class="scholarship-title">
-                            ${idx + 1}. <a href="${item.url}" target="_blank" rel="noopener">${displayTitle}</a>
+                            ${idx + 1}. <a href="${item.url}" target="_blank">${displayTitle}</a>
                         </div>
                     `;
 
                     if (needsEnglish) {
                         html += `<div class="scholarship-meta"><span class="meta-label">英文：</span>${item.title}</div>`;
                     }
+
                     if (item.info) {
                         html += `<div class="scholarship-meta">📍 ${item.info}</div>`;
                     }
@@ -591,24 +686,25 @@
                 categoryDiv.appendChild(contentDiv);
                 content.appendChild(categoryDiv);
 
-                // Material accordion - smooth toggle
+                // Accordion toggle functionality - close others when opening one
                 header.addEventListener('click', () => {
                     const arrow = header.querySelector('.arrow');
                     const isActive = contentDiv.classList.contains('active');
 
-                    // Save header position before changes
+                    // Get the position of the clicked header relative to viewport
                     const headerRect = header.getBoundingClientRect();
                     const headerTop = headerRect.top;
 
-                    // Close others
-                    document.querySelectorAll('.category-content.active').forEach(other => {
-                        if (other !== contentDiv) {
-                            other.classList.remove('active');
-                            other.previousElementSibling.querySelector('.arrow').classList.remove('rotated');
+                    // Close all other categories
+                    document.querySelectorAll('.category-content.active').forEach(otherContent => {
+                        if (otherContent !== contentDiv) {
+                            otherContent.classList.remove('active');
+                            const otherArrow = otherContent.previousElementSibling.querySelector('.arrow');
+                            otherArrow.classList.remove('rotated');
                         }
                     });
 
-                    // Toggle current
+                    // Toggle current category
                     if (isActive) {
                         contentDiv.classList.remove('active');
                         arrow.classList.remove('rotated');
@@ -616,14 +712,14 @@
                         contentDiv.classList.add('active');
                         arrow.classList.add('rotated');
 
-                        // Adjust scroll to keep header in same position
+                        // Scroll to keep the header in the same position after opening
                         requestAnimationFrame(() => {
                             const newHeaderRect = header.getBoundingClientRect();
                             const scrollAdjustment = newHeaderRect.top - headerTop;
                             if (Math.abs(scrollAdjustment) > 1) {
                                 window.scrollBy({
                                     top: scrollAdjustment,
-                                    behavior: 'auto'
+                                    behavior: 'instant'
                                 });
                             }
                         });

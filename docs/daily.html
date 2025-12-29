@@ -45,6 +45,7 @@
         header.scrolled {
             padding: 12px 20px;
             box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+            overflow: hidden;
         }
 
         header.scrolled h1 {
@@ -54,13 +55,11 @@
 
         header.scrolled .date-selector,
         header.scrolled .stats {
-            max-height: 0;
-            overflow: hidden;
             opacity: 0;
-            margin: 0;
-            visibility: hidden;
-            transform: scaleY(0);
-            transform-origin: top;
+            margin-top: 0;
+            margin-bottom: 0;
+            transform: translateY(-10px);
+            pointer-events: none;
         }
 
         h1 {
@@ -74,10 +73,8 @@
         .date-selector {
             margin-top: 16px;
             margin-bottom: 12px;
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-            visibility: visible;
-            transform: scaleY(1);
-            transform-origin: top;
+            transition: opacity 0.2s ease-out, transform 0.2s ease-out, margin 0.2s ease-out;
+            will-change: opacity, transform;
         }
 
         .date-selector select {
@@ -117,10 +114,8 @@
             font-size: 15px;
             font-weight: 500;
             opacity: 0.95;
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-            visibility: visible;
-            transform: scaleY(1);
-            transform-origin: top;
+            transition: opacity 0.2s ease-out, transform 0.2s ease-out, margin 0.2s ease-out;
+            will-change: opacity, transform;
         }
 
         .stat-item {

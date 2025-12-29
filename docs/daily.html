@@ -58,6 +58,9 @@
             overflow: hidden;
             opacity: 0;
             margin: 0;
+            visibility: hidden;
+            transform: scaleY(0);
+            transform-origin: top;
         }
 
         h1 {
@@ -72,6 +75,9 @@
             margin-top: 16px;
             margin-bottom: 12px;
             transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            visibility: visible;
+            transform: scaleY(1);
+            transform-origin: top;
         }
 
         .date-selector select {
@@ -112,6 +118,9 @@
             font-weight: 500;
             opacity: 0.95;
             transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            visibility: visible;
+            transform: scaleY(1);
+            transform-origin: top;
         }
 
         .stat-item {
@@ -674,6 +683,10 @@
                     const arrow = header.querySelector('.arrow');
                     const isActive = contentDiv.classList.contains('active');
 
+                    // Get the position of the clicked header relative to viewport
+                    const headerRect = header.getBoundingClientRect();
+                    const headerTop = headerRect.top;
+
                     // Close all other categories
                     document.querySelectorAll('.category-content.active').forEach(otherContent => {
                         if (otherContent !== contentDiv) {
@@ -690,6 +703,18 @@
                     } else {
                         contentDiv.classList.add('active');
                         arrow.classList.add('rotated');
+
+                        // Scroll to keep the header in the same position after opening
+                        requestAnimationFrame(() => {
+                            const newHeaderRect = header.getBoundingClientRect();
+                            const scrollAdjustment = newHeaderRect.top - headerTop;
+                            if (Math.abs(scrollAdjustment) > 1) {
+                                window.scrollBy({
+                                    top: scrollAdjustment,
+                                    behavior: 'instant'
+                                });
+                            }
+                        });
                     }
                 });
             });

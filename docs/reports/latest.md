@@ -1,33 +1,49 @@
 # 📚 PhD 奖学金日报 - 2025-12-30
 
-**新增奖学金**: 19 条
+**新增奖学金**: 17 条
 
-**总数**: 470 条
+**总数**: 472 条
 
 ---
 
 ## 📚 Austria
 
-**数量**: 2 条
+**数量**: 4 条
 
 <details>
 
 <summary>点击展开查看所有条目</summary>
 
 
-1. **[Teaching and Research Associate (ID 2652)](https://scholarshipdb.net/jobs-in-Austria/Teaching-And-Research-Associate-Id-2652-Wu-Vienna-University-Of-Economics-And-Business=BrMd0Ajl8BG_5wzEeuBOuw.html)**
+1. **[University Assistant (PhD position)](https://scholarshipdb.net/scholarships-in-Austria/University-Assistant-Ph-D-Position-University-Of-Innsbruck=kgTYtn3l8BG_5wzEeuBOuw.html)**
 
-   - 中文：教学和研究助理（ID 2652）
+   - 中文：大学助理（博士职位）
 
-   - WU Vienna University of Economics and Business, Austria
+   - University of Innsbruck, Austria
 
 
 
-2. **[University Assistant postdoctoral](https://scholarshipdb.net/jobs-in-Austria/University-Assistant-Postdoctoral-Nature-Careers=Zv-tlQXl8BG_5wzEeuBOuw.html)**
+2. **[University Assistant (PhD position)](https://scholarshipdb.net/scholarships-in-Austria/University-Assistant-Ph-D-Position-University-Of-Innsbruck=nwTYtn3l8BG_5wzEeuBOuw.html)**
 
-   - 中文：大学助理博士后
+   - 中文：大学助理（博士职位）
 
-   - Nature Careers, Austria
+   - University of Innsbruck, Austria
+
+
+
+3. **[University Assistant (PhD position)](https://scholarshipdb.net/scholarships-in-Austria/University-Assistant-Ph-D-Position-University-Of-Innsbruck=V3-Vyn3l8BG_5wzEeuBOuw.html)**
+
+   - 中文：大学助理（博士职位）
+
+   - University of Innsbruck, Austria
+
+
+
+4. **[University assistant predoctoral](https://scholarshipdb.net/jobs-in-Austria/University-Assistant-Predoctoral-University-Of-Vienna=JZIqfHHl8BG_5wzEeuBOuw.html)**
+
+   - 中文：大学助理博士前
+
+   - University of Vienna, Austria
 
 
 
@@ -46,19 +62,19 @@
 <summary>点击展开查看所有条目</summary>
 
 
-1. **[Local Semitic Epigraphy Researcher - Talen en Culturen (29523)](https://scholarshipdb.net/jobs-in-Belgium/Local-Semitic-Epigraphy-Researcher-Talen-En-Culturen-29523-Ghent-University=9FFAKJzg8BG_5wzEeuBOuw.html)**
+1. **[PhD | Radiological impact assessment of lead-cooled SMRs using advanced atmospheric dispersion modelling](https://scholarshipdb.net/scholarships-in-Belgium/Ph-D-Radiological-Impact-Assessment-Of-Lead-Cooled-Sm-Rs-Using-Advanced-Atmospheric-Dispersion-Modelling-The-Belgian-Nuclear-Research-Centre=wJNBnYvl8BG_5wzEeuBOuw.html)**
 
-   - 中文：当地闪米特金石学研究员 - Talen en Culturen (29523)
+   - 中文：博士 |使用先进的大气扩散模型对铅冷小型反应堆的辐射影响进行评估
 
-   - Ghent University, Belgium
+   - The Belgian Nuclear Research Centre, Belgium
 
 
 
-2. **[Researcher - Diagnostische Wetenschappen (29527)](https://scholarshipdb.net/jobs-in-Belgium/Researcher-Diagnostische-Wetenschappen-29527-Ghent-University=oSU3OZzg8BG_5wzEeuBOuw.html)**
+2. **[PhD | Development of a clinical microscale dosimetry framework for radiopharmaceutical therapy](https://scholarshipdb.net/scholarships-in-Belgium/Ph-D-Development-Of-A-Clinical-Microscale-Dosimetry-Framework-For-Radiopharmaceutical-Therapy-The-Belgian-Nuclear-Research-Centre=4IZYGozl8BG_5wzEeuBOuw.html)**
 
-   - 中文：研究员 - Diagnostische Wetenschappen (29527)
+   - 中文：博士 |放射性药物治疗临床微量剂量测定框架的开发
 
-   - Ghent University, Belgium
+   - The Belgian Nuclear Research Centre, Belgium
 
 
 
@@ -70,82 +86,18 @@
 
 ## 📚 Biology
 
-**数量**: 9 条
+**数量**: 1 条
 
 <details>
 
 <summary>点击展开查看所有条目</summary>
 
 
-1. **[Adjunct Professor -Biology](https://scholarshipdb.net/jobs-in-United-States/Adjunct-Professor-Biology-Bryant-Stratton-College=mWI44xHl8BG_5wzEeuBOuw.html)**
+1. **[PhD position in MolecularBiology](https://scholarshipdb.net/scholarships-in-Czech/Ph-D-Position-In-Molecular-Biology-Biology-Centre-Cas=X3-Vyn3l8BG_5wzEeuBOuw.html)**
 
-   - 中文：兼职教授-生物学
+   - 中文：分子生物学博士职位
 
-   - United States
-
-
-
-2. **[Adjunct Professor:Biology](https://scholarshipdb.net/jobs-in-United-States/Adjunct-Professor-Biology-Bryant-Stratton-College=2j_aVRLl8BG_5wzEeuBOuw.html)**
-
-   - 中文：兼职教授：生物学
-
-   - United States
-
-
-
-3. **[Adjunct Professor -Biology](https://scholarshipdb.net/jobs-in-United-States/Adjunct-Professor-Biology-Bryant-Stratton-College=BNK3lxLl8BG_5wzEeuBOuw.html)**
-
-   - 中文：兼职教授-生物学
-
-   - United States
-
-
-
-4. **[Postdoctoral Research Associate - ChemicalBiology& Therapeutics](https://scholarshipdb.net/jobs-in-United-States/Postdoctoral-Research-Associate-Chemical-Biology-Therapeutics-Nature-Careers=H3Zhtwbl8BG_5wzEeuBOuw.html)**
-
-   - 中文：博士后研究员 - 化学生物学与治疗学
-
-   - Nature Careers, United States
-
-
-
-5. **[ComputationalBiologyDeveloper (ref. LAB/25/23)](https://scholarshipdb.net/jobs-in-Spain/Computational-Biology-Developer-Ref-Lab-25-23-Irb-Barcelona=9TQJCwjl8BG_5wzEeuBOuw.html)**
-
-   - 中文：计算生物学开发者（参考 LAB/25/23）
-
-   - IRB Barcelona, Spain
-
-
-
-6. **[Postdoctoral Research Associate - StructuralBiology](https://scholarshipdb.net/jobs-in-United-States/Postdoctoral-Research-Associate-Structural-Biology-Nature-Careers=ElT61Afl8BG_5wzEeuBOuw.html)**
-
-   - 中文：博士后研究员 - 结构生物学
-
-   - Nature Careers, United States
-
-
-
-7. **[BiologyAssociate Professor](https://scholarshipdb.net/jobs-in-United-States/Biology-Associate-Professor-Bryant-Stratton-College=jsKX-Qbl8BG_5wzEeuBOuw.html)**
-
-   - 中文：生物学副教授
-
-   - United States
-
-
-
-8. **[Faculty positions - Department of ChemicalBiologyand Therapeutics](https://scholarshipdb.net/jobs-in-United-States/Faculty-Positions-Department-Of-Chemical-Biology-And-Therapeutics-Nature-Careers=-AKlFQbl8BG_5wzEeuBOuw.html)**
-
-   - 中文：教师职位 - 化学生物学和治疗学系
-
-   - Nature Careers, United States
-
-
-
-9. **[Faculty positions - Department of ChemicalBiologyand Therapeutics](https://scholarshipdb.net/jobs-in-United-States/Faculty-Positions-Department-Of-Chemical-Biology-And-Therapeutics-Nature-Careers=zhgDOgbl8BG_5wzEeuBOuw.html)**
-
-   - 中文：教师职位 - 化学生物学和治疗学系
-
-   - Nature Careers, United States
+   - Biology Centre CAS, Czech
 
 
 
@@ -164,19 +116,19 @@
 <summary>点击展开查看所有条目</summary>
 
 
-1. **[PhD fellowship incancerresearch](https://scholarshipdb.net/scholarships-in-Worldwide/Ph-D-Fellowship-In-Cancer-Research-Nature-Careers=x04XGbHd8BG_5wzEeuBOuw.html)**
+1. **[MSCA Doctoral Network RAPTORplus: 18 PhD positions in Adaptive Particle Therapy throughout Europe](https://scholarshipdb.net/scholarships-in-Germany/Msca-Doctoral-Network-Rapto-Rplus-18-Ph-D-Positions-In-Adaptive-Particle-Therapy-Throughout-Europe-Helmholtz-Zentrum-Dresden-Rossendorf=0XCDxorl8BG_5wzEeuBOuw.html)**
 
-   - 中文：癌症研究博士奖学金
+   - 中文：MSCA 博士网络 RAPTORplus：欧洲各地 18 个自适应粒子治疗博士职位
 
-   - Nature Careers, Worldwide
+   - Helmholtz-Zentrum Dresden-Rossendorf, Germany
 
 
 
-2. **[PhD Student in the field of Tumor Immunology and Gut Microbiome](https://scholarshipdb.net/scholarships-in-Germany/Ph-D-Student-In-The-Field-Of-Tumor-Immunology-And-Gut-Microbiome-Nature-Careers=fPXYa9PO8BG_5gzEeuBOuw.html)**
+2. **[Predoctoral Researcher in Bioengineering for Personalized Pediatric Oncology (Project Magneto)](https://scholarshipdb.net/jobs-in-Spain/Predoctoral-Researcher-In-Bioengineering-For-Personalized-Pediatric-Oncology-Project-Magneto-Institute-For-Bioengineering-Of-Catalonia-Ibec=64ZYGozl8BG_5wzEeuBOuw.html)**
 
-   - 中文：肿瘤免疫学和肠道微生物组领域的博士生
+   - 中文：个性化儿科肿瘤学生物工程博士前研究员（万磁王计划）
 
-   - Nature Careers, Germany
+   - Spain
 
 
 
@@ -186,28 +138,20 @@
 ---
 
 
-## 📚 Denmark
+## 📚 Luxembourg
 
-**数量**: 2 条
+**数量**: 1 条
 
 <details>
 
 <summary>点击展开查看所有条目</summary>
 
 
-1. **[Research Assistant for the Research Unit of Neurobiology](https://scholarshipdb.net/jobs-in-Denmark/Research-Assistant-For-The-Research-Unit-Of-Neurobiology-Nature-Careers=HMrYcgXl8BG_5wzEeuBOuw.html)**
+1. **[Research Scientist in Nursing Sciences - Pediatrics](https://scholarshipdb.net/jobs-in-Luxembourg/Research-Scientist-In-Nursing-Sciences-Pediatrics-University-Of-Luxembourg=evk3HGvl8BG_5wzEeuBOuw.html)**
 
-   - 中文：神经生物学研究室研究助理
+   - 中文：护理科学研究科学家 - 儿科
 
-   - Nature Careers, Denmark
-
-
-
-2. **[PhD Stipend in CFD modelling of Liquid Green Fuel Combustion under Engine-like Conditions](https://scholarshipdb.net/scholarships-in-Denmark/Ph-D-Stipend-In-Cfd-Modelling-Of-Liquid-Green-Fuel-Combustion-Under-Engine-Like-Conditions-Aalborg-Universitet=dCriu6Lc8BG_5wzEeuBOuw.html)**
-
-   - 中文：类似发动机条件下液体绿色燃料燃烧的 CFD 建模博士奖学金
-
-   - Aalborg Universitet, Denmark
+   - University of Luxembourg, Luxembourg
 
 
 
@@ -219,6 +163,45 @@
 
 ## 📚 Netherlands
 
+**数量**: 3 条
+
+<details>
+
+<summary>点击展开查看所有条目</summary>
+
+
+1. **[Postdoc in Integrated Agronomic – Genomic – Remote Sensing Data Fusion](https://scholarshipdb.net/jobs-in-Netherlands/Postdoc-In-Integrated-Agronomic-Genomic-Remote-Sensing-Data-Fusion-Wageningen-University-Research=7ybipH3l8BG_5wzEeuBOuw.html)**
+
+   - 中文：综合农艺-基因组-遥感数据融合博士后
+
+   - Netherlands
+
+
+
+2. **[EO Future Mission End-to-End System Engineer](https://scholarshipdb.net/jobs-in-Netherlands/Eo-Future-Mission-End-To-End-System-Engineer-European-Space-Agency=AbsmM13l8BG_5wzEeuBOuw.html)**
+
+   - 中文：EO未来任务端到端系统工程师
+
+   - European Space Agency, Netherlands
+
+
+
+3. **[Head of the GEO Satellites Programme Office](https://scholarshipdb.net/jobs-in-Netherlands/Head-Of-The-Geo-Satellites-Programme-Office-European-Space-Agency=GVhlmVvl8BG_5wzEeuBOuw.html)**
+
+   - 中文：GEO卫星计划办公室主任
+
+   - European Space Agency, Netherlands
+
+
+
+</details>
+
+
+---
+
+
+## 📚 Norway
+
 **数量**: 1 条
 
 <details>
@@ -226,11 +209,11 @@
 <summary>点击展开查看所有条目</summary>
 
 
-1. **[Postdoc Position in Kidney Organoids and Advanced Bioengineering (ERC-CoG NEPHRON)](https://scholarshipdb.net/jobs-in-Netherlands/Postdoc-Position-In-Kidney-Organoids-And-Advanced-Bioengineering-Erc-Co-G-Nephron-Nature-Careers=-VzFYQXl8BG_5wzEeuBOuw.html)**
+1. **[Temporary position as Associate Professor or Lecturer in Latin](https://scholarshipdb.net/jobs-in-Norway/Temporary-Position-As-Associate-Professor-Or-Lecturer-In-Latin-University-Of-Oslo=R-br1X7l8BG_5wzEeuBOuw.html)**
 
-   - 中文：肾脏类器官和高级生物工程博士后职位（ERC-CoG NEPHRON）
+   - 中文：临时担任拉丁语副教授或讲师
 
-   - Nature Careers, Netherlands
+   - University of Oslo, Norway
 
 
 
@@ -242,18 +225,34 @@
 
 ## 📚 Switzerland
 
-**数量**: 1 条
+**数量**: 3 条
 
 <details>
 
 <summary>点击展开查看所有条目</summary>
 
 
-1. **[Postdoc for the study of age-dependent colorectal cancer metastasis](https://scholarshipdb.net/jobs-in-Switzerland/Postdoc-For-The-Study-Of-Age-Dependent-Colorectal-Cancer-Metastasis-Nature-Careers=GPR5XQ3l8BG_5wzEeuBOuw.html)**
+1. **[PhD Position in Computational Biology on the Biomarkers for Early Detection of Asthma](https://scholarshipdb.net/scholarships-in-Switzerland/Ph-D-Position-In-Computational-Biology-On-The-Biomarkers-For-Early-Detection-Of-Asthma-Empa=nqfjaX7l8BG_5wzEeuBOuw.html)**
 
-   - 中文：年龄依赖性结直肠癌转移研究博士后
+   - 中文：计算生物学博士职位，研究哮喘早期检测的生物标志物
 
-   - Nature Careers, Switzerland
+   - Empa, Switzerland
+
+
+
+2. **[Postdoc in "Development and (X-ray based) analysis of materials systems for space applications"](https://scholarshipdb.net/jobs-in-Switzerland/Postdoc-In-Development-And-X-Ray-Based-Analysis-Of-Materials-Systems-For-Space-Applications-Empa=7B_kfH7l8BG_5wzEeuBOuw.html)**
+
+   - 中文：博士后“空间应用材料系统的开发和（基于 X 射线的）分析”
+
+   - Empa, Switzerland
+
+
+
+3. **[Professorship in European Archaeology (open-rank)](https://scholarshipdb.net/jobs-in-Switzerland/Professorship-In-European-Archaeology-Open-Rank-University-Of-Basel=-h_kfH7l8BG_5wzEeuBOuw.html)**
+
+   - 中文：欧洲考古学教授（不限职位）
+
+   - University of Basel, Switzerland
 
 
 

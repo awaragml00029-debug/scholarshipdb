@@ -1,33 +1,10 @@
-# 📚 PhD 奖学金日报 - 2026-01-03
+# 📚 PhD 奖学金日报 - 2026-01-04
 
 **新增奖学金**: 8 条
 
-**总数**: 469 条
+**总数**: 458 条
 
 ---
-
-## 📚 Belgium
-
-**数量**: 1 条
-
-<details>
-
-<summary>点击展开查看所有条目</summary>
-
-
-1. **[Research Engineer/Early-Stage Researcher - Energy & Defence Systems](https://scholarshipdb.net/jobs-in-Belgium/Research-Engineer-Early-Stage-Researcher-Energy-Defence-Systems-Ku-Leuven=zBc3sp3o8BG_5wzEeuBOuw.html)**
-
-   - 中文：研究工程师/早期研究员 - 能源与国防系统
-
-   - KU LEUVEN, Belgium
-
-
-
-</details>
-
-
----
-
 
 ## 📚 Biology
 
@@ -38,11 +15,11 @@
 <summary>点击展开查看所有条目</summary>
 
 
-1. **[Grant Specialist II (Hybrid) - Department of DevelopmentalBiology](https://scholarshipdb.net/jobs-in-United-States/Grant-Specialist-Ii-Hybrid-Department-Of-Developmental-Biology-University-Of-Washington=9XLUkljo8BG_5wzEeuBOuw.html)**
+1. **[Researcher in Structuralbiology](https://scholarshipdb.net/jobs-in-Sweden/Researcher-In-Structural-Biology-Lunds-Universitet=bnnYywXp8BG_5wzEeuBOuw.html)**
 
-   - 中文：资助专家 II（混合）- 发育生物学系
+   - 中文：结构生物学研究员
 
-   - University of Washington, United States
+   - Lunds universitet, Sweden
 
 
 
@@ -54,41 +31,42 @@
 
 ## 📚 Denmark
 
-**数量**: 1 条
+**数量**: 4 条
 
 <details>
 
 <summary>点击展开查看所有条目</summary>
 
 
-1. **[18-months Postdoctoral Position in Sensory Science](https://scholarshipdb.net/jobs-in-Denmark/18-Months-Postdoctoral-Position-In-Sensory-Science-Aarhus-University=TmfRxe7d8BG_5wzEeuBOuw.html)**
+1. **[Postdoc of Molecular Cell Biology of DNA repair](https://scholarshipdb.net/jobs-in-Denmark/Postdoc-Of-Molecular-Cell-Biology-Of-Dna-Repair-University-Of-Copenhagen=2hv9x8no8BG_5wzEeuBOuw.html)**
 
-   - 中文：18 个月感官科学博士后职位
+   - 中文：DNA修复分子细胞生物学博士后
 
-   - Aarhus University, Denmark
-
-
-
-</details>
+   - University of Copenhagen, Denmark
 
 
----
+
+2. **[PhD fellowship in Genomics - PhD Project in Vertebrate Comparative Genomics](https://scholarshipdb.net/scholarships-in-Denmark/Ph-D-Fellowship-In-Genomics-Ph-D-Project-In-Vertebrate-Comparative-Genomics-University-Of-Copenhagen=wPMTzsno8BG_5wzEeuBOuw.html)**
+
+   - 中文：基因组学博士奖学金 - 脊椎动物比较基因组学博士项目
+
+   - University of Copenhagen, Denmark
 
 
-## 📚 Netherlands
 
-**数量**: 1 条
+3. **[153771 Associate Professor of Translational Ovarian Cancer Research (Fixed-Term, 2 Years)](https://scholarshipdb.net/jobs-in-Denmark/153771-Associate-Professor-Of-Translational-Ovarian-Cancer-Research-Fixed-Term-2-Years-University-Of-Copenhagen=Lgqq2Mno8BG_5wzEeuBOuw.html)**
 
-<details>
+   - 中文：153771 转化卵巢癌研究副教授（固定期限，2年）
 
-<summary>点击展开查看所有条目</summary>
+   - University of Copenhagen, Denmark
 
 
-1. **[Full Professor and Chair Bioprocess Engineering](https://scholarshipdb.net/jobs-in-Netherlands/Full-Professor-And-Chair-Bioprocess-Engineering-Wageningen-University-Research=uStFjZ3o8BG_5wzEeuBOuw.html)**
 
-   - 中文：正教授兼生物过程工程系主任
+4. **[Associate Professor of social medicine](https://scholarshipdb.net/jobs-in-Denmark/Associate-Professor-Of-Social-Medicine-University-Of-Copenhagen=Zj6t68no8BG_5wzEeuBOuw.html)**
 
-   - Netherlands
+   - 中文：社会医学副教授
+
+   - University of Copenhagen, Denmark
 
 
 
@@ -100,34 +78,18 @@
 
 ## 📚 Norway
 
-**数量**: 3 条
+**数量**: 1 条
 
 <details>
 
 <summary>点击展开查看所有条目</summary>
 
 
-1. **[Postdoctoral Research Fellow in Optically Detected Magnetic Resonance Measurements](https://scholarshipdb.net/jobs-in-Norway/Postdoctoral-Research-Fellow-In-Optically-Detected-Magnetic-Resonance-Measurements-University-Of-Oslo=bpj3G6vo8BG_5wzEeuBOuw.html)**
+1. **[Researcher at the Department of Biomedicine](https://scholarshipdb.net/jobs-in-Norway/Researcher-At-The-Department-Of-Biomedicine-University-Of-Bergen=qFkUVvro8BG_5wzEeuBOuw.html)**
 
-   - 中文：光学探测磁共振测量博士后研究员
+   - 中文：生物医学系研究员
 
-   - University of Oslo, Norway
-
-
-
-2. **[PhD in Securing AI Agents in Human–AI Teaming](https://scholarshipdb.net/jobs-in-Norway/Ph-D-In-Securing-Ai-Agents-In-Human-Ai-Teaming-stfold-University-College=Dpuvvl3o8BG_5wzEeuBOuw.html)**
-
-   - 中文：人类-人工智能团队中人工智能代理的安全博士
-
-   - Norway
-
-
-
-3. **[PhD Resource Fellowship "Comfort and the Interior"](https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Resource-Fellowship-Comfort-And-The-Interior-The-Oslo-School-Of-Architecture-And-Design-Aho=QBv97l7o8BG_5wzEeuBOuw.html)**
-
-   - 中文：博士资源奖学金“舒适与内饰”
-
-   - Norway
+   - University of Bergen, Norway
 
 
 
@@ -146,11 +108,34 @@
 <summary>点击展开查看所有条目</summary>
 
 
-1. **[Postdoctor at UPSC](https://scholarshipdb.net/jobs-in-Sweden/Postdoctor-At-Upsc-Department-Of-Forest-Genetics-And-Plant-Physiology=ZakFWJ3o8BG_5wzEeuBOuw.html)**
+1. **[Researcher in Chemical Physics](https://scholarshipdb.net/jobs-in-Sweden/Researcher-In-Chemical-Physics-Lunds-Universitet=-jdQvwXp8BG_5wzEeuBOuw.html)**
 
-   - 中文：UPSC 博士后
+   - 中文：化学物理研究员
 
-   - Department of Forest Genetics and Plant Physiology, Sweden
+   - Lunds universitet, Sweden
+
+
+
+</details>
+
+
+---
+
+
+## 📚 Switzerland
+
+**数量**: 1 条
+
+<details>
+
+<summary>点击展开查看所有条目</summary>
+
+
+1. **[Strategic Advisor for Cross-Border Teaching (natural science focus)](https://scholarshipdb.net/jobs-in-Switzerland/Strategic-Advisor-For-Cross-Border-Teaching-Natural-Science-Focus-University-Of-Basel=FWIC0gXp8BG_5wzEeuBOuw.html)**
+
+   - 中文：跨境教学战略顾问（自然科学重点）
+
+   - University of Basel, Switzerland
 
 
 

@@ -309,6 +309,15 @@ async def main():
     logger.info("✓ Batch scraping completed successfully!")
     logger.info(f"{'='*70}\n")
 
+    # Send Telegram notifications for new scholarships
+    try:
+        from telegram_bot.notifier import notify_after_scrape
+        await notify_after_scrape()
+    except ImportError:
+        logger.info("Telegram bot not installed, skipping notifications")
+    except Exception as e:
+        logger.warning(f"Failed to send Telegram notifications: {e}")
+
 
 if __name__ == "__main__":
     asyncio.run(main())

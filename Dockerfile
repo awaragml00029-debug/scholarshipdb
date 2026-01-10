@@ -30,7 +30,8 @@ RUN pip install --no-cache-dir \
     pydantic-settings \
     sqlalchemy \
     python-dotenv \
-    pyyaml
+    pyyaml \
+    python-telegram-bot==21.3
 
 # Install Playwright and browsers
 RUN playwright install chromium && \
@@ -39,8 +40,8 @@ RUN playwright install chromium && \
 # Copy application code
 COPY . .
 
-# Create data directory for outputs
-RUN mkdir -p data docs/data
+# Create data directories for outputs
+RUN mkdir -p data docs/data telegram_bot/data
 
 # Set git config for commits
 RUN git config --global user.email "scholarship-bot@example.com" && \

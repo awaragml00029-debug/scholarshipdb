@@ -1,0 +1,4 @@
+# This directory stores telegram bot persistent data
+# - sent_scholarships.json: IDs of already-sent scholarships
+# - saved_scholarships.json: User's bookmarked scholarships
+# - filters.json: User's filter preferences

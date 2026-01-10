@@ -58,6 +58,37 @@ services:
 
     command: python batch_scrape.py
 
+  # Telegram Bot Service
+  telegram-bot:
+    build: .
+    container_name: scholarship-telegram-bot
+    restart: unless-stopped
+
+    environment:
+      - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN}
+      - TELEGRAM_OWNER_ID=${TELEGRAM_OWNER_ID}
+      - DATA_DIR=/app/data
+      - BOT_DATA_DIR=/app/telegram_bot/data
+      - TZ=UTC
+
+    volumes:
+      - ./data:/app/data:ro
+      - ./telegram_bot/data:/app/telegram_bot/data
+
+    command: python -m telegram_bot.bot
+
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 256M
+
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "5m"
+        max-file: "2"
+
 networks:
   default:
     name: scholarship-network

@@ -31,7 +31,8 @@ RUN pip install --no-cache-dir \
     sqlalchemy \
     python-dotenv \
     pyyaml \
-    python-telegram-bot==21.3
+    python-telegram-bot==21.3 \
+    deep-translator
 
 # Install Playwright and browsers
 RUN playwright install chromium && \

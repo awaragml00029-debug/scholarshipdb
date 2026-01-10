@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   scraper:
     build: .
@@ -63,6 +61,7 @@ services:
     build: .
     container_name: scholarship-telegram-bot
     restart: unless-stopped
+    entrypoint: ["python", "-m", "telegram_bot.bot"]
 
     environment:
       - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN}
@@ -74,8 +73,6 @@ services:
     volumes:
       - ./data:/app/data:ro
       - ./telegram_bot/data:/app/telegram_bot/data
-
-    command: python -m telegram_bot.bot
 
     deploy:
       resources:

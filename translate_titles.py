@@ -2,13 +2,14 @@
 """Add Chinese translations to scholarship titles."""
 import json
 import sys
+import time
 from pathlib import Path
 from loguru import logger
 
 try:
-    from googletrans import Translator
+    from deep_translator import GoogleTranslator
 except ImportError:
-    logger.error("Please install googletrans: pip install googletrans==4.0.0-rc1")
+    logger.error("Please install deep-translator: pip install deep-translator")
     sys.exit(1)
 
 
@@ -36,7 +37,7 @@ def translate_scholarships(input_file='data/all_scholarships.json', output_file=
     logger.info("Starting translation...")
 
     # Initialize translator
-    translator = Translator()
+    translator = GoogleTranslator(source='en', target='zh-CN')
 
     # Translate titles
     translated = 0
@@ -53,12 +54,15 @@ def translate_scholarships(input_file='data/all_scholarships.json', output_file=
         if title:
             try:
                 # Translate to Chinese
-                translation = translator.translate(title, src='en', dest='zh-cn')
-                scholarship['title_zh'] = translation.text
+                translation = translator.translate(title)
+                scholarship['title_zh'] = translation
                 translated += 1
 
                 if idx % 10 == 0:
                     logger.info(f"Progress: {idx}/{total} ({(idx/total*100):.1f}%)")
+
+                # Small delay to avoid rate limiting
+                time.sleep(0.1)
 
             except Exception as e:
                 logger.warning(f"Failed to translate: {title[:50]}... - {e}")

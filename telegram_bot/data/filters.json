@@ -1,0 +1,9 @@
+{
+  "countries": [],
+  "keywords": [],
+  "exclude_keywords": [
+    "undergraduate",
+    "bachelor"
+  ],
+  "enabled": true
+}

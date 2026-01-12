@@ -1,5 +1,23 @@
 [
   {
+    "filename": "full_report_2026-01-12",
+    "display": "2026-01-12 (全部)",
+    "sort": "2026-01-12_full",
+    "type": "full"
+  },
+  {
+    "filename": "daily_report_2026-01-12_04-00",
+    "display": "2026-01-12 04:00",
+    "sort": "2026-01-12_04-00",
+    "type": "daily"
+  },
+  {
+    "filename": "daily_report_2026-01-12",
+    "display": "2026-01-12",
+    "sort": "2026-01-12",
+    "type": "daily"
+  },
+  {
     "filename": "full_report_2026-01-11",
     "display": "2026-01-11 (全部)",
     "sort": "2026-01-11_full",

@@ -111,6 +111,8 @@ export GOOGLE_SHEETS_CREDENTIALS_FILE=credentials.json
 python sync_to_sheets.py
 ```
 
+如果数据库为空，会自动从 `data/all_scholarships.json` 读取并同步；可用 `GOOGLE_SHEETS_JSON_PATH` 指定其他 JSON 文件。
+
 ### 查看统计
 
 查看数据库中的统计信息：

@@ -4,6 +4,7 @@ import asyncio
 import json
 import random
 import sys
+import os
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from typing import List, Dict, Optional
@@ -317,6 +318,15 @@ async def main():
         logger.info("Telegram bot not installed, skipping notifications")
     except Exception as e:
         logger.warning(f"Failed to send Telegram notifications: {e}")
+
+    # Sync to Google Sheets if configured
+    if os.getenv("GOOGLE_SHEETS_SPREADSHEET_ID"):
+        try:
+            from sync_to_sheets import sync_to_sheets
+            synced = sync_to_sheets()
+            logger.info(f"✓ Synced to Google Sheets: {synced} rows appended")
+        except Exception as e:
+            logger.warning(f"Failed to sync to Google Sheets: {e}")
 
 
 if __name__ == "__main__":

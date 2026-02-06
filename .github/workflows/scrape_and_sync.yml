@@ -1,6 +1,11 @@
 name: Sync Google Sheets
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - "data/*.json"
   workflow_dispatch:
   schedule:
     - cron: "0 */12 * * *"

@@ -96,6 +96,21 @@ python main.py scrape
 python main.py scrape --details
 ```
 
+### 同步到 Google Sheets
+
+在抓取后将数据追加到指定 Google Sheets（按 `url` 去重）：
+
+1. 创建 Google Service Account 并下载凭据 JSON
+2. 将表格共享给该 Service Account 邮箱（编辑权限）
+3. 设置环境变量并运行同步脚本：
+
+```bash
+export GOOGLE_SHEETS_SPREADSHEET_ID=你的SheetID
+export GOOGLE_SHEETS_SHEET_NAME=shcolardb
+export GOOGLE_SHEETS_CREDENTIALS_FILE=credentials.json
+python sync_to_sheets.py
+```
+
 ### 查看统计
 
 查看数据库中的统计信息：

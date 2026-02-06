@@ -5,6 +5,7 @@ from datetime import datetime, timezone
 from typing import List, Tuple
 
 import gspread
+from gspread.exceptions import WorksheetNotFound
 from loguru import logger
 
 from database import get_db, init_db
@@ -100,7 +101,11 @@ def sync_to_sheets() -> int:
 
     client = _service_account_client()
     sheet = client.open_by_key(spreadsheet_id)
-    worksheet = sheet.worksheet(sheet_name)
+    try:
+        worksheet = sheet.worksheet(sheet_name)
+    except WorksheetNotFound:
+        logger.warning(f"Worksheet '{sheet_name}' not found. Creating it.")
+        worksheet = sheet.add_worksheet(title=sheet_name, rows=1000, cols=len(DEFAULT_COLUMNS))
 
     url_col = _ensure_header(worksheet, DEFAULT_COLUMNS)
     existing_urls = set(u.strip() for u in worksheet.col_values(url_col)[1:] if u.strip())

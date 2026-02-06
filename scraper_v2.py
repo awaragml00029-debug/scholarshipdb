@@ -58,8 +58,6 @@ class ScholarshipScraperV2:
                 '--disable-software-rasterizer',
                 '--disable-extensions',
                 '--no-first-run',
-                '--no-zygote',
-                '--single-process',
                 '--disable-web-security',
                 '--disable-features=IsolateOrigins,site-per-process',
             ],

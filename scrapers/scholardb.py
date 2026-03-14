@@ -37,7 +37,6 @@ def _build_proxy(proxy_url: Optional[str]) -> Optional[dict]:
     return proxy
 
 BASE_URL = "https://scholarshipdb.net"
-LIST_URL = f"{BASE_URL}/phd-scholarships/"
 
 EXCLUDE_KEYWORDS = [
     "last-24-hours", "last-3-days", "last-7-days", "last-30-days",
@@ -52,7 +51,11 @@ REQUIRED_KEYWORDS = ["scholarship", "phd", "fellowship", "grant", "postdoc", "do
 class ScholardbSource(BaseSource):
     name = "scholarshipdb.net"
 
-    def __init__(self):
+    def __init__(self, sources: List[Dict]):
+        """
+        sources: list of dicts with keys: url, label, max_pages
+        """
+        self.sources = sources
         self.browser: Optional[Browser] = None
         self.context: Optional[BrowserContext] = None
         self.page: Optional[Page] = None
@@ -67,7 +70,20 @@ class ScholardbSource(BaseSource):
 
     async def fetch(self) -> List[FeedItem]:
         async with self:
-            return await self._scrape_all_pages()
+            all_items: List[FeedItem] = []
+            seen_urls: set = set()
+            for src in self.sources:
+                label = src.get("label", src["url"])
+                max_pages = src.get("max_pages", 5)
+                logger.info(f"  Scraping: {label} (max {max_pages} pages)")
+                items = await self._scrape_source(src["url"], label, max_pages)
+                # deduplicate across sources
+                new_items = [i for i in items if i.url not in seen_urls]
+                seen_urls.update(i.url for i in new_items)
+                all_items.extend(new_items)
+                logger.info(f"  {label}: {len(new_items)} new items")
+                await self._delay()
+            return all_items
 
     # ── Browser lifecycle ──────────────────────────────────────────────────
 
@@ -155,27 +171,27 @@ class ScholardbSource(BaseSource):
 
     # ── Scraping ───────────────────────────────────────────────────────────
 
-    async def _scrape_all_pages(self) -> List[FeedItem]:
+    async def _scrape_source(self, url: str, label: str, max_pages: int) -> List[FeedItem]:
         items: List[FeedItem] = []
-        ok = await self._navigate(LIST_URL)
+        ok = await self._navigate(url)
         if not ok:
             return items
 
         page_num = 1
-        while True:
+        while page_num <= max_pages:
             content = await self.page.content()
             if page_num == 1:
-                logger.info(f"Page title: {await self.page.title()}")
+                logger.info(f"    Page title: {await self.page.title()}")
 
             soup = BeautifulSoup(content, "lxml")
             page_items = self._parse_page(soup)
 
             if not page_items:
-                logger.info("No items on page, stopping")
+                logger.info("    No items on page, stopping")
                 break
 
             items.extend(page_items)
-            logger.info(f"Page {page_num}: {len(page_items)} items (total {len(items)})")
+            logger.info(f"    Page {page_num}/{max_pages}: {len(page_items)} items")
 
             if not await self._next_page():
                 break
@@ -308,10 +324,12 @@ class ScholardbSource(BaseSource):
         return FeedItem(
             title=title,
             url=url,
+            published=datetime.now(timezone.utc),
             source=self.name,
         )
 
-    def _parse_posted_time(self, article) -> Optional[datetime]:
+    def _parse_posted_time(self, article) -> datetime:
+        """Return post time from article content, or scrape time as fallback."""
         time_elem = article.find("time")
         if time_elem:
             dt_str = time_elem.get("datetime") or time_elem.get_text(strip=True)
@@ -331,4 +349,4 @@ class ScholardbSource(BaseSource):
                 except Exception:
                     pass
 
-        return None
+        return datetime.now(timezone.utc)  # fallback: scrape time

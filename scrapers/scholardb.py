@@ -43,9 +43,12 @@ EXCLUDE_KEYWORDS = [
     "last-year", "this-week", "this-month", "filter", "category",
     "tag", "archive", "login", "register", "signup", "signin",
     "privacy", "terms", "contact", "about", "search", "home",
-    "menu", "uni_job", "research_job", "jobs-in-",
+    "menu", "uni_job", "research_job",
 ]
 REQUIRED_KEYWORDS = ["scholarship", "phd", "fellowship", "grant", "postdoc", "doctoral"]
+
+# /jobs-in-/ items are only kept if the title contains one of these
+JOB_ACADEMIC_KEYWORDS = ["phd", "postdoc", "fellowship", "doctoral", "researcher", "research position", "research fellow"]
 
 
 class ScholardbSource(BaseSource):
@@ -286,8 +289,9 @@ class ScholardbSource(BaseSource):
             title = title_elem.get_text(strip=True)
             url = urljoin(BASE_URL, link["href"])
 
-            # Reject jobs, nav/category pages, and short titles
+            # Reject nav/category pages and short titles
             url_lower = url.lower()
+            title_lower = title.lower()
             if len(title) < 5:
                 return None
             if any(k in url_lower for k in EXCLUDE_KEYWORDS):
@@ -296,6 +300,10 @@ class ScholardbSource(BaseSource):
             path_parts = [p for p in url_lower.split("/") if p]
             if len(path_parts) < 2:
                 return None
+            # /jobs-in-/ items: only keep if title contains academic keywords
+            if "jobs-in-" in url_lower:
+                if not any(k in title_lower for k in JOB_ACADEMIC_KEYWORDS):
+                    return None
 
             extra: Dict[str, str] = {}
 

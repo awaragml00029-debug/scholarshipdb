@@ -64,12 +64,16 @@ def _build_description(item: FeedItem) -> str:
     e = item.extra
     if e.get("university"):
         parts.append(f"<strong>University:</strong> {e['university']}")
+    if e.get("location"):
+        parts.append(f"<strong>Location:</strong> {e['location']}")
     if e.get("country"):
         parts.append(f"<strong>Country:</strong> {e['country']}")
     if e.get("deadline"):
         parts.append(f"<strong>Deadline:</strong> {e['deadline']}")
     if item.description:
         parts.append(f"<p>{item.description}</p>")
+    if item.published:
+        parts.append(f"<em>Posted: {item.published.strftime('%Y-%m-%d')}</em>")
     if item.source:
         parts.append(f"<em>Source: {item.source}</em>")
     return "<br/>".join(parts)

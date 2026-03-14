@@ -43,7 +43,7 @@ EXCLUDE_KEYWORDS = [
     "last-year", "this-week", "this-month", "filter", "category",
     "tag", "archive", "login", "register", "signup", "signin",
     "privacy", "terms", "contact", "about", "search", "home",
-    "menu", "uni_job", "research_job",
+    "menu", "uni_job", "research_job", "jobs-in-",
 ]
 REQUIRED_KEYWORDS = ["scholarship", "phd", "fellowship", "grant", "postdoc", "doctoral"]
 
@@ -281,6 +281,17 @@ class ScholardbSource(BaseSource):
 
             title = title_elem.get_text(strip=True)
             url = urljoin(BASE_URL, link["href"])
+
+            # Reject jobs, nav/category pages, and short titles
+            url_lower = url.lower()
+            if len(title) < 5:
+                return None
+            if any(k in url_lower for k in EXCLUDE_KEYWORDS):
+                return None
+            # Must be a specific item page (has a slug after the category segment)
+            path_parts = [p for p in url_lower.split("/") if p]
+            if len(path_parts) < 2:
+                return None
 
             extra: Dict[str, str] = {}
 

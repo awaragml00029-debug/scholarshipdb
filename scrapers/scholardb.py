@@ -117,13 +117,14 @@ class ScholardbSource(BaseSource):
         return False
 
     async def _wait_cloudflare(self):
-        try:
-            await self.page.wait_for_selector(
-                'text="Checking your browser"', state="detached", timeout=30000
-            )
-        except Exception:
-            pass
-        await asyncio.sleep(3)
+        # Wait up to 60s for Cloudflare challenge ("Just a moment..." / "Checking your browser") to clear
+        for _ in range(20):
+            title = await self.page.title()
+            if title.lower() not in ("just a moment...", "checking your browser"):
+                break
+            logger.debug(f"Cloudflare challenge active ({title}), waiting...")
+            await asyncio.sleep(3)
+        await asyncio.sleep(2)
 
     async def _delay(self):
         await asyncio.sleep(random.uniform(config.DELAY_MIN, config.DELAY_MAX))

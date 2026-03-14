@@ -1,632 +1,710 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
   <channel>
-    <title>PhD Scholarships Database</title>
-    <link>https://awaragml00029-debug.github.io/scholarshipdb/</link>
-    <description>Latest PhD scholarship opportunities from around the world. Total: 386 scholarships.</description>
-    <language>en</language>
-    <lastBuildDate>Sat, 10 Jan 2026 14:31:02 +0000</lastBuildDate>
-    <generator>PhD Scholarship Scraper</generator>
-    <ns0:link href="https://awaragml00029-debug.github.io/scholarshipdb/feed.xml" rel="self" type="application/rss+xml"/>
+    <title>PhD Scholarships Feed</title>
+    <link>https://example.github.io/scholarshipdb</link>
+    <description>484 scholarships</description>
+    <lastBuildDate>Sat, 14 Mar 2026 11:24:42 +0000</lastBuildDate>
+    <atom:link href="https://example.github.io/scholarshipdb/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>Data efficient Artificial Intelligence for industrial process monitoring - KU LEUVEN</title>
-      <link>https://scholarshipdb.net/jobs-in-Belgium/Data-Efficient-Artificial-Intelligence-For-Industrial-Process-Monitoring-Ku-Leuven=w2S-VKrs8BG_5wzEeuBOuw.html</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/jobs-in-Belgium/Data-Efficient-Artificial-Intelligence-For-Industrial-Process-Monitoring-Ku-Leuven=w2S-VKrs8BG_5wzEeuBOuw.html</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; KU LEUVEN&lt;br/&gt;&lt;strong&gt;Location:&lt;/strong&gt; Belgium&lt;br/&gt;&lt;strong&gt;Posted:&lt;/strong&gt; 8 minutes ago&lt;br/&gt;&lt;p&gt;8 Jan 2026
-Job Information
-Organisation/Company
-KU LEUVEN
-Research Field
-Engineering » Agricultural engineering
-Engineering » Chemical engineering
-Engineering » Industrial engineering
-Mathematics » Applied mathematics
-Mathematics » Statistics
-Researcher Profile
-First Stage Researcher...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Source: Belgium&lt;/em&gt;</description>
-      <pubDate>Thu, 08 Jan 2026 16:00:23 +0000</pubDate>
-      <category domain="topic">Belgium</category>
-      <category domain="location">Belgium</category>
+      <title>ScholarshipDb.Net</title>
+      <link>https://scholarshipdb.net/</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>Postdoctoral Research Fellow in Soil Invertebrate Ecotoxicology - University of Oslo</title>
-      <link>https://scholarshipdb.net/jobs-in-Norway/Postdoctoral-Research-Fellow-In-Soil-Invertebrate-Ecotoxicology-University-Of-Oslo=QgDdhd7r8BG_5wzEeuBOuw.html</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/jobs-in-Norway/Postdoctoral-Research-Fellow-In-Soil-Invertebrate-Ecotoxicology-University-Of-Oslo=QgDdhd7r8BG_5wzEeuBOuw.html</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; University of Oslo&lt;br/&gt;&lt;strong&gt;Location:&lt;/strong&gt; Norway&lt;br/&gt;&lt;strong&gt;Posted:&lt;/strong&gt; 15 minutes ago&lt;br/&gt;&lt;p&gt;powered by: Cookie Information
-Nettsiden bruker cookies
-Vi ønsker at du skal være trygg når du bruker dette nettstedet. Vi benytter cookies for å sikre at du får en best mulig brukeropplevelse og for å hente inn statistikk slik at vi kan analysere hvordan nettstedet benyttes. Vi bruker også...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Source: Norway&lt;/em&gt;</description>
-      <pubDate>Thu, 08 Jan 2026 15:57:47 +0000</pubDate>
-      <category domain="topic">Norway</category>
-      <category domain="location">Norway</category>
+      <title>Postdoctoral</title>
+      <link>https://scholarshipdb.net/Postdoctoral-scholarships</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/Postdoctoral-scholarships</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>Doctoral student in science education or technology education - Karlstad University</title>
-      <link>https://scholarshipdb.net/jobs-in-Sweden/Doctoral-Student-In-Science-Education-Or-Technology-Education-Karlstad-University=FL9-_6ns8BG_5wzEeuBOuw.html</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/jobs-in-Sweden/Doctoral-Student-In-Science-Education-Or-Technology-Education-Karlstad-University=FL9-_6ns8BG_5wzEeuBOuw.html</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Karlstad University&lt;br/&gt;&lt;strong&gt;Location:&lt;/strong&gt; Sweden&lt;br/&gt;&lt;strong&gt;Posted:&lt;/strong&gt; 10 minutes ago&lt;br/&gt;&lt;p&gt;Sapere Aude – dare to know – is our motto. Our students and employees develop important knowledge that enrich both the individual and the community. Our academic environment is characterised by curiosity, courage and openness, with a close connection between people, professional roles,...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Source: Sweden&lt;/em&gt;</description>
-      <pubDate>Thu, 08 Jan 2026 15:56:56 +0000</pubDate>
-      <category domain="topic">Sweden</category>
-      <category domain="location">Sweden</category>
+      <title>Master</title>
+      <link>https://scholarshipdb.net/scholarships/Program-Master</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-Master</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>DevOps / Support engineer for sensitive data sharing and analysis - University of Oslo</title>
-      <link>https://scholarshipdb.net/jobs-in-Norway/Dev-Ops-Support-Engineer-For-Sensitive-Data-Sharing-And-Analysis-University-Of-Oslo=Od84sN3r8BG_5wzEeuBOuw.html</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/jobs-in-Norway/Dev-Ops-Support-Engineer-For-Sensitive-Data-Sharing-And-Analysis-University-Of-Oslo=Od84sN3r8BG_5wzEeuBOuw.html</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; University of Oslo&lt;br/&gt;&lt;strong&gt;Location:&lt;/strong&gt; Norway&lt;br/&gt;&lt;strong&gt;Posted:&lt;/strong&gt; 21 minutes ago&lt;br/&gt;&lt;p&gt;powered by: Cookie Information
-Nettsiden bruker cookies
-Vi ønsker at du skal være trygg når du bruker dette nettstedet. Vi benytter cookies for å sikre at du får en best mulig brukeropplevelse og for å hente inn statistikk slik at vi kan analysere hvordan nettstedet benyttes. Vi bruker også...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Source: Norway&lt;/em&gt;</description>
-      <pubDate>Thu, 08 Jan 2026 15:51:47 +0000</pubDate>
-      <category domain="topic">Norway</category>
-      <category domain="location">Norway</category>
+      <title>Undergraduate</title>
+      <link>https://scholarshipdb.net/scholarships/Program-Undergraduate</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-Undergraduate</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>Tenure-track Asst. Prof./-Assoc. Prof./Tenured Assoc. Prof. in Microecon./Applied microecon. theory - University of Oslo</title>
-      <link>https://scholarshipdb.net/jobs-in-Norway/Tenure-Track-Asst-Prof-Assoc-Prof-Tenured-Assoc-Prof-In-Microecon-Applied-Microecon-Theory-University-Of-Oslo=LvyzXBXn8BG_5wzEeuBOuw.html</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/jobs-in-Norway/Tenure-Track-Asst-Prof-Assoc-Prof-Tenured-Assoc-Prof-In-Microecon-Applied-Microecon-Theory-University-Of-Oslo=LvyzXBXn8BG_5wzEeuBOuw.html</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; University of Oslo&lt;br/&gt;&lt;strong&gt;Location:&lt;/strong&gt; Norway&lt;br/&gt;&lt;strong&gt;Posted:&lt;/strong&gt; 22 minutes ago&lt;br/&gt;&lt;p&gt;powered by: Cookie Information
-Nettsiden bruker cookies
-Vi ønsker at du skal være trygg når du bruker dette nettstedet. Vi benytter cookies for å sikre at du får en best mulig brukeropplevelse og for å hente inn statistikk slik at vi kan analysere hvordan nettstedet benyttes. Vi bruker også...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Source: Norway&lt;/em&gt;</description>
-      <pubDate>Thu, 08 Jan 2026 15:51:14 +0000</pubDate>
-      <category domain="topic">Norway</category>
-      <category domain="location">Norway</category>
+      <title>Universities</title>
+      <link>https://scholarshipdb.net/universities</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/universities</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>Temporary position as Associate Professor or Lecturer in Latin - University of Oslo</title>
-      <link>https://scholarshipdb.net/jobs-in-Norway/Temporary-Position-As-Associate-Professor-Or-Lecturer-In-Latin-University-Of-Oslo=R-br1X7l8BG_5wzEeuBOuw.html</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/jobs-in-Norway/Temporary-Position-As-Associate-Professor-Or-Lecturer-In-Latin-University-Of-Oslo=R-br1X7l8BG_5wzEeuBOuw.html</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; University of Oslo&lt;br/&gt;&lt;strong&gt;Location:&lt;/strong&gt; Norway&lt;br/&gt;&lt;strong&gt;Posted:&lt;/strong&gt; 23 minutes ago&lt;br/&gt;&lt;p&gt;powered by: Cookie Information
-Nettsiden bruker cookies
-Vi ønsker at du skal være trygg når du bruker dette nettstedet. Vi benytter cookies for å sikre at du får en best mulig brukeropplevelse og for å hente inn statistikk slik at vi kan analysere hvordan nettstedet benyttes. Vi bruker også...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Source: Norway&lt;/em&gt;</description>
-      <pubDate>Thu, 08 Jan 2026 15:50:55 +0000</pubDate>
-      <category domain="topic">Norway</category>
-      <category domain="location">Norway</category>
+      <title>Blogs</title>
+      <link>https://scholarshipdb.net/blogs</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/blogs</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>Professor II/Associate professor 20% position in Medicine (Clinical Molecular Medicine) - University of Oslo</title>
-      <link>https://scholarshipdb.net/jobs-in-Norway/Professor-Ii-Associate-Professor-20-Position-In-Medicine-Clinical-Molecular-Medicine-University-Of-Oslo=rcsnIuDn8BG_5wzEeuBOuw.html</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/jobs-in-Norway/Professor-Ii-Associate-Professor-20-Position-In-Medicine-Clinical-Molecular-Medicine-University-Of-Oslo=rcsnIuDn8BG_5wzEeuBOuw.html</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; University of Oslo&lt;br/&gt;&lt;strong&gt;Location:&lt;/strong&gt; Norway&lt;br/&gt;&lt;strong&gt;Posted:&lt;/strong&gt; 24 minutes ago&lt;br/&gt;&lt;p&gt;powered by: Cookie Information
-Nettsiden bruker cookies
-Vi ønsker at du skal være trygg når du bruker dette nettstedet. Vi benytter cookies for å sikre at du får en best mulig brukeropplevelse og for å hente inn statistikk slik at vi kan analysere hvordan nettstedet benyttes. Vi bruker også...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Source: Norway&lt;/em&gt;</description>
-      <pubDate>Thu, 08 Jan 2026 15:49:14 +0000</pubDate>
-      <category domain="topic">Norway</category>
-      <category domain="location">Norway</category>
+      <title>Browse</title>
+      <link>https://scholarshipdb.net/scholarships-browse</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-browse</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>PhD Research fellows in Anthropology of health and environment in Africa and Europe - University of Oslo</title>
-      <link>https://scholarshipdb.net/jobs-in-Norway/Ph-D-Research-Fellows-In-Anthropology-Of-Health-And-Environment-In-Africa-And-Europe-University-Of-Oslo=wik1gNLf8BG_5wzEeuBOuw.html</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/jobs-in-Norway/Ph-D-Research-Fellows-In-Anthropology-Of-Health-And-Environment-In-Africa-And-Europe-University-Of-Oslo=wik1gNLf8BG_5wzEeuBOuw.html</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; University of Oslo&lt;br/&gt;&lt;strong&gt;Location:&lt;/strong&gt; Norway&lt;br/&gt;&lt;strong&gt;Posted:&lt;/strong&gt; 29 minutes ago&lt;br/&gt;&lt;p&gt;powered by: Cookie Information
-Nettsiden bruker cookies
-Vi ønsker at du skal være trygg når du bruker dette nettstedet. Vi benytter cookies for å sikre at du får en best mulig brukeropplevelse og for å hente inn statistikk slik at vi kan analysere hvordan nettstedet benyttes. Vi bruker også...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Source: Norway&lt;/em&gt;</description>
-      <pubDate>Thu, 08 Jan 2026 15:45:06 +0000</pubDate>
-      <category domain="topic">Norway</category>
-      <category domain="location">Norway</category>
+      <title>Master</title>
+      <link>https://scholarshipdb.net/Master-scholarships</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/Master-scholarships</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>PhD Research Fellow in Human-Robot Interaction - University of Oslo</title>
-      <link>https://scholarshipdb.net/jobs-in-Norway/Ph-D-Research-Fellow-In-Human-Robot-Interaction-University-Of-Oslo=axSgJ9Lf8BG_5wzEeuBOuw.html</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/jobs-in-Norway/Ph-D-Research-Fellow-In-Human-Robot-Interaction-University-Of-Oslo=axSgJ9Lf8BG_5wzEeuBOuw.html</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; University of Oslo&lt;br/&gt;&lt;strong&gt;Location:&lt;/strong&gt; Norway&lt;br/&gt;&lt;strong&gt;Posted:&lt;/strong&gt; 31 minutes ago&lt;br/&gt;&lt;p&gt;powered by: Cookie Information
-Nettsiden bruker cookies
-Vi ønsker at du skal være trygg når du bruker dette nettstedet. Vi benytter cookies for å sikre at du får en best mulig brukeropplevelse og for å hente inn statistikk slik at vi kan analysere hvordan nettstedet benyttes. Vi bruker også...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Source: Norway&lt;/em&gt;</description>
-      <pubDate>Thu, 08 Jan 2026 15:43:06 +0000</pubDate>
-      <category domain="topic">Norway</category>
-      <category domain="location">Norway</category>
+      <title>Undergraduate</title>
+      <link>https://scholarshipdb.net/Undergraduate-scholarships</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/Undergraduate-scholarships</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>Doctoral Research Fellow in law - University of Oslo</title>
-      <link>https://scholarshipdb.net/jobs-in-Norway/Doctoral-Research-Fellow-In-Law-University-Of-Oslo=QgEDK7Lk8BG_5wzEeuBOuw.html</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/jobs-in-Norway/Doctoral-Research-Fellow-In-Law-University-Of-Oslo=QgEDK7Lk8BG_5wzEeuBOuw.html</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; University of Oslo&lt;br/&gt;&lt;strong&gt;Location:&lt;/strong&gt; Norway&lt;br/&gt;&lt;strong&gt;Posted:&lt;/strong&gt; 32 minutes ago&lt;br/&gt;&lt;p&gt;powered by: Cookie Information
-Nettsiden bruker cookies
-Vi ønsker at du skal være trygg når du bruker dette nettstedet. Vi benytter cookies for å sikre at du får en best mulig brukeropplevelse og for å hente inn statistikk slik at vi kan analysere hvordan nettstedet benyttes. Vi bruker også...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Source: Norway&lt;/em&gt;</description>
-      <pubDate>Thu, 08 Jan 2026 15:41:55 +0000</pubDate>
-      <category domain="topic">Norway</category>
-      <category domain="location">Norway</category>
+      <title>listed</title>
+      <link>https://scholarshipdb.net/scholarships?q=phd&amp;st=listed</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships?q=phd&amp;st=listed</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>PhD position in physical chemistry / nanotechnology - University of Liege</title>
-      <link>https://scholarshipdb.net/scholarships-in-Belgium/Ph-D-Position-In-Physical-Chemistry-Nanotechnology-University-Of-Liege=1_rAs6bs8BG_5wzEeuBOuw.html</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Belgium/Ph-D-Position-In-Physical-Chemistry-Nanotechnology-University-Of-Liege=1_rAs6bs8BG_5wzEeuBOuw.html</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; University of Liege&lt;br/&gt;&lt;strong&gt;Location:&lt;/strong&gt; Belgium&lt;br/&gt;&lt;strong&gt;Posted:&lt;/strong&gt; 34 minutes ago&lt;br/&gt;&lt;p&gt;8 Jan 2026
-Job Information
-Organisation/Company
-University of Liege
-Department
-Chemistry
-Research Field
-Chemistry » Physical chemistry
-Physics » Biophysics
-Physics » Chemical physics
-Researcher Profile
-First Stage Researcher (R1)
-Positions
-PhD Positions
-Country
-Belgium
-Application Deadline
-28...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Source: Belgium&lt;/em&gt;</description>
-      <pubDate>Thu, 08 Jan 2026 15:34:23 +0000</pubDate>
-      <category domain="topic">Belgium</category>
-      <category domain="location">Belgium</category>
+      <title>United States</title>
+      <link>https://scholarshipdb.net/scholarships-in-United-States?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-United-States?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>16900000 - LS-BIOLOGY - University of Florida</title>
-      <link>https://scholarshipdb.net/jobs-in-United-States/16900000-Ls-Biology-University-Of-Florida=fCV5FQjr8BG_5wzEeuBOuw.html</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/jobs-in-United-States/16900000-Ls-Biology-University-Of-Florida=fCV5FQjr8BG_5wzEeuBOuw.html</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; University of Florida&lt;br/&gt;&lt;strong&gt;Location:&lt;/strong&gt; Gainesville, Florida, United States&lt;br/&gt;&lt;strong&gt;Posted:&lt;/strong&gt; 30 minutes ago&lt;br/&gt;&lt;p&gt;fields with one year of relevant experience.
-Job Description:
-ESSENTIAL FUNCTIONS OF THE JOB AND THE PERCENTAGE OF TIME SPENT ON EACH FUNCTION
-Academic Advising and Student Support
-AdviseBiology&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Source: Biology&lt;/em&gt;</description>
-      <pubDate>Thu, 08 Jan 2026 15:33:21 +0000</pubDate>
-      <category domain="topic">Biology</category>
-      <category domain="location">United States</category>
+      <title>United Kingdom</title>
+      <link>https://scholarshipdb.net/scholarships-in-United-Kingdom?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-United-Kingdom?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>Researcher in trajectory estimation, satellite navigation and high resolution LiDAR mapping - TU Wien</title>
-      <link>https://scholarshipdb.net/jobs-in-Austria/Researcher-In-Trajectory-Estimation-Satellite-Navigation-And-High-Resolution-Li-Dar-Mapping-Tu-Wien=tiygg6Xs8BG_5wzEeuBOuw.html</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/jobs-in-Austria/Researcher-In-Trajectory-Estimation-Satellite-Navigation-And-High-Resolution-Li-Dar-Mapping-Tu-Wien=tiygg6Xs8BG_5wzEeuBOuw.html</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; TU Wien&lt;br/&gt;&lt;strong&gt;Location:&lt;/strong&gt; Austria&lt;br/&gt;&lt;strong&gt;Posted:&lt;/strong&gt; 42 minutes ago&lt;br/&gt;&lt;p&gt;8 Jan 2026
-Job Information
-Organisation/Company
-TU Wien
-Department
-Department of Geodesy and Geoinformation
-Research Field
-Geosciences » Other
-Researcher Profile
-First Stage Researcher (R1)
-Positions
-PhD Positions
-Country
-Austria
-Application Deadline
-25 Jan 2026 - 23:59 (Europe/Vienna)
-Type of...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Source: Austria&lt;/em&gt;</description>
-      <pubDate>Thu, 08 Jan 2026 15:32:31 +0000</pubDate>
-      <category domain="topic">Austria</category>
-      <category domain="location">Austria</category>
+      <title>Germany</title>
+      <link>https://scholarshipdb.net/scholarships-in-Germany?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Germany?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>CSC PhD students - Ghent University</title>
-      <link>https://scholarshipdb.net/scholarships-in-Belgium/Csc-Ph-D-Students-Ghent-University=ypj2sxXn8BG_5wzEeuBOuw.html</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Belgium/Csc-Ph-D-Students-Ghent-University=ypj2sxXn8BG_5wzEeuBOuw.html</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Ghent University&lt;br/&gt;&lt;strong&gt;Location:&lt;/strong&gt; Belgium&lt;br/&gt;&lt;strong&gt;Posted:&lt;/strong&gt; about 1 hour ago&lt;br/&gt;&lt;p&gt;Ghent University has a firm tradition of collaboration with Chinese research institutes and top universities in many disciplines. Ghent University and the CSC therefore jointly offer doctoral and postdoctoral scholarships to Chinese researchers. We welcome all Chinese students who visit our...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Source: Belgium&lt;/em&gt;</description>
-      <pubDate>Thu, 08 Jan 2026 15:08:59 +0000</pubDate>
-      <category domain="topic">Belgium</category>
-      <category domain="location">Belgium</category>
+      <title>Australia</title>
+      <link>https://scholarshipdb.net/scholarships-in-Australia?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Australia?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>University assistant predoctoral - University of Vienna</title>
-      <link>https://scholarshipdb.net/jobs-in-Austria/University-Assistant-Predoctoral-University-Of-Vienna=nqgRlNXn8BG_5wzEeuBOuw.html</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/jobs-in-Austria/University-Assistant-Predoctoral-University-Of-Vienna=nqgRlNXn8BG_5wzEeuBOuw.html</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; University of Vienna&lt;br/&gt;&lt;strong&gt;Location:&lt;/strong&gt; Austria&lt;br/&gt;&lt;strong&gt;Posted:&lt;/strong&gt; about 2 hours ago&lt;br/&gt;&lt;p&gt;The University of Vienna is a community of almost 11,000 individuals, including approximately 7,700 academic staff members, who passionately pursue answers to the profound questions that shape our future. They represent individuals driven by curiosity and a relentless pursuit of excellence. With...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Source: Austria&lt;/em&gt;</description>
-      <pubDate>Thu, 08 Jan 2026 14:16:02 +0000</pubDate>
-      <category domain="topic">Austria</category>
-      <category domain="location">Austria</category>
+      <title>Denmark</title>
+      <link>https://scholarshipdb.net/scholarships-in-Denmark?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Denmark?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>Social Sciences, Education &amp; Social Research – Doctoral Positions (SSH Call 2026) - University of Vienna</title>
-      <link>https://scholarshipdb.net/jobs-in-Austria/Social-Sciences-Education-Social-Research-Doctoral-Positions-Ssh-Call-2026-University-Of-Vienna=HG2qaoLr8BG_5wzEeuBOuw.html</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/jobs-in-Austria/Social-Sciences-Education-Social-Research-Doctoral-Positions-Ssh-Call-2026-University-Of-Vienna=HG2qaoLr8BG_5wzEeuBOuw.html</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; University of Vienna&lt;br/&gt;&lt;strong&gt;Location:&lt;/strong&gt; Austria&lt;br/&gt;&lt;strong&gt;Posted:&lt;/strong&gt; about 2 hours ago&lt;br/&gt;&lt;p&gt;The University of Vienna is a community of almost 11,000 individuals, including approximately 7,700 academic staff members, who passionately pursue answers to the profound questions that shape our future. Fuelled by curiosity and a deep sense of responsibility, they provide invaluable...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Source: Austria&lt;/em&gt;</description>
-      <pubDate>Thu, 08 Jan 2026 14:16:02 +0000</pubDate>
-      <category domain="topic">Austria</category>
-      <category domain="location">Austria</category>
+      <title>Norway</title>
+      <link>https://scholarshipdb.net/scholarships-in-Norway?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Norway?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>Mathematics &amp; Computer Science - Postdoc Fellows E-STEEM Call 2026 - University of Vienna</title>
-      <link>https://scholarshipdb.net/jobs-in-Austria/Mathematics-Computer-Science-Postdoc-Fellows-E-Steem-Call-2026-University-Of-Vienna=7CfcUYDr8BG_5wzEeuBOuw.html</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/jobs-in-Austria/Mathematics-Computer-Science-Postdoc-Fellows-E-Steem-Call-2026-University-Of-Vienna=7CfcUYDr8BG_5wzEeuBOuw.html</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; University of Vienna&lt;br/&gt;&lt;strong&gt;Location:&lt;/strong&gt; Austria&lt;br/&gt;&lt;strong&gt;Posted:&lt;/strong&gt; about 2 hours ago&lt;br/&gt;&lt;p&gt;The University of Vienna is a community of almost 11,000 individuals, including approximately 7,700 academic staff members, who passionately pursue answers to the profound questions that shape our future. Fuelled by curiosity and a deep sense of responsibility, they provide invaluable...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Source: Austria&lt;/em&gt;</description>
-      <pubDate>Thu, 08 Jan 2026 14:15:22 +0000</pubDate>
-      <category domain="topic">Austria</category>
-      <category domain="location">Austria</category>
+      <title>Singapore</title>
+      <link>https://scholarshipdb.net/scholarships-in-Singapore?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Singapore?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>Theology, Religious Studies &amp; Ethics – Doctoral Positions (SSH Call 2026) - University of Vienna</title>
-      <link>https://scholarshipdb.net/jobs-in-Austria/Theology-Religious-Studies-Ethics-Doctoral-Positions-Ssh-Call-2026-University-Of-Vienna=d8cbs4Lr8BG_5wzEeuBOuw.html</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/jobs-in-Austria/Theology-Religious-Studies-Ethics-Doctoral-Positions-Ssh-Call-2026-University-Of-Vienna=d8cbs4Lr8BG_5wzEeuBOuw.html</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; University of Vienna&lt;br/&gt;&lt;strong&gt;Location:&lt;/strong&gt; Austria&lt;br/&gt;&lt;strong&gt;Posted:&lt;/strong&gt; about 2 hours ago&lt;br/&gt;&lt;p&gt;The University of Vienna is a community of almost 11,000 individuals, including approximately 7,700 academic staff members, who passionately pursue answers to the profound questions that shape our future. Fuelled by curiosity and a deep sense of responsibility, they provide invaluable...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Source: Austria&lt;/em&gt;</description>
-      <pubDate>Thu, 08 Jan 2026 14:15:22 +0000</pubDate>
-      <category domain="topic">Austria</category>
-      <category domain="location">Austria</category>
+      <title>France</title>
+      <link>https://scholarshipdb.net/scholarships-in-France?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-France?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>Natural Sciences (Physical Sciences) - Postdoc Fellows E-STEEM Call 2026 - University of Vienna</title>
-      <link>https://scholarshipdb.net/jobs-in-Austria/Natural-Sciences-Physical-Sciences-Postdoc-Fellows-E-Steem-Call-2026-University-Of-Vienna=LJTJ4oDr8BG_5wzEeuBOuw.html</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/jobs-in-Austria/Natural-Sciences-Physical-Sciences-Postdoc-Fellows-E-Steem-Call-2026-University-Of-Vienna=LJTJ4oDr8BG_5wzEeuBOuw.html</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; University of Vienna&lt;br/&gt;&lt;strong&gt;Location:&lt;/strong&gt; Austria&lt;br/&gt;&lt;strong&gt;Posted:&lt;/strong&gt; about 2 hours ago&lt;br/&gt;&lt;p&gt;The University of Vienna is a community of almost 11,000 individuals, including approximately 7,700 academic staff members, who passionately pursue answers to the profound questions that shape our future. Fuelled by curiosity and a deep sense of responsibility, they provide invaluable...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Source: Austria&lt;/em&gt;</description>
-      <pubDate>Thu, 08 Jan 2026 14:15:22 +0000</pubDate>
-      <category domain="topic">Austria</category>
-      <category domain="location">Austria</category>
+      <title>Sweden</title>
+      <link>https://scholarshipdb.net/scholarships-in-Sweden?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Sweden?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>History, Cultural Studies &amp; Philology – Doctoral Positions (SSH Call 2026) - University of Vienna</title>
-      <link>https://scholarshipdb.net/jobs-in-Austria/History-Cultural-Studies-Philology-Doctoral-Positions-Ssh-Call-2026-University-Of-Vienna=-Sefm4Dr8BG_5wzEeuBOuw.html</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/jobs-in-Austria/History-Cultural-Studies-Philology-Doctoral-Positions-Ssh-Call-2026-University-Of-Vienna=-Sefm4Dr8BG_5wzEeuBOuw.html</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; University of Vienna&lt;br/&gt;&lt;strong&gt;Location:&lt;/strong&gt; Austria&lt;br/&gt;&lt;strong&gt;Posted:&lt;/strong&gt; about 2 hours ago&lt;br/&gt;&lt;p&gt;The University of Vienna is a community of almost 11,000 individuals, including approximately 7,700 academic staff members, who passionately pursue answers to the profound questions that shape our future. Fuelled by curiosity and a deep sense of responsibility, they provide invaluable...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Source: Austria&lt;/em&gt;</description>
-      <pubDate>Thu, 08 Jan 2026 14:15:22 +0000</pubDate>
-      <category domain="topic">Austria</category>
-      <category domain="location">Austria</category>
+      <title>Canada</title>
+      <link>https://scholarshipdb.net/scholarships-in-Canada?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Canada?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>University assistant predoctoral - University of Vienna</title>
-      <link>https://scholarshipdb.net/jobs-in-Austria/University-Assistant-Predoctoral-University-Of-Vienna=G1IWhUDq8BG_5wzEeuBOuw.html</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/jobs-in-Austria/University-Assistant-Predoctoral-University-Of-Vienna=G1IWhUDq8BG_5wzEeuBOuw.html</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; University of Vienna&lt;br/&gt;&lt;strong&gt;Location:&lt;/strong&gt; Austria&lt;br/&gt;&lt;strong&gt;Posted:&lt;/strong&gt; about 2 hours ago&lt;br/&gt;&lt;p&gt;The University of Vienna is a community of over 10,000 individuals, including approximately 7,500 academic staff members, who passionately pursue answers to the profound questions that shape our future. They represent individuals driven by curiosity and a relentless pursuit of excellence. With...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Source: Austria&lt;/em&gt;</description>
-      <pubDate>Thu, 08 Jan 2026 14:15:22 +0000</pubDate>
-      <category domain="topic">Austria</category>
-      <category domain="location">Austria</category>
+      <title>Netherlands</title>
+      <link>https://scholarshipdb.net/scholarships-in-Netherlands?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Netherlands?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>Life Sciences &amp; Biomedical Research - Postdoc Fellows E-STEEM Call 2026 - University of Vienna</title>
-      <link>https://scholarshipdb.net/jobs-in-Austria/Life-Sciences-Biomedical-Research-Postdoc-Fellows-E-Steem-Call-2026-University-Of-Vienna=9mns-4Hr8BG_5wzEeuBOuw.html</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/jobs-in-Austria/Life-Sciences-Biomedical-Research-Postdoc-Fellows-E-Steem-Call-2026-University-Of-Vienna=9mns-4Hr8BG_5wzEeuBOuw.html</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; University of Vienna&lt;br/&gt;&lt;strong&gt;Location:&lt;/strong&gt; Austria&lt;br/&gt;&lt;strong&gt;Posted:&lt;/strong&gt; about 2 hours ago&lt;br/&gt;&lt;p&gt;The University of Vienna is a community of almost 11,000 individuals, including approximately 7,700 academic staff members, who passionately pursue answers to the profound questions that shape our future. Fuelled by curiosity and a deep sense of responsibility, they provide invaluable...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Source: Austria&lt;/em&gt;</description>
-      <pubDate>Thu, 08 Jan 2026 14:15:22 +0000</pubDate>
-      <category domain="topic">Austria</category>
-      <category domain="location">Austria</category>
+      <title>Spain</title>
+      <link>https://scholarshipdb.net/scholarships-in-Spain?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Spain?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>Economics &amp; Business Administration- Postdoc Fellows E-STEEM Call 2026 - University of Vienna</title>
-      <link>https://scholarshipdb.net/jobs-in-Austria/Economics-Business-Administration-Postdoc-Fellows-E-Steem-Call-2026-University-Of-Vienna=xCaJcYHr8BG_5wzEeuBOuw.html</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/jobs-in-Austria/Economics-Business-Administration-Postdoc-Fellows-E-Steem-Call-2026-University-Of-Vienna=xCaJcYHr8BG_5wzEeuBOuw.html</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; University of Vienna&lt;br/&gt;&lt;strong&gt;Location:&lt;/strong&gt; Austria&lt;br/&gt;&lt;strong&gt;Posted:&lt;/strong&gt; about 2 hours ago&lt;br/&gt;&lt;p&gt;The University of Vienna is a community of almost 11,000 individuals, including approximately 7,700 academic staff members, who passionately pursue answers to the profound questions that shape our future. Fuelled by curiosity and a deep sense of responsibility, they provide invaluable...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Source: Austria&lt;/em&gt;</description>
-      <pubDate>Thu, 08 Jan 2026 14:15:22 +0000</pubDate>
-      <category domain="topic">Austria</category>
-      <category domain="location">Austria</category>
+      <title>Portugal</title>
+      <link>https://scholarshipdb.net/scholarships-in-Portugal?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Portugal?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>Human Behavior &amp; Movement - Postdoc Fellows E-STEEM Call 2026 - University of Vienna</title>
-      <link>https://scholarshipdb.net/jobs-in-Austria/Human-Behavior-Movement-Postdoc-Fellows-E-Steem-Call-2026-University-Of-Vienna=WISbKYHr8BG_5wzEeuBOuw.html</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/jobs-in-Austria/Human-Behavior-Movement-Postdoc-Fellows-E-Steem-Call-2026-University-Of-Vienna=WISbKYHr8BG_5wzEeuBOuw.html</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; University of Vienna&lt;br/&gt;&lt;strong&gt;Location:&lt;/strong&gt; Austria&lt;br/&gt;&lt;strong&gt;Posted:&lt;/strong&gt; about 2 hours ago&lt;br/&gt;&lt;p&gt;The University of Vienna is a community of almost 11,000 individuals, including approximately 7,700 academic staff members, who passionately pursue answers to the profound questions that shape our future. Fuelled by curiosity and a deep sense of responsibility, they provide invaluable...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Source: Austria&lt;/em&gt;</description>
-      <pubDate>Thu, 08 Jan 2026 14:15:22 +0000</pubDate>
-      <category domain="topic">Austria</category>
-      <category domain="location">Austria</category>
+      <title>Belgium</title>
+      <link>https://scholarshipdb.net/scholarships-in-Belgium?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Belgium?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>Law, Legal Studies &amp; Philosophy – Doctoral Positions (SSH Call 2026) - University of Vienna</title>
-      <link>https://scholarshipdb.net/jobs-in-Austria/Law-Legal-Studies-Philosophy-Doctoral-Positions-Ssh-Call-2026-University-Of-Vienna=Do-JpoHr8BG_5wzEeuBOuw.html</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/jobs-in-Austria/Law-Legal-Studies-Philosophy-Doctoral-Positions-Ssh-Call-2026-University-Of-Vienna=Do-JpoHr8BG_5wzEeuBOuw.html</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; University of Vienna&lt;br/&gt;&lt;strong&gt;Location:&lt;/strong&gt; Austria&lt;br/&gt;&lt;strong&gt;Posted:&lt;/strong&gt; about 2 hours ago&lt;br/&gt;&lt;p&gt;The University of Vienna is a community of almost 11,000 individuals, including approximately 7,700 academic staff members, who passionately pursue answers to the profound questions that shape our future. Fuelled by curiosity and a deep sense of responsibility, they provide invaluable...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Source: Austria&lt;/em&gt;</description>
-      <pubDate>Thu, 08 Jan 2026 14:15:22 +0000</pubDate>
-      <category domain="topic">Austria</category>
-      <category domain="location">Austria</category>
+      <title>Austria</title>
+      <link>https://scholarshipdb.net/scholarships-in-Austria?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Austria?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>Cognition, Behaviour &amp; Environmental Sciences – Doctoral Positions (SSH Call 2026) - University of Vienna</title>
-      <link>https://scholarshipdb.net/jobs-in-Austria/Cognition-Behaviour-Environmental-Sciences-Doctoral-Positions-Ssh-Call-2026-University-Of-Vienna=5g8yNILr8BG_5wzEeuBOuw.html</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/jobs-in-Austria/Cognition-Behaviour-Environmental-Sciences-Doctoral-Positions-Ssh-Call-2026-University-Of-Vienna=5g8yNILr8BG_5wzEeuBOuw.html</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; University of Vienna&lt;br/&gt;&lt;strong&gt;Location:&lt;/strong&gt; Austria&lt;br/&gt;&lt;strong&gt;Posted:&lt;/strong&gt; about 2 hours ago&lt;br/&gt;&lt;p&gt;The University of Vienna is a community of almost 11,000 individuals, including approximately 7,700 academic staff members, who passionately pursue answers to the profound questions that shape our future. Fuelled by curiosity and a deep sense of responsibility, they provide invaluable...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Source: Austria&lt;/em&gt;</description>
-      <pubDate>Thu, 08 Jan 2026 14:15:22 +0000</pubDate>
-      <category domain="topic">Austria</category>
-      <category domain="location">Austria</category>
+      <title>Hong Kong</title>
+      <link>https://scholarshipdb.net/scholarships-in-Hong-Kong?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Hong-Kong?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>University assistant predoctoral - University of Vienna</title>
-      <link>https://scholarshipdb.net/jobs-in-Austria/University-Assistant-Predoctoral-University-Of-Vienna=dELV0-br8BG_5wzEeuBOuw.html</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/jobs-in-Austria/University-Assistant-Predoctoral-University-Of-Vienna=dELV0-br8BG_5wzEeuBOuw.html</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; University of Vienna&lt;br/&gt;&lt;strong&gt;Location:&lt;/strong&gt; Austria&lt;br/&gt;&lt;strong&gt;Posted:&lt;/strong&gt; about 2 hours ago&lt;br/&gt;&lt;p&gt;At the University of Vienna more than 10,000 personalities work together towards answering the big questions of the future. Around 7,500 of them do research and teaching, around 2,900 work in administration and organisation. We are looking for a/an
-University assistant predoctoral
-45 Faculty of...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Source: Austria&lt;/em&gt;</description>
-      <pubDate>Thu, 08 Jan 2026 14:15:04 +0000</pubDate>
-      <category domain="topic">Austria</category>
-      <category domain="location">Austria</category>
+      <title>Poland</title>
+      <link>https://scholarshipdb.net/scholarships-in-Poland?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Poland?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>University Assistant (predoc) - Completion Grant - University of Vienna</title>
-      <link>https://scholarshipdb.net/jobs-in-Austria/University-Assistant-Predoc-Completion-Grant-University-Of-Vienna=0cbR9-br8BG_5wzEeuBOuw.html</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/jobs-in-Austria/University-Assistant-Predoc-Completion-Grant-University-Of-Vienna=0cbR9-br8BG_5wzEeuBOuw.html</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; University of Vienna&lt;br/&gt;&lt;strong&gt;Location:&lt;/strong&gt; Austria&lt;br/&gt;&lt;strong&gt;Posted:&lt;/strong&gt; about 2 hours ago&lt;br/&gt;&lt;p&gt;At the University of Vienna, almost 11,000 people work together on the big questions of the future. Approximately 7,700 of them are academic staff members. These are individuals who, with their curiosity and their continuous pursuit of excellence, engage in international cutting-edge research...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Source: Austria&lt;/em&gt;</description>
-      <pubDate>Thu, 08 Jan 2026 14:15:04 +0000</pubDate>
-      <category domain="topic">Austria</category>
-      <category domain="location">Austria</category>
+      <title>Switzerland</title>
+      <link>https://scholarshipdb.net/scholarships-in-Switzerland?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Switzerland?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>University assistant predoctoral at the Department of Political Science - University of Vienna</title>
-      <link>https://scholarshipdb.net/jobs-in-Austria/University-Assistant-Predoctoral-At-The-Department-Of-Political-Science-University-Of-Vienna=W65E5vbr8BG_5wzEeuBOuw.html</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/jobs-in-Austria/University-Assistant-Predoctoral-At-The-Department-Of-Political-Science-University-Of-Vienna=W65E5vbr8BG_5wzEeuBOuw.html</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; University of Vienna&lt;br/&gt;&lt;strong&gt;Location:&lt;/strong&gt; Austria&lt;br/&gt;&lt;strong&gt;Posted:&lt;/strong&gt; about 2 hours ago&lt;br/&gt;&lt;p&gt;The University of Vienna is a community of over 10,000 individuals, including approximately 7,500 academic staff members, who passionately pursue answers to the profound questions that shape our future. They represent individuals driven by curiosity and a relentless pursuit of excellence. With...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Source: Austria&lt;/em&gt;</description>
-      <pubDate>Thu, 08 Jan 2026 14:15:04 +0000</pubDate>
-      <category domain="topic">Austria</category>
-      <category domain="location">Austria</category>
+      <title>China</title>
+      <link>https://scholarshipdb.net/scholarships-in-China?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-China?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>University assistant predoctoral - University of Vienna</title>
-      <link>https://scholarshipdb.net/jobs-in-Austria/University-Assistant-Predoctoral-University-Of-Vienna=Z9eiwvbr8BG_5wzEeuBOuw.html</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/jobs-in-Austria/University-Assistant-Predoctoral-University-Of-Vienna=Z9eiwvbr8BG_5wzEeuBOuw.html</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; University of Vienna&lt;br/&gt;&lt;strong&gt;Location:&lt;/strong&gt; Austria&lt;br/&gt;&lt;strong&gt;Posted:&lt;/strong&gt; about 2 hours ago&lt;br/&gt;&lt;p&gt;The University of Vienna is a community of over 10,000 individuals, including approximately 7,500 academic staff members, who passionately pursue answers to the profound questions that shape our future. They represent individuals driven by curiosity and a relentless pursuit of excellence. With...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Source: Austria&lt;/em&gt;</description>
-      <pubDate>Thu, 08 Jan 2026 14:15:04 +0000</pubDate>
-      <category domain="topic">Austria</category>
-      <category domain="location">Austria</category>
+      <title>United Arab Emirates</title>
+      <link>https://scholarshipdb.net/scholarships-in-United-Arab-Emirates?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-United-Arab-Emirates?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>University assistant (prae doc) - Department of Government - University of Vienna</title>
-      <link>https://scholarshipdb.net/jobs-in-Austria/University-Assistant-Prae-Doc-Department-Of-Government-University-Of-Vienna=CBuZacPr8BG_5wzEeuBOuw.html</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/jobs-in-Austria/University-Assistant-Prae-Doc-Department-Of-Government-University-Of-Vienna=CBuZacPr8BG_5wzEeuBOuw.html</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; University of Vienna&lt;br/&gt;&lt;strong&gt;Location:&lt;/strong&gt; Austria&lt;br/&gt;&lt;strong&gt;Posted:&lt;/strong&gt; about 2 hours ago&lt;br/&gt;&lt;p&gt;The University of Vienna is a community of almost 11,000 individuals, including approximately 7,700 academic staff members, who passionately pursue answers to the profound questions that shape our future. They represent individuals driven by curiosity and a relentless pursuit of excellence. With...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Source: Austria&lt;/em&gt;</description>
-      <pubDate>Thu, 08 Jan 2026 14:14:53 +0000</pubDate>
-      <category domain="topic">Austria</category>
-      <category domain="location">Austria</category>
+      <title>Ireland</title>
+      <link>https://scholarshipdb.net/scholarships-in-Ireland?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Ireland?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>University assistant predoctoral - University of Vienna</title>
-      <link>https://scholarshipdb.net/jobs-in-Austria/University-Assistant-Predoctoral-University-Of-Vienna=0gVl7Zzs8BG_5wzEeuBOuw.html</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/jobs-in-Austria/University-Assistant-Predoctoral-University-Of-Vienna=0gVl7Zzs8BG_5wzEeuBOuw.html</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; University of Vienna&lt;br/&gt;&lt;strong&gt;Location:&lt;/strong&gt; Austria&lt;br/&gt;&lt;strong&gt;Posted:&lt;/strong&gt; about 2 hours ago&lt;br/&gt;&lt;p&gt;At the University of Vienna more than 10,000 personalities work together towards answering the big questions of the future. Around 7,500 of them do research and teaching, around 2,900 work in administration and organisation. We are looking for a/an
-University assistant predoctoral
-51 Faculty of...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Source: Austria&lt;/em&gt;</description>
-      <pubDate>Thu, 08 Jan 2026 14:14:53 +0000</pubDate>
-      <category domain="topic">Austria</category>
-      <category domain="location">Austria</category>
+      <title>Morocco</title>
+      <link>https://scholarshipdb.net/scholarships-in-Morocco?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Morocco?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>University assistant predoctoral - University of Vienna</title>
-      <link>https://scholarshipdb.net/jobs-in-Austria/University-Assistant-Predoctoral-University-Of-Vienna=OBxn-Zzs8BG_5wzEeuBOuw.html</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/jobs-in-Austria/University-Assistant-Predoctoral-University-Of-Vienna=OBxn-Zzs8BG_5wzEeuBOuw.html</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; University of Vienna&lt;br/&gt;&lt;strong&gt;Location:&lt;/strong&gt; Austria&lt;br/&gt;&lt;strong&gt;Posted:&lt;/strong&gt; about 2 hours ago&lt;br/&gt;&lt;p&gt;At the University of Vienna more than 10,000 personalities work together towards answering the big questions of the future. Around 7,500 of them do research and teaching, around 2,900 work in administration and organisation. We are looking for a/an
-University assistant predoctoral
-51 Faculty of...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Source: Austria&lt;/em&gt;</description>
-      <pubDate>Thu, 08 Jan 2026 14:14:53 +0000</pubDate>
-      <category domain="topic">Austria</category>
-      <category domain="location">Austria</category>
+      <title>Czech</title>
+      <link>https://scholarshipdb.net/scholarships-in-Czech?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Czech?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>Doctoral student in Computer Science with a focus on large language models in health</title>
-      <link>https://scholarshipdb.net/jobs-in-Sweden/Doctoral-Student-In-Computer-Science-With-A-Focus-On-Large-Language-Models-In-Health-rebro-University=wSHEAgvn8BG_5wzEeuBOuw.html</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/jobs-in-Sweden/Doctoral-Student-In-Computer-Science-With-A-Focus-On-Large-Language-Models-In-Health-rebro-University=wSHEAgvn8BG_5wzEeuBOuw.html</guid>
-      <description>&lt;strong&gt;Location:&lt;/strong&gt; Sweden&lt;br/&gt;&lt;strong&gt;Posted:&lt;/strong&gt; about 2 hours ago&lt;br/&gt;&lt;p&gt;Ref no: ORU 2.1.1-05355/2025
-Örebro University and the School of Science and Technology are offering a doctoral student position in Computer Science. The position is expected to conclude with a doctoral degree.
-The doctoral student will be affiliated with the Machine Perception and Interaction...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Source: Sweden&lt;/em&gt;</description>
-      <pubDate>Thu, 08 Jan 2026 14:07:43 +0000</pubDate>
-      <category domain="topic">Sweden</category>
-      <category domain="location">Sweden</category>
+      <title>Croatia</title>
+      <link>https://scholarshipdb.net/scholarships-in-Croatia?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Croatia?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>Analytical Chemistry Analyst GeoLab - Utrecht University</title>
-      <link>https://scholarshipdb.net/jobs-in-Netherlands/Analytical-Chemistry-Analyst-Geo-Lab-Utrecht-University=hUrKQZTs8BG_5wzEeuBOuw.html</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/jobs-in-Netherlands/Analytical-Chemistry-Analyst-Geo-Lab-Utrecht-University=hUrKQZTs8BG_5wzEeuBOuw.html</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Utrecht University&lt;br/&gt;&lt;strong&gt;Location:&lt;/strong&gt; Netherlands&lt;br/&gt;&lt;strong&gt;Posted:&lt;/strong&gt; about 2 hours ago&lt;br/&gt;&lt;p&gt;Analytical Chemistry Analyst GeoLab
-Faculty:  Faculty of Geosciences Department:  Department of Earth Sciences Hours per week:  32 to 40 Application deadline:  8 February 2026
-Apply now
-We are looking for an analytical chemistry analyst with an affinity for scientific research to strengthen our...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Source: Netherlands&lt;/em&gt;</description>
-      <pubDate>Thu, 08 Jan 2026 14:05:33 +0000</pubDate>
-      <category domain="topic">Netherlands</category>
-      <category domain="location">Netherlands</category>
+      <title>Italy</title>
+      <link>https://scholarshipdb.net/scholarships-in-Italy?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Italy?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>Asst Prof ofBiology</title>
-      <link>https://scholarshipdb.net/jobs-in-United-States/Asst-Prof-Of-Biology-St-Catherine-University=k73gvsrr8BG_5wzEeuBOuw.html</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/jobs-in-United-States/Asst-Prof-Of-Biology-St-Catherine-University=k73gvsrr8BG_5wzEeuBOuw.html</guid>
-      <description>&lt;strong&gt;Location:&lt;/strong&gt; Saint Paul, Minnesota, United States&lt;br/&gt;&lt;strong&gt;Posted:&lt;/strong&gt; about 3 hours ago&lt;br/&gt;&lt;p&gt;Posting Details
-Position Information
-Position Title
-Asst Prof ofBiologyDivision
-Academic Affairs
-Department/OfficeBiologyPosition Summary Information
-Advertisement
-TheBiologyDepartment at St&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Source: Biology&lt;/em&gt;</description>
-      <pubDate>Thu, 08 Jan 2026 13:03:21 +0000</pubDate>
-      <category domain="topic">Biology</category>
-      <category domain="location">United States</category>
+      <title>New Zealand</title>
+      <link>https://scholarshipdb.net/scholarships-in-New-Zealand?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-New-Zealand?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>80%-100%, Zurich, fixed-term - ETH Zurich</title>
-      <link>https://scholarshipdb.net/jobs-in-Switzerland/80-100-Zurich-Fixed-Term-Eth-Zurich=SwW_0cDr8BG_5wzEeuBOuw.html</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/jobs-in-Switzerland/80-100-Zurich-Fixed-Term-Eth-Zurich=SwW_0cDr8BG_5wzEeuBOuw.html</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; ETH Zurich&lt;br/&gt;&lt;strong&gt;Location:&lt;/strong&gt; Switzerland&lt;br/&gt;&lt;strong&gt;Posted:&lt;/strong&gt; about 4 hours ago&lt;br/&gt;&lt;p&gt;80%-100%, Zurich, fixed-term
-As ETH's central hub for artificial intelligence, the ETH AI Center bring together researchers of AI foundations, applications, and implications across all departments. It fosters research excellence, industry innovation, and AI entrepreneurship. You will collaborate...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Source: Switzerland&lt;/em&gt;</description>
-      <pubDate>Thu, 08 Jan 2026 12:16:59 +0000</pubDate>
-      <category domain="topic">Switzerland</category>
-      <category domain="location">Switzerland</category>
+      <title>Luxembourg</title>
+      <link>https://scholarshipdb.net/scholarships-in-Luxembourg?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Luxembourg?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>PhD Fellowship in Sustainable Geothermal Energy Solutions and Heat Storage Technologies - University of Stavanger</title>
-      <link>https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Fellowship-In-Sustainable-Geothermal-Energy-Solutions-And-Heat-Storage-Technologies-University-Of-Stavanger=4QAxzz7g8BG_5wzEeuBOuw.html</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Fellowship-In-Sustainable-Geothermal-Energy-Solutions-And-Heat-Storage-Technologies-University-Of-Stavanger=4QAxzz7g8BG_5wzEeuBOuw.html</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; University of Stavanger&lt;br/&gt;&lt;strong&gt;Location:&lt;/strong&gt; Norway&lt;br/&gt;&lt;strong&gt;Posted:&lt;/strong&gt; about 4 hours ago&lt;br/&gt;&lt;p&gt;3rd February 2026
-Languages
-English
-Norsk Bokmål
-English
-English
-PhD Fellowship in Sustainable Geothermal Energy Solutions and Heat Storage Technologies
-Apply for this job
-See advertisement
-Job description
-The University of Stavanger invites applicants for a PhD Fellowship in sustainable...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Source: Norway&lt;/em&gt;</description>
-      <pubDate>Thu, 08 Jan 2026 12:14:06 +0000</pubDate>
-      <category domain="topic">Norway</category>
-      <category domain="location">Norway</category>
+      <title>Finland</title>
+      <link>https://scholarshipdb.net/scholarships-in-Finland?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Finland?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>PhD Fellowship in CO2 enhanced oil recovery and storage - University of Stavanger</title>
-      <link>https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Fellowship-In-Co2-Enhanced-Oil-Recovery-And-Storage-University-Of-Stavanger=nnqf4j7g8BG_5wzEeuBOuw.html</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Fellowship-In-Co2-Enhanced-Oil-Recovery-And-Storage-University-Of-Stavanger=nnqf4j7g8BG_5wzEeuBOuw.html</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; University of Stavanger&lt;br/&gt;&lt;strong&gt;Location:&lt;/strong&gt; Norway&lt;br/&gt;&lt;strong&gt;Posted:&lt;/strong&gt; about 4 hours ago&lt;br/&gt;&lt;p&gt;3rd February 2026
-Languages
-English
-Norsk Bokmål
-English
-English
-PhD Fellowship in CO2 enhanced oil recovery and storage
-Apply for this job
-See advertisement
-Job description
-The University of Stavanger invites applicants for a PhD Fellowship in CO2 enhanced oil recovery and storage at the...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Source: Norway&lt;/em&gt;</description>
-      <pubDate>Thu, 08 Jan 2026 12:14:06 +0000</pubDate>
-      <category domain="topic">Norway</category>
-      <category domain="location">Norway</category>
+      <title>Greece</title>
+      <link>https://scholarshipdb.net/scholarships-in-Greece?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Greece?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>PhD in Securing AI Agents in Human–AI Teaming</title>
-      <link>https://scholarshipdb.net/jobs-in-Norway/Ph-D-In-Securing-Ai-Agents-In-Human-Ai-Teaming-stfold-University-College=Dpuvvl3o8BG_5wzEeuBOuw.html</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/jobs-in-Norway/Ph-D-In-Securing-Ai-Agents-In-Human-Ai-Teaming-stfold-University-College=Dpuvvl3o8BG_5wzEeuBOuw.html</guid>
-      <description>&lt;strong&gt;Location:&lt;/strong&gt; Norway&lt;br/&gt;&lt;strong&gt;Posted:&lt;/strong&gt; about 4 hours ago&lt;br/&gt;&lt;p&gt;Bård Halvorsen
-1st February 2026
-Languages
-English
-English
-English
-A Doctoral Research Fellowship in Securing AI Agents in Human–AI Teaming (HATS) is available at the Faculty of Computer Science, Engineering and Economics at Østfold University College (ØUC).
-PhD in Securing AI Agents in Human–AI...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Source: Norway&lt;/em&gt;</description>
-      <pubDate>Thu, 08 Jan 2026 12:13:14 +0000</pubDate>
-      <category domain="topic">Norway</category>
-      <category domain="location">Norway</category>
+      <title>Romania</title>
+      <link>https://scholarshipdb.net/scholarships-in-Romania?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Romania?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>PhD Resource Fellowship &quot;Comfort and the Interior&quot;</title>
-      <link>https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Resource-Fellowship-Comfort-And-The-Interior-The-Oslo-School-Of-Architecture-And-Design-Aho=QBv97l7o8BG_5wzEeuBOuw.html</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Resource-Fellowship-Comfort-And-The-Interior-The-Oslo-School-Of-Architecture-And-Design-Aho=QBv97l7o8BG_5wzEeuBOuw.html</guid>
-      <description>&lt;strong&gt;Location:&lt;/strong&gt; Norway&lt;br/&gt;&lt;strong&gt;Posted:&lt;/strong&gt; about 4 hours ago&lt;br/&gt;&lt;p&gt;23rd February 2026
-Languages
-English
-English
-English
-PhD Resource Fellowship &quot;Comfort and the Interior&quot;
-Apply for this job
-See advertisement
-About the Position:
-The Institute of Architecture offers a PhD position to study the forces that have shaped architectural interiors in the past, that...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Source: Norway&lt;/em&gt;</description>
-      <pubDate>Thu, 08 Jan 2026 12:13:14 +0000</pubDate>
-      <category domain="topic">Norway</category>
-      <category domain="location">Norway</category>
+      <title>Worldwide</title>
+      <link>https://scholarshipdb.net/scholarships-in-Worldwide?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Worldwide?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>PhD Candidate in Medicine and Health Sciences - NTNU - Norwegian University of Science and Technology</title>
-      <link>https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Candidate-In-Medicine-And-Health-Sciences-Ntnu-Norwegian-University-Of-Science-And-Technology=V4C3sgrq8BG_5wzEeuBOuw.html</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Candidate-In-Medicine-And-Health-Sciences-Ntnu-Norwegian-University-Of-Science-And-Technology=V4C3sgrq8BG_5wzEeuBOuw.html</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; NTNU - Norwegian University of Science and Technology&lt;br/&gt;&lt;strong&gt;Location:&lt;/strong&gt; Norway&lt;br/&gt;&lt;strong&gt;Posted:&lt;/strong&gt; about 4 hours ago&lt;br/&gt;&lt;p&gt;8th February 2026
-Languages
-English
-English
-English
-A Phd research fellowship is available at the Department of Clinical and Molecular Medicine, at the Faculty of Medicine and Health Sciences at NTNU
-PhD Candidate in Medicine and Health Sciences
-Apply for this job
-See advertisement
-This is...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Source: Norway&lt;/em&gt;</description>
-      <pubDate>Thu, 08 Jan 2026 12:13:03 +0000</pubDate>
-      <category domain="topic">Norway</category>
-      <category domain="location">Norway</category>
+      <title>India</title>
+      <link>https://scholarshipdb.net/scholarships-in-India?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-India?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>PhD Research Fellow in applied and computational mathematics - CSSR - University of Bergen</title>
-      <link>https://scholarshipdb.net/jobs-in-Norway/Ph-D-Research-Fellow-In-Applied-And-Computational-Mathematics-Cssr-University-Of-Bergen=Z4C3sgrq8BG_5wzEeuBOuw.html</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/jobs-in-Norway/Ph-D-Research-Fellow-In-Applied-And-Computational-Mathematics-Cssr-University-Of-Bergen=Z4C3sgrq8BG_5wzEeuBOuw.html</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; University of Bergen&lt;br/&gt;&lt;strong&gt;Location:&lt;/strong&gt; Norway&lt;br/&gt;&lt;strong&gt;Posted:&lt;/strong&gt; about 4 hours ago&lt;br/&gt;&lt;p&gt;1st February 2026
-Languages
-English
-English
-Norsk Nynorsk
-English
-PhD Research Fellow in applied and computational mathematics - CSSR
-Apply for this job
-See advertisement
-UiB - Knowledge that shapes society
-UiB shall be among Europe's leading universities, internationally recognized for high...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Source: Norway&lt;/em&gt;</description>
-      <pubDate>Thu, 08 Jan 2026 12:13:03 +0000</pubDate>
-      <category domain="topic">Norway</category>
-      <category domain="location">Norway</category>
+      <title>Brazil</title>
+      <link>https://scholarshipdb.net/scholarships-in-Brazil?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Brazil?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>PhD in Cellular Agriculture - Nord University</title>
-      <link>https://scholarshipdb.net/scholarships-in-Norway/Ph-D-In-Cellular-Agriculture-Nord-University=9YhnarLr8BG_5wzEeuBOuw.html</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Norway/Ph-D-In-Cellular-Agriculture-Nord-University=9YhnarLr8BG_5wzEeuBOuw.html</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Nord University&lt;br/&gt;&lt;strong&gt;Location:&lt;/strong&gt; Norway&lt;br/&gt;&lt;strong&gt;Posted:&lt;/strong&gt; about 4 hours ago&lt;br/&gt;&lt;p&gt;1st February 2026
-Languages
-English
-English
-English
-Faculty of Biosciences and Aquaculture
-PhD in Cellular Agriculture
-Apply for this job
-See advertisement
-This is Nord University
-Would you like to help create knowledge that makes a difference? At Nord University, we develop future solutions...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Source: Norway&lt;/em&gt;</description>
-      <pubDate>Thu, 08 Jan 2026 12:12:47 +0000</pubDate>
-      <category domain="topic">Norway</category>
-      <category domain="location">Norway</category>
+      <title>Egypt</title>
+      <link>https://scholarshipdb.net/scholarships-in-Egypt?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Egypt?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>PhD Candidate in Education: Writing, assessment and learning in the Context of Generative AI - NTNU - Norwegian University of Science and Technology</title>
-      <link>https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Candidate-In-Education-Writing-Assessment-And-Learning-In-The-Context-Of-Generative-Ai-Ntnu-Norwegian-University-Of-Science-And-Technology=HWCDDoDs8BG_5wzEeuBOuw.html</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Candidate-In-Education-Writing-Assessment-And-Learning-In-The-Context-Of-Generative-Ai-Ntnu-Norwegian-University-Of-Science-And-Technology=HWCDDoDs8BG_5wzEeuBOuw.html</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; NTNU - Norwegian University of Science and Technology&lt;br/&gt;&lt;strong&gt;Location:&lt;/strong&gt; Norway&lt;br/&gt;&lt;strong&gt;Posted:&lt;/strong&gt; about 4 hours ago&lt;br/&gt;&lt;p&gt;15th February 2026
-Languages
-English
-Norsk Bokmål
-English
-English
-The Norwegian Centre for Writing Education and Research and The Department of Teacher Education has a vacancy for a
-PhD Candidate in Education: Writing, assessment and learning in the Context of Generative AI
-Apply for this...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Source: Norway&lt;/em&gt;</description>
-      <pubDate>Thu, 08 Jan 2026 12:12:47 +0000</pubDate>
-      <category domain="topic">Norway</category>
-      <category domain="location">Norway</category>
+      <title>Estonia</title>
+      <link>https://scholarshipdb.net/scholarships-in-Estonia?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Estonia?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>Postdoc in Space Geodesy at Onsala Space Observatory - Chalmers University of Technology</title>
-      <link>https://scholarshipdb.net/jobs-in-Sweden/Postdoc-In-Space-Geodesy-At-Onsala-Space-Observatory-Chalmers-University-Of-Technology=0ei42frl8BG_5wzEeuBOuw.html</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/jobs-in-Sweden/Postdoc-In-Space-Geodesy-At-Onsala-Space-Observatory-Chalmers-University-Of-Technology=0ei42frl8BG_5wzEeuBOuw.html</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Chalmers University of Technology&lt;br/&gt;&lt;strong&gt;Location:&lt;/strong&gt; Sweden&lt;br/&gt;&lt;strong&gt;Posted:&lt;/strong&gt; about 4 hours ago&lt;br/&gt;&lt;p&gt;We invite applications for a postdoctoral position in space geodesy, focusing on multi-technique capabilities for the upcoming Genesis mission. This research aims to advance the combination of space geodetic techniques (VLBI, GNSS, SLR, and DORIS) to strengthen the consistency of global...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Source: Sweden&lt;/em&gt;</description>
-      <pubDate>Thu, 08 Jan 2026 12:08:01 +0000</pubDate>
-      <category domain="topic">Sweden</category>
-      <category domain="location">Sweden</category>
+      <title>Andorra</title>
+      <link>https://scholarshipdb.net/scholarships-in-Andorra?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Andorra?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>Doctoral student in Accelerated solar cell materials exploration - Chalmers University of Technology</title>
-      <link>https://scholarshipdb.net/jobs-in-Sweden/Doctoral-Student-In-Accelerated-Solar-Cell-Materials-Exploration-Chalmers-University-Of-Technology=1jk8oqjr8BG_5wzEeuBOuw.html</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/jobs-in-Sweden/Doctoral-Student-In-Accelerated-Solar-Cell-Materials-Exploration-Chalmers-University-Of-Technology=1jk8oqjr8BG_5wzEeuBOuw.html</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Chalmers University of Technology&lt;br/&gt;&lt;strong&gt;Location:&lt;/strong&gt; Sweden&lt;br/&gt;&lt;strong&gt;Posted:&lt;/strong&gt; about 4 hours ago&lt;br/&gt;&lt;p&gt;Would you like to develop sustainable solutions for mitigating climate change? Are you interested in materials, coding, and automation? This highly multidisciplinary doctoral student position at Chalmers University of Technology  might be for you!
-About us
-This doctoral student position is...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Source: Sweden&lt;/em&gt;</description>
-      <pubDate>Thu, 08 Jan 2026 12:06:56 +0000</pubDate>
-      <category domain="topic">Sweden</category>
-      <category domain="location">Sweden</category>
+      <title>South Africa</title>
+      <link>https://scholarshipdb.net/scholarships-in-South-Africa?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-South-Africa?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>Doctor in Biotechnology and Applied Microbiology - Chalmers University of Technology</title>
-      <link>https://scholarshipdb.net/jobs-in-Sweden/Doctor-In-Biotechnology-And-Applied-Microbiology-Chalmers-University-Of-Technology=gG3pcn-s8BG_5wzEeuBOuw.html</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/jobs-in-Sweden/Doctor-In-Biotechnology-And-Applied-Microbiology-Chalmers-University-Of-Technology=gG3pcn-s8BG_5wzEeuBOuw.html</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Chalmers University of Technology&lt;br/&gt;&lt;strong&gt;Location:&lt;/strong&gt; Sweden&lt;br/&gt;&lt;strong&gt;Posted:&lt;/strong&gt; about 4 hours ago&lt;br/&gt;&lt;p&gt;We are seeking a highly motivated researcher to join our yeast biotechnology group  at Chalmers University of Technology.
-Our research explores the largely untapped natural diversity of yeasts, with the goal of discovering and characterizing non-conventional species that possess unique and...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Source: Sweden&lt;/em&gt;</description>
-      <pubDate>Thu, 08 Jan 2026 12:06:56 +0000</pubDate>
-      <category domain="topic">Sweden</category>
-      <category domain="location">Sweden</category>
+      <title>Slovenia</title>
+      <link>https://scholarshipdb.net/scholarships-in-Slovenia?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Slovenia?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>Doctoral student in coupling cold atoms to photonic integrated circuits - Chalmers University of Technology</title>
-      <link>https://scholarshipdb.net/jobs-in-Sweden/Doctoral-Student-In-Coupling-Cold-Atoms-To-Photonic-Integrated-Circuits-Chalmers-University-Of-Technology=d94RFYzs8BG_5wzEeuBOuw.html</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/jobs-in-Sweden/Doctoral-Student-In-Coupling-Cold-Atoms-To-Photonic-Integrated-Circuits-Chalmers-University-Of-Technology=d94RFYzs8BG_5wzEeuBOuw.html</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Chalmers University of Technology&lt;br/&gt;&lt;strong&gt;Location:&lt;/strong&gt; Sweden&lt;br/&gt;&lt;strong&gt;Posted:&lt;/strong&gt; about 4 hours ago&lt;br/&gt;&lt;p&gt;Join us at the Hybrid Quantum Systems Laboratory to couple atoms to photonic integrated circuits. If you are interested in advancing quantum metrology, simulation and computing, this is for you!
-About us
-The Hybrid Quantum Systems Laboratory  is a new laboratory at Chalmers in the division for...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Source: Sweden&lt;/em&gt;</description>
-      <pubDate>Thu, 08 Jan 2026 12:06:56 +0000</pubDate>
-      <category domain="topic">Sweden</category>
-      <category domain="location">Sweden</category>
+      <title>Japan</title>
+      <link>https://scholarshipdb.net/scholarships-in-Japan?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Japan?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>*Lead Researcher - University of Oklahoma</title>
-      <link>https://scholarshipdb.net/jobs-in-United-States/Lead-Researcher-University-Of-Oklahoma=-ihAjS3g8BG_5wzEeuBOuw.html</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/jobs-in-United-States/Lead-Researcher-University-Of-Oklahoma=-ihAjS3g8BG_5wzEeuBOuw.html</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; University of Oklahoma&lt;br/&gt;&lt;strong&gt;Location:&lt;/strong&gt; Oklahoma City, Oklahoma, United States&lt;br/&gt;&lt;strong&gt;Posted:&lt;/strong&gt; about 4 hours ago&lt;br/&gt;&lt;p&gt;*Lead Researcher -
-Job Number:
-252809
-Organization
-: StephensonCancerCenter
-Job Location
-: Oklahoma-Oklahoma City-Health Sciences Center
-Schedule
-: Full-time
-Work Schedule: Monday-Friday 8am-5pm&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Source: Cancer Research&lt;/em&gt;</description>
-      <pubDate>Thu, 08 Jan 2026 12:02:48 +0000</pubDate>
-      <category domain="topic">Cancer Research</category>
-      <category domain="location">United States</category>
+      <title>Lithuania</title>
+      <link>https://scholarshipdb.net/scholarships-in-Lithuania?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Lithuania?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>Cyprus</title>
+      <link>https://scholarshipdb.net/scholarships-in-Cyprus?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Cyprus?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>Israel</title>
+      <link>https://scholarshipdb.net/scholarships-in-Israel?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Israel?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>Saudi Arabia</title>
+      <link>https://scholarshipdb.net/scholarships-in-Saudi-Arabia?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Saudi-Arabia?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>Taiwan</title>
+      <link>https://scholarshipdb.net/scholarships-in-Taiwan?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Taiwan?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>Bulgaria</title>
+      <link>https://scholarshipdb.net/scholarships-in-Bulgaria?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Bulgaria?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>Latvia</title>
+      <link>https://scholarshipdb.net/scholarships-in-Latvia?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Latvia?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>Mexico</title>
+      <link>https://scholarshipdb.net/scholarships-in-Mexico?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Mexico?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>Slovakia</title>
+      <link>https://scholarshipdb.net/scholarships-in-Slovakia?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Slovakia?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>Sao Tome and Principe</title>
+      <link>https://scholarshipdb.net/scholarships-in-Sao-Tome-and-Principe?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Sao-Tome-and-Principe?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>Ukraine</title>
+      <link>https://scholarshipdb.net/scholarships-in-Ukraine?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Ukraine?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>Armenia</title>
+      <link>https://scholarshipdb.net/scholarships-in-Armenia?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Armenia?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>Malta</title>
+      <link>https://scholarshipdb.net/scholarships-in-Malta?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Malta?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>Macau</title>
+      <link>https://scholarshipdb.net/scholarships-in-Macau?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Macau?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>Europe</title>
+      <link>https://scholarshipdb.net/scholarships-in-Europe?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Europe?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>Kazakhstan</title>
+      <link>https://scholarshipdb.net/scholarships-in-Kazakhstan?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Kazakhstan?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>Iceland</title>
+      <link>https://scholarshipdb.net/scholarships-in-Iceland?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Iceland?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>Uzbekistan</title>
+      <link>https://scholarshipdb.net/scholarships-in-Uzbekistan?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Uzbekistan?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>Kyrgyzstan</title>
+      <link>https://scholarshipdb.net/scholarships-in-Kyrgyzstan?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Kyrgyzstan?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>Bahrain</title>
+      <link>https://scholarshipdb.net/scholarships-in-Bahrain?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Bahrain?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>Hungary</title>
+      <link>https://scholarshipdb.net/scholarships-in-Hungary?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Hungary?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>Lebanon</title>
+      <link>https://scholarshipdb.net/scholarships-in-Lebanon?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Lebanon?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>Qatar</title>
+      <link>https://scholarshipdb.net/scholarships-in-Qatar?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Qatar?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>Russia</title>
+      <link>https://scholarshipdb.net/scholarships-in-Russia?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Russia?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>Turkey</title>
+      <link>https://scholarshipdb.net/scholarships-in-Turkey?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Turkey?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>Vietnam</title>
+      <link>https://scholarshipdb.net/scholarships-in-Vietnam?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Vietnam?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>Barbados</title>
+      <link>https://scholarshipdb.net/scholarships-in-Barbados?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Barbados?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>Benin</title>
+      <link>https://scholarshipdb.net/scholarships-in-Benin?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Benin?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>Indonesia</title>
+      <link>https://scholarshipdb.net/scholarships-in-Indonesia?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Indonesia?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>Kenya</title>
+      <link>https://scholarshipdb.net/scholarships-in-Kenya?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Kenya?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>Kuwait</title>
+      <link>https://scholarshipdb.net/scholarships-in-Kuwait?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Kuwait?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>Malaysia</title>
+      <link>https://scholarshipdb.net/scholarships-in-Malaysia?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Malaysia?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>Nigeria</title>
+      <link>https://scholarshipdb.net/scholarships-in-Nigeria?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Nigeria?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>Serbia</title>
+      <link>https://scholarshipdb.net/scholarships-in-Serbia?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Serbia?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>63 more »</title>
+      <link>https://scholarshipdb.net</link>
+      <guid isPermaLink="true">https://scholarshipdb.net</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>Postdoctoral</title>
+      <link>https://scholarshipdb.net/scholarships/Program-Postdoctoral?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-Postdoctoral?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>Fellowship</title>
+      <link>https://scholarshipdb.net/scholarships/Program-Fellowship?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-Fellowship?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>Postgraduate</title>
+      <link>https://scholarshipdb.net/scholarships/Program-Postgraduate?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-Postgraduate?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>Master</title>
+      <link>https://scholarshipdb.net/scholarships/Program-Master?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-Master?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>Undergraduate</title>
+      <link>https://scholarshipdb.net/scholarships/Program-Undergraduate?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-Undergraduate?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>Nature Careers</title>
+      <link>https://scholarshipdb.net/scholarships/University-Nature-Careers?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/University-Nature-Careers?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>University of Sheffield</title>
+      <link>https://scholarshipdb.net/scholarships/University-University-of-Sheffield?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/University-University-of-Sheffield?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>University of Oslo</title>
+      <link>https://scholarshipdb.net/scholarships/University-University-of-Oslo?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/University-University-of-Oslo?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>Nanyang Technological University</title>
+      <link>https://scholarshipdb.net/scholarships/University-Nanyang-Technological-University?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/University-Nanyang-Technological-University?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>Rutgers University</title>
+      <link>https://scholarshipdb.net/scholarships/University-Rutgers-University?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/University-Rutgers-University?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>University of Oxford</title>
+      <link>https://scholarshipdb.net/scholarships/University-University-of-Oxford?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/University-University-of-Oxford?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>University of Washington</title>
+      <link>https://scholarshipdb.net/scholarships/University-University-of-Washington?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/University-University-of-Washington?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>National University of Singapore</title>
+      <link>https://scholarshipdb.net/scholarships/University-National-University-of-Singapore?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/University-National-University-of-Singapore?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>Technical University of Denmark</title>
+      <link>https://scholarshipdb.net/scholarships/University-Technical-University-of-Denmark?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/University-Technical-University-of-Denmark?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>University of Glasgow</title>
+      <link>https://scholarshipdb.net/scholarships/University-University-of-Glasgow?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/University-University-of-Glasgow?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>The Ohio State University</title>
+      <link>https://scholarshipdb.net/scholarships/University-The-Ohio-State-University?q=phd</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/University-The-Ohio-State-University?q=phd</guid>
+      <description>&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <dc:creator>scholarshipdb.net</dc:creator>
     </item>
   </channel>
 </rss>

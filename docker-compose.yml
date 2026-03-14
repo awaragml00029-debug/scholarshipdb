@@ -2,90 +2,14 @@ services:
   scraper:
     build: .
     container_name: scholarship-scraper
-    restart: unless-stopped
-
-    # Environment variables
     environment:
-      - SCRAPER_HEADLESS=true
+      - PROXY_URL=${PROXY_URL:-}
+      - HEADLESS=true
       - TZ=UTC
-      # Optional: Set scraping interval (in seconds)
-      - SCRAPE_INTERVAL=43200  # 12 hours
-
-    # Mount volumes for data persistence and configuration
     volumes:
-      # Data outputs
-      - ./data:/app/data
       - ./docs:/app/docs
-
-      # Configuration files
-      - ./urls.yaml:/app/urls.yaml:ro
-
-      # Git configuration (for auto-commit)
-      - ./.git:/app/.git
-
-    # Optional: Limit resources
-    deploy:
-      resources:
-        limits:
-          cpus: '2'
-          memory: 2G
-        reservations:
-          cpus: '0.5'
-          memory: 512M
-
-    # Network settings
-    network_mode: bridge
-
-    # Logging configuration
     logging:
       driver: "json-file"
       options:
         max-size: "10m"
         max-file: "3"
-
-  # Optional: Run once and exit (for testing)
-  scraper-once:
-    build: .
-    container_name: scholarship-scraper-once
-    profiles: ["manual"]
-
-    volumes:
-      - ./data:/app/data
-      - ./docs:/app/docs
-      - ./urls.yaml:/app/urls.yaml:ro
-
-    command: python batch_scrape.py
-
-  # Telegram Bot Service
-  telegram-bot:
-    build: .
-    container_name: scholarship-telegram-bot
-    restart: unless-stopped
-    entrypoint: ["python", "-m", "telegram_bot.bot"]
-
-    environment:
-      - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN}
-      - TELEGRAM_OWNER_ID=${TELEGRAM_OWNER_ID}
-      - DATA_DIR=/app/data
-      - BOT_DATA_DIR=/app/telegram_bot/data
-      - TZ=UTC
-
-    volumes:
-      - ./data:/app/data:ro
-      - ./telegram_bot/data:/app/telegram_bot/data
-
-    deploy:
-      resources:
-        limits:
-          cpus: '0.5'
-          memory: 256M
-
-    logging:
-      driver: "json-file"
-      options:
-        max-size: "5m"
-        max-file: "2"
-
-networks:
-  default:
-    name: scholarship-network

@@ -1,59 +1,18 @@
-"""Configuration management for the scholarship scraper."""
-from pydantic_settings import BaseSettings
-from pydantic import Field
+import os
 
+# Proxy for Cloudflare bypass (set via env or GitHub Actions Secret)
+# Format: http://user:pass@host:port  or  socks5://host:port
+PROXY_URL = os.environ.get("PROXY_URL")
 
-class Settings(BaseSettings):
-    """Application settings loaded from environment variables."""
+# Browser
+HEADLESS = os.environ.get("HEADLESS", "true").lower() == "true"
+TIMEOUT = int(os.environ.get("TIMEOUT", "30000"))
+MAX_RETRIES = int(os.environ.get("MAX_RETRIES", "3"))
+DELAY_MIN = float(os.environ.get("DELAY_MIN", "2"))
+DELAY_MAX = float(os.environ.get("DELAY_MAX", "5"))
 
-    # Database
-    database_url: str = Field(
-        default="sqlite:///./scholarships.db",
-        description="Database connection URL"
-    )
-
-    # Scraper
-    scraper_headless: bool = Field(
-        default=True,
-        description="Run browser in headless mode"
-    )
-    scraper_timeout: int = Field(
-        default=30000,
-        description="Page load timeout in milliseconds"
-    )
-    scraper_max_retries: int = Field(
-        default=3,
-        description="Maximum number of retries for failed requests"
-    )
-    scraper_delay_min: int = Field(
-        default=2,
-        description="Minimum delay between requests in seconds"
-    )
-    scraper_delay_max: int = Field(
-        default=5,
-        description="Maximum delay between requests in seconds"
-    )
-
-    # Logging
-    log_level: str = Field(
-        default="INFO",
-        description="Logging level"
-    )
-    log_file: str = Field(
-        default="scraper.log",
-        description="Log file path"
-    )
-
-    # Target
-    base_url: str = Field(
-        default="https://scholarshipdb.net",
-        description="Base URL for the scholarship database"
-    )
-
-    class Config:
-        env_file = ".env"
-        env_file_encoding = "utf-8"
-        case_sensitive = False
-
-
-settings = Settings()
+# RSS output
+RSS_MAX_ITEMS = int(os.environ.get("RSS_MAX_ITEMS", "100"))
+RSS_OUTPUT = os.environ.get("RSS_OUTPUT", "docs/feed.xml")
+RSS_TITLE = os.environ.get("RSS_TITLE", "PhD Scholarships Feed")
+RSS_LINK = os.environ.get("RSS_LINK", "https://example.github.io/scholarshipdb")

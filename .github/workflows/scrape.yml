@@ -32,23 +32,30 @@ jobs:
 
       - name: Start gost tunnel (only for authenticated SOCKS5)
         env:
-          PROXY_URL: ${{ secrets.PROXY_URL }}
+          SECRET_PROXY: ${{ secrets.PROXY_URL }}
         run: |
-          # Only needed when proxy is socks5 WITH credentials (Chromium doesn't support socks5 auth)
-          if echo "$PROXY_URL" | grep -qE '^socks5h?://.+:.+@'; then
+          set -x
+          echo "Proxy scheme: $(echo $SECRET_PROXY | cut -d: -f1)"
+          if echo "$SECRET_PROXY" | grep -qE '^socks5h?://.+:.+@'; then
+            echo "Auth SOCKS5 detected — starting gost tunnel..."
             curl -fsSL https://github.com/ginuerzh/gost/releases/download/v2.11.5/gost-linux-amd64-2.11.5.gz | gunzip > gost
             chmod +x gost
-            SOCKS="${PROXY_URL/socks5h:\/\//socks5://}"
+            SOCKS="${SECRET_PROXY/socks5h:\/\//socks5://}"
             ./gost -L http://:8118 -F "$SOCKS" &
-            sleep 2
+            sleep 3
+            echo "gost started, setting PROXY_URL=http://127.0.0.1:8118"
             echo "PROXY_URL=http://127.0.0.1:8118" >> $GITHUB_ENV
+          else
+            echo "HTTP or unauthenticated SOCKS5 — using proxy directly"
+            echo "PROXY_URL=$SECRET_PROXY" >> $GITHUB_ENV
           fi
 
       - name: Run scraper
         env:
-          PROXY_URL: ${{ secrets.PROXY_URL }}
           RSS_LINK: ${{ vars.RSS_LINK }}
-        run: python main.py
+        run: |
+          echo "Using PROXY_URL: $PROXY_URL"
+          python main.py
 
       - name: Commit & push feed
         run: |

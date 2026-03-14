@@ -2,10 +2,10 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
   <channel>
     <title>PhD Scholarships Feed</title>
-    <link>https://example.github.io/scholarshipdb</link>
+    <link>https://awaragml00029-debug.github.io/scholarshipdb</link>
     <description>480 scholarships</description>
-    <lastBuildDate>Sat, 14 Mar 2026 12:09:49 +0000</lastBuildDate>
-    <atom:link href="https://example.github.io/scholarshipdb/feed.xml" rel="self" type="application/rss+xml"/>
+    <lastBuildDate>Sat, 14 Mar 2026 12:19:01 +0000</lastBuildDate>
+    <atom:link href="https://awaragml00029-debug.github.io/scholarshipdb/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>ScholarshipDb.Net</title>
       <link>https://scholarshipdb.net/</link>

@@ -220,8 +220,12 @@ class ScholardbSource(BaseSource):
     # ── Parsing ────────────────────────────────────────────────────────────
 
     def _parse_page(self, soup: BeautifulSoup) -> List[FeedItem]:
-        # scholarshipdb.net uses <li> as the primary item container
-        li_items = [li for li in soup.find_all("li") if li.find(["h2", "h3", "h4"])]
+        # scholarshipdb.net: listing items have <h4> + <span class="text-muted"> (timestamp)
+        # This combination is specific to actual listings, not nav/sidebar items
+        li_items = [
+            li for li in soup.find_all("li")
+            if li.find("h4") and li.find("span", class_="text-muted")
+        ]
         if li_items:
             items = [i for li in li_items if (i := self._parse_article(li))]
             if items:

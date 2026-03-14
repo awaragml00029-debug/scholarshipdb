@@ -30,22 +30,23 @@ jobs:
           playwright install chromium
           playwright install-deps chromium
 
-      - name: Start proxy tunnel (gost)
-        if: ${{ secrets.PROXY_URL != '' }}
+      - name: Start gost tunnel (only for authenticated SOCKS5)
         env:
-          SOCKS_PROXY: ${{ secrets.PROXY_URL }}
+          PROXY_URL: ${{ secrets.PROXY_URL }}
         run: |
-          curl -fsSL https://github.com/ginuerzh/gost/releases/download/v2.11.5/gost-linux-amd64-2.11.5.gz | gunzip > gost
-          chmod +x gost
-          # Convert socks5h:// → socks5:// for gost
-          SOCKS_PROXY="${SOCKS_PROXY/socks5h:\/\//socks5://}"
-          ./gost -L http://:8118 -F "$SOCKS_PROXY" &
-          sleep 2
+          # Only needed when proxy is socks5 WITH credentials (Chromium doesn't support socks5 auth)
+          if echo "$PROXY_URL" | grep -qE '^socks5h?://.+:.+@'; then
+            curl -fsSL https://github.com/ginuerzh/gost/releases/download/v2.11.5/gost-linux-amd64-2.11.5.gz | gunzip > gost
+            chmod +x gost
+            SOCKS="${PROXY_URL/socks5h:\/\//socks5://}"
+            ./gost -L http://:8118 -F "$SOCKS" &
+            sleep 2
+            echo "PROXY_URL=http://127.0.0.1:8118" >> $GITHUB_ENV
+          fi
 
       - name: Run scraper
         env:
-          # If PROXY_URL secret is set, route through local gost HTTP tunnel
-          PROXY_URL: ${{ secrets.PROXY_URL != '' && 'http://127.0.0.1:8118' || '' }}
+          PROXY_URL: ${{ secrets.PROXY_URL }}
           RSS_LINK: ${{ vars.RSS_LINK }}
         run: python main.py
 

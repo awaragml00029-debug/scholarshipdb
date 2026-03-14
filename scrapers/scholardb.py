@@ -53,7 +53,8 @@ class ScholardbSource(BaseSource):
         logger.info("Starting Playwright browser...")
         self.playwright = await async_playwright().start()
 
-        proxy = {"server": config.PROXY_URL} if config.PROXY_URL else None
+        proxy_url = config.PROXY_URL.replace("socks5h://", "socks5://") if config.PROXY_URL else None
+        proxy = {"server": proxy_url} if proxy_url else None
 
         self.browser = await self.playwright.chromium.launch(
             headless=config.HEADLESS,

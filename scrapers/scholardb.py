@@ -107,7 +107,10 @@ class ScholardbSource(BaseSource):
                 logger.info(f"GET {url} (attempt {attempt + 1})")
                 await self.page.goto(url, timeout=config.TIMEOUT, wait_until="domcontentloaded")
                 await self._wait_cloudflare()
-                await self.page.wait_for_load_state("networkidle", timeout=10000)
+                try:
+                    await self.page.wait_for_load_state("networkidle", timeout=10000)
+                except Exception:
+                    pass  # networkidle may never fire on Cloudflare pages; content is still usable
                 return True
             except Exception as e:
                 logger.warning(f"Attempt {attempt + 1} failed: {e}")

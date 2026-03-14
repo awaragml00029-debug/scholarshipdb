@@ -53,6 +53,7 @@ jobs:
       - name: Run scraper
         env:
           RSS_LINK: ${{ vars.RSS_LINK }}
+          TRANSLATE_TARGET: ${{ vars.TRANSLATE_TARGET || 'zh-CN' }}
         run: |
           echo "Using PROXY_URL: $PROXY_URL"
           python main.py
@@ -61,7 +62,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/feed.xml
+          git add docs/feed.xml docs/feed_*.xml docs/translations_cache.json
           git diff --staged --quiet || (
             git commit -m "Auto update $(date -u '+%Y-%m-%d %H:%M')"
             git push

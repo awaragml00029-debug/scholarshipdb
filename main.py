@@ -5,7 +5,9 @@ import sys
 
 from loguru import logger
 
+import config
 import feed
+import translate
 from scrapers.scholardb import ScholardbSource
 
 SOURCES = [
@@ -40,8 +42,19 @@ async def run():
         logger.warning("No items fetched — feed not updated")
         sys.exit(1)
 
-    output = feed.generate(all_items)
-    logger.info(f"Feed written → {output}  ({len(all_items)} items total)")
+    # English feed
+    feed.generate(all_items)
+    logger.info(f"Feed written → {config.RSS_OUTPUT}  ({len(all_items)} items)")
+
+    # Translated feed (default zh-CN, skip if TRANSLATE_TARGET is empty)
+    if config.TRANSLATE_TARGET:
+        lang = config.TRANSLATE_TARGET
+        out = config.RSS_OUTPUT.replace(".xml", f"_{lang.replace('-', '_')}.xml")
+        logger.info(f"Translating titles to {lang}...")
+        translated_items = translate.translate_items(all_items)
+        feed.generate(translated_items, output=out,
+                      title=f"{config.RSS_TITLE} ({lang})")
+        logger.info(f"Translated feed written → {out}")
 
 
 if __name__ == "__main__":

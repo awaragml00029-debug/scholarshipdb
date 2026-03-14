@@ -9,8 +9,9 @@ import config
 from scrapers import FeedItem
 
 
-def generate(items: List[FeedItem], output: str = None) -> str:
+def generate(items: List[FeedItem], output: str = None, title: str = None) -> str:
     output = output or config.RSS_OUTPUT
+    title = title or config.RSS_TITLE
     Path(output).parent.mkdir(parents=True, exist_ok=True)
 
     rss = Element("rss", version="2.0", attrib={
@@ -19,13 +20,14 @@ def generate(items: List[FeedItem], output: str = None) -> str:
     })
     channel = SubElement(rss, "channel")
 
-    SubElement(channel, "title").text = config.RSS_TITLE
+    feed_filename = Path(output).name
+    SubElement(channel, "title").text = title
     SubElement(channel, "link").text = config.RSS_LINK
     SubElement(channel, "description").text = f"{len(items)} scholarships"
     SubElement(channel, "lastBuildDate").text = _rfc822(datetime.now(timezone.utc))
 
     atom_link = SubElement(channel, "atom:link")
-    atom_link.set("href", f"{config.RSS_LINK}/feed.xml")
+    atom_link.set("href", f"{config.RSS_LINK}/{feed_filename}")
     atom_link.set("rel", "self")
     atom_link.set("type", "application/rss+xml")
 

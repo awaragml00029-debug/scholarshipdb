@@ -11,6 +11,10 @@ MAX_RETRIES = int(os.environ.get("MAX_RETRIES", "3"))
 DELAY_MIN = float(os.environ.get("DELAY_MIN", "2"))
 DELAY_MAX = float(os.environ.get("DELAY_MAX", "5"))
 
+# Translation
+TRANSLATE_TARGET = os.environ.get("TRANSLATE_TARGET", "zh-CN")  # set to "" to disable
+TRANSLATE_CACHE = os.environ.get("TRANSLATE_CACHE", "docs/translations_cache.json")
+
 # RSS output
 RSS_MAX_ITEMS = int(os.environ.get("RSS_MAX_ITEMS", "100"))
 RSS_OUTPUT = os.environ.get("RSS_OUTPUT", "docs/feed.xml")

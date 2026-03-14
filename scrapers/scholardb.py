@@ -18,10 +18,10 @@ from time_parser import parse_relative_time
 def _build_proxy(proxy_url: Optional[str]) -> Optional[dict]:
     """Build Playwright proxy dict from URL.
 
-    Playwright supports:
-      - http://[user:pass@]host:port  (auth OK)
-      - socks5://host:port            (no auth only)
-    Authenticated socks5 must be pre-converted to HTTP by the caller (e.g. gost tunnel).
+    Chromium supports:
+      - http://[user:pass@]host:port  → auth OK
+      - socks5://host:port            → no auth only (auth socks5 is NOT supported)
+    Authenticated socks5 should be tunnelled via gost before reaching here.
     """
     if not proxy_url:
         return None
@@ -29,9 +29,10 @@ def _build_proxy(proxy_url: Optional[str]) -> Optional[dict]:
     url = proxy_url.replace("socks5h://", "socks5://")
     parsed = urlparse(url)
     proxy: dict = {"server": f"{parsed.scheme}://{parsed.hostname}:{parsed.port}"}
-    if parsed.username:
+    # Only pass credentials for HTTP proxies; socks5 auth is unsupported by Chromium
+    if parsed.scheme.startswith("http") and parsed.username:
         proxy["username"] = parsed.username
-    if parsed.password:
+    if parsed.scheme.startswith("http") and parsed.password:
         proxy["password"] = parsed.password
     return proxy
 

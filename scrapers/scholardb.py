@@ -307,12 +307,7 @@ class ScholardbSource(BaseSource):
                 if univ:
                     extra["university"] = univ.get_text(strip=True)
 
-            # Location: <span class="text-success"> (proven for scholarshipdb.net)
-            loc_spans = article.find_all("span", class_="text-success")
-            if loc_spans:
-                extra["location"] = loc_spans[0].get_text(strip=True)
-
-            # Country: link with /scholarships-in- pattern
+            # Country: link with /scholarships-in- pattern (class="text-success" on <a>)
             for a in all_links:
                 if "/scholarships-in-" in a.get("href", ""):
                     extra["country"] = a.get_text(strip=True)

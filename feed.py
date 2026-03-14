@@ -64,8 +64,6 @@ def _build_description(item: FeedItem) -> str:
     e = item.extra
     if e.get("university"):
         parts.append(f"<strong>University:</strong> {e['university']}")
-    if e.get("location"):
-        parts.append(f"<strong>Location:</strong> {e['location']}")
     if e.get("country"):
         parts.append(f"<strong>Country:</strong> {e['country']}")
     if e.get("deadline"):

@@ -164,13 +164,8 @@ class ScholardbSource(BaseSource):
         page_num = 1
         while True:
             content = await self.page.content()
-            # Debug: log page title and save HTML on first page
             if page_num == 1:
-                title = await self.page.title()
-                logger.info(f"Page title: {title}")
-                with open("debug_page.html", "w", encoding="utf-8") as f:
-                    f.write(content)
-                logger.info("Saved page HTML to debug_page.html")
+                logger.info(f"Page title: {await self.page.title()}")
 
             soup = BeautifulSoup(content, "lxml")
             page_items = self._parse_page(soup)

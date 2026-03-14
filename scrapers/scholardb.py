@@ -220,9 +220,16 @@ class ScholardbSource(BaseSource):
     # ── Parsing ────────────────────────────────────────────────────────────
 
     def _parse_page(self, soup: BeautifulSoup) -> List[FeedItem]:
+        # scholarshipdb.net uses <li> as the primary item container
+        li_items = [li for li in soup.find_all("li") if li.find(["h2", "h3", "h4"])]
+        if li_items:
+            items = [i for li in li_items if (i := self._parse_article(li))]
+            if items:
+                return items
+
         article_selectors = [
             "article.scholarship", "div.scholarship-item", "div.scholarship-card",
-            "div.scholarship", "li.scholarship", "article.post", "div.post",
+            "div.scholarship", "article.post", "div.post",
             "article", "div.listing-item", "div.item", "div.card",
             "article[class*='scholarship']", "div[class*='scholarship']",
             "div[class*='result']", "div[class*='item']", "div[class*='post']",
@@ -277,13 +284,32 @@ class ScholardbSource(BaseSource):
 
             extra: Dict[str, str] = {}
 
-            univ = article.find(class_=lambda x: x and "university" in str(x).lower())
-            if univ:
-                extra["university"] = univ.get_text(strip=True)
+            all_links = article.find_all("a", href=True)
 
-            ctry = article.find(class_=lambda x: x and "country" in str(x).lower())
-            if ctry:
-                extra["country"] = ctry.get_text(strip=True)
+            # University: URL pattern is more reliable than class-name matching
+            for a in all_links:
+                if "/scholarships-at-" in a.get("href", ""):
+                    extra["university"] = a.get_text(strip=True)
+                    break
+            if "university" not in extra:
+                univ = article.find(class_=lambda x: x and "university" in str(x).lower())
+                if univ:
+                    extra["university"] = univ.get_text(strip=True)
+
+            # Location: <span class="text-success"> (proven for scholarshipdb.net)
+            loc_spans = article.find_all("span", class_="text-success")
+            if loc_spans:
+                extra["location"] = loc_spans[0].get_text(strip=True)
+
+            # Country: link with /scholarships-in- pattern
+            for a in all_links:
+                if "/scholarships-in-" in a.get("href", ""):
+                    extra["country"] = a.get_text(strip=True)
+                    break
+            if "country" not in extra:
+                ctry = article.find(class_=lambda x: x and "country" in str(x).lower())
+                if ctry:
+                    extra["country"] = ctry.get_text(strip=True)
 
             dl = article.find(class_=lambda x: x and "deadline" in str(x).lower())
             if dl:
@@ -291,7 +317,7 @@ class ScholardbSource(BaseSource):
 
             desc_elem = article.find(
                 class_=lambda x: x and any(k in str(x).lower() for k in ["excerpt", "summary", "description"])
-            )
+            ) or article.find("p")
             description = desc_elem.get_text(strip=True)[:1000] if desc_elem else ""
 
             published = self._parse_posted_time(article)
@@ -338,7 +364,8 @@ class ScholardbSource(BaseSource):
             except Exception:
                 pass
 
-        text_elem = article.find(
+        # text-muted is the proven class for scholarshipdb.net timestamps
+        text_elem = article.find("span", class_="text-muted") or article.find(
             class_=lambda x: x and any(k in str(x).lower() for k in ["posted", "date", "time", "ago"])
         )
         if text_elem:

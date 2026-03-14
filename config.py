@@ -15,6 +15,12 @@ DELAY_MAX = float(os.environ.get("DELAY_MAX", "5"))
 TRANSLATE_TARGET = os.environ.get("TRANSLATE_TARGET", "zh-CN")  # set to "" to disable
 TRANSLATE_CACHE = os.environ.get("TRANSLATE_CACHE", "docs/translations_cache.json")
 
+# Telegram notifications
+TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
+TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
+TELEGRAPH_TOKEN_FILE = os.environ.get("TELEGRAPH_TOKEN_FILE", "docs/telegraph_token.json")
+NOTIFIED_URLS_FILE = os.environ.get("NOTIFIED_URLS_FILE", "docs/notified_urls.json")
+
 # RSS output
 RSS_MAX_ITEMS = int(os.environ.get("RSS_MAX_ITEMS", "100"))
 RSS_OUTPUT = os.environ.get("RSS_OUTPUT", "docs/feed.xml")

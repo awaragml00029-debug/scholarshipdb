@@ -8,6 +8,7 @@ from loguru import logger
 import config
 import feed
 import translate
+import notify
 from scrapers.scholardb import ScholardbSource
 
 SOURCES = [
@@ -45,6 +46,9 @@ async def run():
     # English feed
     feed.generate(all_items)
     logger.info(f"Feed written → {config.RSS_OUTPUT}  ({len(all_items)} items)")
+
+    # Telegram notification (no-op if TELEGRAM_BOT_TOKEN not set)
+    notify.notify_new_items(all_items)
 
     # Translated feed (default zh-CN, skip if TRANSLATE_TARGET is empty)
     if config.TRANSLATE_TARGET:

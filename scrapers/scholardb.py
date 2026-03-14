@@ -14,6 +14,21 @@ import config
 from scrapers import BaseSource, FeedItem
 from time_parser import parse_relative_time
 
+
+def _build_proxy(proxy_url: Optional[str]) -> Optional[dict]:
+    """Parse proxy URL into Playwright proxy dict (handles SOCKS5 auth separately)."""
+    if not proxy_url:
+        return None
+    from urllib.parse import urlparse
+    url = proxy_url.replace("socks5h://", "socks5://")
+    parsed = urlparse(url)
+    proxy = {"server": f"{parsed.scheme}://{parsed.hostname}:{parsed.port}"}
+    if parsed.username:
+        proxy["username"] = parsed.username
+    if parsed.password:
+        proxy["password"] = parsed.password
+    return proxy
+
 BASE_URL = "https://scholarshipdb.net"
 LIST_URL = f"{BASE_URL}/phd-scholarships/"
 
@@ -53,8 +68,7 @@ class ScholardbSource(BaseSource):
         logger.info("Starting Playwright browser...")
         self.playwright = await async_playwright().start()
 
-        proxy_url = config.PROXY_URL.replace("socks5h://", "socks5://") if config.PROXY_URL else None
-        proxy = {"server": proxy_url} if proxy_url else None
+        proxy = _build_proxy(config.PROXY_URL)
 
         self.browser = await self.playwright.chromium.launch(
             headless=config.HEADLESS,

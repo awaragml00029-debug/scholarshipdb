@@ -47,9 +47,17 @@ def get_or_create_token(token_file: str) -> str:
     return token
 
 
+MAX_ITEMS_PER_PAGE = 50
+
+
 def create_page(items: List[FeedItem], token: str) -> str:
     """Build a Telegraph page from items, return public URL."""
     date_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
+    # Sort newest first, cap to avoid Telegraph content size limit
+    min_dt = datetime.min.replace(tzinfo=timezone.utc)
+    items = sorted(items, key=lambda x: x.published or min_dt, reverse=True)[:MAX_ITEMS_PER_PAGE]
+
     content: list = []
 
     for item in items:

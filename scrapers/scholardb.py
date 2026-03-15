@@ -309,25 +309,17 @@ class ScholardbSource(BaseSource):
 
             all_links = article.find_all("a", href=True)
 
-            # University: URL pattern is more reliable than class-name matching
+            # University: /scholarships-at-Univ (single path segment, no item slug)
             for a in all_links:
-                if "/scholarships-at-" in a.get("href", ""):
+                if re.match(r"^/scholarships-at-[^/]+$", a.get("href", "")):
                     extra["university"] = a.get_text(strip=True)
                     break
-            if "university" not in extra:
-                univ = article.find(class_=lambda x: x and "university" in str(x).lower())
-                if univ:
-                    extra["university"] = univ.get_text(strip=True)
 
-            # Country: link with /scholarships-in- pattern (class="text-success" on <a>)
+            # Country: /scholarships-in-Country (single segment, NOT /scholarships-in-Country/item)
             for a in all_links:
-                if "/scholarships-in-" in a.get("href", ""):
+                if re.match(r"^/scholarships-in-[^/]+$", a.get("href", "")):
                     extra["country"] = a.get_text(strip=True)
                     break
-            if "country" not in extra:
-                ctry = article.find(class_=lambda x: x and "country" in str(x).lower())
-                if ctry:
-                    extra["country"] = ctry.get_text(strip=True)
 
             dl = article.find(class_=lambda x: x and "deadline" in str(x).lower())
             if dl:
@@ -335,8 +327,13 @@ class ScholardbSource(BaseSource):
 
             desc_elem = article.find(
                 class_=lambda x: x and any(k in str(x).lower() for k in ["excerpt", "summary", "description"])
-            ) or article.find("p")
-            description = desc_elem.get_text(strip=True)[:1000] if desc_elem else ""
+            )
+            if not desc_elem:
+                p = article.find("p")
+                # Skip structured job-data paragraphs (start with a date or field label)
+                if p and not re.match(r"^\d{1,2} \w+ \d{4}|^Job Information", p.get_text(strip=True)):
+                    desc_elem = p
+            description = desc_elem.get_text(strip=True)[:300] if desc_elem else ""
 
             published = self._parse_posted_time(article)
 

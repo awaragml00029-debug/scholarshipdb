@@ -74,5 +74,6 @@ jobs:
           git add docs/notified_urls.json docs/telegraph_token.json 2>/dev/null || true
           git diff --staged --quiet || (
             git commit -m "Auto update $(date -u '+%Y-%m-%d %H:%M')"
+            git pull --rebase origin main
             git push
           )

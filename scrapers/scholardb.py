@@ -83,6 +83,8 @@ class ScholardbSource(BaseSource):
                 # deduplicate across sources
                 new_items = [i for i in items if i.url not in seen_urls]
                 seen_urls.update(i.url for i in new_items)
+                for item in new_items:
+                    item.extra["label"] = label
                 all_items.extend(new_items)
                 logger.info(f"  {label}: {len(new_items)} new items")
                 await self._delay()

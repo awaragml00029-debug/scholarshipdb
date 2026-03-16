@@ -1,6 +1,7 @@
 """Create a Telegra.ph article from FeedItems and return its public URL."""
 import json
 import urllib.request
+from collections import defaultdict
 from datetime import datetime, timezone
 from typing import List, Optional
 
@@ -47,45 +48,47 @@ def get_or_create_token(token_file: str) -> str:
     return token
 
 
-MAX_ITEMS_PER_PAGE = 50
+MAX_ITEMS_PER_PAGE = 60  # total across all sections
 
 
 def create_page(items: List[FeedItem], token: str) -> str:
-    """Build a Telegraph page from items, return public URL."""
+    """Build a Telegraph page grouped by source label, newest first."""
     date_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-
-    # Sort newest first, cap to avoid Telegraph content size limit
     min_dt = datetime.min.replace(tzinfo=timezone.utc)
+
+    # Sort newest first, cap total
     items = sorted(items, key=lambda x: x.published or min_dt, reverse=True)[:MAX_ITEMS_PER_PAGE]
+
+    # Group by label (preserving insertion order = newest-first within each group)
+    groups: dict = defaultdict(list)
+    for item in items:
+        label = item.extra.get("label", "Other")
+        groups[label].append(item)
 
     content: list = []
 
-    for item in items:
-        # Title as hyperlink
-        content.append({
-            "tag": "p",
-            "children": [{"tag": "a", "attrs": {"href": item.url}, "children": [item.title]}],
-        })
+    for label, group_items in groups.items():
+        # Section header
+        content.append({"tag": "h3", "children": [f"📍 {label} ({len(group_items)})"]})
 
-        # Metadata line: university · location · country
-        meta_parts = [
-            item.extra.get("university"),
-            item.extra.get("location"),
-            item.extra.get("country"),
-        ]
-        meta = " · ".join(p for p in meta_parts if p)
-        if meta:
-            content.append({"tag": "p", "children": [meta]})
-
-        # Short description
-        if item.description:
-            content.append({"tag": "p", "children": [item.description[:300]]})
+        for idx, item in enumerate(group_items, 1):
+            univ = item.extra.get("university", "")
+            # Format: N. University | Title (linked)
+            prefix = f"{idx}. {univ} | " if univ else f"{idx}. "
+            content.append({
+                "tag": "p",
+                "children": [
+                    prefix,
+                    {"tag": "a", "attrs": {"href": item.url}, "children": [item.title]},
+                ],
+            })
 
         content.append({"tag": "hr"})
 
+    total = sum(len(v) for v in groups.values())
     result = _post("createPage", {
         "access_token": token,
-        "title": f"PhD Scholarships — {date_str} ({len(items)} new)",
+        "title": f"PhD Scholarships — {date_str} ({total} new)",
         "author_name": "Scholar Feed Bot",
         "content": content,
         "return_content": False,

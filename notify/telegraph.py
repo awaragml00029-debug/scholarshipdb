@@ -24,27 +24,16 @@ def _post(endpoint: str, data: dict) -> dict:
         return json.loads(resp.read())
 
 
-def _load_token_file(token_file: str) -> dict:
+def get_or_create_token(token_file: str) -> str:
+    """Load stored Telegraph access token, or create a new anonymous account."""
     if os.path.exists(token_file):
         try:
             with open(token_file) as f:
-                return json.load(f)
+                token = json.load(f).get("access_token")
+            if token:
+                return token
         except Exception:
             pass
-    return {}
-
-
-def _save_token_file(token_file: str, data: dict):
-    os.makedirs(os.path.dirname(token_file) or ".", exist_ok=True)
-    with open(token_file, "w") as f:
-        json.dump(data, f)
-
-
-def get_or_create_token(token_file: str) -> str:
-    """Load stored Telegraph access token, or create a new anonymous account."""
-    stored = _load_token_file(token_file)
-    if stored.get("access_token"):
-        return stored["access_token"]
 
     logger.info("Creating new Telegraph account...")
     result = _post("createAccount", {
@@ -52,7 +41,9 @@ def get_or_create_token(token_file: str) -> str:
         "author_name": "Scholar Feed Bot",
     })
     token = result["result"]["access_token"]
-    _save_token_file(token_file, {"access_token": token})
+    os.makedirs(os.path.dirname(token_file) or ".", exist_ok=True)
+    with open(token_file, "w") as f:
+        json.dump({"access_token": token}, f)
     logger.info(f"Telegraph token saved → {token_file}")
     return token
 
@@ -108,40 +99,17 @@ def _build_content(items: List[FeedItem], translations: dict) -> tuple[list, int
     return content, sum(len(v) for v in groups.values())
 
 
-def publish_page(items: List[FeedItem], token: str, token_file: str) -> str:
-    """Create or update the daily Telegraph page. Returns public URL."""
+def publish_page(items: List[FeedItem], token: str) -> str:
+    """Create a new Telegraph page for today. Returns public URL."""
     date_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     translations = _load_translation_cache()
     content, total = _build_content(items, translations)
-    title = f"PhD Scholarships — {date_str} ({total} new)"
 
-    stored = _load_token_file(token_file)
-    page_path = stored.get("page_path")
-
-    if page_path:
-        # Update existing page
-        logger.info(f"Updating Telegraph page: {page_path}")
-        result = _post("editPage", {
-            "access_token": token,
-            "path": page_path,
-            "title": title,
-            "author_name": "Scholar Feed Bot",
-            "content": content,
-            "return_content": False,
-        })
-    else:
-        # First run: create page and save path
-        logger.info("Creating new Telegraph page...")
-        result = _post("createPage", {
-            "access_token": token,
-            "title": title,
-            "author_name": "Scholar Feed Bot",
-            "content": content,
-            "return_content": False,
-        })
-        page_path = result["result"]["path"]
-        stored["page_path"] = page_path
-        _save_token_file(token_file, stored)
-        logger.info(f"Telegraph page path saved: {page_path}")
-
+    result = _post("createPage", {
+        "access_token": token,
+        "title": f"PhD Scholarships — {date_str} ({total} new)",
+        "author_name": "Scholar Feed Bot",
+        "content": content,
+        "return_content": False,
+    })
     return result["result"]["url"]

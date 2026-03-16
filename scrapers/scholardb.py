@@ -274,19 +274,12 @@ class ScholardbSource(BaseSource):
 
     def _parse_article(self, article) -> Optional[FeedItem]:
         try:
-            title_elem = article.find(
-                ["h2", "h3", "h4"],
-                class_=lambda x: x and any(k in str(x).lower() for k in ["title", "heading", "post-title"]),
-            ) or article.find(["h2", "h3", "h4"])
-
-            if not title_elem:
-                return None
-
-            link = title_elem.find("a") or article.find("a")
+            # Title: h4 a
+            link = article.select_one("h4 a")
             if not link or not link.get("href"):
                 return None
 
-            title = title_elem.get_text(strip=True)
+            title = link.get_text(strip=True)
             url = urljoin(BASE_URL, link["href"])
 
             # Reject nav/category pages and short titles
@@ -296,9 +289,8 @@ class ScholardbSource(BaseSource):
                 return None
             if any(k in url_lower for k in EXCLUDE_KEYWORDS):
                 return None
-            # Must be a specific item page (has a slug after the category segment)
-            path_parts = [p for p in url_lower.split("/") if p]
-            if len(path_parts) < 2:
+            # Must be a specific item page (slug after category segment)
+            if len([p for p in url_lower.split("/") if p]) < 2:
                 return None
             # /jobs-in-/ items: only keep if title contains academic keywords
             if "jobs-in-" in url_lower:
@@ -307,33 +299,19 @@ class ScholardbSource(BaseSource):
 
             extra: Dict[str, str] = {}
 
-            all_links = article.find_all("a", href=True)
+            # University: first <a> in the metadata div (div + div a:nth-child(1))
+            univ = article.select_one("div + div a:nth-child(1)")
+            if univ:
+                extra["university"] = univ.get_text(strip=True)
 
-            # University: /scholarships-at-Univ (single path segment, no item slug)
-            for a in all_links:
-                if re.match(r"^/scholarships-at-[^/]+$", a.get("href", "")):
-                    extra["university"] = a.get_text(strip=True)
-                    break
+            # Country (and city): .text-success
+            country_elem = article.select_one(".text-success")
+            if country_elem:
+                extra["country"] = country_elem.get_text(strip=True)
 
-            # Country: /scholarships-in-Country (single segment, NOT /scholarships-in-Country/item)
-            for a in all_links:
-                if re.match(r"^/scholarships-in-[^/]+$", a.get("href", "")):
-                    extra["country"] = a.get_text(strip=True)
-                    break
-
-            dl = article.find(class_=lambda x: x and "deadline" in str(x).lower())
-            if dl:
-                extra["deadline"] = dl.get_text(strip=True)
-
-            desc_elem = article.find(
-                class_=lambda x: x and any(k in str(x).lower() for k in ["excerpt", "summary", "description"])
-            )
-            if not desc_elem:
-                p = article.find("p")
-                # Skip structured job-data paragraphs (start with a date or field label)
-                if p and not re.match(r"^\d{1,2} \w+ \d{4}|^Job Information", p.get_text(strip=True)):
-                    desc_elem = p
-            description = desc_elem.get_text(strip=True)[:300] if desc_elem else ""
+            # Description: first <p>
+            p = article.find("p")
+            description = p.get_text(strip=True)[:300] if p else ""
 
             published = self._parse_posted_time(article)
 

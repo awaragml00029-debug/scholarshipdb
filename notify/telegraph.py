@@ -1,4 +1,4 @@
-"""Create a Telegra.ph article from FeedItems and return its public URL."""
+"""Publish/update a Telegra.ph article from FeedItems and return its public URL."""
 import json
 import os
 import urllib.request
@@ -24,17 +24,27 @@ def _post(endpoint: str, data: dict) -> dict:
         return json.loads(resp.read())
 
 
-def get_or_create_token(token_file: str) -> str:
-    """Load stored Telegraph access token, or create a new anonymous account."""
-    import os
+def _load_token_file(token_file: str) -> dict:
     if os.path.exists(token_file):
         try:
             with open(token_file) as f:
-                token = json.load(f).get("access_token")
-            if token:
-                return token
+                return json.load(f)
         except Exception:
             pass
+    return {}
+
+
+def _save_token_file(token_file: str, data: dict):
+    os.makedirs(os.path.dirname(token_file) or ".", exist_ok=True)
+    with open(token_file, "w") as f:
+        json.dump(data, f)
+
+
+def get_or_create_token(token_file: str) -> str:
+    """Load stored Telegraph access token, or create a new anonymous account."""
+    stored = _load_token_file(token_file)
+    if stored.get("access_token"):
+        return stored["access_token"]
 
     logger.info("Creating new Telegraph account...")
     result = _post("createAccount", {
@@ -42,14 +52,12 @@ def get_or_create_token(token_file: str) -> str:
         "author_name": "Scholar Feed Bot",
     })
     token = result["result"]["access_token"]
-    os.makedirs(os.path.dirname(token_file) or ".", exist_ok=True)
-    with open(token_file, "w") as f:
-        json.dump({"access_token": token}, f)
+    _save_token_file(token_file, {"access_token": token})
     logger.info(f"Telegraph token saved → {token_file}")
     return token
 
 
-MAX_ITEMS_PER_PAGE = 60  # total across all sections
+MAX_ITEMS_PER_PAGE = 60
 
 
 def _load_translation_cache(cache_file: str = "docs/translations_cache.json") -> dict:
@@ -62,33 +70,23 @@ def _load_translation_cache(cache_file: str = "docs/translations_cache.json") ->
     return {}
 
 
-def create_page(items: List[FeedItem], token: str) -> str:
-    """Build a Telegraph page grouped by source label, newest first.
-    Format per item: N. 学校 | 中文标题 | 日期 | EN Title (linked)
-    """
-    date_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+def _build_content(items: List[FeedItem], translations: dict) -> tuple[list, int]:
+    """Build Telegraph content nodes grouped by label. Returns (content, total)."""
     min_dt = datetime.min.replace(tzinfo=timezone.utc)
-    translations = _load_translation_cache()
-
-    # Sort newest first, cap total
     items = sorted(items, key=lambda x: x.published or min_dt, reverse=True)[:MAX_ITEMS_PER_PAGE]
 
-    # Group by label
     groups: dict = defaultdict(list)
     for item in items:
         groups[item.extra.get("label", "Other")].append(item)
 
     content: list = []
-
     for label, group_items in groups.items():
         content.append({"tag": "h3", "children": [f"📍 {label} ({len(group_items)})"]})
-
         for idx, item in enumerate(group_items, 1):
             univ = item.extra.get("university", "")
             zh_title = translations.get(item.title, "")
             pub_date = item.published.strftime("%m-%d") if item.published else ""
 
-            # Build prefix: N. 学校 | 中文标题 | 日期 |
             parts = [f"{idx}."]
             if univ:
                 parts.append(univ)
@@ -105,15 +103,45 @@ def create_page(items: List[FeedItem], token: str) -> str:
                     {"tag": "a", "attrs": {"href": item.url}, "children": [item.title]},
                 ],
             })
-
         content.append({"tag": "hr"})
 
-    total = sum(len(v) for v in groups.values())
-    result = _post("createPage", {
-        "access_token": token,
-        "title": f"PhD Scholarships — {date_str} ({total} new)",
-        "author_name": "Scholar Feed Bot",
-        "content": content,
-        "return_content": False,
-    })
+    return content, sum(len(v) for v in groups.values())
+
+
+def publish_page(items: List[FeedItem], token: str, token_file: str) -> str:
+    """Create or update the daily Telegraph page. Returns public URL."""
+    date_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    translations = _load_translation_cache()
+    content, total = _build_content(items, translations)
+    title = f"PhD Scholarships — {date_str} ({total} new)"
+
+    stored = _load_token_file(token_file)
+    page_path = stored.get("page_path")
+
+    if page_path:
+        # Update existing page
+        logger.info(f"Updating Telegraph page: {page_path}")
+        result = _post("editPage", {
+            "access_token": token,
+            "path": page_path,
+            "title": title,
+            "author_name": "Scholar Feed Bot",
+            "content": content,
+            "return_content": False,
+        })
+    else:
+        # First run: create page and save path
+        logger.info("Creating new Telegraph page...")
+        result = _post("createPage", {
+            "access_token": token,
+            "title": title,
+            "author_name": "Scholar Feed Bot",
+            "content": content,
+            "return_content": False,
+        })
+        page_path = result["result"]["path"]
+        stored["page_path"] = page_path
+        _save_token_file(token_file, stored)
+        logger.info(f"Telegraph page path saved: {page_path}")
+
     return result["result"]["url"]

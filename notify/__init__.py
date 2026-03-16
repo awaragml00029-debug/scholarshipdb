@@ -50,11 +50,11 @@ def notify_new_items(all_items: List[FeedItem]) -> int:
     logger.info(f"Notifying {len(new_items)} new items via Telegram...")
 
     try:
-        from notify.telegraph import get_or_create_token, create_page
+        from notify.telegraph import get_or_create_token, publish_page
         from notify.telegram import send_message
 
         token = get_or_create_token(config.TELEGRAPH_TOKEN_FILE)
-        page_url = create_page(new_items, token)
+        page_url = publish_page(new_items, token, config.TELEGRAPH_TOKEN_FILE)
         logger.info(f"Telegraph page: {page_url}")
 
         text = (

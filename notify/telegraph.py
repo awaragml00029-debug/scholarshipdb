@@ -1,5 +1,6 @@
 """Create a Telegra.ph article from FeedItems and return its public URL."""
 import json
+import os
 import urllib.request
 from collections import defaultdict
 from datetime import datetime, timezone
@@ -51,30 +52,52 @@ def get_or_create_token(token_file: str) -> str:
 MAX_ITEMS_PER_PAGE = 60  # total across all sections
 
 
+def _load_translation_cache(cache_file: str = "docs/translations_cache.json") -> dict:
+    if os.path.exists(cache_file):
+        try:
+            with open(cache_file) as f:
+                return json.load(f)
+        except Exception:
+            pass
+    return {}
+
+
 def create_page(items: List[FeedItem], token: str) -> str:
-    """Build a Telegraph page grouped by source label, newest first."""
+    """Build a Telegraph page grouped by source label, newest first.
+    Format per item: N. 学校 | 中文标题 | 日期 | EN Title (linked)
+    """
     date_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     min_dt = datetime.min.replace(tzinfo=timezone.utc)
+    translations = _load_translation_cache()
 
     # Sort newest first, cap total
     items = sorted(items, key=lambda x: x.published or min_dt, reverse=True)[:MAX_ITEMS_PER_PAGE]
 
-    # Group by label (preserving insertion order = newest-first within each group)
+    # Group by label
     groups: dict = defaultdict(list)
     for item in items:
-        label = item.extra.get("label", "Other")
-        groups[label].append(item)
+        groups[item.extra.get("label", "Other")].append(item)
 
     content: list = []
 
     for label, group_items in groups.items():
-        # Section header
         content.append({"tag": "h3", "children": [f"📍 {label} ({len(group_items)})"]})
 
         for idx, item in enumerate(group_items, 1):
             univ = item.extra.get("university", "")
-            # Format: N. University | Title (linked)
-            prefix = f"{idx}. {univ} | " if univ else f"{idx}. "
+            zh_title = translations.get(item.title, "")
+            pub_date = item.published.strftime("%m-%d") if item.published else ""
+
+            # Build prefix: N. 学校 | 中文标题 | 日期 |
+            parts = [f"{idx}."]
+            if univ:
+                parts.append(univ)
+            if zh_title:
+                parts.append(zh_title)
+            if pub_date:
+                parts.append(pub_date)
+            prefix = " | ".join(parts) + " | "
+
             content.append({
                 "tag": "p",
                 "children": [

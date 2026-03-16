@@ -301,10 +301,11 @@ class ScholardbSource(BaseSource):
 
             extra: Dict[str, str] = {}
 
-            # University: first <a> in the metadata div (div + div a:nth-child(1))
-            univ = article.select_one("div + div a:nth-child(1)")
-            if univ:
-                extra["university"] = univ.get_text(strip=True)
+            # University: link with ?em= param (scholarshipdb.net university filter URL)
+            for a in article.find_all("a", href=True):
+                if "?em=" in a.get("href", ""):
+                    extra["university"] = a.get_text(strip=True)
+                    break
 
             # Country (and city): .text-success
             country_elem = article.select_one(".text-success")

@@ -47,10 +47,8 @@ async def run():
     feed.generate(all_items)
     logger.info(f"Feed written → {config.RSS_OUTPUT}  ({len(all_items)} items)")
 
-    # Telegram notification (no-op if TELEGRAM_BOT_TOKEN not set)
-    notify.notify_new_items(all_items)
-
     # Translated feed (default zh-CN, skip if TRANSLATE_TARGET is empty)
+    notify_items = all_items
     if config.TRANSLATE_TARGET:
         lang = config.TRANSLATE_TARGET
         out = config.RSS_OUTPUT.replace(".xml", f"_{lang.replace('-', '_')}.xml")
@@ -59,6 +57,10 @@ async def run():
         feed.generate(translated_items, output=out,
                       title=f"{config.RSS_TITLE} ({lang})")
         logger.info(f"Translated feed written → {out}")
+        notify_items = translated_items
+
+    # Telegram notification (no-op if TELEGRAM_BOT_TOKEN not set)
+    notify.notify_new_items(notify_items)
 
 
 if __name__ == "__main__":

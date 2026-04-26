@@ -3,1120 +3,807 @@
   <channel>
     <title>PhD Scholarships Feed</title>
     <link>https://awaragml00029-debug.github.io/scholarshipdb</link>
-    <description>393 scholarships</description>
-    <lastBuildDate>Sat, 25 Apr 2026 07:31:06 +0000</lastBuildDate>
+    <description>501 scholarships</description>
+    <lastBuildDate>Sun, 26 Apr 2026 07:54:29 +0000</lastBuildDate>
     <atom:link href="https://awaragml00029-debug.github.io/scholarshipdb/feed.xml" rel="self" type="application/rss+xml"/>
-    <item>
-      <title>Post an Ads</title>
-      <link>https://scholarshipdb.net/posts/new</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/posts/new</guid>
-      <description>&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 07:23:58 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>Luxembourg</title>
-      <link>https://scholarshipdb.net/scholarships-in-Luxembourg</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Luxembourg</guid>
-      <description>&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 07:23:58 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>University of Luxembourg</title>
-      <link>https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?em=University-of-Luxembourg</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?em=University-of-Luxembourg</guid>
-      <description>&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 07:23:58 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>Medical Sciences</title>
-      <link>https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Medical Sciences</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Medical Sciences</guid>
-      <description>&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 07:23:58 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>Materials Science</title>
-      <link>https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Materials Science</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Materials Science</guid>
-      <description>&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 07:23:58 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>Engineering</title>
-      <link>https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Engineering</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Engineering</guid>
-      <description>&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 07:23:58 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>Earth Sciences</title>
-      <link>https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Earth Sciences</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Earth Sciences</guid>
-      <description>&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 07:23:58 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>Biology</title>
-      <link>https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Biology</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Biology</guid>
-      <description>&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 07:23:58 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>Science</title>
-      <link>https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Science</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Science</guid>
-      <description>&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 07:23:58 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>Mathematics</title>
-      <link>https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Mathematics</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Mathematics</guid>
-      <description>&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 07:23:58 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>Business</title>
-      <link>https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Business</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Business</guid>
-      <description>&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 07:23:58 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>Economics</title>
-      <link>https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Economics</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Economics</guid>
-      <description>&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 07:23:58 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>Computer Science</title>
-      <link>https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Computer Science</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Computer Science</guid>
-      <description>&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 07:23:58 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>Luxembourg Institute of Science and Technology</title>
-      <link>https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD/University-Luxembourg-Institute-of-Science-and-Technology</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD/University-Luxembourg-Institute-of-Science-and-Technology</guid>
-      <description>&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 07:23:58 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>Nature Careers</title>
-      <link>https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD/University-Nature-Careers</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD/University-Nature-Careers</guid>
-      <description>&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 07:23:58 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>University of Luxembourg</title>
-      <link>https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD/University-University-of-Luxembourg</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD/University-University-of-Luxembourg</guid>
-      <description>&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 07:23:58 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>Remove All</title>
-      <link>https://scholarshipdb.net/scholarships</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships</guid>
-      <description>&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 07:23:58 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>Luxembourg</title>
-      <link>https://scholarshipdb.net/scholarships/Program-PhD</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD</guid>
-      <description>&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 07:23:58 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>listed</title>
-      <link>https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?st=listed</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?st=listed</guid>
-      <description>&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 07:23:58 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>Undergraduate</title>
-      <link>https://scholarshipdb.net/Undergraduate-scholarships</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/Undergraduate-scholarships</guid>
-      <description>&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 07:23:58 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>Master</title>
-      <link>https://scholarshipdb.net/Master-scholarships</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/Master-scholarships</guid>
-      <description>&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 07:23:58 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>Browse</title>
-      <link>https://scholarshipdb.net/scholarships-browse</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-browse</guid>
-      <description>&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 07:23:58 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>Blogs</title>
-      <link>https://scholarshipdb.net/blogs</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/blogs</guid>
-      <description>&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 07:23:58 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>Universities</title>
-      <link>https://scholarshipdb.net/universities</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/universities</guid>
-      <description>&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 07:23:58 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>Undergraduate</title>
-      <link>https://scholarshipdb.net/scholarships/Program-Undergraduate</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-Undergraduate</guid>
-      <description>&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 07:23:58 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>Master</title>
-      <link>https://scholarshipdb.net/scholarships/Program-Master</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-Master</guid>
-      <description>&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 07:23:58 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>Postdoctoral</title>
-      <link>https://scholarshipdb.net/Postdoctoral-scholarships</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/Postdoctoral-scholarships</guid>
-      <description>&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 07:23:58 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>ScholarshipDb.Net</title>
-      <link>https://scholarshipdb.net/</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/</guid>
-      <description>&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 07:23:58 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>Post an Ads</title>
-      <link>https://scholarshipdb.net/posts/new</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/posts/new</guid>
-      <description>&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 07:23:45 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
     <item>
       <title>Nature Careers</title>
       <link>https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?em=Nature-Careers</link>
       <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?em=Nature-Careers</guid>
-      <description>&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 07:23:45 +0000</pubDate>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:46:38 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
       <title>Luxembourg</title>
       <link>https://scholarshipdb.net/scholarships-in-Luxembourg</link>
       <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Luxembourg</guid>
-      <description>&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 07:23:45 +0000</pubDate>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:46:38 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
       <title>University of Luxembourg</title>
       <link>https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?em=University-of-Luxembourg</link>
       <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?em=University-of-Luxembourg</guid>
-      <description>&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 07:23:45 +0000</pubDate>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:46:38 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
       <title>Medical Sciences</title>
       <link>https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Medical Sciences</link>
       <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Medical Sciences</guid>
-      <description>&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 07:23:45 +0000</pubDate>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:46:38 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
       <title>Materials Science</title>
       <link>https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Materials Science</link>
       <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Materials Science</guid>
-      <description>&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 07:23:45 +0000</pubDate>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:46:38 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
       <title>Engineering</title>
       <link>https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Engineering</link>
       <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Engineering</guid>
-      <description>&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 07:23:45 +0000</pubDate>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:46:38 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
       <title>Earth Sciences</title>
       <link>https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Earth Sciences</link>
       <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Earth Sciences</guid>
-      <description>&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 07:23:45 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>Biology</title>
-      <link>https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Biology</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Biology</guid>
-      <description>&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 07:23:45 +0000</pubDate>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:46:38 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
       <title>Science</title>
       <link>https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Science</link>
       <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Science</guid>
-      <description>&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 07:23:45 +0000</pubDate>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:46:38 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
       <title>Mathematics</title>
       <link>https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Mathematics</link>
       <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Mathematics</guid>
-      <description>&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 07:23:45 +0000</pubDate>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:46:38 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
       <title>Business</title>
       <link>https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Business</link>
       <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Business</guid>
-      <description>&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 07:23:45 +0000</pubDate>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:46:38 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
       <title>Economics</title>
       <link>https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Economics</link>
       <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Economics</guid>
-      <description>&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 07:23:45 +0000</pubDate>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:46:38 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
       <title>Computer Science</title>
       <link>https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Computer Science</link>
       <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Computer Science</guid>
-      <description>&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 07:23:45 +0000</pubDate>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:46:38 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
       <title>Luxembourg Institute of Science and Technology</title>
       <link>https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD/University-Luxembourg-Institute-of-Science-and-Technology</link>
       <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD/University-Luxembourg-Institute-of-Science-and-Technology</guid>
-      <description>&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 07:23:45 +0000</pubDate>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:46:38 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
       <title>Nature Careers</title>
       <link>https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD/University-Nature-Careers</link>
       <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD/University-Nature-Careers</guid>
-      <description>&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 07:23:45 +0000</pubDate>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:46:38 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
       <title>University of Luxembourg</title>
       <link>https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD/University-University-of-Luxembourg</link>
       <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD/University-University-of-Luxembourg</guid>
-      <description>&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 07:23:45 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>Remove All</title>
-      <link>https://scholarshipdb.net/scholarships</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships</guid>
-      <description>&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 07:23:45 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>Luxembourg</title>
-      <link>https://scholarshipdb.net/scholarships/Program-PhD</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD</guid>
-      <description>&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 07:23:45 +0000</pubDate>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:46:38 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
       <title>listed</title>
       <link>https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?st=listed</link>
       <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?st=listed</guid>
-      <description>&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 07:23:45 +0000</pubDate>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:46:38 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>Undergraduate</title>
-      <link>https://scholarshipdb.net/Undergraduate-scholarships</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/Undergraduate-scholarships</guid>
-      <description>&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 07:23:45 +0000</pubDate>
+      <title>Post an Ads</title>
+      <link>https://scholarshipdb.net/posts/new</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/posts/new</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>Master</title>
-      <link>https://scholarshipdb.net/Master-scholarships</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/Master-scholarships</guid>
-      <description>&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 07:23:45 +0000</pubDate>
+      <title>PhD scholarship in SyntheticBiologyfor assimilation of sustainable C1 feedstocks - BRIGHT</title>
+      <link>https://scholarshipdb.net/scholarships-in-Denmark/Ko-If-Is-Job-Title-Visible-Ph-D-Scholarship-In-Synthetic-Biology-For-Assimilation-Of-Sustainable-C1-Feedstocks-Bright-Ko-Ko-If-Is-Already-Applied-Visible-Ko-Technical-University-Of-Denmark=oHOEywQj8RG_6gzEeuBOuw</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Denmark/Ko-If-Is-Job-Title-Visible-Ph-D-Scholarship-In-Synthetic-Biology-For-Assimilation-Of-Sustainable-C1-Feedstocks-Bright-Ko-Ko-If-Is-Already-Applied-Visible-Ko-Technical-University-Of-Denmark=oHOEywQj8RG_6gzEeuBOuw</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>Browse</title>
-      <link>https://scholarshipdb.net/scholarships-browse</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-browse</guid>
-      <description>&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 07:23:45 +0000</pubDate>
+      <title>Sports and Recreation</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD?q=Sports and Recreation</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD?q=Sports and Recreation</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>Blogs</title>
-      <link>https://scholarshipdb.net/blogs</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/blogs</guid>
-      <description>&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 07:23:45 +0000</pubDate>
+      <title>Social Sciences</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD?q=Social Sciences</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD?q=Social Sciences</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>Universities</title>
-      <link>https://scholarshipdb.net/universities</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/universities</guid>
-      <description>&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 07:23:45 +0000</pubDate>
+      <title>Physics</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD?q=Physics</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD?q=Physics</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>Undergraduate</title>
-      <link>https://scholarshipdb.net/scholarships/Program-Undergraduate</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-Undergraduate</guid>
-      <description>&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 07:23:45 +0000</pubDate>
+      <title>Psychology</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD?q=Psychology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD?q=Psychology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>Master</title>
-      <link>https://scholarshipdb.net/scholarships/Program-Master</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-Master</guid>
-      <description>&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 07:23:45 +0000</pubDate>
+      <title>Education</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD?q=Education</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD?q=Education</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>Postdoctoral</title>
-      <link>https://scholarshipdb.net/Postdoctoral-scholarships</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/Postdoctoral-scholarships</guid>
-      <description>&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 07:23:45 +0000</pubDate>
+      <title>Earth Sciences</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD?q=Earth Sciences</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD?q=Earth Sciences</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>ScholarshipDb.Net</title>
-      <link>https://scholarshipdb.net/</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/</guid>
-      <description>&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 07:23:45 +0000</pubDate>
+      <title>Business</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD?q=Business</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD?q=Business</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>PhD position in Data Driven Life Sciences</title>
-      <link>https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Position-In-Data-Driven-Life-Sciences-Ume-University=caA1Z6Iz8RG_6gzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Position-In-Data-Driven-Life-Sciences-Ume-University=caA1Z6Iz8RG_6gzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Umeå University&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Sweden&lt;br/&gt;&lt;p&gt;Umeå University is one of Sweden’s largest higher education institutions with over 41,500 students and about 4,600 employees. The University offers a diversity of high-quality education and world-leading research in several fields. Notably, the groundbreaking discovery of the CRISPR-Cas9...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 04:21:49 +0000</pubDate>
+      <title>Arts and Literature</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD?q=Arts and Literature</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD?q=Arts and Literature</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>PhD position in Experimental Physics with focus on Space Weather Modeling</title>
-      <link>https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Position-In-Experimental-Physics-With-Focus-On-Space-Weather-Modeling-Ume-University=eqoppzs18RG_6gzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Position-In-Experimental-Physics-With-Focus-On-Space-Weather-Modeling-Ume-University=eqoppzs18RG_6gzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Umeå University&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Sweden&lt;br/&gt;&lt;p&gt;Umeå University is one of Sweden’s largest higher education institutions with over 41,500 students and about 4,600 employees. The University offers a diversity of high-quality education and world-leading research in several fields. Notably, the groundbreaking discovery of the CRISPR-Cas9...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 04:21:41 +0000</pubDate>
+      <title>Humanities</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD?q=Humanities</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD?q=Humanities</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>PhD-student</title>
-      <link>https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Student-Ume-University=iFxXDZ838RG_6gzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Student-Ume-University=iFxXDZ838RG_6gzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Umeå University&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Sweden&lt;br/&gt;&lt;p&gt;Umeå University is one of Sweden’s largest higher education institutions with over 41,500 students and about 4,600 employees. The University offers a diversity of high-quality education and world-leading research in several fields. Notably, the groundbreaking discovery of the CRISPR-Cas9...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 04:21:41 +0000</pubDate>
+      <title>Environment</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD?q=Environment</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD?q=Environment</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>PhD position in medical science with a specialization in bioinformatics</title>
-      <link>https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Position-In-Medical-Science-With-A-Specialization-In-Bioinformatics-Ume-University=0km71vk98RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Position-In-Medical-Science-With-A-Specialization-In-Bioinformatics-Ume-University=0km71vk98RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Umeå University&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Sweden&lt;br/&gt;&lt;p&gt;Umeå University is one of Sweden’s largest higher education institutions with over 41,500 students and about 4,600 employees. The University offers a diversity of high-quality education and world-leading research in several fields. Notably, the groundbreaking discovery of the CRISPR-Cas9...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 04:21:25 +0000</pubDate>
+      <title>Engineering</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD?q=Engineering</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD?q=Engineering</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>PhD Position in SyntheticBiologyand Metabolic Engineering (m/f/d, E13 TV-L, 65%)</title>
-      <link>https://scholarshipdb.net/scholarships-in-Germany/Ph-D-Position-In-Synthetic-Biology-And-Metabolic-Engineering-M-F-D-E13-Tv-L-65-University-Of-T-bingen=iE0TB1A38RG_6gzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Germany/Ph-D-Position-In-Synthetic-Biology-And-Metabolic-Engineering-M-F-D-E13-Tv-L-65-University-Of-T-bingen=iE0TB1A38RG_6gzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; University of Tübingen&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; T bingen, Baden W rttemberg&lt;br/&gt;&lt;p&gt;Biologyand
-Metabolic Engineering (m/f/d, E13 TV-L, 65%)
-to be filled as soon as possible. The position is initially limited to three years.
-The research group headed by Prof. Dr. Hannes Link&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 04:20:18 +0000</pubDate>
+      <title>Economics</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD?q=Economics</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD?q=Economics</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>PhD position in MolecularBiology</title>
-      <link>https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Position-In-Molecular-Biology-Ume-University=t1j7IzQp8RG_6gzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Position-In-Molecular-Biology-Ume-University=t1j7IzQp8RG_6gzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Umeå University&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Sweden&lt;br/&gt;&lt;p&gt;education to enable regions to expand quickly and sustainably. In fact, the future is made here.
-We are looking for a PhD student in MolecularBiologywith a special interest in intracellular host-pathogen&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 04:20:08 +0000</pubDate>
+      <title>Linguistics</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD?q=Linguistics</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD?q=Linguistics</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>PhD position in Data driven epidemiology andbiologyof infection</title>
-      <link>https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Position-In-Data-Driven-Epidemiology-And-Biology-Of-Infection-Ume-University=sWt9nwA68RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Position-In-Data-Driven-Epidemiology-And-Biology-Of-Infection-Ume-University=sWt9nwA68RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Umeå University&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Sweden&lt;br/&gt;&lt;p&gt;education to enable regions to expand quickly and sustainably. In fact, the future is made here.
-The Department of MolecularBiology/Umeå university, are searching for a DDLS PhD student in Data driven&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 04:19:58 +0000</pubDate>
+      <title>Materials Science</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD?q=Materials Science</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD?q=Materials Science</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>PhD in Reversible Assemblies for Sustainable Construction</title>
-      <link>https://scholarshipdb.net/scholarships-in-Switzerland/Ph-D-In-Reversible-Assemblies-For-Sustainable-Construction-Epfl=t1IdtldA8RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Switzerland/Ph-D-In-Reversible-Assemblies-For-Sustainable-Construction-Epfl=t1IdtldA8RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; EPFL&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Switzerland&lt;br/&gt;&lt;p&gt;23 Apr 2026
-Job Information
-Organisation/Company
-EPFL
-Department
-ENAC
-Research Field
-Engineering » Materials engineering
-Architecture » Design
-Researcher Profile
-First Stage Researcher (R1)
-Positions
-PhD Positions
-Application Deadline
-26 May 2026 - 18:00 (Europe/Zurich)
-Country
-Switzerland
-Type...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 03:30:20 +0000</pubDate>
+      <title>Chemistry</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD?q=Chemistry</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD?q=Chemistry</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>University assistant predoctoral/PhD Candidate</title>
-      <link>https://scholarshipdb.net/scholarships-in-Austria/University-Assistant-Predoctoral-Ph-D-Candidate-University-Of-Vienna=wZzBYn458RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Austria/University-Assistant-Predoctoral-Ph-D-Candidate-University-Of-Vienna=wZzBYn458RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; University of Vienna&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Austria&lt;br/&gt;&lt;p&gt;At the University of Vienna almost 11,000 personalities work together towards answering the big questions of the future. Around 7,700  of them do research and teaching, around 3,000 work in administration and organisation. We are looking for a/an
-University assistant predoctoral/PhD Candidate
-51...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 03:26:09 +0000</pubDate>
+      <title>Mathematics</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD?q=Mathematics</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD?q=Mathematics</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>University assistant predoctoral/PhD Candidate</title>
-      <link>https://scholarshipdb.net/scholarships-in-Austria/University-Assistant-Predoctoral-Ph-D-Candidate-University-Of-Vienna=_HQiQX458RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Austria/University-Assistant-Predoctoral-Ph-D-Candidate-University-Of-Vienna=_HQiQX458RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; University of Vienna&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Austria&lt;br/&gt;&lt;p&gt;At the University of Vienna almost 11,000 personalities work together towards answering the big questions of the future. Around 7,700  of them do research and teaching, around 3,000 work in administration and organisation. We are looking for a/an
-University assistant predoctoral/PhD Candidate
-51...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 03:26:09 +0000</pubDate>
+      <title>Science</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD?q=Science</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD?q=Science</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>PhD Positions in Responsible AI</title>
-      <link>https://scholarshipdb.net/scholarships-in-Austria/Ph-D-Positions-In-Responsible-Ai-University-Of-Vienna=ZVqXFqs88RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Austria/Ph-D-Positions-In-Responsible-Ai-University-Of-Vienna=ZVqXFqs88RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; University of Vienna&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Austria&lt;br/&gt;&lt;p&gt;At the University of Vienna, almost 11,000 people work together on the big questions of the future. Approximately 7,700 of them are academic staff members. These are individuals who, with their curiosity and their continuous pursuit of excellence, engage in international cutting-edge research...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 03:26:09 +0000</pubDate>
+      <title>Computer Science</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD?q=Computer Science</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD?q=Computer Science</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>Doctoral Scholarship Media (Arts &amp; Prison Studies–UK)</title>
-      <link>https://scholarshipdb.net/scholarships-in-Belgium/Doctoral-Scholarship-Media-Arts-Prison-Studies-Uk-University-Of-Antwerp=-GW5kVRA8RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Belgium/Doctoral-Scholarship-Media-Arts-Prison-Studies-Uk-University-Of-Antwerp=-GW5kVRA8RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; University of Antwerp&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Belgium&lt;br/&gt;&lt;p&gt;24 Apr 2026
-Job Information
-Organisation/Company
-University of Antwerp
-Research Field
-Anthropology » Social anthropology
-Communication sciences » Media studies
-Criminology » Other
-Educational sciences » Education
-Sociology » Other
-Researcher Profile
-First Stage Researcher (R1)
-Application...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 03:22:08 +0000</pubDate>
+      <title>Medical Sciences</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD?q=Medical Sciences</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD?q=Medical Sciences</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>PhD student in deep-learning based image analysis for RNA Therapeutics</title>
-      <link>https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Student-In-Deep-Learning-Based-Image-Analysis-For-Rna-Therapeutics-Lunds-Universitet=Tlk4gFRA8RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Student-In-Deep-Learning-Based-Image-Analysis-For-Rna-Therapeutics-Lunds-Universitet=Tlk4gFRA8RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Lunds universitet&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Sweden&lt;br/&gt;&lt;p&gt;24 Apr 2026
-Job Information
-Organisation/Company
-Lunds universitet
-Department
-Lund University, Faculty of Medicine, Department of Clinical Sciences, Lund
-Research Field
-Medical sciences » Medicine
-Researcher Profile
-First Stage Researcher (R1)
-Application Deadline
-3 Jun 2026 - 21:59...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 03:21:19 +0000</pubDate>
+      <title>Biology</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>PhD position in cellbiology</title>
-      <link>https://scholarshipdb.net/scholarships-in-Germany/Ph-D-Position-In-Cell-Biology-Technical-University-Of-Munich=xBDpKoUt8RG_6gzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Germany/Ph-D-Position-In-Cell-Biology-Technical-University-Of-Munich=xBDpKoUt8RG_6gzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Technical University of Munich&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Germany&lt;br/&gt;&lt;p&gt;with their environment. We use an interdisciplinary approach from protein biochemistry to cellbiologyto analyze the machinery and mechanisms that monitor cellular protein biogenesis.
-THE PROJECT&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 03:20:18 +0000</pubDate>
+      <title>Erasmus MC (University Medical Center Rotterdam)</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-Erasmus-MC-(University-Medical-Center-Rotterdam)?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-Erasmus-MC-(University-Medical-Center-Rotterdam)?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>PhD position in cell-free syntheticbiology(m/f/d)</title>
-      <link>https://scholarshipdb.net/scholarships-in-Germany/Ph-D-Position-In-Cell-Free-Synthetic-Biology-M-F-D-Technical-University-Of-Munich=nV4-yuA08RG_6gzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Germany/Ph-D-Position-In-Cell-Free-Synthetic-Biology-M-F-D-Technical-University-Of-Munich=nV4-yuA08RG_6gzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Technical University of Munich&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Germany&lt;br/&gt;&lt;p&gt;10.04.2026, Academic staff
-The Niederholtmeyer Lab for SyntheticBiologyat TUM Campus Straubing for Biotechnology and Sustainability invites applications for a PhD position in cell-free synthetic&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 03:20:18 +0000</pubDate>
+      <title>Ecole Centrale de Lyon</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-Ecole-Centrale-de-Lyon?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-Ecole-Centrale-de-Lyon?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>University Assistant (PhD position)</title>
-      <link>https://scholarshipdb.net/scholarships-in-Austria/University-Assistant-Ph-D-Position-University-Of-Innsbruck=hWkGyFFA8RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Austria/University-Assistant-Ph-D-Position-University-Of-Innsbruck=hWkGyFFA8RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; University of Innsbruck&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Austria&lt;br/&gt;&lt;p&gt;24 Apr 2026
-Job Information
-Organisation/Company
-University of Innsbruck
-Department
-Faculty of Engineering Sciences
-Research Field
-Technology
-Researcher Profile
-First Stage Researcher (R1)
-Application Deadline
-3 May 2026 - 00:00 (UTC)
-Country
-Austria
-Type of Contract
-Temporary
-Job...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 02:26:09 +0000</pubDate>
+      <title>Dresden University of Technology •</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-Dresden-University-of-Technology-•?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-Dresden-University-of-Technology-•?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>PhD in Systems Neuroscience of Neural and Behavioral Algorithms of Pursuit</title>
-      <link>https://scholarshipdb.net/scholarships-in-Norway/Ph-D-In-Systems-Neuroscience-Of-Neural-And-Behavioral-Algorithms-Of-Pursuit-Ntnu-Norwegian-University-Of-Science-And-Technology=FJ8DwPc08RG_6gzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Norway/Ph-D-In-Systems-Neuroscience-Of-Neural-And-Behavioral-Algorithms-Of-Pursuit-Ntnu-Norwegian-University-Of-Science-And-Technology=FJ8DwPc08RG_6gzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; NTNU - Norwegian University of Science and Technology&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Norway&lt;br/&gt;&lt;p&gt;30th April 2026
-Languages
-English
-English
-English
-The Kavli Institute for Systems Neuroscience has a vacancy for a
-PhD in Systems Neuroscience of Neural and Behavioral Algorithms of Pursuit
-Apply for this job
-See advertisement
-This is NTNU
-NTNU is a broad-based university with...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 02:24:58 +0000</pubDate>
+      <title>Curtin University</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-Curtin-University?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-Curtin-University?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>PhD scholarship within pig health and welfare</title>
-      <link>https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Scholarship-Within-Pig-Health-And-Welfare-Norwegian-University-Of-Life-Sciences-Nmbu=Zm_U0vc08RG_6gzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Scholarship-Within-Pig-Health-And-Welfare-Norwegian-University-Of-Life-Sciences-Nmbu=Zm_U0vc08RG_6gzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Norwegian University of Life Sciences (NMBU)&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Norway&lt;br/&gt;&lt;p&gt;1st May 2026
-Languages
-English
-English
-English
-FitPig explores if daily physical activity and free access to hay can improve pig health and welfare
-PhD scholarship within pig health and welfare
-Apply for this job
-See advertisement
-About the position
-At the Faculty of Veterinary Medicine at...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 02:24:58 +0000</pubDate>
+      <title>Cornell University</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-Cornell-University?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-Cornell-University?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>PhD position in Biostatistics at the Oslo Centre for Biostatistics and Epidemiology (OCBE)</title>
-      <link>https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Position-In-Biostatistics-At-The-Oslo-Centre-For-Biostatistics-And-Epidemiology-Ocbe-University-Of-Oslo=EgkeDfg08RG_6gzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Position-In-Biostatistics-At-The-Oslo-Centre-For-Biostatistics-And-Epidemiology-Ocbe-University-Of-Oslo=EgkeDfg08RG_6gzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; University of Oslo&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Norway&lt;br/&gt;&lt;p&gt;UiO/Anders Lien
-17th May 2026
-Languages
-English
-English
-English
-PhD position in Biostatistics at the Oslo Centre for Biostatistics and Epidemiology (OCBE)
-Apply for this job
-See advertisement
-About the position
-We are inviting applications for a 3-year PhD Fellowship in Biostatistics to be based...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 02:24:58 +0000</pubDate>
+      <title>CEA-IBS</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-CEA-IBS?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-CEA-IBS?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>PhD Candidate in Acoustic Performance of Photovoltaic Systems in Noise Control Applications</title>
-      <link>https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Candidate-In-Acoustic-Performance-Of-Photovoltaic-Systems-In-Noise-Control-Applications-Ntnu-Norwegian-University-Of-Science-And-Technology=U8WVOzE48RG_6gzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Candidate-In-Acoustic-Performance-Of-Photovoltaic-Systems-In-Noise-Control-Applications-Ntnu-Norwegian-University-Of-Science-And-Technology=U8WVOzE48RG_6gzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; NTNU - Norwegian University of Science and Technology&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Norway&lt;br/&gt;&lt;p&gt;12th May 2026
-Languages
-English
-English
-English
-We are looking for a
-PhD Candidate in Acoustic Performance of Photovoltaic Systems in Noise Control Applications
-Apply for this job
-See advertisement
-This is NTNU
-NTNU is a broad-based university with a technical-scientific profile and a focus in...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 02:24:51 +0000</pubDate>
+      <title>Biology Centre CAS</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-Biology-Centre-CAS?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-Biology-Centre-CAS?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>PhD in Generative AI and Statistics: Coalescent-inspired diffusion models for discrete data</title>
-      <link>https://scholarshipdb.net/scholarships-in-Norway/Ph-D-In-Generative-Ai-And-Statistics-Coalescent-Inspired-Diffusion-Models-For-Discrete-Data-Integreat-Norwegian-Centre-For-Knowledge-Driven-Machine-Learning=Xjk1XzE48RG_6gzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Norway/Ph-D-In-Generative-Ai-And-Statistics-Coalescent-Inspired-Diffusion-Models-For-Discrete-Data-Integreat-Norwegian-Centre-For-Knowledge-Driven-Machine-Learning=Xjk1XzE48RG_6gzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Integreat -Norwegian Centre for Knowledge-driven Machine Learning&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Norway&lt;br/&gt;&lt;p&gt;UiO/Anders Lien
-11th May 2026
-Languages
-English
-English
-English
-PhD in Generative AI and Statistics: Coalescent-inspired diffusion models for discrete data
-Apply for this job
-See advertisement
-Job description
-Integreat - the Norwegian Centre for Knowledge-driven Machine Learning  at the...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 02:24:51 +0000</pubDate>
+      <title>Babes-Bolyai University</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-Babes-Bolyai-University?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-Babes-Bolyai-University?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>PhD Candidate in spectroscopic ocean colour remote sensing</title>
-      <link>https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Candidate-In-Spectroscopic-Ocean-Colour-Remote-Sensing-Ntnu-Norwegian-University-Of-Science-And-Technology=CeqF6-848RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Candidate-In-Spectroscopic-Ocean-Colour-Remote-Sensing-Ntnu-Norwegian-University-Of-Science-And-Technology=CeqF6-848RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; NTNU - Norwegian University of Science and Technology&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Norway&lt;br/&gt;&lt;p&gt;10th May 2026
-Languages
-English
-English
-English
-We are looking for a
-PhD Candidate in spectroscopic ocean colour remote sensing
-Apply for this job
-See advertisement
-This is NTNU
-NTNU is a broad-based university with a technical-scientific profile and a focus in professional education. The...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 02:24:51 +0000</pubDate>
+      <title>Ariel University</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-Ariel-University?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-Ariel-University?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>PhD position in zooplankton molecular ecology</title>
-      <link>https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Position-In-Zooplankton-Molecular-Ecology-Nord-University=I7wMVgA58RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Position-In-Zooplankton-Molecular-Ecology-Nord-University=I7wMVgA58RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Nord University&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Norway&lt;br/&gt;&lt;p&gt;Adrian Svendsen Bensvik
-3rd May 2026
-Languages
-English
-English
-English
-Faculty of Biosciences and Aquaculture (FBA)
-PhD position in zooplankton molecular ecology
-Apply for this job
-See advertisement
-This is Nord University
-Would you like to help create knowledge that makes a difference? At Nord...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 02:24:51 +0000</pubDate>
+      <title>Adam Mickiewicz University, Poznań</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-Adam-Mickiewicz-University,-Poznań?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-Adam-Mickiewicz-University,-Poznań?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>PhD Candidate in the domain of Field Robotics</title>
-      <link>https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Candidate-In-The-Domain-Of-Field-Robotics-Ntnu-Norwegian-University-Of-Science-And-Technology=e_TJqMs58RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Candidate-In-The-Domain-Of-Field-Robotics-Ntnu-Norwegian-University-Of-Science-And-Technology=e_TJqMs58RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; NTNU - Norwegian University of Science and Technology&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Norway&lt;br/&gt;&lt;p&gt;30th April 2026
-Languages
-English
-English
-English
-The Department of Mechanical and Industrial Engineering has a vacancy for a
-PhD Candidate in the domain of Field Robotics
-Apply for this job
-See advertisement
-This is NTNU
-NTNU is a broad-based university with a technical-scientific profile and a...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 02:24:51 +0000</pubDate>
+      <title>Aarhus University</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-Aarhus-University?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-Aarhus-University?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>PhD scholarship concerning how exercise and hay improve pig minds, guts and welfare</title>
-      <link>https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Scholarship-Concerning-How-Exercise-And-Hay-Improve-Pig-Minds-Guts-And-Welfare-Norwegian-University-Of-Life-Sciences-Nmbu=1RA2L5s68RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Scholarship-Concerning-How-Exercise-And-Hay-Improve-Pig-Minds-Guts-And-Welfare-Norwegian-University-Of-Life-Sciences-Nmbu=1RA2L5s68RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Norwegian University of Life Sciences (NMBU)&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Norway&lt;br/&gt;&lt;p&gt;8th May 2026
-Languages
-English
-English
-English
-FitPig explores if daily physical activity and free access to hay can improve pig health and welfare
-PhD scholarship concerning how exercise and hay improve pig minds, guts and welfare
-Apply for this job
-See advertisement
-About the position
-The...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 02:24:41 +0000</pubDate>
+      <title>Uppsala universitet</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-Uppsala-universitet?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-Uppsala-universitet?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>PhD Candidate in Data-driven optimization for Energy Communities</title>
-      <link>https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Candidate-In-Data-Driven-Optimization-For-Energy-Communities-Ntnu-Norwegian-University-Of-Science-And-Technology=OtEvDE9A8RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Candidate-In-Data-Driven-Optimization-For-Energy-Communities-Ntnu-Norwegian-University-Of-Science-And-Technology=OtEvDE9A8RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; NTNU Norwegian University of Science and Technology&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Norway&lt;br/&gt;&lt;p&gt;24 Apr 2026
-Job Information
-Organisation/Company
-NTNU Norwegian University of Science and Technology
-Department
-Department of Engineering Cybernetics (ITK)
-Research Field
-Engineering » Control engineering
-Engineering » Systems engineering
-Engineering » Process engineering
-Researcher...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 02:24:36 +0000</pubDate>
+      <title>University of Veterinary Medicine Hannover •</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-University-of-Veterinary-Medicine-Hannover-•?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-University-of-Veterinary-Medicine-Hannover-•?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>PhD in Computer Science</title>
-      <link>https://scholarshipdb.net/scholarships-in-Belgium/Ph-D-In-Computer-Science-Vrije-Universiteit-Brussel=118TBoUs8RG_6gzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Belgium/Ph-D-In-Computer-Science-Vrije-Universiteit-Brussel=118TBoUs8RG_6gzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Vrije Universiteit Brussel&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Belgium&lt;br/&gt;&lt;p&gt;The Faculty of Sciences and Bioengineering Sciences, Department Computer Science, is looking for a PhD-student with a doctoral grant.
-More concretely your work package, for the preparation of a doctorate, contains:
-Reinforcement Learning for Public Health Decision Support in Emerging Arbovirus...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 02:22:33 +0000</pubDate>
+      <title>University of Utah</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-University-of-Utah?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-University-of-Utah?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>PhD Scholarship in Autonomous Mobility and AI</title>
-      <link>https://scholarshipdb.net/scholarships-in-Belgium/Ph-D-Scholarship-In-Autonomous-Mobility-And-Ai-Vrije-Universiteit-Brussel=MzWC1sA68RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Belgium/Ph-D-Scholarship-In-Autonomous-Mobility-And-Ai-Vrije-Universiteit-Brussel=MzWC1sA68RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Vrije Universiteit Brussel&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Belgium&lt;br/&gt;&lt;p&gt;The Faculty of Social Sciences and Solvay Business School, Department Business Technology and Operations, Research Group Data Analytics Lab is looking for a PhD-student with a doctoral grant.
-More concretely your work package, for the preparation of a doctorate, contains:
-You conduct research...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 02:22:08 +0000</pubDate>
+      <title>University of Tübingen</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-University-of-Tübingen?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-University-of-Tübingen?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>Urgent: PhD position in Battery Interface Design using AI-driven modelling and multiscale simulations</title>
-      <link>https://scholarshipdb.net/scholarships-in-Belgium/Urgent-Ph-D-Position-In-Battery-Interface-Design-Using-Ai-Driven-Modelling-And-Multiscale-Simulations-Vrije-Universiteit-Brussel=hBq4LOQ-8RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Belgium/Urgent-Ph-D-Position-In-Battery-Interface-Design-Using-Ai-Driven-Modelling-And-Multiscale-Simulations-Vrije-Universiteit-Brussel=hBq4LOQ-8RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Vrije Universiteit Brussel&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Belgium&lt;br/&gt;&lt;p&gt;24 Apr 2026
-Job Information
-Organisation/Company
-Vrije Universiteit Brussel
-Department
-Materials and Chemistry (MACH)
-Research Field
-Engineering » Chemical engineering
-Engineering » Civil engineering
-Chemistry
-Engineering » Computer engineering
-Researcher Profile
-First Stage Researcher...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 02:22:08 +0000</pubDate>
+      <title>University of Texas at El Paso</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-University-of-Texas-at-El-Paso?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-University-of-Texas-at-El-Paso?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>PhD Student Mesoscale Cerebellar MRI</title>
-      <link>https://scholarshipdb.net/scholarships-in-Netherlands/Ph-D-Student-Mesoscale-Cerebellar-Mri-Royal-Netherlands-Academy-Of-Arts-And-Sciences-Knaw=GlRiAlFA8RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Netherlands/Ph-D-Student-Mesoscale-Cerebellar-Mri-Royal-Netherlands-Academy-Of-Arts-And-Sciences-Knaw=GlRiAlFA8RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Royal Netherlands Academy of Arts and Sciences (KNAW)&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Netherlands&lt;br/&gt;&lt;p&gt;24 Apr 2026
-Job Information
-Organisation/Company
-Royal Netherlands Academy of Arts and Sciences (KNAW)
-Research Field
-Neurosciences » Neurobiology
-Neurosciences » Neuroinformatics
-Researcher Profile
-First Stage Researcher (R1)
-Application Deadline
-6 Jun 2026 - 21:59...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 02:20:29 +0000</pubDate>
+      <title>University of Bergen</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-University-of-Bergen?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-University-of-Bergen?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>PhD Mediated Sciences: how social media impacts climate communication practice.</title>
-      <link>https://scholarshipdb.net/scholarships-in-Netherlands/Ph-D-Mediated-Sciences-How-Social-Media-Impacts-Climate-Communication-Practice-Utrecht-University=IlRiAlFA8RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Netherlands/Ph-D-Mediated-Sciences-How-Social-Media-Impacts-Climate-Communication-Practice-Utrecht-University=IlRiAlFA8RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Utrecht University&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Netherlands&lt;br/&gt;&lt;p&gt;24 Apr 2026
-Job Information
-Organisation/Company
-Utrecht University
-Research Field
-Communication sciences » Science communication
-Researcher Profile
-First Stage Researcher (R1)
-Application Deadline
-21 May 2026 - 21:59 (UTC)
-Country
-Netherlands
-Type of Contract
-Temporary
-Job Status
-Not...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 02:20:29 +0000</pubDate>
+      <title>Universidade do Minho</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-Universidade-do-Minho?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-Universidade-do-Minho?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>PhD in Entanglement Generation and Routing in Multi-Node Quantum Networks</title>
-      <link>https://scholarshipdb.net/scholarships-in-Netherlands/Ph-D-In-Entanglement-Generation-And-Routing-In-Multi-Node-Quantum-Networks-Eindhoven-University-Of-Technology-Tu-E=Su8IJlFA8RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Netherlands/Ph-D-In-Entanglement-Generation-And-Routing-In-Multi-Node-Quantum-Networks-Eindhoven-University-Of-Technology-Tu-E=Su8IJlFA8RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Eindhoven University of Technology (TU/e)&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Netherlands&lt;br/&gt;&lt;p&gt;24 Apr 2026
-Job Information
-Organisation/Company
-Eindhoven University of Technology (TU/e)
-Research Field
-Engineering » Electrical engineering
-Engineering » Electronic engineering
-Physics » Optics
-Physics » Quantum mechanics
-Researcher Profile
-First Stage Researcher (R1)
-Application Deadline
-23...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 02:20:29 +0000</pubDate>
+      <title>Universidade de Vigo</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-Universidade-de-Vigo?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-Universidade-de-Vigo?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>PhD Position Ultrafast Photoacoustic Imaging</title>
-      <link>https://scholarshipdb.net/scholarships-in-Netherlands/Ph-D-Position-Ultrafast-Photoacoustic-Imaging-Delft-University-Of-Technology-Tu-Delft=fMd7N1FA8RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Netherlands/Ph-D-Position-Ultrafast-Photoacoustic-Imaging-Delft-University-Of-Technology-Tu-Delft=fMd7N1FA8RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Delft University of Technology (TU Delft)&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Netherlands&lt;br/&gt;&lt;p&gt;24 Apr 2026
-Job Information
-Organisation/Company
-Delft University of Technology (TU Delft)
-Research Field
-Engineering » Microengineering
-Physics » Acoustics
-Physics » Optics
-Researcher Profile
-First Stage Researcher (R1)
-Application Deadline
-31 May 2026 - 21:59 (UTC)
-Country
-Netherlands
-Type of...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 02:20:29 +0000</pubDate>
+      <title>THE UNIVERSITY OF HONG KONG</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-THE-UNIVERSITY-OF-HONG-KONG?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-THE-UNIVERSITY-OF-HONG-KONG?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>PhD Position Zeolites for PFAS Removal from Concentrated Waste Streams</title>
-      <link>https://scholarshipdb.net/scholarships-in-Netherlands/Ph-D-Position-Zeolites-For-Pfas-Removal-From-Concentrated-Waste-Streams-Delft-University-Of-Technology-Tu-Delft=8XGpSFFA8RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Netherlands/Ph-D-Position-Zeolites-For-Pfas-Removal-From-Concentrated-Waste-Streams-Delft-University-Of-Technology-Tu-Delft=8XGpSFFA8RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Delft University of Technology (TU Delft)&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Netherlands&lt;br/&gt;&lt;p&gt;24 Apr 2026
-Job Information
-Organisation/Company
-Delft University of Technology (TU Delft)
-Research Field
-Engineering » Chemical engineering
-Engineering » Water resources engineering
-Environmental science » Water science
-Researcher Profile
-First Stage Researcher (R1)
-Application Deadline
-8 Jun...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 02:20:29 +0000</pubDate>
+      <title>Ruhr-Universität Bochum •</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-Ruhr-Universität-Bochum-•?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-Ruhr-Universität-Bochum-•?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>PhD position in chemical complexity of textile production</title>
-      <link>https://scholarshipdb.net/scholarships-in-Netherlands/Ph-D-Position-In-Chemical-Complexity-Of-Textile-Production-Leiden-University=1ROYkVFA8RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Netherlands/Ph-D-Position-In-Chemical-Complexity-Of-Textile-Production-Leiden-University=1ROYkVFA8RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Leiden University&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Netherlands&lt;br/&gt;&lt;p&gt;24 Apr 2026
-Job Information
-Organisation/Company
-Leiden University
-Research Field
-Engineering » Chemical engineering
-Environmental science » Natural resources management
-Researcher Profile
-First Stage Researcher (R1)
-Application Deadline
-25 May 2026 - 21:59 (UTC)
-Country
-Netherlands
-Type of...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 02:20:29 +0000</pubDate>
+      <title>Purdue University</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-Purdue-University?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-Purdue-University?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>PhD Position in Medical Entomology (100%)</title>
-      <link>https://scholarshipdb.net/scholarships-in-Switzerland/Ph-D-Position-In-Medical-Entomology-100-University-Of-Basel=FE71j7E_8RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Switzerland/Ph-D-Position-In-Medical-Entomology-100-University-Of-Basel=FE71j7E_8RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; University of Basel&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Switzerland&lt;br/&gt;&lt;p&gt;The Swiss Tropical and Public Health Institute (Swiss TPH) is a world-leading institute in global health with a particular focus on low- and middle-income countries. Associated with the University of Basel, Swiss TPH combines research, education and services at local, national and international...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 01:30:20 +0000</pubDate>
+      <title>NOVA.id.FCT- Associação para a Inovação de Desenvolvimento da FCT</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-NOVA.id.FCT--Associação-para-a-Inovação-de-Desenvolvimento-da-FCT?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-NOVA.id.FCT--Associação-para-a-Inovação-de-Desenvolvimento-da-FCT?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>PhD position in Experimental Microbiology</title>
-      <link>https://scholarshipdb.net/scholarships-in-Switzerland/Ph-D-Position-In-Experimental-Microbiology-University-Of-Basel=bm2SvbE_8RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Switzerland/Ph-D-Position-In-Experimental-Microbiology-University-Of-Basel=bm2SvbE_8RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; University of Basel&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Switzerland&lt;br/&gt;&lt;p&gt;Your position
-We are offering a PhD position in experimental microbiology to study antibiotic tolerance in
-Mycobacterium abscessus
-, one of the most challenging to treat bacterial pathogens. The position is part of a newly funded international consortium that brings together experts in...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 01:30:20 +0000</pubDate>
+      <title>Manchester Metropolitan University</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-Manchester-Metropolitan-University?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-Manchester-Metropolitan-University?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>PhD Candidate Forensic Psychology 100%</title>
-      <link>https://scholarshipdb.net/scholarships-in-Switzerland/Ph-D-Candidate-Forensic-Psychology-100-University-Of-Basel=9lCSGuM-8RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Switzerland/Ph-D-Candidate-Forensic-Psychology-100-University-Of-Basel=9lCSGuM-8RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; University of Basel&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Switzerland&lt;br/&gt;&lt;p&gt;The Faculty of Psychology is one of seven faculties of the oldest university in Switzerland. With our core focus on Society &amp; Choice and Health &amp; Interventions, we are successful both nationally and internationally in our research and study programs.
-In the newly established research group...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 01:30:20 +0000</pubDate>
+      <title>MASARYK UNIVERSITY</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-MASARYK-UNIVERSITY?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-MASARYK-UNIVERSITY?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>PhD in Physics: MBE growth and experimental studies of Half Metallic Anti-Ferromagnetic thin films</title>
-      <link>https://scholarshipdb.net/scholarships-in-Norway/Ph-D-In-Physics-Mbe-Growth-And-Experimental-Studies-Of-Half-Metallic-Anti-Ferromagnetic-Thin-Films-Ntnu-Norwegian-University-Of-Science-And-Technology=V4tTR5o68RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Norway/Ph-D-In-Physics-Mbe-Growth-And-Experimental-Studies-Of-Half-Metallic-Anti-Ferromagnetic-Thin-Films-Ntnu-Norwegian-University-Of-Science-And-Technology=V4tTR5o68RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; NTNU - Norwegian University of Science and Technology&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Norway&lt;br/&gt;&lt;p&gt;15th May 2026
-Languages
-English
-English
-English
-The Department of Physics has a vacancy for a
-PhD in Physics: MBE growth and experimental studies of Half Metallic Anti-Ferromagnetic thin films
-Apply for this job
-See advertisement
-This is NTNU
-NTNU is a broad-based university with...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 01:24:51 +0000</pubDate>
+      <title>King's College London</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-King's-College-London?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-King's-College-London?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>PhD position within robotics, AI and drones in agriculture</title>
-      <link>https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Position-Within-Robotics-Ai-And-Drones-In-Agriculture-Norwegian-University-Of-Life-Sciences-Nmbu=TaNi_Zo68RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Position-Within-Robotics-Ai-And-Drones-In-Agriculture-Norwegian-University-Of-Life-Sciences-Nmbu=TaNi_Zo68RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Norwegian University of Life Sciences (NMBU)&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Norway&lt;br/&gt;&lt;p&gt;18th May 2026
-Languages
-English
-English
-English
-Would you like to work on next generation drone operations in agriculture?
-PhD position within robotics, AI and drones in agriculture
-Apply for this job
-See advertisement
-About the position
-A PhD position is available in the area of robotics ,...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 01:24:41 +0000</pubDate>
+      <title>Karolinska Institutet, doctoral positions</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-Karolinska-Institutet,-doctoral-positions?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-Karolinska-Institutet,-doctoral-positions?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>PhD Candidate in Human-Centred AI Infrastructure</title>
-      <link>https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Candidate-In-Human-Centred-Ai-Infrastructure-Ntnu-Norwegian-University-Of-Science-And-Technology=BJK4HQ098RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Candidate-In-Human-Centred-Ai-Infrastructure-Ntnu-Norwegian-University-Of-Science-And-Technology=BJK4HQ098RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; NTNU - Norwegian University of Science and Technology&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Norway&lt;br/&gt;&lt;p&gt;11th May 2026
-Languages
-English
-English
-English
-The Department of Computer Science has a vacancy for a
-PhD Candidate in Human-Centred AI Infrastructure
-Apply for this job
-See advertisement
-This is NTNU
-NTNU is a broad-based university with a technical-scientific profile and a focus in...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 01:24:41 +0000</pubDate>
+      <title>International PhD Programme (IPP) Mainz</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-International-PhD-Programme-(IPP)-Mainz?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-International-PhD-Programme-(IPP)-Mainz?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>PhD Candidate in Responsible Innovation and Social Knowledge in Artificial Intelligence</title>
-      <link>https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Candidate-In-Responsible-Innovation-And-Social-Knowledge-In-Artificial-Intelligence-Ntnu-Norwegian-University-Of-Science-And-Technology=ZenhMA098RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Candidate-In-Responsible-Innovation-And-Social-Knowledge-In-Artificial-Intelligence-Ntnu-Norwegian-University-Of-Science-And-Technology=ZenhMA098RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; NTNU - Norwegian University of Science and Technology&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Norway&lt;br/&gt;&lt;p&gt;15th May 2026
-Languages
-English
-English
-English
-The Department of Computer Science has a vacancy for a
-PhD Candidate in Responsible Innovation and Social Knowledge in Artificial Intelligence
-Apply for this job
-See advertisement
-This is NTNU
-NTNU is a broad-based university with...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 01:24:41 +0000</pubDate>
+      <title>Instituto de Investigação e Inovação em Saúde da Universidade do Porto (i3S)</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-Instituto-de-Investigação-e-Inovação-em-Saúde-da-Universidade-do-Porto-(i3S)?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-Instituto-de-Investigação-e-Inovação-em-Saúde-da-Universidade-do-Porto-(i3S)?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>PhD Candidate in Hardware-Aware Deep Learning Model Optimization</title>
-      <link>https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Candidate-In-Hardware-Aware-Deep-Learning-Model-Optimization-Ntnu-Norwegian-University-Of-Science-And-Technology=cunhMA098RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Candidate-In-Hardware-Aware-Deep-Learning-Model-Optimization-Ntnu-Norwegian-University-Of-Science-And-Technology=cunhMA098RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; NTNU - Norwegian University of Science and Technology&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Norway&lt;br/&gt;&lt;p&gt;11th May 2026
-Languages
-English
-English
-English
-The Department of Computer Science has a vacancy for a
-PhD Candidate in Hardware-Aware Deep Learning Model Optimization
-Apply for this job
-See advertisement
-This is NTNU
-NTNU is a broad-based university with a technical-scientific profile and a...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-25&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 01:24:41 +0000</pubDate>
+      <title>Heidelberg University</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-Heidelberg-University?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-Heidelberg-University?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>HBIGS Heidelberg Biosciences International Graduate School</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-HBIGS-Heidelberg-Biosciences-International-Graduate-School?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-HBIGS-Heidelberg-Biosciences-International-Graduate-School?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>Fraunhofer-Gesellschaft</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-Fraunhofer-Gesellschaft?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-Fraunhofer-Gesellschaft?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>University of Tübingen •</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-University-of-Tübingen-•?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-University-of-Tübingen-•?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>University of Newcastle</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-University-of-Newcastle?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-University-of-Newcastle?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>University of Massachusetts Medical School</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-University-of-Massachusetts-Medical-School?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-University-of-Massachusetts-Medical-School?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>University of Florida</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-University-of-Florida?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-University-of-Florida?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>University of Birmingham</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-University-of-Birmingham?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-University-of-Birmingham?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>University of Antwerp</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-University-of-Antwerp?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-University-of-Antwerp?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>University of Amsterdam (UvA)</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-University-of-Amsterdam-(UvA)?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-University-of-Amsterdam-(UvA)?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>Trinity College Dublin</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-Trinity-College-Dublin?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-Trinity-College-Dublin?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>Radboud University Medical Center (Radboudumc)</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-Radboud-University-Medical-Center-(Radboudumc)?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-Radboud-University-Medical-Center-(Radboudumc)?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>Radboud University</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-Radboud-University?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-Radboud-University?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>Queensland University of Technology</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-Queensland-University-of-Technology?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-Queensland-University-of-Technology?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>Helmholtz Zentrum München - Deutsches Forschungszentrum für Gesundheit und Umwelt</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-Helmholtz-Zentrum-München---Deutsches-Forschungszentrum-für-Gesundheit-und-Umwelt?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-Helmholtz-Zentrum-München---Deutsches-Forschungszentrum-für-Gesundheit-und-Umwelt?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>Fundació Hospital Universitari Vall d'Hebron- Institut de recerca</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-Fundació-Hospital-Universitari-Vall-d'Hebron--Institut-de-recerca?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-Fundació-Hospital-Universitari-Vall-d'Hebron--Institut-de-recerca?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>Eindhoven University of Technology (TU/e)</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-Eindhoven-University-of-Technology-(TU/e)?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-Eindhoven-University-of-Technology-(TU/e)?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>Academic Europe</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-Academic-Europe?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-Academic-Europe?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>University of Southern Denmark</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-University-of-Southern-Denmark?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-University-of-Southern-Denmark?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>University of Pittsburgh</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-University-of-Pittsburgh?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-University-of-Pittsburgh?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>University of Göttingen •</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-University-of-Göttingen-•?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-University-of-Göttingen-•?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>Universite de Montpellier</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-Universite-de-Montpellier?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-Universite-de-Montpellier?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>The University of Iowa</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-The-University-of-Iowa?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-The-University-of-Iowa?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>Sveriges Lantbruksuniversitet</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-Sveriges-Lantbruksuniversitet?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-Sveriges-Lantbruksuniversitet?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>NTNU Norwegian University of Science and Technology</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-NTNU-Norwegian-University-of-Science-and-Technology?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-NTNU-Norwegian-University-of-Science-and-Technology?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>NTNU - Norwegian University of Science and Technology</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-NTNU---Norwegian-University-of-Science-and-Technology?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-NTNU---Norwegian-University-of-Science-and-Technology?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>HONG KONG BAPTIST UNIVERSITY</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-HONG-KONG-BAPTIST-UNIVERSITY?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-HONG-KONG-BAPTIST-UNIVERSITY?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>Duke University</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-Duke-University?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-Duke-University?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>University of Cambridge</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-University-of-Cambridge?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-University-of-Cambridge?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>Monash University</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-Monash-University?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-Monash-University?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>Maastricht University (UM)</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-Maastricht-University-(UM)?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-Maastricht-University-(UM)?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>Lunds universitet</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-Lunds-universitet?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-Lunds-universitet?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>Linköping University</title>
+      <link>https://scholarshipdb.net/scholarships/Program-PhD/University-Linköping-University?q=Biology</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD/University-Linköping-University?q=Biology</guid>
+      <description>&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 07:43:43 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
   </channel>

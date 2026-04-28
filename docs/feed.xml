@@ -3,513 +3,39 @@
   <channel>
     <title>PhD Scholarships Feed</title>
     <link>https://awaragml00029-debug.github.io/scholarshipdb</link>
-    <description>370 scholarships</description>
-    <lastBuildDate>Mon, 27 Apr 2026 08:37:33 +0000</lastBuildDate>
+    <description>15 scholarships</description>
+    <lastBuildDate>Tue, 28 Apr 2026 08:30:36 +0000</lastBuildDate>
     <atom:link href="https://awaragml00029-debug.github.io/scholarshipdb/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>Post an Ads</title>
-      <link>https://scholarshipdb.net/posts/new</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/posts/new</guid>
-      <description>&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 08:32:24 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>Nature Careers</title>
-      <link>https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?em=Nature-Careers</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?em=Nature-Careers</guid>
-      <description>&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 08:32:24 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>Luxembourg</title>
-      <link>https://scholarshipdb.net/scholarships-in-Luxembourg</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Luxembourg</guid>
-      <description>&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 08:32:24 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>University of Luxembourg</title>
-      <link>https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?em=University-of-Luxembourg</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?em=University-of-Luxembourg</guid>
-      <description>&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 08:32:24 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>Medical Sciences</title>
-      <link>https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Medical Sciences</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Medical Sciences</guid>
-      <description>&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 08:32:24 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>Materials Science</title>
-      <link>https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Materials Science</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Materials Science</guid>
-      <description>&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 08:32:24 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>Engineering</title>
-      <link>https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Engineering</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Engineering</guid>
-      <description>&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 08:32:24 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>Earth Sciences</title>
-      <link>https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Earth Sciences</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Earth Sciences</guid>
-      <description>&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 08:32:24 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>Biology</title>
-      <link>https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Biology</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Biology</guid>
-      <description>&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 08:32:24 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>Science</title>
-      <link>https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Science</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Science</guid>
-      <description>&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 08:32:24 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>Mathematics</title>
-      <link>https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Mathematics</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Mathematics</guid>
-      <description>&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 08:32:24 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>Business</title>
-      <link>https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Business</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Business</guid>
-      <description>&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 08:32:24 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>Economics</title>
-      <link>https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Economics</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Economics</guid>
-      <description>&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 08:32:24 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>Computer Science</title>
-      <link>https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Computer Science</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?q=Computer Science</guid>
-      <description>&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 08:32:24 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>Luxembourg Institute of Science and Technology</title>
-      <link>https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD/University-Luxembourg-Institute-of-Science-and-Technology</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD/University-Luxembourg-Institute-of-Science-and-Technology</guid>
-      <description>&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 08:32:24 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>Nature Careers</title>
-      <link>https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD/University-Nature-Careers</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD/University-Nature-Careers</guid>
-      <description>&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 08:32:24 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>University of Luxembourg</title>
-      <link>https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD/University-University-of-Luxembourg</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD/University-University-of-Luxembourg</guid>
-      <description>&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 08:32:24 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>Remove All</title>
-      <link>https://scholarshipdb.net/scholarships</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships</guid>
-      <description>&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 08:32:24 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>Luxembourg</title>
-      <link>https://scholarshipdb.net/scholarships/Program-PhD</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-PhD</guid>
-      <description>&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 08:32:24 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>listed</title>
-      <link>https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?st=listed</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Luxembourg/Program-PhD?st=listed</guid>
-      <description>&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 08:32:24 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>Undergraduate</title>
-      <link>https://scholarshipdb.net/Undergraduate-scholarships</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/Undergraduate-scholarships</guid>
-      <description>&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 08:32:24 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>Master</title>
-      <link>https://scholarshipdb.net/Master-scholarships</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/Master-scholarships</guid>
-      <description>&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 08:32:24 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>Browse</title>
-      <link>https://scholarshipdb.net/scholarships-browse</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-browse</guid>
-      <description>&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 08:32:24 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>Blogs</title>
-      <link>https://scholarshipdb.net/blogs</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/blogs</guid>
-      <description>&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 08:32:24 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>Universities</title>
-      <link>https://scholarshipdb.net/universities</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/universities</guid>
-      <description>&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 08:32:24 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>Undergraduate</title>
-      <link>https://scholarshipdb.net/scholarships/Program-Undergraduate</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-Undergraduate</guid>
-      <description>&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 08:32:24 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>Master</title>
-      <link>https://scholarshipdb.net/scholarships/Program-Master</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships/Program-Master</guid>
-      <description>&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 08:32:24 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>Postdoctoral</title>
-      <link>https://scholarshipdb.net/Postdoctoral-scholarships</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/Postdoctoral-scholarships</guid>
-      <description>&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 08:32:24 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>ScholarshipDb.Net</title>
-      <link>https://scholarshipdb.net/</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/</guid>
-      <description>&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 08:32:24 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>PhD Positions in Responsible AI</title>
-      <link>https://scholarshipdb.net/scholarships-in-Austria/Ph-D-Positions-In-Responsible-Ai-University-Of-Vienna=ZVqXFqs88RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Austria/Ph-D-Positions-In-Responsible-Ai-University-Of-Vienna=ZVqXFqs88RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; University of Vienna&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Austria&lt;br/&gt;&lt;p&gt;At the University of Vienna, almost 11,000 people work together on the big questions of the future. Approximately 7,700 of them are academic staff members. These are individuals who, with their curiosity and their continuous pursuit of excellence, engage in international cutting-edge research...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 07:34:41 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>PhD position in Experimental Physics with focus on Space Weather Modeling</title>
-      <link>https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Position-In-Experimental-Physics-With-Focus-On-Space-Weather-Modeling-Ume-University=eqoppzs18RG_6gzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Position-In-Experimental-Physics-With-Focus-On-Space-Weather-Modeling-Ume-University=eqoppzs18RG_6gzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Umeå University&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Sweden&lt;br/&gt;&lt;p&gt;Umeå University is one of Sweden’s largest higher education institutions with over 41,500 students and about 4,600 employees. The University offers a diversity of high-quality education and world-leading research in several fields. Notably, the groundbreaking discovery of the CRISPR-Cas9...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 05:31:01 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>PhD-student</title>
-      <link>https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Student-Ume-University=iFxXDZ838RG_6gzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Student-Ume-University=iFxXDZ838RG_6gzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Umeå University&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Sweden&lt;br/&gt;&lt;p&gt;Umeå University is one of Sweden’s largest higher education institutions with over 41,500 students and about 4,600 employees. The University offers a diversity of high-quality education and world-leading research in several fields. Notably, the groundbreaking discovery of the CRISPR-Cas9...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 05:30:54 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>PhD position in medical science with a specialization in bioinformatics</title>
-      <link>https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Position-In-Medical-Science-With-A-Specialization-In-Bioinformatics-Ume-University=0km71vk98RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Position-In-Medical-Science-With-A-Specialization-In-Bioinformatics-Ume-University=0km71vk98RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Umeå University&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Sweden&lt;br/&gt;&lt;p&gt;Umeå University is one of Sweden’s largest higher education institutions with over 41,500 students and about 4,600 employees. The University offers a diversity of high-quality education and world-leading research in several fields. Notably, the groundbreaking discovery of the CRISPR-Cas9...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 05:30:46 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>PhD position in cellbiology</title>
-      <link>https://scholarshipdb.net/scholarships-in-Germany/Ph-D-Position-In-Cell-Biology-Technical-University-Of-Munich=xBDpKoUt8RG_6gzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Germany/Ph-D-Position-In-Cell-Biology-Technical-University-Of-Munich=xBDpKoUt8RG_6gzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Technical University of Munich&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Germany&lt;br/&gt;&lt;p&gt;with their environment. We use an interdisciplinary approach from protein biochemistry to cellbiologyto analyze the machinery and mechanisms that monitor cellular protein biogenesis.
-THE PROJECT&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 05:29:27 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>PhD Position in SyntheticBiologyand Metabolic Engineering (m/f/d, E13 TV-L, 65%)</title>
-      <link>https://scholarshipdb.net/scholarships-in-Germany/Ph-D-Position-In-Synthetic-Biology-And-Metabolic-Engineering-M-F-D-E13-Tv-L-65-University-Of-T-bingen=iE0TB1A38RG_6gzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Germany/Ph-D-Position-In-Synthetic-Biology-And-Metabolic-Engineering-M-F-D-E13-Tv-L-65-University-Of-T-bingen=iE0TB1A38RG_6gzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; University of Tübingen&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; T bingen, Baden W rttemberg&lt;br/&gt;&lt;p&gt;Biologyand
-Metabolic Engineering (m/f/d, E13 TV-L, 65%)
-to be filled as soon as possible. The position is initially limited to three years.
-The research group headed by Prof. Dr. Hannes Link&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 05:29:27 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>PhD position in MolecularBiology</title>
-      <link>https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Position-In-Molecular-Biology-Ume-University=t1j7IzQp8RG_6gzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Position-In-Molecular-Biology-Ume-University=t1j7IzQp8RG_6gzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Umeå University&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Sweden&lt;br/&gt;&lt;p&gt;education to enable regions to expand quickly and sustainably. In fact, the future is made here.
-We are looking for a PhD student in MolecularBiologywith a special interest in intracellular host-pathogen&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 05:29:17 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>PhD position in Data driven epidemiology andbiologyof infection</title>
-      <link>https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Position-In-Data-Driven-Epidemiology-And-Biology-Of-Infection-Ume-University=sWt9nwA68RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Position-In-Data-Driven-Epidemiology-And-Biology-Of-Infection-Ume-University=sWt9nwA68RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Umeå University&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Sweden&lt;br/&gt;&lt;p&gt;education to enable regions to expand quickly and sustainably. In fact, the future is made here.
-The Department of MolecularBiology/Umeå university, are searching for a DDLS PhD student in Data driven&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 05:29:09 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>PhD Candidate in Data-driven optimization for Energy Communities</title>
-      <link>https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Candidate-In-Data-Driven-Optimization-For-Energy-Communities-Ntnu-Norwegian-University-Of-Science-And-Technology=cIHqTkNA8RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Candidate-In-Data-Driven-Optimization-For-Energy-Communities-Ntnu-Norwegian-University-Of-Science-And-Technology=cIHqTkNA8RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; NTNU - Norwegian University of Science and Technology&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Norway&lt;br/&gt;&lt;p&gt;19th June 2026
+      <title>PhD Candidate inCancerNeuroscience</title>
+      <link>https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Candidate-In-Cancer-Neuroscience-Ntnu-Norwegian-University-Of-Science-And-Technology=7vxWZLFC8RG_6wzEeuBOuw</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Candidate-In-Cancer-Neuroscience-Ntnu-Norwegian-University-Of-Science-And-Technology=7vxWZLFC8RG_6wzEeuBOuw</guid>
+      <description>&lt;strong&gt;Country:&lt;/strong&gt; Norway&lt;br/&gt;&lt;p&gt;15th May 2026
 Languages
 English
 English
 English
-We are looking for a PhD candidate at the Department of Engineering Cybernetics
-PhD Candidate in Data-driven optimization for Energy Communities
+The Department of Clinical and Molecular Medicine has a vacancy for a
+PhD Candidate inCancerNeuroscience
 Apply for this job
-See advertisement
-This is NTNU
-NTNU is a broad-based university with...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 03:33:07 +0000</pubDate>
+See advertisement&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-28&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Tue, 28 Apr 2026 03:26:21 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>PhD Candidate in CellBiology/Innate Immunity</title>
-      <link>https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Candidate-In-Cell-Biology-Innate-Immunity-Ntnu-Norwegian-University-Of-Science-And-Technology=ohjaRnQ-8RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Candidate-In-Cell-Biology-Innate-Immunity-Ntnu-Norwegian-University-Of-Science-And-Technology=ohjaRnQ-8RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; NTNU - Norwegian University of Science and Technology&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Norway&lt;br/&gt;&lt;p&gt;7th May 2026
+      <title>PhD Candidate inCancerNeuroscience</title>
+      <link>https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Candidate-In-Cancer-Neuroscience-Ntnu-Norwegian-University-Of-Science-And-Technology=7vxWZLFC8RG_6wzEeuBOuw</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Norway/Ph-D-Candidate-In-Cancer-Neuroscience-Ntnu-Norwegian-University-Of-Science-And-Technology=7vxWZLFC8RG_6wzEeuBOuw</guid>
+      <description>&lt;strong&gt;Country:&lt;/strong&gt; Norway&lt;br/&gt;&lt;p&gt;15th May 2026
 Languages
 English
 English
 English
-We are looking for a
-PhD Candidate in CellBiology/Innate Immunity
+The Department of Clinical and Molecular Medicine has a vacancy for a
+PhD Candidate inCancerNeuroscience
 Apply for this job
-See advertisement
-This is NTNU
-NTNU is a broad-based university&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 03:29:09 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>PhD position in Experimental Microbiology</title>
-      <link>https://scholarshipdb.net/scholarships-in-Switzerland/Ph-D-Position-In-Experimental-Microbiology-University-Of-Basel=bm2SvbE_8RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Switzerland/Ph-D-Position-In-Experimental-Microbiology-University-Of-Basel=bm2SvbE_8RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; University of Basel&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Switzerland&lt;br/&gt;&lt;p&gt;Your position
-We are offering a PhD position in experimental microbiology to study antibiotic tolerance in
-Mycobacterium abscessus
-, one of the most challenging to treat bacterial pathogens. The position is part of a newly funded international consortium that brings together experts in...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 02:36:53 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>PhD Position in Medical Entomology (100%)</title>
-      <link>https://scholarshipdb.net/scholarships-in-Switzerland/Ph-D-Position-In-Medical-Entomology-100-University-Of-Basel=FE71j7E_8RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Switzerland/Ph-D-Position-In-Medical-Entomology-100-University-Of-Basel=FE71j7E_8RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; University of Basel&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Switzerland&lt;br/&gt;&lt;p&gt;The Swiss Tropical and Public Health Institute (Swiss TPH) is a world-leading institute in global health with a particular focus on low- and middle-income countries. Associated with the University of Basel, Swiss TPH combines research, education and services at local, national and international...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 02:36:53 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>PhD Candidate Forensic Psychology 100%</title>
-      <link>https://scholarshipdb.net/scholarships-in-Switzerland/Ph-D-Candidate-Forensic-Psychology-100-University-Of-Basel=9lCSGuM-8RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Switzerland/Ph-D-Candidate-Forensic-Psychology-100-University-Of-Basel=9lCSGuM-8RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; University of Basel&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Switzerland&lt;br/&gt;&lt;p&gt;The Faculty of Psychology is one of seven faculties of the oldest university in Switzerland. With our core focus on Society &amp; Choice and Health &amp; Interventions, we are successful both nationally and internationally in our research and study programs.
-In the newly established research group...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 02:36:53 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>PhD in Computer Science</title>
-      <link>https://scholarshipdb.net/scholarships-in-Belgium/Ph-D-In-Computer-Science-Vrije-Universiteit-Brussel=118TBoUs8RG_6gzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Belgium/Ph-D-In-Computer-Science-Vrije-Universiteit-Brussel=118TBoUs8RG_6gzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Vrije Universiteit Brussel&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Belgium&lt;br/&gt;&lt;p&gt;The Faculty of Sciences and Bioengineering Sciences, Department Computer Science, is looking for a PhD-student with a doctoral grant.
-More concretely your work package, for the preparation of a doctorate, contains:
-Reinforcement Learning for Public Health Decision Support in Emerging Arbovirus...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 02:31:43 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>PhD Scholarship in Autonomous Mobility and AI</title>
-      <link>https://scholarshipdb.net/scholarships-in-Belgium/Ph-D-Scholarship-In-Autonomous-Mobility-And-Ai-Vrije-Universiteit-Brussel=MzWC1sA68RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Belgium/Ph-D-Scholarship-In-Autonomous-Mobility-And-Ai-Vrije-Universiteit-Brussel=MzWC1sA68RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Vrije Universiteit Brussel&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Belgium&lt;br/&gt;&lt;p&gt;The Faculty of Social Sciences and Solvay Business School, Department Business Technology and Operations, Research Group Data Analytics Lab is looking for a PhD-student with a doctoral grant.
-More concretely your work package, for the preparation of a doctorate, contains:
-You conduct research...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 02:31:28 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>PhD position TEMPORALAW project</title>
-      <link>https://scholarshipdb.net/scholarships-in-Belgium/Ph-D-Position-Temporalaw-Project-Vrije-Universiteit-Brussel=9Fhs6n0-8RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Belgium/Ph-D-Position-Temporalaw-Project-Vrije-Universiteit-Brussel=9Fhs6n0-8RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Vrije Universiteit Brussel&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Belgium&lt;br/&gt;&lt;p&gt;The Faculty of Law and Criminology, Department Public Sector Law, Research Group Brussels Centre for Law, Government and Society is looking for a PhD-student with a doctoral grant.
-More concretely your work package, for the preparation of a doctorate, contains:
-Project description
-Recent years...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 02:31:28 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>PhD student in Large Language Models, Innovation, and Science</title>
-      <link>https://scholarshipdb.net/scholarships-in-Belgium/Ph-D-Student-In-Large-Language-Models-Innovation-And-Science-Vrije-Universiteit-Brussel=QFpr8H0-8RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Belgium/Ph-D-Student-In-Large-Language-Models-Innovation-And-Science-Vrije-Universiteit-Brussel=QFpr8H0-8RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Vrije Universiteit Brussel&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Belgium&lt;br/&gt;&lt;p&gt;The Faculty of Social Sciences and Solvay Business School, Department Business Technology and Operations, Research Group Data Analytics Lab is looking for a PhD-student with a doctoral grant.
-More concretely your work package, for the preparation of a doctorate, contains:
-You conduct research...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 02:31:28 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>PhD position in Data Driven Life Sciences</title>
-      <link>https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Position-In-Data-Driven-Life-Sciences-Sci-Life-Lab=D-88aSM18RG_6gzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Position-In-Data-Driven-Life-Sciences-Sci-Life-Lab=D-88aSM18RG_6gzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; SciLifeLab&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Sweden&lt;br/&gt;&lt;p&gt;Umeå University, Faculty Office of Medicine
-Umeå University is one of Sweden’s largest higher education institutions with over 41,500 students and about 4,600 employees. The University offers a diversity of high-quality education and world-leading research in several fields. Notably, the...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 02:31:01 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>PhD Student: DDLS integrative pangenomics of polyploids</title>
-      <link>https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Student-Ddls-Integrative-Pangenomics-Of-Polyploids-Sci-Life-Lab=vwa1zYM38RG_6gzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Student-Ddls-Integrative-Pangenomics-Of-Polyploids-Sci-Life-Lab=vwa1zYM38RG_6gzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; SciLifeLab&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Sweden&lt;br/&gt;&lt;p&gt;Uppsala, Referensnummer SLU.ua.2026.2.5.1-1126
-Department of Plant Biology
-The Department of Plant Biology offers a stimulating international environment in the Uppsala BioCenter. In our department, fundamental and strategic plant biology research is conducted on wild species, agricultural...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 02:30:54 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>DDLS Industry PhD Student in Data-driven Precision Medicine and Diagnostics</title>
-      <link>https://scholarshipdb.net/scholarships-in-Sweden/Ddls-Industry-Ph-D-Student-In-Data-Driven-Precision-Medicine-And-Diagnostics-Sci-Life-Lab=cB0NY3w78RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Sweden/Ddls-Industry-Ph-D-Student-In-Data-Driven-Precision-Medicine-And-Diagnostics-Sci-Life-Lab=cB0NY3w78RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; SciLifeLab&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Sweden&lt;br/&gt;&lt;p&gt;Join MultiD Analyses AB and the University of Gothenburg to develop innovative bioinformatics and machine learning methods for RNA Fragmentomics, with the ambition to improve cancer care through data-driven diagnostics.
-About the project
-Cancer treatment often involves surgery, chemotherapy, and...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 02:30:46 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>PhD student in biomedical engineering, deep learning for medical images</title>
-      <link>https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Student-In-Biomedical-Engineering-Deep-Learning-For-Medical-Images-Sci-Life-Lab=pecCFhU98RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Student-In-Biomedical-Engineering-Deep-Learning-For-Medical-Images-Sci-Life-Lab=pecCFhU98RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; SciLifeLab&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Sweden&lt;br/&gt;&lt;p&gt;Ref IMT-2026-00023
-We have the power of over 50,000 students and co-workers. Students who provide hope for the future. Co-workers who contribute to Linköping University meeting challenges of today. Our fundamental values rest on credibility, trust and security. By having the courage to think...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 02:30:46 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>PhD student in deep-learning based image analysis for RNA Therapeutics</title>
-      <link>https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Student-In-Deep-Learning-Based-Image-Analysis-For-Rna-Therapeutics-Sci-Life-Lab=gMS0260_8RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Student-In-Deep-Learning-Based-Image-Analysis-For-Rna-Therapeutics-Sci-Life-Lab=gMS0260_8RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; SciLifeLab&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Sweden&lt;br/&gt;&lt;p&gt;Lund University, Faculty of Medicine, Department of Clinical Sciences, Lund
-Lund University was founded in 1666 and is repeatedly ranked among the world’s top universities. The University has around 46 000 students and 8 500 staff based in Lund, Helsingborg and Malmö. We are united in our...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 02:30:38 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>Doctoral (PhD) student position in data-driven precision medicine within epidemiology and dementia</title>
-      <link>https://scholarshipdb.net/scholarships-in-Sweden/Doctoral-Ph-D-Student-Position-In-Data-Driven-Precision-Medicine-Within-Epidemiology-And-Dementia-Sci-Life-Lab=hEaZQK4_8RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Sweden/Doctoral-Ph-D-Student-Position-In-Data-Driven-Precision-Medicine-Within-Epidemiology-And-Dementia-Sci-Life-Lab=hEaZQK4_8RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; SciLifeLab&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Sweden&lt;br/&gt;&lt;p&gt;The Department of Medical Epidemiology and Biostatistics conducts research in epidemiology and biostatistics across a broad range of areas within biomedical science. The department is among the largest of its type in Europe and has especially strong research profiles in psychiatric, cancer,...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 02:30:38 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>PhD student in Data-driven precision medicine and diagnostics</title>
-      <link>https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Student-In-Data-Driven-Precision-Medicine-And-Diagnostics-Sci-Life-Lab=PK1GoK4_8RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Student-In-Data-Driven-Precision-Medicine-And-Diagnostics-Sci-Life-Lab=PK1GoK4_8RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; SciLifeLab&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Sweden&lt;br/&gt;&lt;p&gt;Data-driven life science (DDLS) uses data, computational methods and artificial intelligence to study biological systems and processes at all levels, from molecular structures and cellular processes to human health and global ecosystems. The SciLifeLab and Wallenberg National Program for...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 02:30:38 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>PhD position in medical science with a specialization in bioinformatics</title>
-      <link>https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Position-In-Medical-Science-With-A-Specialization-In-Bioinformatics-Sci-Life-Lab=My-Zzq4_8RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Position-In-Medical-Science-With-A-Specialization-In-Bioinformatics-Sci-Life-Lab=My-Zzq4_8RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; SciLifeLab&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Sweden&lt;br/&gt;&lt;p&gt;Umeå University, Faculty Office of Medicine
-Umeå University is one of Sweden’s largest higher education institutions with over 41,500 students and about 4,600 employees. The University offers a diversity of high-quality education and world-leading research in several fields. Notably, the...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 02:30:38 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>Industrial PhD student in Bioinformatics</title>
-      <link>https://scholarshipdb.net/scholarships-in-Sweden/Industrial-Ph-D-Student-In-Bioinformatics-Sci-Life-Lab=c7g2qHw-8RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Sweden/Industrial-Ph-D-Student-In-Bioinformatics-Sci-Life-Lab=c7g2qHw-8RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; SciLifeLab&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Sweden&lt;br/&gt;&lt;p&gt;DDLS industrial PhD position
-We are announcing a position for a Data-Driven Life Science (DDLS) PhD student in data-driven precision medicine and diagnostics. To be a doctoral student means to devote oneself to a research project under supervision of experienced researchers and following an...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 02:30:38 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>PhD student in Computerised Image Processing with focus on Machine Learning for Data-Driven Precision Medicine and Diagnostics</title>
-      <link>https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Student-In-Computerised-Image-Processing-With-Focus-On-Machine-Learning-For-Data-Driven-Precision-Medicine-And-Diagnostics-Sci-Life-Lab=VZRKgUdA8RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Student-In-Computerised-Image-Processing-With-Focus-On-Machine-Learning-For-Data-Driven-Precision-Medicine-And-Diagnostics-Sci-Life-Lab=VZRKgUdA8RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; SciLifeLab&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Sweden&lt;br/&gt;&lt;p&gt;Are you interested in developing new image analysis and machine learning methods for cancer diagnostics and clinical decision support? Would you like to work in a multidisciplinary team together with competent and friendly colleagues in an international environment? Are you looking for an...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 02:30:30 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>PhD student in AI-driven digital phenotyping and genomics</title>
-      <link>https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Student-In-Ai-Driven-Digital-Phenotyping-And-Genomics-Sci-Life-Lab=IGnokkdA8RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Student-In-Ai-Driven-Digital-Phenotyping-And-Genomics-Sci-Life-Lab=IGnokkdA8RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; SciLifeLab&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Sweden&lt;br/&gt;&lt;p&gt;Department of Animal Biosciences
-Technology
-Description of the doctoral project: Data-driven life science (DDLS) uses data, computational methods and artificial intelligence to study biological systems across scales, from molecular processes to ecosystems. The DDLS program aims to train the next...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 02:30:30 +0000</pubDate>
+See advertisement&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-28&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Tue, 28 Apr 2026 03:26:16 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
@@ -518,429 +44,155 @@ Description of the doctoral project: Data-driven life science (DDLS) uses data,
       <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Sweden/Industrial-Ph-D-Student-In-Data-Driven-Modeling-Of-Human-Biology-Sci-Life-Lab=FWnokkdA8RG_6wzEeuBOuw</guid>
       <description>&lt;strong&gt;Country:&lt;/strong&gt; Sweden&lt;br/&gt;&lt;p&gt;Join ABC Labs and KTH as an Industrial PhD Student to build data-driven models of humanbiologywith multimodal health data — interdisciplinary impact, real-world healthcare.
 About the role
-We&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 02:28:57 +0000</pubDate>
+We&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-28&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Tue, 28 Apr 2026 02:28:06 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
       <title>Doctoral (PhD) student position in spatial transcriptomics, bioinformatics, andcancerimmunology as part of the national DDLS PhD program</title>
       <link>https://scholarshipdb.net/scholarships-in-Sweden/Doctoral-Ph-D-Student-Position-In-Spatial-Transcriptomics-Bioinformatics-And-Cancer-Immunology-As-Part-Of-The-National-Ddls-Ph-D-Program-Sci-Life-Lab=fN8pC64_8RG_6wzEeuBOuw</link>
       <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Sweden/Doctoral-Ph-D-Student-Position-In-Spatial-Transcriptomics-Bioinformatics-And-Cancer-Immunology-As-Part-Of-The-National-Ddls-Ph-D-Program-Sci-Life-Lab=fN8pC64_8RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;Country:&lt;/strong&gt; Sweden&lt;br/&gt;&lt;p&gt;supervisor Dr. Camilla Engblom and co-supervisor Dr. Joakim Lundeberg, in the intersection of spatial transcriptomics, bioinformatics,cancerimmunology, with the ultimate goal to understand tumor-associated&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 02:27:17 +0000</pubDate>
+      <description>&lt;strong&gt;Country:&lt;/strong&gt; Sweden&lt;br/&gt;&lt;p&gt;supervisor Dr. Camilla Engblom and co-supervisor Dr. Joakim Lundeberg, in the intersection of spatial transcriptomics, bioinformatics,cancerimmunology, with the ultimate goal to understand tumor-associated&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-28&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Tue, 28 Apr 2026 02:26:21 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
       <title>Doctoral (PhD) student position in spatial transcriptomics, bioinformatics, andcancerimmunology as part of the national DDLS PhD program</title>
       <link>https://scholarshipdb.net/scholarships-in-Sweden/Doctoral-Ph-D-Student-Position-In-Spatial-Transcriptomics-Bioinformatics-And-Cancer-Immunology-As-Part-Of-The-National-Ddls-Ph-D-Program-Sci-Life-Lab=fN8pC64_8RG_6wzEeuBOuw</link>
       <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Sweden/Doctoral-Ph-D-Student-Position-In-Spatial-Transcriptomics-Bioinformatics-And-Cancer-Immunology-As-Part-Of-The-National-Ddls-Ph-D-Program-Sci-Life-Lab=fN8pC64_8RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;Country:&lt;/strong&gt; Sweden&lt;br/&gt;&lt;p&gt;supervisor Dr. Camilla Engblom and co-supervisor Dr. Joakim Lundeberg, in the intersection of spatial transcriptomics, bioinformatics,cancerimmunology, with the ultimate goal to understand tumor-associated&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 02:27:13 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>PhD Position in Human–Robot Interaction in Clinical Practice (HCC)</title>
-      <link>https://scholarshipdb.net/scholarships-in-Denmark/Ph-D-Position-In-Human-Robot-Interaction-In-Clinical-Practice-Hcc-Aalborg-University=YpGF-58k8RG_6gzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Denmark/Ph-D-Position-In-Human-Robot-Interaction-In-Clinical-Practice-Hcc-Aalborg-University=YpGF-58k8RG_6gzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Aalborg University&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Denmark&lt;br/&gt;&lt;p&gt;PhD Position in Human–Robot Interaction in Clinical Practice
-Join Aalborg University in exploring the future of human-robot interaction and collaboration in healthcare. At the Faculty of IT and Design, Department of Computer Science, we invite applications for a PhD position in Human-Robot...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sun, 26 Apr 2026 23:36:01 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>PhD Stipends/Integrated Stipends in  Machine Learning for Intelligent Hearing Assistance in Complex Acoustic Environments</title>
-      <link>https://scholarshipdb.net/scholarships-in-Denmark/Ph-D-Stipends-Integrated-Stipends-In-Machine-Learning-For-Intelligent-Hearing-Assistance-In-Complex-Acoustic-Environments-Aalborg-University=eW-aMUsq8RG_6gzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Denmark/Ph-D-Stipends-Integrated-Stipends-In-Machine-Learning-For-Intelligent-Hearing-Assistance-In-Complex-Acoustic-Environments-Aalborg-University=eW-aMUsq8RG_6gzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Aalborg University&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Denmark&lt;br/&gt;&lt;p&gt;The Department of Electronic Systems at The Technical Faculty of IT and Design invites applications for PhD stipends or integrated stipends in the field of Machine Learning for Intelligent Hearing Assistance in Complex Acoustic Environments within the general study programme Electrical and...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sun, 26 Apr 2026 23:35:53 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>PhD Stipend in Semantic GNSS Reflectometry (GNSS-R) for  Scalable Real-Time Earth Observation</title>
-      <link>https://scholarshipdb.net/scholarships-in-Denmark/Ph-D-Stipend-In-Semantic-Gnss-Reflectometry-Gnss-R-For-Scalable-Real-Time-Earth-Observation-Aalborg-University=cpZfl5It8RG_6gzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Denmark/Ph-D-Stipend-In-Semantic-Gnss-Reflectometry-Gnss-R-For-Scalable-Real-Time-Earth-Observation-Aalborg-University=cpZfl5It8RG_6gzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Aalborg University&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Denmark&lt;br/&gt;&lt;p&gt;At the Technical Faculty of IT and Design, Department of Sustainability and Planning (PLAN), a PhD stipend is available within the general study programme Planning and Development. The stipend is open for appointment from 1 October 2026 or soon hereafter. PLAN conducts research and teaching on...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sun, 26 Apr 2026 23:35:53 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>PhD position in Human-Centric Generative AI for Building Design and Controls</title>
-      <link>https://scholarshipdb.net/scholarships-in-Denmark/Ph-D-Position-In-Human-Centric-Generative-Ai-For-Building-Design-And-Controls-Aalborg-University=aFk2bF438RG_6gzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Denmark/Ph-D-Position-In-Human-Centric-Generative-Ai-For-Building-Design-And-Controls-Aalborg-University=aFk2bF438RG_6gzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Aalborg University&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Denmark&lt;br/&gt;&lt;p&gt;Be part of the future of creativity support for professionals at Aalborg University!
-This interdisciplinary project investigates how generative AI can be incorporated into the building design and operation process. Particularly, we seek to support architects to design more sustainable buildings...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sun, 26 Apr 2026 23:35:44 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>PhD Stipend in Human Centered AI and Educational Technology</title>
-      <link>https://scholarshipdb.net/scholarships-in-Denmark/Ph-D-Stipend-In-Human-Centered-Ai-And-Educational-Technology-Aalborg-University=Z5CGpC448RG_6gzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Denmark/Ph-D-Stipend-In-Human-Centered-Ai-And-Educational-Technology-Aalborg-University=Z5CGpC448RG_6gzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Aalborg University&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Denmark&lt;br/&gt;&lt;p&gt;We are searching for a highly motivated PhD candidate to conduct research on the design, development, integration, and evaluation of a multimodal, Socratic AI tutor for novice programmers within Aalborg University’s problem-based learning (PBL) model.
-The position is anchored in the...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sun, 26 Apr 2026 23:35:44 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>PhD Position in Urban Social Resilience within Sustainability and Planning</title>
-      <link>https://scholarshipdb.net/scholarships-in-Denmark/Ph-D-Position-In-Urban-Social-Resilience-Within-Sustainability-And-Planning-Aalborg-University=CIgXe8M98RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Denmark/Ph-D-Position-In-Urban-Social-Resilience-Within-Sustainability-And-Planning-Aalborg-University=CIgXe8M98RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Aalborg University&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Denmark&lt;br/&gt;&lt;p&gt;Description of the Position
-Aalborg University invites applications for a PhD position in Sustainability and Planning Research focusing on urban resilience from a systemic and planning-oriented perspective. The PhD project explores the dynamic relationships between people, places, and material...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sun, 26 Apr 2026 23:35:36 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>One or more PhD stipends at the Center for Neuroplasticity and Pain (CNAP)</title>
-      <link>https://scholarshipdb.net/scholarships-in-Denmark/One-Or-More-Ph-D-Stipends-At-The-Center-For-Neuroplasticity-And-Pain-Cnap-Aalborg-University=TKvDEMY98RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Denmark/One-Or-More-Ph-D-Stipends-At-The-Center-For-Neuroplasticity-And-Pain-Cnap-Aalborg-University=TKvDEMY98RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Aalborg University&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Denmark&lt;br/&gt;&lt;p&gt;Are you enthusiastic about basic human pain research? The Center for Neuroplasticity and Pain (CNAP) at Aalborg University is recruiting several PhD fellows, to start 1st of September 2026 or soon hereafter.
-Who are we?
-CNAP strive to identify and modulate key features of human pain...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sun, 26 Apr 2026 23:35:36 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>PhD Stipend in Ecology of Ponds</title>
-      <link>https://scholarshipdb.net/scholarships-in-Denmark/Ph-D-Stipend-In-Ecology-Of-Ponds-Aalborg-University=uVhBRV4-8RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Denmark/Ph-D-Stipend-In-Ecology-Of-Ponds-Aalborg-University=uVhBRV4-8RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Aalborg University&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Denmark&lt;br/&gt;&lt;p&gt;Do you want to get to the bottom of biodiversity in ponds and lakes? And do you see yourself as a team player with strong collaborative skills? If yes, we look forward to reading your application to our PhD Stipend.
-At the Faculty of Engineering and Science, Department of Chemistry and...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sun, 26 Apr 2026 23:35:30 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>PhD in Thermally Driven Membrane Processes for Water Treatment and Resource Recovery Applications</title>
-      <link>https://scholarshipdb.net/scholarships-in-Denmark/Ph-D-In-Thermally-Driven-Membrane-Processes-For-Water-Treatment-And-Resource-Recovery-Applications-Aalborg-University=ryQJjF4-8RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Denmark/Ph-D-In-Thermally-Driven-Membrane-Processes-For-Water-Treatment-And-Resource-Recovery-Applications-Aalborg-University=ryQJjF4-8RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Aalborg University&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Denmark&lt;br/&gt;&lt;p&gt;At the Faculty of Engineering and Science, AAU Energy, a position as PhD stipend is available within the general study program. The stipend is open for appointment from 1. July 2026 or soon hereafter. The duration of the position is three years.
-Your work tasks
-In this PhD position, you will...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sun, 26 Apr 2026 23:35:30 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>PhD in synthesis and characterization of future magnetic materials</title>
-      <link>https://scholarshipdb.net/scholarships-in-Denmark/Ph-D-In-Synthesis-And-Characterization-Of-Future-Magnetic-Materials-Aalborg-University=xClQt2A-8RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Denmark/Ph-D-In-Synthesis-And-Characterization-Of-Future-Magnetic-Materials-Aalborg-University=xClQt2A-8RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Aalborg University&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Denmark&lt;br/&gt;&lt;p&gt;NOMAGIC is an ambitious project funded by Carlsberg foundation intending to make future magnetic materials with low or no use of rare earth elements. The project is interdisciplinary and has collaborators from AU Chemistry and DTU Physics and DTU Energy.
-At the Faculty of Engineering and...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sun, 26 Apr 2026 23:35:30 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>Phd stipend in in machine learning methods for the analysis of IoT time-series data.</title>
-      <link>https://scholarshipdb.net/scholarships-in-Denmark/Phd-Stipend-In-In-Machine-Learning-Methods-For-The-Analysis-Of-Io-T-Time-Series-Data-Aalborg-University=NOjB7GA-8RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Denmark/Phd-Stipend-In-In-Machine-Learning-Methods-For-The-Analysis-Of-Io-T-Time-Series-Data-Aalborg-University=NOjB7GA-8RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Aalborg University&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Denmark&lt;br/&gt;&lt;p&gt;PhD Stipend in machine learning methods for the analysis of IoT time-series data.
-At the Technical Faculty of IT and Design, Department of Computer Science, one PhD stipend in machine learning methods for the analysis of IoT time-series data is available within the general study programme...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sun, 26 Apr 2026 23:35:30 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>PhD Stipend in Predictive Protein Extractability</title>
-      <link>https://scholarshipdb.net/scholarships-in-Denmark/Ph-D-Stipend-In-Predictive-Protein-Extractability-Aalborg-University=vOHlqC1A8RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Denmark/Ph-D-Stipend-In-Predictive-Protein-Extractability-Aalborg-University=vOHlqC1A8RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Aalborg University&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Denmark&lt;br/&gt;&lt;p&gt;Do you want to be part of a young, dynamic research group working on developing tools and methods for facilitating green transition in the production of food protein ingredients? And do you see yourself at the interface between protein science, food science, analytical chemistry, and data...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sun, 26 Apr 2026 23:35:30 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>PhD Stipend in Monitoring and Predicting Droughts on National Scale</title>
-      <link>https://scholarshipdb.net/scholarships-in-Denmark/Ph-D-Stipend-In-Monitoring-And-Predicting-Droughts-On-National-Scale-Aalborg-University=_pDG0S9A8RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Denmark/Ph-D-Stipend-In-Monitoring-And-Predicting-Droughts-On-National-Scale-Aalborg-University=_pDG0S9A8RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Aalborg University&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Denmark&lt;br/&gt;&lt;p&gt;At the Technical Faculty of IT and Design, Department of Sustainability and Planning (PLAN), a PhD stipend is available within the general study programme Planning and Development. The stipend is open for appointment from 01.09.2026 or soon hereafter. PLAN conducts research and teaching on...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sun, 26 Apr 2026 23:35:30 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>One or more PhD Stipends in Coordinated Control Interactions and Local Stability of Asynchronous Grids</title>
-      <link>https://scholarshipdb.net/scholarships-in-Denmark/One-Or-More-Ph-D-Stipends-In-Coordinated-Control-Interactions-And-Local-Stability-Of-Asynchronous-Grids-Aalborg-University=n0BvBzBA8RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Denmark/One-Or-More-Ph-D-Stipends-In-Coordinated-Control-Interactions-And-Local-Stability-Of-Asynchronous-Grids-Aalborg-University=n0BvBzBA8RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Aalborg University&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Denmark&lt;br/&gt;&lt;p&gt;At the Faculty of Engineering and Science, AAU Energy, one or more positions as PhD stipend is available within the general study program. The stipend is open for appointment from September 1, 2026, or soon hereafter. The duration of the position is three years, and it is funded in the new...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sun, 26 Apr 2026 23:35:30 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>One or more PhD Stipends in Coordinated Control Interactions and Local Stability of Asynchronous Grids</title>
-      <link>https://scholarshipdb.net/scholarships-in-Denmark/One-Or-More-Ph-D-Stipends-In-Coordinated-Control-Interactions-And-Local-Stability-Of-Asynchronous-Grids-Aalborg-Universitet=0Uj8Uq1B8RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Denmark/One-Or-More-Ph-D-Stipends-In-Coordinated-Control-Interactions-And-Local-Stability-Of-Asynchronous-Grids-Aalborg-Universitet=0Uj8Uq1B8RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Aalborg Universitet&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Denmark&lt;br/&gt;&lt;p&gt;26 Apr 2026
-Job Information
-Organisation/Company
-Aalborg Universitet
-Department
-The Faculty of Engineering and Science, Department of Energy, Section for applied power electronic systems
-Research Field
-Engineering » Electrical engineering
-Researcher Profile
-First Stage Researcher...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sun, 26 Apr 2026 20:35:30 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>PhD international political economy</title>
-      <link>https://scholarshipdb.net/scholarships-in-Netherlands/Ph-D-International-Political-Economy-Erasmus-University-Rotterdam=hL5HEEQ-8RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Netherlands/Ph-D-International-Political-Economy-Erasmus-University-Rotterdam=hL5HEEQ-8RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Erasmus University Rotterdam&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Netherlands&lt;br/&gt;&lt;p&gt;Listen
-Published Thursday 23 Apr 2026
-Deadline Sunday 24 May 2026
-Work area PhD
-Organisational unit Erasmus School of Social and Behavioural Sciences (ESSB)
-Salary € 3.059 - € 3.881
-Employment 1 fte - 1 fte
-Introduction
-Global development finance is undergoing a profound transformation. Emerging...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sun, 26 Apr 2026 20:29:46 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>PhD student: Single-molecule biophysics of ribosome cooperation</title>
-      <link>https://scholarshipdb.net/scholarships-in-Netherlands/Ph-D-Student-Single-Molecule-Biophysics-Of-Ribosome-Cooperation-Amolf=qDSNsqxB8RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Netherlands/Ph-D-Student-Single-Molecule-Biophysics-Of-Ribosome-Cooperation-Amolf=qDSNsqxB8RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; AMOLF&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Netherlands&lt;br/&gt;&lt;p&gt;26 Apr 2026
-Job Information
-Organisation/Company
-AMOLF
-Research Field
-Physics » Biophysics
-Researcher Profile
-First Stage Researcher (R1)
-Application Deadline
-31 Jul 2026 - 21:59 (UTC)
-Country
-Netherlands
-Type of Contract
-Temporary
-Job Status
-Not Applicable
-Hours Per Week
-40.0
-Is the job funded...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sun, 26 Apr 2026 20:29:35 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>PhD Student in Automatic Control with focus on complex networks and multiagent dynamics</title>
-      <link>https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Student-In-Automatic-Control-With-Focus-On-Complex-Networks-And-Multiagent-Dynamics-Link-ping-University=5HeLkU438RG_6gzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Student-In-Automatic-Control-With-Focus-On-Complex-Networks-And-Multiagent-Dynamics-Link-ping-University=5HeLkU438RG_6gzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Linköping University&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Sweden&lt;br/&gt;&lt;p&gt;We have the power of over 50,000 students and co-workers. Students who provide hope for the future. Co-workers who contribute to Linköping University meeting challenges of today. Our fundamental values rest on credibility, trust and security. By having the courage to think freely and innovate,...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sun, 26 Apr 2026 19:31:01 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>PhD student in biomedical engineering, deep learning for medical images</title>
-      <link>https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Student-In-Biomedical-Engineering-Deep-Learning-For-Medical-Images-Link-ping-University=tbyaQHg68RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Student-In-Biomedical-Engineering-Deep-Learning-For-Medical-Images-Link-ping-University=tbyaQHg68RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Linköping University&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Sweden&lt;br/&gt;&lt;p&gt;We have the power of over 50,000 students and co-workers. Students who provide hope for the future. Co-workers who contribute to Linköping University meeting challenges of today. Our fundamental values rest on credibility, trust and security. By having the courage to think freely and innovate,...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sun, 26 Apr 2026 19:30:54 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>PhD student in Computer Vision and Learning Systems</title>
-      <link>https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Student-In-Computer-Vision-And-Learning-Systems-Link-ping-University=_NKmdNc88RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Student-In-Computer-Vision-And-Learning-Systems-Link-ping-University=_NKmdNc88RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Linköping University&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Sweden&lt;br/&gt;&lt;p&gt;We have the power of over 50,000 students and co-workers. Students who provide hope for the future. Co-workers who contribute to Linköping University meeting challenges of today. Our fundamental values rest on credibility, trust and security. By having the courage to think freely and innovate,...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sun, 26 Apr 2026 19:30:46 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>PhD student in next-generation methods for battery modeling and diagnostics</title>
-      <link>https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Student-In-Next-Generation-Methods-For-Battery-Modeling-And-Diagnostics-Link-ping-University=PZdVlqU98RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Student-In-Next-Generation-Methods-For-Battery-Modeling-And-Diagnostics-Link-ping-University=PZdVlqU98RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Linköping University&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Sweden&lt;br/&gt;&lt;p&gt;We have the power of over 50,000 students and co-workers. Students who provide hope for the future. Co-workers who contribute to Linköping University meeting challenges of today. Our fundamental values rest on credibility, trust and security. By having the courage to think freely and innovate,...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sun, 26 Apr 2026 19:30:46 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>PhD student in Logistics</title>
-      <link>https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Student-In-Logistics-Link-ping-University=Cau6HhBA8RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Student-In-Logistics-Link-ping-University=Cau6HhBA8RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Linköping University&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Sweden&lt;br/&gt;&lt;p&gt;We have the power of over 50,000 students and co-workers. Students who provide hope for the future. Co-workers who contribute to Linköping University meeting challenges of today. Our fundamental values rest on credibility, trust and security. By having the courage to think freely and innovate,...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sun, 26 Apr 2026 19:30:30 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>PhD Position: The Cellular Basis of Plant Regeneration</title>
-      <link>https://scholarshipdb.net/scholarships-in-Netherlands/Ph-D-Position-The-Cellular-Basis-Of-Plant-Regeneration-Radboud-University=rw9G834_8RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Netherlands/Ph-D-Position-The-Cellular-Basis-Of-Plant-Regeneration-Radboud-University=rw9G834_8RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Radboud University&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Netherlands&lt;br/&gt;&lt;p&gt;Employment
-1.0 FTE
-Gross monthly salary
-€ 3,059 - € 3,881
-Required background
-Research University Degree
-Organizational unit
-Faculty of Science
-Application deadline
-29 May 2026
-Apply now
-Would you like to be part of innovative research on the genetic, molecular, cellular and physiological basis...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sun, 26 Apr 2026 19:30:05 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>PhD scholarship in Statistical and AI-Driven Modelling for Microstructural Engineering of Additive Manufacturing</title>
-      <link>https://scholarshipdb.net/scholarships-in-Denmark/Ph-D-Scholarship-In-Statistical-And-Ai-Driven-Modelling-For-Microstructural-Engineering-Of-Additive-Manufacturing-Technical-University-Of-Denmark=frlAmEgt8RG_6gzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Denmark/Ph-D-Scholarship-In-Statistical-And-Ai-Driven-Modelling-For-Microstructural-Engineering-Of-Additive-Manufacturing-Technical-University-Of-Denmark=frlAmEgt8RG_6gzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Technical University of Denmark&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Denmark&lt;br/&gt;&lt;p&gt;If you want to pursue a research career at the intersection of additive manufacturing (AM), microstructural engineering and advanced statistical/machine-learning (ML) based modelling, then this PhD position (3 years) is for you. DTU , Department of Civil and Mechanical Engineering , the Section...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sun, 26 Apr 2026 17:35:53 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>PhD-student in Cybersecurity</title>
-      <link>https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Student-In-Cybersecurity-J-nk-ping-University=TBss7ZhB8RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Student-In-Cybersecurity-J-nk-ping-University=TBss7ZhB8RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Jönköping University&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Sweden&lt;br/&gt;&lt;p&gt;We invite you to apply for a PhD position connected to the research project Cybersecurity Awareness in Production (CyProd).
-Computer science is the study of computers and algorithms, including their principles,
-hardware and software design, their applications, and their impact on industry...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sun, 26 Apr 2026 17:30:30 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>PhD Position in Applied Health Technology – AI for Data-Driven Precision Health</title>
-      <link>https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Position-In-Applied-Health-Technology-Ai-For-Data-Driven-Precision-Health-Blekinge-Institute-Of-Technology=jeubX5U98RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Position-In-Applied-Health-Technology-Ai-For-Data-Driven-Precision-Health-Blekinge-Institute-Of-Technology=jeubX5U98RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Blekinge Institute of Technology&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Sweden&lt;br/&gt;&lt;p&gt;Blekinge Institute of Technology is a place of curiosity and ingenuity with a campus in the middle of the Blekinge archipelago. Here we offer education from undergraduate to doctoral level and conduct world-class applied research. We change and make a difference. Do you want to become one of...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sun, 26 Apr 2026 15:30:46 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>PhD Studentship in bioinformatics and cardiovascularbiology- Exploring the application of geocomputational methods to high resolution spatial transcriptomics data from the human heart</title>
-      <link>https://scholarshipdb.net/scholarships-in-United-Kingdom/Ph-D-Studentship-In-Bioinformatics-And-Cardiovascular-Biology-Exploring-The-Application-Of-Geocomputational-Methods-To-High-Resolution-Spatial-Transcriptomics-Data-From-The-Human-Heart-Newcastle-University=Qd66_XY98RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-United-Kingdom/Ph-D-Studentship-In-Bioinformatics-And-Cardiovascular-Biology-Exploring-The-Application-Of-Geocomputational-Methods-To-High-Resolution-Spatial-Transcriptomics-Data-From-The-Human-Heart-Newcastle-University=Qd66_XY98RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Newcastle University&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Newcastle upon Tyne, England&lt;br/&gt;&lt;p&gt;PhD Studentship in bioinformatics and cardiovascularbiology- Exploring the application of geocomputational methods to high resolution spatial transcriptomics data from the human heart
-Award&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sun, 26 Apr 2026 14:29:17 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>Doctoral scholarship holder Analysis and/or Geometry</title>
-      <link>https://scholarshipdb.net/scholarships-in-Belgium/Doctoral-Scholarship-Holder-Analysis-And-Or-Geometry-University-Of-Antwerp=HeTGMzQu8RG_6gzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Belgium/Doctoral-Scholarship-Holder-Analysis-And-Or-Geometry-University-Of-Antwerp=HeTGMzQu8RG_6gzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; University of Antwerp&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Belgium&lt;br/&gt;&lt;p&gt;Department: Department of Mathematics
-Regime Full-time
-Let’s shape the future - University of Antwerp
-The University of Antwerp  is a dynamic, forward-thinking, European university. We offer an innovative academic education to more than 20000 students, conduct pioneering scientific research and...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sun, 26 Apr 2026 13:31:43 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>PhD candidate in Physiology/Pharmacology</title>
-      <link>https://scholarshipdb.net/scholarships-in-Belgium/Ph-D-Candidate-In-Physiology-Pharmacology-University-Of-Antwerp=u2y3Qv8u8RG_6gzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Belgium/Ph-D-Candidate-In-Physiology-Pharmacology-University-Of-Antwerp=u2y3Qv8u8RG_6gzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; University of Antwerp&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Belgium&lt;br/&gt;&lt;p&gt;Department: Department of Pharmaceutical Sciences
-Regime Full-time
-Let’s shape the future - University of Antwerp
-The University of Antwerp  is a dynamic, forward-thinking, European university. We offer an innovative academic education to more than 20000 students, conduct pioneering scientific...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sun, 26 Apr 2026 13:31:43 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>PhD candidate in Physiology/Pharmacology</title>
-      <link>https://scholarshipdb.net/scholarships-in-Belgium/Ph-D-Candidate-In-Physiology-Pharmacology-University-Of-Antwerp=fjsfU-8u8RG_6gzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Belgium/Ph-D-Candidate-In-Physiology-Pharmacology-University-Of-Antwerp=fjsfU-8u8RG_6gzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; University of Antwerp&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Belgium&lt;br/&gt;&lt;p&gt;Department: Department of Pharmaceutical Sciences
-Regime Full-time
-Let’s shape the future - University of Antwerp
-The University of Antwerp  is a dynamic, forward-thinking, European university. We offer an innovative academic education to more than 20000 students, conduct pioneering scientific...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sun, 26 Apr 2026 13:31:43 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>Doctoral scholarship holder history</title>
-      <link>https://scholarshipdb.net/scholarships-in-Belgium/Doctoral-Scholarship-Holder-History-University-Of-Antwerp=7IBTkmk18RG_6gzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Belgium/Doctoral-Scholarship-Holder-History-University-Of-Antwerp=7IBTkmk18RG_6gzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; University of Antwerp&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Belgium&lt;br/&gt;&lt;p&gt;Department: Department of History
-Regime Full-time
-Let’s shape the future - University of Antwerp
-The University of Antwerp  is a dynamic, forward-thinking, European university. We offer an innovative academic education to more than 20000 students, conduct pioneering scientific research and play...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sun, 26 Apr 2026 13:31:37 +0000</pubDate>
-      <dc:creator>scholarshipdb.net</dc:creator>
-    </item>
-    <item>
-      <title>Doctoral scholarship holder in neural representations of medium distortions in multi-modal robotic simulations</title>
-      <link>https://scholarshipdb.net/scholarships-in-Belgium/Doctoral-Scholarship-Holder-In-Neural-Representations-Of-Medium-Distortions-In-Multi-Modal-Robotic-Simulations-University-Of-Antwerp=ycPsxKNA8RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Belgium/Doctoral-Scholarship-Holder-In-Neural-Representations-Of-Medium-Distortions-In-Multi-Modal-Robotic-Simulations-University-Of-Antwerp=ycPsxKNA8RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; University of Antwerp&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Belgium&lt;br/&gt;&lt;p&gt;Department: Department of Electronics and Information and Communication Technologies
-Regime Full-time
-Let’s shape the future - University of Antwerp
-The University of Antwerp  is a dynamic, forward-thinking, European university. We offer an innovative academic education to more than 20000...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sun, 26 Apr 2026 13:31:18 +0000</pubDate>
+      <description>&lt;strong&gt;Country:&lt;/strong&gt; Sweden&lt;br/&gt;&lt;p&gt;supervisor Dr. Camilla Engblom and co-supervisor Dr. Joakim Lundeberg, in the intersection of spatial transcriptomics, bioinformatics,cancerimmunology, with the ultimate goal to understand tumor-associated&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-28&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Tue, 28 Apr 2026 02:26:16 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
       <title>Doctoral scholarship airway epitheliumbiologyin chronic lung disease</title>
       <link>https://scholarshipdb.net/scholarships-in-Belgium/Doctoral-Scholarship-Airway-Epithelium-Biology-In-Chronic-Lung-Disease-University-Of-Antwerp=aLrQ6m858RG_6wzEeuBOuw</link>
       <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Belgium/Doctoral-Scholarship-Airway-Epithelium-Biology-In-Chronic-Lung-Disease-University-Of-Antwerp=aLrQ6m858RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;Country:&lt;/strong&gt; Belgium&lt;br/&gt;&lt;p&gt;of Antwerp Surgical Training, Anatomy and Research Centre in the Faculty of Medicine and Health Sciences is looking for a full-time (100%) doctoral scholarship holder in the field of airway epitheliumbiology&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sun, 26 Apr 2026 13:28:57 +0000</pubDate>
+      <description>&lt;strong&gt;Country:&lt;/strong&gt; Belgium&lt;br/&gt;&lt;p&gt;of Antwerp Surgical Training, Anatomy and Research Centre in the Faculty of Medicine and Health Sciences is looking for a full-time (100%) doctoral scholarship holder in the field of airway epitheliumbiology&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-27&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Mon, 27 Apr 2026 13:28:06 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>PhD application conditions.</title>
-      <link>https://scholarshipdb.net/scholarships-in-Switzerland/Ph-D-Application-Conditions-Epfl=D9Jgjswe8RG_6gzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Switzerland/Ph-D-Application-Conditions-Epfl=D9Jgjswe8RG_6gzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; EPFL&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Switzerland&lt;br/&gt;&lt;p&gt;Doctoral School candidates must submit their application file to the doctoral program of their choice within the deadlines specified by the latter.
-Some programs publish open positions related to specific projects  but in order to be eligible, one should be enrolled in the Doctoral School,...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sun, 26 Apr 2026 12:37:17 +0000</pubDate>
+      <title>PhD student, molecular and cellularbiology(M/F)</title>
+      <link>https://scholarshipdb.net/scholarships-in-France/Ph-D-Student-Molecular-And-Cellular-Biology-M-F-Cnrs=fMtz8jBB8RG_6wzEeuBOuw</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-France/Ph-D-Student-Molecular-And-Cellular-Biology-M-F-Cnrs=fMtz8jBB8RG_6wzEeuBOuw</guid>
+      <description>&lt;strong&gt;Country:&lt;/strong&gt; Paris 05, le de France&lt;br/&gt;&lt;p&gt;25 Apr 2026
+Job Information
+Organisation/Company
+CNRS
+Department
+Génétique etbiologiedu développement
+Research Field
+Biological sciences
+Researcher Profile
+First Stage Researcher (R1)
+Application&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 08:28:06 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>PhD Students</title>
-      <link>https://scholarshipdb.net/scholarships-in-Austria/Ph-D-Students-Ist-Austria=xm4ntsoL8RG_6QzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Austria/Ph-D-Students-Ist-Austria=xm4ntsoL8RG_6QzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; IST Austria&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Austria&lt;br/&gt;&lt;p&gt;PhD Students&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sun, 26 Apr 2026 12:35:17 +0000</pubDate>
+      <title>PhD Candidate (M/F) in Microfluidics andCancerCell Migration</title>
+      <link>https://scholarshipdb.net/scholarships-in-France/Ph-D-Candidate-M-F-In-Microfluidics-And-Cancer-Cell-Migration-Cnrs=eO10hjBB8RG_6wzEeuBOuw</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-France/Ph-D-Candidate-M-F-In-Microfluidics-And-Cancer-Cell-Migration-Cnrs=eO10hjBB8RG_6wzEeuBOuw</guid>
+      <description>&lt;strong&gt;Country:&lt;/strong&gt; Marseille 13, Provence Alpes Cote d Azur&lt;br/&gt;&lt;p&gt;25 Apr 2026
+Job Information
+Organisation/Company
+CNRS
+Department
+Institut de Recherche sur les Phénomènes Hors Equilibre
+Research Field
+Physics
+Researcher Profile
+First Stage Researcher (R1)
+Application Deadline
+15 May 2026 - 23:59 (UTC)
+Country
+France
+Type of Contract
+Temporary
+Job...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 08:26:21 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>PhD project in Crop Diversification and Soil Health</title>
-      <link>https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Project-In-Crop-Diversification-And-Soil-Health-Swedish-University-Of-Agricultural-Sciences=acxMjeIz8RG_6gzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Project-In-Crop-Diversification-And-Soil-Health-Swedish-University-Of-Agricultural-Sciences=acxMjeIz8RG_6gzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Swedish University of Agricultural Sciences&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Sweden&lt;br/&gt;&lt;p&gt;Department of Biosystems and Technology
-Subject area: Agricultural Science
-About the position
-Crop diversification is a set of agroecological practices, e.g. diverse crop rotations (varying the crops in time), intercropping (species mixtures) and cover crops (non-harvested vegetation grown...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sun, 26 Apr 2026 12:31:01 +0000</pubDate>
+      <title>PhD Candidate (M/F) in Microfluidics andCancerCell Migration</title>
+      <link>https://scholarshipdb.net/scholarships-in-France/Ph-D-Candidate-M-F-In-Microfluidics-And-Cancer-Cell-Migration-Cnrs=eO10hjBB8RG_6wzEeuBOuw</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-France/Ph-D-Candidate-M-F-In-Microfluidics-And-Cancer-Cell-Migration-Cnrs=eO10hjBB8RG_6wzEeuBOuw</guid>
+      <description>&lt;strong&gt;Country:&lt;/strong&gt; Marseille 13, Provence Alpes Cote d Azur&lt;br/&gt;&lt;p&gt;25 Apr 2026
+Job Information
+Organisation/Company
+CNRS
+Department
+Institut de Recherche sur les Phénomènes Hors Equilibre
+Research Field
+Physics
+Researcher Profile
+First Stage Researcher (R1)
+Application Deadline
+15 May 2026 - 23:59 (UTC)
+Country
+France
+Type of Contract
+Temporary
+Job...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 26 Apr 2026 08:26:16 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>PhD Student: DDLS integrative pangenomics of polyploids</title>
-      <link>https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Student-Ddls-Integrative-Pangenomics-Of-Polyploids-Swedish-University-Of-Agricultural-Sciences=yahiidw38RG_6gzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Student-Ddls-Integrative-Pangenomics-Of-Polyploids-Swedish-University-Of-Agricultural-Sciences=yahiidw38RG_6gzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Swedish University of Agricultural Sciences&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Sweden&lt;br/&gt;&lt;p&gt;Department of Plant Biology
-The Department of Plant Biology offers a stimulating international environment in the Uppsala BioCenter. In our department, fundamental and strategic plant biology research is conducted on wild species, agricultural crops, forest trees, bioenergy crops, and model...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sun, 26 Apr 2026 12:30:54 +0000</pubDate>
+      <title>Doctoral scholarship airway epitheliumbiologyin chronic lung disease</title>
+      <link>https://scholarshipdb.net/scholarships-in-Belgium/Doctoral-Scholarship-Airway-Epithelium-Biology-In-Chronic-Lung-Disease-University-Of-Antwerp=uPYzT4I68RG_6wzEeuBOuw</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Belgium/Doctoral-Scholarship-Airway-Epithelium-Biology-In-Chronic-Lung-Disease-University-Of-Antwerp=uPYzT4I68RG_6wzEeuBOuw</guid>
+      <description>&lt;strong&gt;Country:&lt;/strong&gt; Belgium&lt;br/&gt;&lt;p&gt;%) doctoral scholarship holder in the field of airway epitheliumbiologyin chronic lung disease.
+Position
+You will work actively on the preparation and defence of a PhD thesis in the field of airway epithelial&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-17&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Fri, 17 Apr 2026 08:28:06 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>PhD student position in Web and Emerging Applications Security</title>
-      <link>https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Student-Position-In-Web-And-Emerging-Applications-Security-Chalmers-University-Of-Technology=Cdi_fGU98RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Student-Position-In-Web-And-Emerging-Applications-Security-Chalmers-University-Of-Technology=Cdi_fGU98RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Chalmers University of Technology&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Sweden&lt;br/&gt;&lt;p&gt;The PhD student will join a world-leading research environment at the Chalmers Security and Privacy Lab . Software is often the root cause of vulnerabilities in modern computing systems. We develop principled concepts and mechanisms to ensure robust security and privacy for software. The PhD...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sun, 26 Apr 2026 12:30:46 +0000</pubDate>
+      <title>PhD positions in health andbiology</title>
+      <link>https://scholarshipdb.net/scholarships-in-France/Ph-D-Positions-In-Health-And-Biology-Universite-De-Montpellier=O32F23w68RG_6wzEeuBOuw</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-France/Ph-D-Positions-In-Health-And-Biology-Universite-De-Montpellier=O32F23w68RG_6wzEeuBOuw</guid>
+      <description>&lt;strong&gt;Country:&lt;/strong&gt; Montpellier, Languedoc Roussillon&lt;br/&gt;&lt;p&gt;the full continuum of health sciences, from fundamentalbiologyand medicinal chemistry to clinical research, from genes to behavior.
+Its excellence is driven by the exceptional research ecosystem&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-17&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Fri, 17 Apr 2026 08:28:06 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>PhD position in Forest Tree Genomics</title>
-      <link>https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Position-In-Forest-Tree-Genomics-Swedish-University-Of-Agricultural-Sciences=-KhXpTY_8RG_6wzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Sweden/Ph-D-Position-In-Forest-Tree-Genomics-Swedish-University-Of-Agricultural-Sciences=-KhXpTY_8RG_6wzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Swedish University of Agricultural Sciences&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Sweden&lt;br/&gt;&lt;p&gt;Department of Forest Genetics and Plant Physiology
-Third-cycle subject area: Biology
-Description of the doctoral project
-As forests increasingly face challenges brought on by a rapidly changing environment, it is important to address these problems from multiple angles. There is growing...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sun, 26 Apr 2026 12:30:46 +0000</pubDate>
+      <title>2x PhD Candidates in Bacteria andCancer</title>
+      <link>https://scholarshipdb.net/scholarships-in-Ireland/2x-Ph-D-Candidates-In-Bacteria-And-Cancer-University-College-Cork=hV-ifT0p8RG_6gzEeuBOuw</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Ireland/2x-Ph-D-Candidates-In-Bacteria-And-Cancer-University-College-Cork=hV-ifT0p8RG_6gzEeuBOuw</guid>
+      <description>&lt;strong&gt;Country:&lt;/strong&gt; Cork, Munster&lt;br/&gt;&lt;p&gt;positions at the Tangney Lab atCancerResearch @UCC, Western Gateway Building, University College Cork.CancerResearch @UCC is a translationalcancerresearch centre within the College of Medicine &amp; Health&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-03-29&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 29 Mar 2026 08:26:21 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
     <item>
-      <title>PhD position on Subtyping dementia at the nanoscale</title>
-      <link>https://scholarshipdb.net/scholarships-in-Switzerland/Ph-D-Position-On-Subtyping-Dementia-At-The-Nanoscale-Empa=wJJ335Yd8RG_6gzEeuBOuw</link>
-      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Switzerland/Ph-D-Position-On-Subtyping-Dementia-At-The-Nanoscale-Empa=wJJ335Yd8RG_6gzEeuBOuw</guid>
-      <description>&lt;strong&gt;University:&lt;/strong&gt; Empa&lt;br/&gt;&lt;strong&gt;Country:&lt;/strong&gt; Switzerland&lt;br/&gt;&lt;p&gt;Materials science and technology are our passion. With our cutting-edge research, Empa's around 1,100 employees make essential contributions to the well-being of society for a future worth living. Empa is a research institution of the ETH Domain.
-Our group of
-Biosensing and Functional...&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-04-26&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
-      <pubDate>Sun, 26 Apr 2026 11:37:26 +0000</pubDate>
+      <title>PhD Studentship inCancerImmunology: Hypoxia-Driven Fibroblast Reprogramming in Immunotherapy Resistant LiverCancer</title>
+      <link>https://scholarshipdb.net/scholarships-in-United-Kingdom/Ph-D-Studentship-In-Cancer-Immunology-Hypoxia-Driven-Fibroblast-Reprogramming-In-Immunotherapy-Resistant-Liver-Cancer-Newcastle-University=p93iT2cf8RG_6gzEeuBOuw</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-United-Kingdom/Ph-D-Studentship-In-Cancer-Immunology-Hypoxia-Driven-Fibroblast-Reprogramming-In-Immunotherapy-Resistant-Liver-Cancer-Newcastle-University=p93iT2cf8RG_6gzEeuBOuw</guid>
+      <description>&lt;strong&gt;Country:&lt;/strong&gt; Newcastle upon Tyne, England&lt;br/&gt;&lt;p&gt;Award Summary
+Studentship covers home fees and UKRI rate stipend (£22,500 for 26/27)
+Overview
+Primary livercanceris one of the fastest rising causes ofcancer-related mortality worldwide. Although&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-03-29&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 29 Mar 2026 08:26:21 +0000</pubDate>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>2x PhD Candidates in Bacteria andCancer</title>
+      <link>https://scholarshipdb.net/scholarships-in-Ireland/2x-Ph-D-Candidates-In-Bacteria-And-Cancer-University-College-Cork=hV-ifT0p8RG_6gzEeuBOuw</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-Ireland/2x-Ph-D-Candidates-In-Bacteria-And-Cancer-University-College-Cork=hV-ifT0p8RG_6gzEeuBOuw</guid>
+      <description>&lt;strong&gt;Country:&lt;/strong&gt; Cork, Munster&lt;br/&gt;&lt;p&gt;positions at the Tangney Lab atCancerResearch @UCC, Western Gateway Building, University College Cork.CancerResearch @UCC is a translationalcancerresearch centre within the College of Medicine &amp; Health&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-03-29&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 29 Mar 2026 08:26:16 +0000</pubDate>
+      <dc:creator>scholarshipdb.net</dc:creator>
+    </item>
+    <item>
+      <title>PhD Studentship inCancerImmunology: Hypoxia-Driven Fibroblast Reprogramming in Immunotherapy Resistant LiverCancer</title>
+      <link>https://scholarshipdb.net/scholarships-in-United-Kingdom/Ph-D-Studentship-In-Cancer-Immunology-Hypoxia-Driven-Fibroblast-Reprogramming-In-Immunotherapy-Resistant-Liver-Cancer-Newcastle-University=p93iT2cf8RG_6gzEeuBOuw</link>
+      <guid isPermaLink="true">https://scholarshipdb.net/scholarships-in-United-Kingdom/Ph-D-Studentship-In-Cancer-Immunology-Hypoxia-Driven-Fibroblast-Reprogramming-In-Immunotherapy-Resistant-Liver-Cancer-Newcastle-University=p93iT2cf8RG_6gzEeuBOuw</guid>
+      <description>&lt;strong&gt;Country:&lt;/strong&gt; Newcastle upon Tyne, England&lt;br/&gt;&lt;p&gt;Award Summary
+Studentship covers home fees and UKRI rate stipend (£22,500 for 26/27)
+Overview
+Primary livercanceris one of the fastest rising causes ofcancer-related mortality worldwide. Although&lt;/p&gt;&lt;br/&gt;&lt;em&gt;Posted: 2026-03-29&lt;/em&gt;&lt;br/&gt;&lt;em&gt;Source: scholarshipdb.net&lt;/em&gt;</description>
+      <pubDate>Sun, 29 Mar 2026 08:26:16 +0000</pubDate>
       <dc:creator>scholarshipdb.net</dc:creator>
     </item>
   </channel>
